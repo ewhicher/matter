@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .wrap-xs {
+    @apply
+    w-full
+    max-w-screen-xs
+    mx-auto;
+  }
+  .wrap-sm {
+    @apply
+    w-full
+    max-w-screen-sm
+    mx-auto;
+  }
+  .wrap-md {
+    @apply
+    w-full
+    max-w-screen-md
+    mx-auto;
+  }
+  .wrap-lg {
+    @apply
+    w-full
+    max-w-screen-lg
+    mx-auto;
+  }
+  .wrap-xl {
+    @apply
+    w-full
+    max-w-screen-xl
+    mx-auto;
+  }
+  .wrap-2xl {
+    @apply
+    w-full
+    max-w-screen-2xl
+    mx-auto;
+  }
+
+  .btn-base {
+    @apply
+    inline-block
+    relative
+    px-4
+    md:px-8
+    pt-3
+    pb-3
+    rounded-sm
+    shadow
+    transition
+    duration-200
+    font-bold
+    hover:-translate-y-px
+    hover:shadow-lg;
+    line-height: 150%;
+    letter-spacing: .04em;
+  }
+
+  .btn-action {
+  }
+
+  .btn-suggest {
+  }
+
+  .btn-subtle {
+  }
+
+  .fieldset-group {
+    @apply
+    mb-4
+    text-left;
+  }
+
+  .fieldset-group select {
+    @apply
+    appearance-none
+    w-full
+    px-4
+    py-2
+    border-none
+    bg-white
+    placeholder-gray-500;
+  }
+
+  .fieldset-group select option:first-child {
+    @apply
+    opacity-50;
+  }
+
+  .fieldset-group input[type="text"],
+  .fieldset-group input[type="email"],
+  .fieldset-group textarea {
+    outline: none !important;
+    @apply
+    appearance-none
+    w-full
+    px-4
+    py-2
+    border-none
+    bg-white
+    rounded-sm
+    placeholder-gray-500
+    focus:ring
+    focus:ring-blue-500;
+  }
+
+  .fieldset-group input[type="checkbox"] {
+    outline: none !important;
+    @apply
+    appearance-none
+    bg-white
+    h-6
+    w-6
+    text-green
+    border-white
+    rounded-sm
+    checked:bg-blue-500
+    focus:ring
+    focus:ring-blue-500;
+  }
+
+  .fieldset-group input[type="checkbox"]:checked {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+  }
+
+  .fieldset-group.fieldset-medium select,
+  .fieldset-group.fieldset-medium input[type="text"],
+  .fieldset-group.fieldset-medium input[type="email"],
+  .fieldset-group.fieldset-medium textarea {
+    @apply
+    bg-white;
+  }
+}
+
+[x-cloak] {
+  display: none;
+}

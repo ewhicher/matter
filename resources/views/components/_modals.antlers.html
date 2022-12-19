@@ -1,0 +1,54 @@
+<div
+  x-data="{ open: false, animating: false }"
+  x-init="
+    gsap.set($el, { display: 'none' })
+    $watch('open', (value) => {
+      document.body.style.overflow = value ? `hidden` : ``
+      if (!animating) {
+        animating = true
+        if (value) {
+          gsap.set($el, { display: 'block' })
+          gsap.fromTo($refs.overlay, { opacity: 0 }, { opacity: .9, duration: .25 })
+          gsap.from($refs.inner, { opacity: 0, y: 8, clearProps: 'all', duration: .25, onComplete: () => animating = false })
+        } else {
+          gsap.to($refs.overlay, { opacity: 0, clearProps: 'all', duration: .25 })
+          gsap.to($refs.inner, { opacity: 0, y: 8, clearProps: 'all', duration: .25, onComplete: () => {
+            gsap.set($el, { display: 'none' })
+            animating = false
+          } })
+        }
+      }
+    })
+  "
+  x-on:modal:open.window="if ($event.detail === 'modal' && !animating) { open = true }"
+  x-on:modal:close.window="if (open && !animating) { open = false }"
+  x-on:keydown.escape.window="if (open && !animating) { open = false }"
+  class="fixed inset-0 z-50"
+  x-transition
+  x-cloak
+>
+  <div x-ref="overlay" class="absolute inset-0 z-10 bg-black" @click.stop></div>
+  <div class="flex absolute inset-0 z-20 p-4 md:p-8 overflow-auto touch-scroll" @click.stop="if (!animating) open = false">
+    <div
+      x-ref="inner"
+      class="self-center relative max-w-full w-screen-md m-auto p-4 md:p-8 bg-white rounded-xl"
+      @click.stop
+    >
+      <div>
+        <h4 class="mb-4 font-semibold">Modal</h4>
+        <p class="text-1250">Success</p>
+      </div>
+      <div class="absolute top-0 right-0 p-2">
+        <button
+          type="button"
+          @click="$dispatch('modal:close')"
+        >
+          <svg width="24" height="24" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="5.79676" y1="34.0815" x2="34.081" y2="5.79719" stroke="currentColor" stroke-width="3"/>
+            <line x1="6.91808" y1="6.79719" x2="35.2024" y2="35.0815" stroke="currentColor" stroke-width="3"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
