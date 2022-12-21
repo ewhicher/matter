@@ -44,28 +44,27 @@
     @apply
     inline-block
     relative
-    px-4
-    md:px-8
-    pt-3
-    pb-3
-    rounded-sm
-    shadow
+    px-5
+    py-4
+    border
+    rounded
     transition
     duration-200
-    font-bold
-    hover:-translate-y-px
-    hover:shadow-lg;
+    font-medium;
     line-height: 150%;
     letter-spacing: .04em;
   }
 
-  .btn-action {
+  .btn-blue {
+    @apply
+    border-blue
+    text-blue;
   }
 
-  .btn-suggest {
-  }
-
-  .btn-subtle {
+  .btn-dark-grey {
+    @apply
+    border-dark-grey
+    text-dark-grey;
   }
 
   .fieldset-group {
@@ -132,6 +131,65 @@
   .fieldset-group.fieldset-medium textarea {
     @apply
     bg-white;
+  }
+
+  .type-h1 {
+
+  }
+
+  /* boby-g-rl*/
+  .type-body {
+    font-size:1.125rem;
+    font-family:"DM Sans";
+    font-weight:400;
+    font-style:normal;
+    line-height:28px;
+    text-decoration:none;
+    text-transform:none;
+  }
+
+  /* big-title-rl*/
+  .type-title {
+    font-size:5rem;
+    font-family:"DM Sans";
+    font-weight:500;
+    font-style:normal;
+    line-height:112px;
+    text-decoration:none;
+    text-transform:none;
+  }
+
+  /* h-2-g-rl */
+  .type-heading {
+    font-size:3.5rem;
+    font-family:"DM Sans";
+    font-weight:500;
+    font-style:normal;
+    line-height:72px;
+    text-decoration:none;
+    text-transform:none;
+  }
+
+  /*  h-3-g-rl */
+  .type-subheading {
+    font-size:1.75rem;
+    font-family:"DM Sans";
+    font-weight:500;
+    font-style:normal;
+    line-height:40px;
+    text-decoration:none;
+    text-transform:none;
+  }
+
+  /* callout */
+  .type-callout {
+    font-size:1.25rem;
+    font-family:"DM Sans";
+    font-weight:500;
+    font-style:normal;
+    line-height:28px;
+    text-decoration:none;
+    text-transform:none;
   }
 }
 
