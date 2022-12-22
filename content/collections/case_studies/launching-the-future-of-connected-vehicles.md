@@ -71,11 +71,11 @@ article:
       values:
         type: image_pair
         files:
-          - stock.png
           - stock1.png
+          - stock.png
         wide_view: false
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1671646994
+updated_at: 1671650106
 heading: 'Launching the future of connected vehicles'
 client: BlackBerry
 ---
