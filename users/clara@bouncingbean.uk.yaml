@@ -2,3 +2,4 @@ name: Clara
 roles:
   - editor
 id: e2d08c11-50ae-4e98-a385-165343785d06
+password_hash: $2y$10$1CuFp9xBOt6nMeYkSFYv1uEoP6RYIsSE9XwVfvYPC9DvY1Cda59Ma
