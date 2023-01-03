@@ -6,6 +6,14 @@ client: BASF
 heading: 'Embedding a test-and-learn approach to digitisation across a complex, global business'
 article:
   -
+    type: set
+    attrs:
+      id: lcggb69z
+      values:
+        type: image
+        file: basf-coe.gif
+        wide_view: true
+  -
     type: heading
     attrs:
       level: 3
@@ -42,5 +50,5 @@ article:
         type: text
         text: 'The successful launch of the Centre of Excellence and high visibility and demand across the business. We designed and validated numerous new product concepts during the process, from an internal app store to a new tool to design battery materials for EVs and consumer electronics.'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672760957
+updated_at: 1672763735
 ---
