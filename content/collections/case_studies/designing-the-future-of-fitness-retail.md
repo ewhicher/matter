@@ -6,6 +6,14 @@ client: WIT
 heading: 'Designing the future of fitness retail'
 article:
   -
+    type: set
+    attrs:
+      id: lcgo04nu
+      values:
+        type: image
+        file: 7702b761af277ed5bb2cdc47ab23a040a734bd76-2880x1400.jpg
+        wide_view: true
+  -
     type: heading
     attrs:
       level: 3
@@ -42,5 +50,5 @@ article:
         type: text
         text: 'A fully designed, interactive prototype, excited customers, increased revenue opportunities and a new, validated business model to drive scale and reach. Business strategy update and killer plans for the future. Watch this space...'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672761135
+updated_at: 1672776629
 ---
