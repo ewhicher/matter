@@ -36,6 +36,18 @@ article:
         type: text
         text: 'We worked with the Healios clinical team and groups of children from ages 11-17 to design a new chatbot character, tone of voice and interface, as well as create the UX framework to ensure it fit seamlessly into their lives.'
   -
+    type: set
+    attrs:
+      id: lcgfjnc8
+      values:
+        type: image_pair
+        files:
+          - healios2.jpg
+          - healios3.jpg
+        wide_view: false
+  -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 4
@@ -50,5 +62,5 @@ article:
         type: text
         text: 'A successfully tested brand concept, style guide and future insights for a successful launch. Within 5 months, the pilot product was successfully launched to approx. 5,000 children and young people across Europe.'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672761743
+updated_at: 1672762429
 ---
