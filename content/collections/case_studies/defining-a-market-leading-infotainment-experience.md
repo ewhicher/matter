@@ -7,11 +7,11 @@ article:
   -
     type: set
     attrs:
-      id: lcgbvlbw
+      id: lcggktec
       values:
         type: image
-        file: stock.png
-        wide_view: true
+        file: mbux1.png
+        wide_view: false
   -
     type: heading
     attrs:
@@ -49,6 +49,6 @@ article:
         type: text
         text: 'The launch of the new, improved system at the Paris Motor Show to rave reviews. An ongoing programme to continue to improve the experience across the vehicle for new use cases, including voice command and other connected applications.'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672756330
+updated_at: 1672764165
 heading: 'Defining a market-leading infotainment experience'
 ---
