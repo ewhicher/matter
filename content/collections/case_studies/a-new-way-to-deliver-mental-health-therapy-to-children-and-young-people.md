@@ -46,7 +46,13 @@ article:
           - healios3.jpg
         wide_view: false
   -
-    type: paragraph
+    type: set
+    attrs:
+      id: lcgfrhub
+      values:
+        type: image
+        file: healios4.png
+        wide_view: false
   -
     type: heading
     attrs:
@@ -61,6 +67,8 @@ article:
       -
         type: text
         text: 'A successfully tested brand concept, style guide and future insights for a successful launch. Within 5 months, the pilot product was successfully launched to approx. 5,000 children and young people across Europe.'
+  -
+    type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672762429
+updated_at: 1672762824
 ---
