@@ -36,6 +36,18 @@ article:
         type: text
         text: 'We ran Director interviews and member observation sessions, then got to work on the customer experience design, followed by a Design Sprint and rapid prototyping week, user testing and investment presentation.'
   -
+    type: set
+    attrs:
+      id: lcgo6co1
+      values:
+        type: image_pair
+        files:
+          - wit1.jpg
+          - wit2.jpg
+        wide_view: true
+  -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 4
@@ -50,5 +62,5 @@ article:
         type: text
         text: 'A fully designed, interactive prototype, excited customers, increased revenue opportunities and a new, validated business model to drive scale and reach. Business strategy update and killer plans for the future. Watch this space...'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672776629
+updated_at: 1672776923
 ---
