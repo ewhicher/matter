@@ -38,20 +38,20 @@ article:
   -
     type: set
     attrs:
+      id: lcgfrhub
+      values:
+        type: image
+        file: healios4.png
+        wide_view: false
+  -
+    type: set
+    attrs:
       id: lcgfjnc8
       values:
         type: image_pair
         files:
           - healios2.jpg
           - healios3.jpg
-        wide_view: false
-  -
-    type: set
-    attrs:
-      id: lcgfrhub
-      values:
-        type: image
-        file: healios4.png
         wide_view: false
   -
     type: heading
@@ -70,5 +70,5 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672762824
+updated_at: 1672762848
 ---
