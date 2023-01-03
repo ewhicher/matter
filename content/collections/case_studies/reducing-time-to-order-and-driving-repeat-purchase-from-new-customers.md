@@ -11,7 +11,7 @@ article:
       id: lcgns4dk
       values:
         type: image
-        file: aluk.jpg
+        file: bfaf03382e416bdb7eba0fcef4f2b21c07e87b86-2360x1278.jpg
         wide_view: true
   -
     type: heading
