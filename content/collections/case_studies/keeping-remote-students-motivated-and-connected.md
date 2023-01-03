@@ -28,6 +28,26 @@ article:
         type: text
         text: 'We analysed tons of data, spoke to students and interviewed staff across the OU to spot where the opportunities lay. Working with the hand-picked project team, we came up with new ways to solve the known issues and prioritised them for impact. Proposition development, Design Sprint, prototype and test.'
   -
+    type: set
+    attrs:
+      id: lcgpon5k
+      values:
+        type: image_pair
+        files:
+          - ou-1.jpg
+          - ou-2.jpg
+        wide_view: false
+  -
+    type: set
+    attrs:
+      id: lcgppbyo
+      values:
+        type: image_pair
+        files:
+          - ou-3.jpg
+          - ou-4.jpg
+        wide_view: false
+  -
     type: heading
     attrs:
       level: 4
@@ -48,5 +68,5 @@ article:
         type: text
         text: "The first version of the product is live and we're now working on new ways for students to interact with the university, their course and the content in the most frictionless way possible."
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672761020
+updated_at: 1672779489
 ---
