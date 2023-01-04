@@ -14,6 +14,14 @@ article:
         type: text
         text: 'Open University asked us to help increase the number of students that complete their courses and achieve their goals.'
   -
+    type: set
+    attrs:
+      id: lchfssj7
+      values:
+        type: image
+        file: ou-u.jpg
+        wide_view: true
+  -
     type: heading
     attrs:
       level: 4
@@ -68,5 +76,5 @@ article:
         type: text
         text: "The first version of the product is live and we're now working on new ways for students to interact with the university, their course and the content in the most frictionless way possible."
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672779812
+updated_at: 1672823322
 ---
