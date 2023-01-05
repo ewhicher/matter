@@ -4,13 +4,6 @@ blueprint: case_study
 title: 'Launching the future of connected vehicles // CES 2022'
 article:
   -
-    type: set
-    attrs:
-      id: lcivlhbr
-      values:
-        type: video
-        video_url: 'https://player.vimeo.com/video/665258155?h=62c6a27569'
-  -
     type: heading
     attrs:
       level: 3
@@ -179,7 +172,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672910312
+updated_at: 1672910549
 heading: 'Launching the future of connected vehicles // CES 2022'
 client: BlackBerry
 ---
