@@ -65,6 +65,14 @@ article:
         type: text
         text: 'To mitigate against the potential of changing lighting conditions on the show floor at CES we created a switchable dark and light HMI theme.'
   -
+    type: set
+    attrs:
+      id: lciw0lx0
+      values:
+        type: image
+        file: ivy-setup1.png
+        wide_view: false
+  -
     type: paragraph
     content:
       -
@@ -172,7 +180,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672910549
+updated_at: 1672911031
 heading: 'Launching the future of connected vehicles // CES 2022'
 client: BlackBerry
 ---
