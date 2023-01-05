@@ -70,7 +70,7 @@ article:
       id: lciw0lx0
       values:
         type: image
-        file: ivy-setup1.png
+        file: ivy-setup1-1672911831.png
         wide_view: true
   -
     type: paragraph
