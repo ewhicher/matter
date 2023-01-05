@@ -149,6 +149,16 @@ article:
         type: text
         text: 'The second of the two experiences takes the form of an interactive AR application. It was created to interact with a Jaguar iPace that features on the BlackBerry stand at CES.'
   -
+    type: set
+    attrs:
+      id: lcj7z9u7
+      values:
+        type: image_pair
+        files:
+          - ivy-ar1.jpg
+          - ivy-ar2.jpg
+        wide_view: false
+  -
     type: paragraph
     content:
       -
@@ -180,7 +190,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672912006
+updated_at: 1672931255
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 ---
