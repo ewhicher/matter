@@ -133,6 +133,14 @@ article:
                 type: text
                 text: 'Facilitate toll road and parking charges safely and frictionlessly.'
   -
+    type: set
+    attrs:
+      id: lcj864bg
+      values:
+        type: image
+        file: ivy-storyboards.png
+        wide_view: false
+  -
     type: paragraph
   -
     type: heading
@@ -190,7 +198,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672931255
+updated_at: 1672931433
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 ---
