@@ -30,7 +30,7 @@ article:
       values:
         type: image
         file: ivy-dash.png
-        wide_view: true
+        wide_view: false
   -
     type: paragraph
   -
@@ -253,7 +253,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672935055
+updated_at: 1672935119
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 ---
