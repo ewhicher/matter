@@ -1,7 +1,7 @@
 ---
 id: a121bcdb-f2ff-4837-9dd6-3e92ff571c93
 blueprint: case_study
-title: 'Launching the future of connected vehicles // CES 2022'
+title: 'Launching the future of connected vehicles // CES'
 article:
   -
     type: heading
@@ -16,7 +16,7 @@ article:
     content:
       -
         type: text
-        text: "The primary experience takes the form of a car journey. The story of a family's day trip to the beach in their EV. The power and versatility of the BlackBerry IVY technology are brought to life for CES 2022 delegates in a tangible and inspiring way."
+        text: "The primary experience takes the form of a car journey. The story of a family's day trip to the beach in their EV. The power and versatility of the BlackBerry IVY technology are brought to life for CES delegates in a tangible and inspiring way."
   -
     type: paragraph
     content:
@@ -180,7 +180,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672911852
-heading: 'Launching the future of connected vehicles // CES 2022'
+updated_at: 1672912006
+heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 ---
