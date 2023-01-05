@@ -24,13 +24,7 @@ article:
     content:
       -
         type: text
-        text: "The primary experience takes the form of a car journey. The story of a family's day trip to the beach in their EV."
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The power and versatility of the BlackBerry IVY technology are brought to life for CES 2022 delegates in a tangible and inspiring way.'
+        text: "The primary experience takes the form of a car journey. The story of a family's day trip to the beach in their EV. The power and versatility of the BlackBerry IVY technology are brought to life for CES 2022 delegates in a tangible and inspiring way."
   -
     type: paragraph
     content:
@@ -59,7 +53,7 @@ article:
             quote: 'Aenean fermentum maximus justo eget semper. Aliquam congue velit sed convallis ultricies. Donec feugiat dapibus viverra.'
             name: 'Gavin Johnson'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672909543
+updated_at: 1672909624
 heading: 'Launching the future of connected vehicles // CES 2022'
 client: BlackBerry
 ---
