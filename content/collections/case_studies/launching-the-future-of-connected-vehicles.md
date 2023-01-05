@@ -23,7 +23,7 @@ article:
       id: lcjabtwi
       values:
         type: image
-        file: ivy-dash.png
+        file: ivy-dash-1672935554.png
         wide_view: false
   -
     type: paragraph
