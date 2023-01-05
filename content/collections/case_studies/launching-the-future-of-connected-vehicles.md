@@ -18,12 +18,6 @@ article:
         type: text
         text: "The primary experience takes the form of a car journey. The story of a family's day trip to the beach in their EV. The power and versatility of the BlackBerry IVY technology are brought to life for CES delegates in a tangible and inspiring way."
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'As the experience progresses individual use cases are revealed via an in-car application: EV Range Expert.'
-  -
     type: set
     attrs:
       id: lcjabtwi
@@ -33,6 +27,10 @@ article:
         wide_view: false
   -
     type: paragraph
+    content:
+      -
+        type: text
+        text: 'As the experience progresses individual use cases are revealed via an in-car application: EV Range Expert.'
   -
     type: paragraph
     content:
@@ -253,7 +251,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672935119
+updated_at: 1672935220
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 ---
