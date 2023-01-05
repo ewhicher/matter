@@ -51,7 +51,15 @@ article:
           - ivy-ces-2.png
         wide_view: false
   -
-    type: paragraph
+    type: set
+    attrs:
+      id: lcj9n4o9
+      values:
+        type: image_pair
+        files:
+          - ivy-ces-3.png
+          - ivy-ces-4.png
+        wide_view: false
   -
     type: paragraph
     content:
@@ -216,7 +224,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672933466
+updated_at: 1672934534
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 ---
