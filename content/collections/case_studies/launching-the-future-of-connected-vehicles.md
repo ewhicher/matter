@@ -53,7 +53,7 @@ article:
             quote: 'Aenean fermentum maximus justo eget semper. Aliquam congue velit sed convallis ultricies. Donec feugiat dapibus viverra.'
             name: 'Gavin Johnson'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672909624
+updated_at: 1672909873
 heading: 'Launching the future of connected vehicles // CES 2022'
 client: BlackBerry
 ---
