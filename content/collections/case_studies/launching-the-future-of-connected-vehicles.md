@@ -41,6 +41,18 @@ article:
             quote: '“The team at Active Matter quickly grasped the complexity, ambition and opportunity BlackBerry IVY presents for us as a business. They seamlessly integrated into the BlackBerry IVY product team, and together they’ve helped deliver two memorable launch experiences for the audience at CES.”'
             name: 'Peter Virk – Vice President, IVY Product & Ecosystem at BlackBerry'
   -
+    type: set
+    attrs:
+      id: lcj9dig1
+      values:
+        type: image_pair
+        files:
+          - ivy-ces-1.png
+          - ivy-ces-2.png
+        wide_view: false
+  -
+    type: paragraph
+  -
     type: paragraph
     content:
       -
@@ -204,7 +216,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672931997
+updated_at: 1672933466
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 ---
