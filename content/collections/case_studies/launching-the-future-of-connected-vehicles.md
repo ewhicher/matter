@@ -80,16 +80,6 @@ article:
               title: null
         text: 'https://www.twitter.com/BlackBerry'
   -
-    type: paragraph
-  -
-    type: paragraph
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'BlackBerry IVY is a vehicle-first, cloud-connected software platform, that presents vehicle data in a normalised way to create insights that can be consumed by applications both on or off the vehicle.'
-  -
     type: set
     attrs:
       id: lcj8gz9n
@@ -97,6 +87,12 @@ article:
         type: image
         file: ivy_ui_1.jpg
         wide_view: false
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'BlackBerry IVY is a vehicle-first, cloud-connected software platform, that presents vehicle data in a normalised way to create insights that can be consumed by applications both on or off the vehicle.'
   -
     type: paragraph
     content:
@@ -247,7 +243,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672934725
+updated_at: 1672934782
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 ---
