@@ -171,6 +171,28 @@
   }
 
   /*  h-3-g-rl */
+  .type-headline {
+    font-size:2.375rem;
+    font-family:"DM Sans";
+    font-weight:100;
+    font-style:normal;
+    line-height:48px;
+    text-decoration:none;
+    text-transform:none;
+  }
+
+  /*  h-3-g-rl */
+  .type-leadline {
+    font-size:1.875rem;
+    font-family:"DM Sans";
+    font-weight:100;
+    font-style:normal;
+    line-height:48px;
+    text-decoration:none;
+    text-transform:none;
+  }
+
+  /*  h-3-g-rl */
   .type-subheading {
     font-size:1.75rem;
     font-family:"DM Sans";
