@@ -1,0 +1,13 @@
+name: 'Gavin Johnson'
+roles:
+  - editor
+id: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+password_hash: $2y$10$7Yp0evTh8vKxaMn75gBIJuuy9P2r5xEt9yCaYF8l9f.h5fkPam/RO
+preferences:
+  collections:
+    case_studies:
+      columns:
+        - title
+        - slug
+        - client
+      after_save: continue_editing

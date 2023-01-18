@@ -1,16 +1,8 @@
 ---
 id: a121bcdb-f2ff-4837-9dd6-3e92ff571c93
 blueprint: case_study
-title: 'Launching the future of connected vehicles'
+title: 'Launching the future of connected vehicles // CES'
 article:
-  -
-    type: set
-    attrs:
-      id: lbxx5s6q
-      values:
-        type: image
-        file: stock.png
-        wide_view: true
   -
     type: heading
     attrs:
@@ -18,27 +10,33 @@ article:
     content:
       -
         type: text
-        text: 'Lorem ipsum dolor sit amet consectetur adipiscing elit nullam lobortis dui ac fringilla iaculis lorem augue viverra tortor eget aliquam ligula augue at elit.'
+        text: 'We collaborated with BlackBerry, AWS and a host of support partners to define, design and build two memorable experiences to support the global launch of BlackBerry IVY - the future of connected vehicles.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Aenean fermentum maximus justo eget semper. Aliquam congue velit sed convallis ultricies. Donec feugiat dapibus viverra. Aliquam non nulla libero. Sed justo magna, vulputate in tellus sed, ultrices venenatis lacus. Pellentesque ut efficitur justo. Donec vulputate posuere ex eget rutrum. Nullam ut nunc at nisi eleifend porta. Fusce turpis eros, tincidunt et faucibus sit amet, pellentesque et quam. Duis mollis elementum arcu. Integer vel imperdiet purus, vitae lacinia metus.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Aenean fermentum maximus justo eget semper. Aliquam congue velit sed convallis ultricies. Donec feugiat dapibus viverra. Aliquam non nulla libero. Sed justo magna, vulputate in tellus sed, ultrices venenatis lacus. Pellentesque ut efficitur justo.'
+        text: "The primary experience takes the form of a car journey. The story of a family's day trip to the beach in their EV. The power and versatility of the BlackBerry IVY technology are brought to life for CES delegates in a tangible and inspiring way."
   -
     type: set
     attrs:
-      id: lbxxmk16
+      id: lcjabtwi
       values:
         type: image
-        file: stock1.png
+        file: ivy-dash-1672935554.png
         wide_view: false
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'As the experience progresses individual use cases are revealed via an in-car application: EV Range Expert.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'A point of real importance for the BlackBerry product team was to promote to the audience that the BlackBerry IVY CES demo was a genuine product, processing real-world insights and data.'
   -
     type: set
     attrs:
@@ -48,34 +46,212 @@ article:
         testimonials:
           -
             id: lbxxn8vt
-            quote: 'Lorem ipsum dolor sit amet consectetur adipiscing elit nullam lobortis dui ac fringilla iaculis'
-            name: 'Firstname Lastname'
-          -
-            id: lbxxnizi
-            quote: 'Aenean fermentum maximus justo eget semper. Aliquam congue velit sed convallis ultricies. Donec feugiat dapibus viverra.'
-            name: 'Gavin Johnson'
+            quote: 'The team at Active Matter quickly grasped the complexity, ambition and opportunity BlackBerry IVY presents for us as a business. They seamlessly integrated into the BlackBerry IVY product team, and together they’ve helped deliver two memorable launch experiences for the audience at CES.'
+            name: 'Peter Virk – Vice President, IVY Product & Ecosystem at BlackBerry'
+  -
+    type: paragraph
   -
     type: set
     attrs:
-      id: lbxxoc5b
+      id: lcj9dig1
       values:
         type: image_pair
         files:
-          - stock.png
-          - stock1.png
+          - ivy-ces-1.png
+          - ivy-ces-2.png
+        wide_view: false
+  -
+    type: set
+    attrs:
+      id: lcj9n4o9
+      values:
+        type: image_pair
+        files:
+          - ivy-ces-3.png
+          - ivy-ces-4.png
+        wide_view: false
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Source:\_"
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.twitter.com/BlackBerry'
+              rel: null
+              target: null
+              title: null
+        text: 'https://www.twitter.com/BlackBerry'
+  -
+    type: set
+    attrs:
+      id: lcj8gz9n
+      values:
+        type: image
+        file: ivy_ui_1.jpg
+        wide_view: false
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'BlackBerry IVY is a vehicle-first, cloud-connected software platform, that presents vehicle data in a normalised way to create insights that can be consumed by applications both on or off the vehicle.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "We designed a bespoke in-car HMI using real-world vehicle trip data (recorded and supplied by support partners HERE and Electra). Located directly above the HMI was a bank of high-resolution displays. The storytelling aspect of the experience was handled via the central screen. The outer two screens showcase code snippets and dynamic data revealing what BlackBerry IVY technology was doing 'under the hood'."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'To cater to varying levels of technical understanding within the audience, we opted to reveal both the live BlackBerry IVY terminal view and simplified dynamic data extracts.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'To mitigate against the potential of changing lighting conditions on the show floor at CES we created a switchable dark and light HMI theme.'
+  -
+    type: set
+    attrs:
+      id: lciw0lx0
+      values:
+        type: image
+        file: ivy-setup1-1672911831.png
         wide_view: true
   -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The BlackBerry IVY demo is monitoring real insights and data. This includes: vehicle battery health, trip mapping, facial recognition scanning, vehicle identification and payment services.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'By processing this data, either locally or in the cloud, the EV Range Expert application is then able to:'
+  -
+    type: bullet_list
+    content:
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Instruct the family when and how to optimally charge the vehicle'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Identify who is driving and their preferred driving style'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Predict that particular drivers expected range'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Identify that the kids are travelling and set the in-car media appropriately'
+      -
+        type: list_item
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Facilitate toll road and parking charges safely and frictionlessly.'
+  -
     type: set
     attrs:
-      id: lbxxodm2
+      id: lcj864bg
+      values:
+        type: image
+        file: ivy-storyboards.png
+        wide_view: false
+  -
+    type: heading
+    attrs:
+      level: 4
+    content:
+      -
+        type: text
+        text: 'Giving data a face with AR'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The second of the two experiences takes the form of an interactive AR application. It was created to interact with a Jaguar iPace that features on the BlackBerry stand at CES.'
+  -
+    type: set
+    attrs:
+      id: lcj7z9u7
       values:
         type: image_pair
         files:
-          - stock1.png
-          - stock.png
+          - ivy-ar1.jpg
+          - ivy-ar2.jpg
         wide_view: false
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1671650106
-heading: 'Launching the future of connected vehicles'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Vehicles are alive with thousands of signals. BlackBerry IVY unlocks their potential by normalising the data and putting it in the hands of OEM's or 3rd party developers via an SDK. Imaginative software solutions can then be created and managed via a cloud-based developer console."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The AR experience brings this development lifecycle to life through a series of imaginative use cases.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'It aims to inform and inspire the development community with the art of the possible.'
+  -
+    type: set
+    attrs:
+      id: lcivfwsl
+      values:
+        type: testimonials
+        testimonials:
+          -
+            id: lcivfyvw
+            quote: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our requirements and to present them exactly as I envisaged has been fantastic.'
+            name: 'Tarun Shome – BlackBerry IVY - Product Management Director'
+  -
+    type: paragraph
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1672935675
+heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 ---
