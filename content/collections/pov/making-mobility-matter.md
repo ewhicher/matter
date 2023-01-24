@@ -96,8 +96,10 @@ article:
         wide_video: false
         wide_view: false
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1671643818
+updated_at: 1674479867
 heading: 'Making mobility matter in an age where we’re all still addicted to our cars'
 author:
   - 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
+thumbnail: ivy-ar1.jpg
+snippet: 'Making mobility matter in an age where we’re all still addicted to our cars'
 ---

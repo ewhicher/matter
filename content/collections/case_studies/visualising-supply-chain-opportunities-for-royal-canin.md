@@ -73,6 +73,8 @@ article:
       -
         type: text
         text: 'A validated prototype and an excited set of users. The product development roadmap is ongoing, with phased launch and learn released continually iterating feature improvements.'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672765605
+updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
+updated_at: 1674479351
+thumbnail: pexels-lumn-406014.jpg
+snippet: 'Royal Canin asked us and a leading digital transformation consultancy, to scope and design a bespoke system for tracking and managing their pet food products globally.'
 ---

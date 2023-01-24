@@ -250,8 +250,10 @@ article:
             name: 'Tarun Shome – BlackBerry IVY - Product Management Director'
   -
     type: paragraph
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672935675
+updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
+updated_at: 1674479297
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
+thumbnail: ivy-dash-1672935554.png
+snippet: 'We collaborated with BlackBerry, AWS and a host of support partners to define, design and build two memorable experiences to support the global launch of BlackBerry IVY - the future of connected vehicles.'
 ---

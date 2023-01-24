@@ -1,0 +1,88 @@
+---
+theme: 'bg-light-blue-strong text-dark-grey'
+---
+
+<section class="pt-[13.75rem] pb-[10rem]">
+  <div class="wrap-2xl">
+    <div class="lg:w-6/12 ml-2/12 px-4">
+      <h2 class="type-heading mt-10 mb-14">{{ hero_heading }}</h2>
+      <div>{{ hero_text | classify:margins }}</>
+    </div>
+  </div>
+</section>
+
+
+{{ get_content from="/"}}
+<section class="py-[15rem] bg-light-green">
+  <div class="wrap-2xl">
+    <div class="lg:w-8/12 pl-4">
+      <div
+        x-data="{ typed: null, current: 0 }"
+        x-init="() => {
+          typed = new Typed($refs.showcase, {
+            stringsElement: $refs.quotes,
+            typeSpeed: 30,
+            backSpeed: 10,
+            loop: true,
+            onStringTyped: (arrayPos, self) => {
+              if (arrayPos > 0) {
+                self.stop()
+                console.log(arrayPos, self)
+                $refs.wrapper.children[arrayPos].style = '';
+                setTimeout(() => {
+                  $refs.wrapper.children[arrayPos].style.display = 'none';
+                  self.start()
+                }, 2000)
+              }
+            },
+          });
+        }"
+      >
+        <div x-ref="quotes">
+          <span></span>
+          {{ testimonials }}
+            <span>"{{ quote }}"</span>
+          {{ /testimonials }}
+        </div>
+        <div>
+          <div class="type-leadline">
+            <span x-ref="showcase"></span>
+          </div>
+          <div x-ref="names">
+            <!-- style="width: 0;"> -->
+            <div class="pt-8" x-ref="wrapper">
+              <div class="inline-block" style="display: none;"></div>
+              {{ testimonials }}
+              <div class="inline-block" style="display: none;">
+                {{ if logo }}
+                  <img class="h-6" src="{{ logo }}">
+                {{ else }}
+                  <p class="type-leadline">{{ name }}</p>
+                {{ /if }}
+              </div>
+              {{ /testimonials }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pb-[15rem] bg-light-green">
+  <div class="wrap-2xl md:flex">
+    <div class="md:w-1/2 lg:w-4/12 px-4">
+      <p class="type-body">{{ cta_talk_text }}</p>
+      <a class="type-headline text-blue" href="/lets-talk"><span class="border-b border-blue">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a>
+    </div>
+    <div class="md:w-1/2 lg:w-4/12 lg:ml-2/12 px-4 pt-8 md:pt-0">
+      <p class="type-body">{{ cta_join_text }}</p>
+      <a class="type-headline text-blue" href="/join"><span class="border-b border-blue">Join us</span>{{ partial:svg/join class="inline ml-4 h-[1.2em]" }}</a>
+    </div>
+  </div>
+</section>
+{{ /get_content }}
+
+{{ section:jsbefore }}
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+{{ /section:jsbefore }}

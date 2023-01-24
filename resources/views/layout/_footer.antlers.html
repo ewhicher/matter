@@ -1,3 +1,30 @@
-<footer class="py-16">
-  <div class="wrap-xl"></div>
+<footer class="py-28 bg-light-blue text-dark-grey">
+  <div class="wrap-2xl md:flex pb-20">
+    <div class="md:w-1/2 px-4">
+      <p class="type-subheading">Active Matter</p>
+    </div>
+    <div class="md:w-1/2 px-4 md:text-right">
+      <p class="type-subheading">Positive buisness <span class="inline-block mr-[.5em]">growth</span><span class="inline-block px-[.5em] border border-black"> by design</span></p>
+    </div>
+  </div>
+  <div class="wrap-2xl">
+    <div class="lg:w-1/2 px-4">
+      <ul class="type-subheading text-blue">
+        <li class="my-4"><a href="/opportunity-lab">Opportunity lab</a></li>
+        <li class="my-4"><a href="/product-launchpad">Product launchPad</a></li>
+        <li class="my-4"><a href="/mobility-mision">Mobility mission</a></li>
+        <li class="my-4"><a href="/am-files">AM files {{ partial:svg/files class="inline ml-2 h-[1.5em]" }}</a></li>
+      </ul>
+      <div class="py-28">
+        <p class="mb-2 type-body">Get a shot of MakingMatter</p>
+        <fieldset class="flex">
+          <input class="w-2/3 px-4 py-2 type-callout text-light-blue" type="email" name="email" placeholder="Email address" required>
+          <button class="w-1/3 ml-8 type-subheading text-left text-blue underline" type="submit">Subscribe</button>
+        </fieldset>
+      </div>
+      <div>
+        <p>© {{ now format="Y" }} Active Matter Limited</p>
+      </div>
+    </div>
+  </div>
 </footer>

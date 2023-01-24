@@ -25,7 +25,7 @@ return [
     |
     */
 
-    'start_page' => 'dashboard',
+    'start_page' => 'collections',
 
     /*
     |--------------------------------------------------------------------------
@@ -38,7 +38,18 @@ return [
     */
 
     'widgets' => [
-        'getting_started',
+        [ 
+            'type' => 'collection',
+            'collection' => 'pov',
+            'limit' => 4,
+            'width' => 50
+        ],
+        [ 
+            'type' => 'collection',
+            'collection' => 'case_studies',
+            'limit' => 4,
+            'width' => 50
+        ],
     ],
 
     /*

@@ -1,0 +1,172 @@
+---
+theme: 'bg-white text-dark-grey'
+---
+
+<section class="pt-[13.75rem] pb-[10rem]">
+  <div class="wrap-2xl">
+    <div class="px-4">
+      <h2 class="type-heading">{{ views_heading }}</h2>
+    </div>
+  </div>
+  <div class="wrap-2xl flex flex-wrap">
+    {{ files }}
+      <div class="md:w-1/2 lg:w-1/3 px-4">
+        {{ if (collection:handle) == 'projects' }}
+          <div class="relative">
+            <div
+              class="relative"
+              x-data="{ slider: null, hover: false }"
+              x-init="() => {
+                slider = new Flickity($refs.slider, {
+                  autoPlay: false,
+                  draggable: false,
+                  adaptiveHeight: false,
+                  pauseAutoPlayOnHover: false,
+                  contain: false,
+                  pageDots: false,
+                  cellAlign: 'left',
+                  wrapAround: true,
+                  imagesLoaded: true,
+                  initialIndex: 0,
+                  prevNextButtons: false
+                })
+              }"
+              @mouseenter="hover = true"
+              @mouseleave="hover = false"
+            >
+              <div class="relative w-full bg-blue overflow-hidden" x-ref="slider">
+                <div class="relative">
+                  <img class="block relative z-10 w-full rounded-sm opacity-0" src="{{ glide src="/img/placeholder.png" w="860" h="880" fit="crop_focal" }}">
+                  <div class="absolute inset-0 z-20 p-[15%] bg-blue text-white">
+                    <img class="max-w-[3.75rem] max-h-[3.75rem]" src="{{ logo }}">
+                    <h3 class="mt-8 type-subheading">{{ cover_text }}</h3>
+                  </div>
+                </div>
+                {{ sections }}
+                  <div class="relative">
+                    {{ if background }}
+                      <img class="block relative z-10 w-full" src="{{ glide:background w="860" h="880" fit="crop_focal" }}">
+                    {{ else }}
+                      <img class="block relative z-10 w-full opacity-0" src="{{ glide src="/img/placeholder.png" w="860" h="880" fit="crop_focal" }}">
+                    {{ /if }}
+                    <div class="absolute inset-0 z-20 p-[15%] {{ if background }}bg-blue/70{{ else }}bg-blue{{ /if }} text-white">
+                      {{ text | classify }}
+                    </div>
+                  </div>
+                {{ /sections }}
+              </div>
+              <div class="absolute left-[15%] top-[85%] type-callout text-white"><span x-text="slider.selectedIndex + 1"></span> <span class="text-mid-blue">/ <span x-text="slider.slides.length"></span></span></div>
+              <div
+                class="absolute bottom-[15%] -right-4"
+                x-show="hover"
+                x-transition
+              >
+                <button
+                  class="btn-base btn-blue bg-white"
+                  type="button"
+                  @click="slider.next()"
+                >
+                  {{ partial:svg/arrow class="w-5 mx-px my-1.5" }}
+                </button>
+              </div>
+            </div>
+            <div class="pt-8">
+              <p class="mb-2 type-callout"><span class="inline-block pb-2 {{ if (collection:handle) != 'projects' }}text-blue border-b border-blue{{ /if }}">{{ if client }}{{ client }}{{ elseif (collection:handle) == 'pov' }}Point of View{{ else }}&nbsp;{{ /if }}</span></p>
+              <p class="type-callout">{{ snippet | truncate:105:... }}</p>
+            </div>
+          </div>
+        {{ else }}
+          <a class="block pb-32" href="{{ url }}">
+            <div>
+              {{ if thumbnail }}
+                <img class="block w-full rounded-sm" src="{{ glide:thumbnail w="860" h="880" fit="crop_focal" }}">
+              {{ else }}
+                <img class="block w-full rounded-sm" src="{{ glide src="/img/placeholder.png" w="860" h="880" fit="crop_focal" }}">
+              {{ /if }}
+            </div>
+            <div class="pt-8">
+              <p class="mb-2 type-callout"><span class="inline-block pb-2 {{ if (collection:handle) != 'projects' }}text-blue border-b border-blue{{ /if }}">{{ if client }}{{ client }}{{ elseif (collection:handle) == 'pov' }}Point of View{{ else }}&nbsp;{{ /if }}</span></p>
+              <p class="type-callout">{{ snippet | truncate:105:... }}</p>
+            </div>
+          </a>
+        {{ /if }}
+      </div>
+    {{ /files }}
+  </div>
+</section>
+
+{{ get_content from="/"}}
+<section class="py-[15rem] bg-light-green">
+  <div class="wrap-2xl">
+    <div class="lg:w-8/12 pl-4">
+      <div
+        x-data="{ typed: null, current: 0 }"
+        x-init="() => {
+          typed = new Typed($refs.showcase, {
+            stringsElement: $refs.quotes,
+            typeSpeed: 30,
+            backSpeed: 10,
+            loop: true,
+            onStringTyped: (arrayPos, self) => {
+              if (arrayPos > 0) {
+                self.stop()
+                console.log(arrayPos, self)
+                $refs.wrapper.children[arrayPos].style = '';
+                setTimeout(() => {
+                  $refs.wrapper.children[arrayPos].style.display = 'none';
+                  self.start()
+                }, 2000)
+              }
+            },
+          });
+        }"
+      >
+        <div x-ref="quotes">
+          <span></span>
+          {{ testimonials }}
+            <span>"{{ quote }}"</span>
+          {{ /testimonials }}
+        </div>
+        <div>
+          <div class="type-leadline">
+            <span x-ref="showcase"></span>
+          </div>
+          <div x-ref="names">
+            <!-- style="width: 0;"> -->
+            <div class="pt-8" x-ref="wrapper">
+              <div class="inline-block" style="display: none;"></div>
+              {{ testimonials }}
+              <div class="inline-block" style="display: none;">
+                {{ if logo }}
+                  <img class="h-6" src="{{ logo }}">
+                {{ else }}
+                  <p class="type-leadline">{{ name }}</p>
+                {{ /if }}
+              </div>
+              {{ /testimonials }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pb-[15rem] bg-light-green">
+  <div class="wrap-2xl md:flex">
+    <div class="md:w-1/2 lg:w-4/12 px-4">
+      <p class="type-body">{{ cta_talk_text }}</p>
+      <a class="type-headline text-blue" href="/lets-talk"><span class="border-b border-blue">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a>
+    </div>
+    <div class="md:w-1/2 lg:w-4/12 lg:ml-2/12 px-4 pt-8 md:pt-0">
+      <p class="type-body">{{ cta_join_text }}</p>
+      <a class="type-headline text-blue" href="/join"><span class="border-b border-blue">Join us</span>{{ partial:svg/join class="inline ml-4 h-[1.2em]" }}</a>
+    </div>
+  </div>
+</section>
+{{ /get_content }}
+
+{{ section:jsbefore }}
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+{{ /section:jsbefore }}

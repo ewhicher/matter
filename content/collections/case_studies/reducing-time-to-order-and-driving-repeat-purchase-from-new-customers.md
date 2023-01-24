@@ -55,6 +55,8 @@ article:
       -
         type: text
         text: 'The new process reduces time to onboard new customers from 10 days to 24 hours, and reduces internal touchpoints by 50%, freeing up time to surprise and delight customers with exceptional service.'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672776375
+updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
+updated_at: 1674479343
+thumbnail: bfaf03382e416bdb7eba0fcef4f2b21c07e87b86-2360x1278.jpg
+snippet: 'AluK, a global luxury aluminium window and door manufacturer, asked us to improve the onboarding experience of new customers from enquiry through to delivery, with the objective of reducing time to purchase, improving internal efficiency and driving repeat business and loyalty.'
 ---

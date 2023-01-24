@@ -1,0 +1,201 @@
+---
+nav: "bg-dark-grey"
+theme: "bg-blue text-white"
+---
+
+<section class="pt-[13.75rem] pb-16">
+  <div class="wrap-2xl">
+    <div class="lg:w-10/12 px-4">
+      <h2 class="type-heading mt-10 mb-14">Mobility mission</h2>
+    </div>
+  </div>
+</section>
+
+<section class="pb-16">
+  <div class="wrap-2xl">
+    <div class="lg:w-10/12 mx-auto px-4">
+      <div class="relative rounded border border-black overflow-hidden">
+        <img class="block relative z-10 w-full opacity-0" src="/img/olvid.png">
+        <div class="absolute top-1/2 left-1/2 z-20 -translate-x-1/2 -translate-y-1/2">
+          <button
+            class="btn-base btn-white"
+            type="button"
+          >
+            {{ partial:svg/play class="w-6" }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-16">
+  <div class="wrap-2xl">
+    <div class="lg:w-8/12 mx-auto px-4">
+      <div class="">{{ intro_text | classify }}</>
+    </div>
+  </div>
+</section>
+
+<section class="pb-16">
+  <div class="wrap-2xl">
+    <div class="lg:w-8/12 mx-auto">
+      <div class="lg:w-[62.5%] pl-4">
+        <div>{{ more_text | classify:margins }}<div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pb-40">
+  <div class="wrap-2xl">
+    <div class="flex items-center lg:w-8/12 mx-auto">
+      <div class="w-1/4 pl-4"><h3 class="type-leadline">Together we'll...</h3></div>
+      <div class="w-1/4 px-4"><img class="w-24 max-w-full" src="/img/svg/together.svg"></div>
+    </div>
+    <div class="flex relative w-8/12 mx-auto mt-8 pt-8 pb-4">
+      <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
+      <div class="flex justify-end w-1/4 px-4 text-right"><h3 class="self-start block type-leadline">1</h3><img class="self-center block w-24 max-w-full" src="/img/svg/immersed.svg"></div>
+      <div class="w-3/4 pl-4 pr-16">{{ together_text_one | classify:margins }}</div>
+    </div>
+    <div class="flex relative w-8/12 mx-auto mt-8 pt-8 pb-4">
+      <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
+      <div class="flex justify-end w-1/4 px-4 text-right"><h3 class="self-start block type-leadline">2</h3><img class="self-center block w-24 max-w-full" src="/img/svg/outside.svg"></div>
+      <div class="w-3/4 pl-4 pr-16">{{ together_text_two | classify:margins }}</div>
+    </div>
+    <div class="flex relative w-8/12 mx-auto mt-8 pt-8 pb-4">
+      <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
+      <div class="flex justify-end w-1/4 px-4 text-right"><h3 class="self-start block type-leadline">3</h3><img class="self-center block w-24 max-w-full" src="/img/svg/define.svg"></div>
+      <div class="w-3/4 pl-4 pr-16">{{ together_text_three | classify:margins }}</div>
+    </div>
+  </div>
+</section>
+
+<section class="pb-32">
+  <div class="wrap-2xl">
+    <div class="lg:w-5/12 ml-2/12 pl-4">
+      <div class="pb-10">
+        {{ partial:components/speach color="white" }}
+      </div>
+      <div
+        x-data="{ typed: null, current: 0 }"
+        x-init="() => {
+          typed = new Typed($refs.showcase, {
+            stringsElement: $refs.quotes,
+            typeSpeed: 30,
+            backSpeed: 10,
+            loop: true,
+          });
+        }"
+      >
+        <div x-ref="quotes">
+          <span></span>
+          {{ typed_rows }}
+            <span>{{ text }}</span>
+          {{ /typed_rows }}
+        </div>
+        <div>
+          <div class="type-leadline text-white">
+            <span x-ref="showcase"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-40 bg-white text-dark-grey">
+  <div class="wrap-2xl flex">
+    <div class="lg:w-1/2 px-4">
+      <div class="relative pb-[101.87%] bg-mid-blue">
+        <div class="absolute inset-0 px-20 py-24">
+          <img class="block max-w-[128px] max-h-[90px] mb-16" src="{{ proof_logo }}">
+          <p class="type-subheading max-w-[26.5rem]">{{ proof_quote }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="lg:w-1/2 px-4">
+      <div class="relative pb-[101.87%] bg-mid-blue">
+        <div class="absolute inset-0 p-20">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap-2xl py-20 px-4">
+    <div class="relative pb-[56.666%] bg-mid-blue"></div>
+  </div>
+  <div class="wrap-2xl flex">
+    <div class="lg:w-1/2 px-4">
+      <div class="relative pb-[101.87%] bg-mid-blue">
+        <div class="absolute inset-0 px-20 py-24">
+          <img class="block max-w-[128px] max-h-[90px] mb-16" src="{{ proof_logo }}">
+          <p class="type-subheading max-w-[26.5rem]">{{ proof_quote }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="lg:w-1/2 px-4">
+      <div class="relative">
+        <div class="p-20">
+          <p class="mb-[.5em] type-headline">Thinking of starting a new mobility project?</p>
+          <p class="type-headline text-blue"><a class="block" href="/lets-talk">Let's talk</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pb-40 bg-white">
+  <div class="wrap-2xl">
+    <div class="px-4 pb-16">
+      <h2 class="type-heading text-blue">Points of view</h2>
+    </div>
+  </div>
+  <div class="wrap-2xl flex flex-wrap text-dark-grey">
+    {{ collection:pov }}
+      <div class="md:w-1/2 lg:w-1/3 px-4">
+        <a class="block pb-32" href="{{ url }}">
+          <div>
+            {{ if thumbnail }}
+              <img class="block w-full rounded-sm" src="{{ glide:thumbnail w="860" h="880" fit="crop_focal" }}">
+            {{ else }}
+              <img class="block w-full rounded-sm" src="{{ glide src="/img/placeholder.png" w="860" h="880" fit="crop_focal" }}">
+            {{ /if }}
+          </div>
+          <div class="pt-8">
+            <div class="pt-8"><p class="type-leadline">{{ snippet | truncate:80:... }}</p></div>
+          </div>
+        </a>
+      </div>
+    {{ /collection:pov }}
+  </div>
+</section>
+
+
+<section class="pt-[10rem] pb-[8rem] bg-light-green text-dark-grey">
+  <div class="wrap-2xl">
+    <div class="lg:w-8/12 pl-4">
+      <div class="type-leadline">
+        {{ footer_text }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ get_content from="/" }}
+<section class="pb-[15rem] bg-light-green text-dark-grey">
+  <div class="wrap-2xl md:flex">
+    <div class="md:w-1/2 lg:w-4/12 px-4">
+      <p class="type-body">{{ cta_talk_text }}</p>
+      <a class="type-headline text-blue" href="/lets-talk"><span class="border-b border-blue">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a>
+    </div>
+    <div class="md:w-1/2 lg:w-4/12 lg:ml-2/12 px-4 pt-8 md:pt-0">
+      <p class="type-body">{{ cta_join_text }}</p>
+      <a class="type-headline text-blue" href="/join"><span class="border-b border-blue">Join us</span>{{ partial:svg/join class="inline ml-4 h-[1.2em]" }}</a>
+    </div>
+  </div>
+</section>
+{{ /get_content }}
+
+{{ section:jsbefore }}
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+{{ /section:jsbefore }}

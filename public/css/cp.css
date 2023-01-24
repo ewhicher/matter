@@ -1,0 +1,3 @@
+html body.outside.business-theme {background-color: #e4e1f9;-webkit-animation: loginbg 30s infinite;animation: loginbg 30s infinite;};
+@-webkit-keyframes loginbg {0%{background-color:#e4e1f9;}50%{background-color:#eafff4;}100%{background-color:#e4e1f9;}}
+@keyframes loginbg {0%{background-color:#e4e1f9;}50%{background-color:#eafff4;}100%{background-color: #e4e1f9;}}

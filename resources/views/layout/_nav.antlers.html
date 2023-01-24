@@ -1,14 +1,89 @@
-<nav class="absolute top-0 left-0 right-0 z-40">
-  <div class="wrap-2xl flex items-center pt-14">
+<nav
+  class="fixed top-0 left-0 right-0 z-40"
+  x-data="{ open: null, close: null, animating: false }"
+  x-init="() => {
+    open = () => {
+      if (!animating) {
+        animating = true
+        document.body.style.overflow = 'hidden'
+        gsap.to($refs.inner, {
+          duration: 1,
+          height: '100vh',
+          ease: 'power4.inOut',
+          onComplete: () => animating = false
+        })
+      }
+    }
+    close = () => {
+      if (!animating) {
+        animating = true
+        gsap.to($refs.inner, {
+          duration: 1,
+          height: '0',
+          ease: 'power4.inOut',
+          onComplete: () => {
+            animating = false
+            document.body.style.overflow = ''
+          }
+        })
+      }
+    }
+  }"
+>
+  <div class="wrap-2xl flex items-center relative z-10 pt-14">
     <div class="px-4">
-      <a href="#">
+      <a href="/">
         {{ partial:svg/logo class="w-[3.75rem]" }}
       </a>
     </div>
     <div class="ml-auto px-4">
-      <a class="btn-base btn-grey-dark" href="#">
+      <button
+        class="btn-base btn-grey-dark"
+        type="button"
+        @click="open"
+      >
         Menu
-      </a>
+      </button>
+    </div>
+  </div>
+  <div class="absolute top-0 left-0 right-0 z-20 {{ view:nav ?? 'bg-blue' }} text-white overflow-hidden" x-ref="inner" style="height: 0;">
+    <div class="wrap-2xl flex items-center pt-14">
+      <div class="px-4">
+        <a href="/">
+          {{ partial:svg/logo class="w-[3.75rem]" }}
+        </a>
+      </div>
+      <div class="ml-auto px-4">
+        <button
+          class="btn-base btn-white"
+          type="button"
+          @click="close"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+    <div class="wrap-2xl px-4 pt-24">
+      <ul>
+        <li class="mb-8 type-heading">
+          <a href="/opportunity-lab">Opportunity lab</a>
+        </li>
+        <li class="mb-8 type-heading">
+          <a href="/product-launchpad">Product launchPad</a>
+        </li>
+        <li class="mb-12 type-heading">
+          <a href="/mobility-mission">Mobility mission</a>
+        </li>
+        <li class="mb-8 type-headline">
+          <a href="/am-files">AM files {{ partial:svg/files class="inline ml-2 h-[1.2em]" }}</a>
+        </li>
+        <li class="mb-8 type-headline">
+          <a href="/lets-talk">Let's talk {{ partial:svg/talk class="inline ml-2 h-[1.2em]" }}</a>
+        </li>
+        <li class="mb-8 type-headline">
+          <a href="/join-us">Join us {{ partial:svg/join class="inline ml-2 h-[1.2em]" }}</a>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>

@@ -59,6 +59,8 @@ article:
       -
         type: text
         text: 'A fully designed, interactive prototype, excited customers, increased revenue opportunities and a new, validated business model to drive scale and reach. Business strategy update and killer plans for the future. Watch this space...'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672776954
+updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
+updated_at: 1674479236
+thumbnail: wit1.jpg
+snippet: 'We took WIT’s unique flagship training hub to the next level and re-imagined it as a connected digital experience - seamlessly merging training, retail and community.'
 ---

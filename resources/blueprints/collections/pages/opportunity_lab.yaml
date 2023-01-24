@@ -1,0 +1,193 @@
+title: 'Opportunity lab'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: intro_section
+        field:
+          display: Intro
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: intro_text
+        field: common.richtext
+        config:
+          display: 'Intro text'
+      -
+        handle: intro_video
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: Video
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: more_text
+        field: common.richtext
+        config:
+          display: 'More text'
+      -
+        handle: typed_section
+        field:
+          display: Typed
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: typed_rows
+        field:
+          collapse: true
+          previews: true
+          sets:
+            row:
+              display: Row
+              fields:
+                -
+                  handle: text
+                  field:
+                    antlers: false
+                    display: Text
+                    type: textarea
+                    icon: textarea
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+          display: Rows
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: together_section
+        field:
+          display: Together
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: together_text_one
+        field: common.richtext
+        config:
+          display: 'Text one'
+      -
+        handle: together_text_two
+        field: common.richtext
+        config:
+          display: 'Text two'
+      -
+        handle: together_text_three
+        field: common.richtext
+        config:
+          display: 'Text three'
+      -
+        handle: cta_section
+        field:
+          display: CTA
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: cta_text
+        field: common.richtext
+        config:
+          display: 'Text'
+      -
+        handle: proof_section
+        field:
+          display: Proof
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: proof_logo
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          max_files: 1
+          display: Logo
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: proof_quote
+        field:
+          antlers: false
+          display: 'Quote'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: footer_section
+        field:
+          display: Footer
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: footer_text
+        field: common.richtext
+        config:
+          display: 'Text'
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true

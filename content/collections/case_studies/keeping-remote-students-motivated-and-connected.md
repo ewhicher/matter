@@ -75,6 +75,8 @@ article:
       -
         type: text
         text: "The first version of the product is live and we're now working on new ways for students to interact with the university, their course and the content in the most frictionless way possible."
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1672823372
+updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
+updated_at: 1674479262
+thumbnail: ou-u.jpg
+snippet: 'Open University asked us to help increase the number of students that complete their courses and achieve their goals.'
 ---

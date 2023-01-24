@@ -1,1 +1,280 @@
-<!-- <button x-data="{ word: 'hello' }" @click="$dispatch('modal:open', 'modal')">Success</button> -->
+---
+theme: 'bg-light-blue-strong text-dark-grey'
+---
+
+<section class="pt-[13.75rem] pb-[10rem]">
+  <div class="wrap-2xl">
+    <div class="lg:w-10/12 px-4">
+      <h2 class="type-heading mt-10 mb-14 text-blue">{{ heading }}</h2>
+    </div>
+    <div class="lg:w-8/12 mx-auto px-4">
+      <div class="type-leadline">{{ intro | nl2br }}</>
+    </div>
+  </div>
+</section>
+
+<section class="pb-[10rem]">
+  <div class="wrap-2xl">
+    <div class="px-4">
+      <div
+        class="block w-full rounded overflow-hidden"
+        x-data="{ slider: null }"
+        x-init="() => {
+          slider = new Flickity($refs.slider, {
+            autoPlay: 3000,
+            adaptiveHeight: false,
+            pauseAutoPlayOnHover: false,
+            contain: false,
+            pageDots: false,
+            cellAlign: 'left',
+            wrapAround: true,
+            imagesLoaded: true,
+            lazyLoad: 2,
+            initialIndex: 0,
+            prevNextButtons: false
+          })
+        }"
+      >
+        <div class="block w-full" x-ref="slider">
+          {{ showcase_cards }}
+            <div class="block w-full relative">
+              <img class="block relative z-10 w-full" data-flickity-lazyload="{{ glide:image w="2720" h="1440" fit="crop_focal" }}">
+              {{ if type == 'image_card' }}
+                {{ if heading != '' }}
+                  <div class="absolute left-1/6 bottom-[3.5rem] z-20 p-12 max-w-[34rem] bg-white rounded">
+                    <h3 class="mb-6 type-subheading">{{ heading }}</h3>
+                    {{ if button_text }}
+                      <a class="btn-base btn-blue" href="{{ button_link }}">{{ button_text }}</a>
+                    {{ /if }}
+                  </div>
+                {{ /if }}
+              {{ elseif type == 'video_card' }}
+              {{ /if }}
+            </div>
+          {{ /showcase_cards }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pb-[10rem]">
+  <div class="wrap-2xl">
+    <div class="px-4">
+      <h2 class="type-heading">{{ what_we_do_heading }}</h2>
+    </div>
+  </div>
+  <div class="wrap-2xl lg:flex">
+    <div class="lg:w-1/3 px-8">
+      <div class="flex flex-col relative h-[440px] p-4 bg-dark-grey rounded border border-white text-white overflow-hidden -rotate-1 hover:rotate-0">
+        <div class="p-4"><p class="max-w-[280px] type-callout">{{ card_one_text }}</p></div>
+        <div class="relative z-20 w-full mt-auto p-4 bg-blue rounded">
+          <p class="max-w-[220px] type-subheading">Shape your opportunity</p>
+        </div>
+        <div class="absolute right-0 bottom-0 z-10">{{ partial:svg/card1bg }}</div>
+        <div class="absolute right-8 bottom-8 z-40 w-[38%]">{{ partial:svg/card1icon class="w-full" }}</div>
+      </div>
+    </div>
+    <div class="lg:w-1/3 px-8">
+      <div class="flex flex-col relative h-[440px] p-4 bg-dark-grey rounded border border-white text-white overflow-hidden rotate-1 hover:rotate-0">
+        <div class="p-4"><p class="max-w-[280px] type-callout">{{ card_two_text }}</p></div>
+        <div class="relative z-20 w-full mt-auto p-4 bg-blue rounded">
+          <p class="max-w-[220px] type-subheading">Product and service design</p>
+        </div>
+        <div class="absolute right-0 bottom-0 z-10">{{ partial:svg/card2bg }}</div>
+        <div class="absolute right-2 bottom-10 z-40 w-[40%]">{{ partial:svg/card2icon class="w-full" }}</div>
+      </div>
+    </div>
+    <div class="lg:w-1/3 px-8">
+      <div class="flex flex-col relative h-[440px] p-4 bg-dark-grey rounded border border-white text-white overflow-hidden -rotate-1 hover:rotate-0">
+        <div class="p-4"><p class="max-w-[280px] type-callout">{{ card_three_text }}</p></div>
+        <div class="relative z-20 w-full mt-auto p-4 bg-blue rounded">
+          <p class="max-w-[220px] type-subheading">Grow and<br>evolve</p>
+        </div>
+        <div class="absolute right-0 bottom-0 z-10">{{ partial:svg/card3bg }}</div>
+        <div class="absolute right-8 bottom-8 z-40 w-[36%]">{{ partial:svg/card3icon class="w-full" }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-light-blue overflow-hidden">
+  <div>
+    <div
+      class="w-full"
+      x-data="{ tl: null, lazies: null }"
+      x-init="() => {
+        const chunk = $refs.track.innerHTML
+        $refs.track.innerHTML += chunk + chunk + chunk
+        this.lazies = [].slice.call($el.querySelectorAll(`[loading='lazy']`))
+
+        var loadImages = () => {
+          this.lazies.forEach((item, index) => {
+            if (item.getBoundingClientRect().left <= window.innerWidth) {
+              this.lazies.splice(index, 1)
+              item.loading = 'none'
+            }
+          })
+        }
+
+        this.tl = gsap.timeline({repeat: -1, repeatDelay: 0, onUpdate: loadImages })
+        this.tl.set($refs.track, { x: '-25%' })
+        this.tl.to($refs.track, 80, { x: '-50%', ease: 'none' })
+        this.tl.play()
+      }"
+      @mouseenter="() => this.tl.pause()"
+      @mouseleave="() => this.tl.resume()"
+    >
+      <div x-ref="view" class="flex">
+        <div x-ref="track" class="flex">
+          <div class="flex">
+            {{ logos }}
+              <div class="w-[270px]">
+                <img class="inline-block" src="{{ url }}" loading="lazy">
+              </div>
+            {{ /logos }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pt-[15rem] pb-[8rem] bg-white">
+  <div class="wrap-2xl">
+    <div class="px-4">
+      <h2 class="type-heading">{{ views_heading }}</h2>
+    </div>
+  </div>
+  <div
+    class="overflow-hidden"
+    x-data="{ slider: null }"
+    x-init="() => {
+      this.slider = new Flickity($refs.slider, {
+        autoPlay: false,
+        adaptiveHeight: false,
+        pauseAutoPlayOnHover: false,
+        contain: true,
+        pageDots: false,
+        cellAlign: 'left',
+        wrapAround: false,
+        imagesLoaded: true,
+        initialIndex: 0,
+        freeScroll: true,
+        prevNextButtons: false
+      })
+      this.slider.on('scroll', (progress) => {
+        progress = Math.max( 0, Math.min( 1, progress ) );
+        $refs.bar.style.width = progress * 100 + '%';
+      })
+    }">
+    <div class="wrap-lg px-4 py-8">
+      <div class="block relative h-2 bg-light-blue rounded-full overflow-hidden">
+        <div class="absolute top-0 bottom-0 left-0 bg-blue rounded-full" x-ref="bar"></div>
+      </div>
+    </div>
+    <div class="wrap-2xl">
+      <div class="block relative" x-ref="slider">
+        {{ views_list }}
+          <div class="md:w-1/2 lg:w-1/3 px-4">
+            <a class="block" href="{{ url }}">
+              <div>
+                {{ if thumbnail }}
+                  <img class="block w-full rounded-sm" src="{{ glide:thumbnail w="860" h="880" fit="crop_focal" }}">
+                {{ else }}
+                  <img class="block w-full rounded-sm" src="{{ glide src="/img/placeholder.png" w="860" h="880" fit="crop_focal" }}">
+                {{ /if }}
+              </div>
+              <div class="pt-8"><p class="type-leadline">{{ snippet | truncate:80:... }}</p></div>
+            </a>
+          </div>
+        {{ /views_list }}
+        <div class="md:w-1/2 lg:w-1/3 px-4">
+          <div>
+            <p class="mb-[.5em] type-headline">{{ views_cta_text }}</p>
+            <p class="type-headline text-blue"><a class="block" href="/lets-talk">Let's talk</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-[15rem] bg-light-green">
+  <div class="wrap-2xl">
+    <div class="lg:w-8/12 pl-4">
+      <div
+        x-data="{ typed: null, current: 0 }"
+        x-init="() => {
+          typed = new Typed($refs.showcase, {
+            stringsElement: $refs.quotes,
+            typeSpeed: 30,
+            backSpeed: 10,
+            loop: true,
+            onStringTyped: (arrayPos, self) => {
+              if (arrayPos > 0) {
+                self.stop()
+                $refs.wrapper.children[arrayPos].style = '';
+                setTimeout(() => {
+                  $refs.wrapper.children[arrayPos].style.display = 'none';
+                  self.start()
+                }, 2000)
+              }
+            },
+          });
+        }"
+      >
+        <div x-ref="quotes">
+          <span></span>
+          {{ testimonials }}
+            <span>"{{ quote }}"</span>
+          {{ /testimonials }}
+        </div>
+        <div>
+          <div class="type-heading">
+            <span x-ref="showcase"></span>
+          </div>
+          <div x-ref="names">
+            <!-- style="width: 0;"> -->
+            <div class="pt-8" x-ref="wrapper">
+              <div class="inline-block" style="display: none;"></div>
+              {{ testimonials }}
+              <div class="inline-block" style="display: none;">
+                {{ if logo }}
+                  <img class="h-6" src="{{ logo }}">
+                {{ else }}
+                  <p class="type-leadline">{{ name }}</p>
+                {{ /if }}
+              </div>
+              {{ /testimonials }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pb-[15rem] bg-light-green">
+  <div class="wrap-2xl px-4">
+    <div class="p-8 border border-black rounded-lg"></div>
+  </div>
+</section>
+
+<section class="pb-[15rem] bg-light-green">
+  <div class="wrap-2xl md:flex">
+    <div class="md:w-1/2 lg:w-4/12 px-4">
+      <p class="type-body">{{ cta_talk_text }}</p>
+      <a class="type-headline text-blue" href="/lets-talk"><span class="border-b border-blue">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a>
+    </div>
+    <div class="md:w-1/2 lg:w-4/12 lg:ml-2/12 px-4 pt-8 md:pt-0">
+      <p class="type-body">{{ cta_join_text }}</p>
+      <a class="type-headline text-blue" href="/join"><span class="border-b border-blue">Join us</span>{{ partial:svg/join class="inline ml-4 h-[1.2em]" }}</a>
+    </div>
+  </div>
+</section>
+
+{{ section:jsbefore }}
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+{{ /section:jsbefore }}

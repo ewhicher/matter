@@ -215,6 +215,16 @@
   }
 }
 
+.flickity-viewport,
+.flickity-enabled {
+  outline: none !important;
+}
+
+.flickity-h-full > .flickity-viewport,
+.flickity-h-full > .flickity-viewport > .flickity-slider {
+  @apply h-full;
+}
+
 [x-cloak] {
   display: none;
 }

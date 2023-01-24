@@ -1,5 +1,5 @@
 <!doctype html>
-  <html class="bg-black" lang="{{ settings:short_locale }}">
+  <html class="{{ view:theme ?? 'bg-light-blue-strong text-dark-grey' }}" lang="{{ settings:short_locale }}">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,8 +32,8 @@
 
     {{ bust:css }}
     {{ yield:jsbefore }}
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollToPlugin.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollToPlugin.min.js"></script> -->
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     {{ if environment == 'production' }}{{ settings:head_code }}{{ /if }}
   </head>
