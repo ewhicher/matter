@@ -82,8 +82,12 @@ article:
         testimonials:
           -
             id: lbxxhm3y
-            quote: '“Lorem ipsum dolor sit amet consectetur adipiscing elit nullam lobortis dui ac fringilla iaculis viverra tortor eget aliquam ligula augue”'
+            quote: 'Lorem ipsum dolor sit amet consectetur adipiscing elit nullam lobortis dui ac fringilla iaculis viverra tortor eget aliquam ligula augue'
             name: 'Firstname Lastname'
+          -
+            id: ldbs2j9v
+            quote: 'Aenean fermentum maximus justo eget semper'
+            name: 'Tom Daplyn'
   -
     type: set
     attrs:
@@ -96,7 +100,7 @@ article:
         wide_video: false
         wide_view: false
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1674479867
+updated_at: 1674657908
 heading: 'Making mobility matter in an age where we’re all still addicted to our cars'
 author:
   - 2aeb9238-8dc7-441b-bfb7-6f63dd73a005

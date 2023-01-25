@@ -4,7 +4,7 @@ blueprint: mobility_mission
 template: mobility_mission
 title: 'Mobility Mission'
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1674584392
+updated_at: 1674660788
 footer_text:
   -
     type: paragraph
@@ -14,7 +14,9 @@ footer_text:
         text: 'Benchmark your product experience and uncover new opportunities to leapfrog the competition.'
 intro_text:
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
     content:
       -
         type: text
@@ -30,7 +32,9 @@ intro_text:
         text: ' we partner with visionary mobility companies to varius natoque penatibus et magnis dis parturient montes nascetur ridiculus mus et augue pellentesque.'
 more_text:
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 6
     content:
       -
         type: text
@@ -98,4 +102,11 @@ together_text_three:
         text: "We'll dive deeper into the key opportunity spaces to better understand the market size and maturity, and layer in your existing assets and capabilities that you can leverage to move quickly."
 proof_logo: bp.png
 proof_quote: 'Working with the Retail IT leadership, we created a vision for the future of its existing retail locations as connected mobility and retail services.'
+extra_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Our rapid design process has already helped global mobility clients solve some of their most demanding mobility challenges'
 ---

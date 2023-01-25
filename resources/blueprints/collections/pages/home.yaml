@@ -395,40 +395,6 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: cta_section
-        field:
-          display: CTA
-          type: section
-          icon: section
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: cta_talk_text
-        field:
-          antlers: false
-          display: 'Talk Text'
-          type: textarea
-          icon: textarea
-          width: 50
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: cta_join_text
-        field:
-          antlers: false
-          display: 'Join Text'
-          type: textarea
-          icon: textarea
-          width: 50
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
   sidebar:
     display: Sidebar
     fields:

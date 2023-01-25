@@ -122,8 +122,6 @@ theme: 'bg-light-blue-strong text-dark-grey'
         this.tl.to($refs.track, 80, { x: '-50%', ease: 'none' })
         this.tl.play()
       }"
-      @mouseenter="() => this.tl.pause()"
-      @mouseleave="() => this.tl.resume()"
     >
       <div x-ref="view" class="flex">
         <div x-ref="track" class="flex">
@@ -148,7 +146,7 @@ theme: 'bg-light-blue-strong text-dark-grey'
   </div>
   <div
     class="overflow-hidden"
-    x-data="{ slider: null }"
+    x-data="{ slider: null, progress: 0 }"
     x-init="() => {
       this.slider = new Flickity($refs.slider, {
         autoPlay: false,
@@ -163,14 +161,25 @@ theme: 'bg-light-blue-strong text-dark-grey'
         freeScroll: true,
         prevNextButtons: false
       })
-      this.slider.on('scroll', (progress) => {
-        progress = Math.max( 0, Math.min( 1, progress ) );
-        $refs.bar.style.width = progress * 100 + '%';
+      this.slider.on('scroll', (p) => {
+        p = Math.max( 0, Math.min( 1, p ) );
+        $refs.bar.style.width = p * 100 + '%';
+        progress = p
       })
     }">
-    <div class="wrap-lg px-4 py-8">
-      <div class="block relative h-2 bg-light-blue rounded-full overflow-hidden">
-        <div class="absolute top-0 bottom-0 left-0 bg-blue rounded-full" x-ref="bar"></div>
+    <div class="wrap-2xl flex items-center">
+      <div class="w-10/12 lg:w-8/12 lg:ml-2/12 px-4 py-8">
+        <div class="block relative h-2 bg-light-blue rounded-full overflow-hidden">
+          <div class="absolute top-0 bottom-0 left-0 bg-blue rounded-full" x-ref="bar"></div>
+        </div>
+      </div>
+      <div class="w-2/12">
+        <a
+          class="inline-block p-4 bg-light-blue rounded-full"
+          href="/am-files"
+          x-show="progress > .9"
+          x-transition
+        >{{ partial:svg/plus class="w-4" }}</a>
       </div>
     </div>
     <div class="wrap-2xl">
@@ -192,7 +201,7 @@ theme: 'bg-light-blue-strong text-dark-grey'
         <div class="md:w-1/2 lg:w-1/3 px-4">
           <div>
             <p class="mb-[.5em] type-headline">{{ views_cta_text }}</p>
-            <p class="type-headline text-blue"><a class="block" href="/lets-talk">Let's talk</a></p>
+            <p class="type-headline text-blue"><a class="block" href="/lets-talk"><span class="border-b border-blue">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a></p>
           </div>
         </div>
       </div>
@@ -203,6 +212,9 @@ theme: 'bg-light-blue-strong text-dark-grey'
 <section class="py-[15rem] bg-light-green">
   <div class="wrap-2xl">
     <div class="lg:w-8/12 pl-4">
+      <div class="pb-10">
+        {{ partial:components/speach }}
+      </div>
       <div
         x-data="{ typed: null, current: 0 }"
         x-init="() => {
@@ -223,6 +235,7 @@ theme: 'bg-light-blue-strong text-dark-grey'
             },
           });
         }"
+        class="h-[300px]"
       >
         <div x-ref="quotes">
           <span></span>
@@ -261,18 +274,7 @@ theme: 'bg-light-blue-strong text-dark-grey'
   </div>
 </section>
 
-<section class="pb-[15rem] bg-light-green">
-  <div class="wrap-2xl md:flex">
-    <div class="md:w-1/2 lg:w-4/12 px-4">
-      <p class="type-body">{{ cta_talk_text }}</p>
-      <a class="type-headline text-blue" href="/lets-talk"><span class="border-b border-blue">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a>
-    </div>
-    <div class="md:w-1/2 lg:w-4/12 lg:ml-2/12 px-4 pt-8 md:pt-0">
-      <p class="type-body">{{ cta_join_text }}</p>
-      <a class="type-headline text-blue" href="/join"><span class="border-b border-blue">Join us</span>{{ partial:svg/join class="inline ml-4 h-[1.2em]" }}</a>
-    </div>
-  </div>
-</section>
+{{ partial:sections/ctas }}
 
 {{ section:jsbefore }}
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

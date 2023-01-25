@@ -1,0 +1,58 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: end_section
+        field:
+          display: End
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: case_study_default_text
+        field: common.richtext
+        config:
+          display: 'Case study default text'
+      -
+        handle: pov_default_text
+        field: common.richtext
+        config:
+          display: 'POV default text'
+      -
+        handle: cta_section
+        field:
+          display: CTA
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: cta_talk_text
+        field:
+          antlers: false
+          display: 'Talk Text'
+          type: textarea
+          icon: textarea
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: cta_join_text
+        field:
+          antlers: false
+          display: 'Join Text'
+          type: textarea
+          icon: textarea
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false

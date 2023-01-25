@@ -45,7 +45,7 @@ theme: "bg-light-yellow bg-contain bg-[url('/img/olbg.png')] text-dark-grey"
   <div class="wrap-2xl">
     <div class="lg:w-5/12 ml-4/12 pl-4">
       <div class="pb-10">
-        {{ partial:components/speach color="white" }}
+        {{ partial:components/speach color="blue" }}
       </div>
       <div
         x-data="{ typed: null, current: 0 }"
@@ -57,6 +57,7 @@ theme: "bg-light-yellow bg-contain bg-[url('/img/olbg.png')] text-dark-grey"
             loop: true,
           });
         }"
+        class="h-[300px]"
       >
         <div x-ref="quotes">
           <span></span>
@@ -65,7 +66,7 @@ theme: "bg-light-yellow bg-contain bg-[url('/img/olbg.png')] text-dark-grey"
           {{ /typed_rows }}
         </div>
         <div>
-          <div class="type-leadline text-blue">
+          <div class="type-headline text-blue">
             <span x-ref="showcase"></span>
           </div>
         </div>
@@ -166,7 +167,7 @@ theme: "bg-light-yellow bg-contain bg-[url('/img/olbg.png')] text-dark-grey"
   <div class="wrap-2xl">
     <div class="lg:w-8/12 mx-auto px-4">
       <div class="pb-20 text-blue">{{ cta_text | classify }}</div>
-      <a class="type-headline text-blue" href="/lets'talk">Book a call</a>
+      <a class="type-headline text-blue" href="/lets'talk"><span class="border-b border-blue">Book a call</span>{{ partial:svg/book class="inline ml-4 h-[1.2em]" }}</a>
     </div>
   </div>
 </section>
@@ -200,20 +201,7 @@ theme: "bg-light-yellow bg-contain bg-[url('/img/olbg.png')] text-dark-grey"
   </div>
 </section>
 
-{{ get_content from="/" }}
-<section class="pb-[15rem] bg-light-green">
-  <div class="wrap-2xl md:flex">
-    <div class="md:w-1/2 lg:w-4/12 px-4">
-      <p class="type-body">{{ cta_talk_text }}</p>
-      <a class="type-headline text-blue" href="/lets-talk"><span class="border-b border-blue">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a>
-    </div>
-    <div class="md:w-1/2 lg:w-4/12 lg:ml-2/12 px-4 pt-8 md:pt-0">
-      <p class="type-body">{{ cta_join_text }}</p>
-      <a class="type-headline text-blue" href="/join"><span class="border-b border-blue">Join us</span>{{ partial:svg/join class="inline ml-4 h-[1.2em]" }}</a>
-    </div>
-  </div>
-</section>
-{{ /get_content }}
+{{ partial:sections/ctas }}
 
 {{ section:jsbefore }}
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>

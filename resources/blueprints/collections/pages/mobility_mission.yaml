@@ -46,6 +46,48 @@ sections:
         config:
           display: 'More text'
       -
+        handle: together_section
+        field:
+          display: Together
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: together_text_one
+        field: common.richtext
+        config:
+          display: 'Text one'
+      -
+        handle: together_text_two
+        field: common.richtext
+        config:
+          display: 'Text two'
+      -
+        handle: together_text_three
+        field: common.richtext
+        config:
+          display: 'Text three'
+      -
+        handle: extra_text
+        field: common.richtext
+        config:
+          buttons:
+            - h2
+            - h3
+            - h4
+            - h5
+            - h6
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - anchor
+          display: 'Extra text'
+      -
         handle: typed_section
         field:
           display: Typed
@@ -82,46 +124,6 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
-      -
-        handle: together_section
-        field:
-          display: Together
-          type: section
-          icon: section
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: together_text_one
-        field: common.richtext
-        config:
-          display: 'Text one'
-      -
-        handle: together_text_two
-        field: common.richtext
-        config:
-          display: 'Text two'
-      -
-        handle: together_text_three
-        field: common.richtext
-        config:
-          display: 'Text three'
-      -
-        handle: cta_section
-        field:
-          display: CTA
-          type: section
-          icon: section
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: cta_text
-        field: common.richtext
-        config:
-          display: Text
       -
         handle: proof_section
         field:

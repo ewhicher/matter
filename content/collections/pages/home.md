@@ -86,6 +86,4 @@ testimonials:
     name: 'The machine | Active Matter'
     type: testimonial
     enabled: true
-cta_talk_text: 'Thinking of starting a new project?'
-cta_join_text: 'Interesting in joining our team?'
 ---

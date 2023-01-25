@@ -16,3 +16,17 @@ theme: 'bg-light-grey'
   </section>
   {{ partial:article/article }}
 </article>
+
+<section class="pt-[10rem] pb-[8rem] bg-white text-dark-grey">
+  <div class="wrap-2xl">
+    <div class="lg:w-6/12 pl-4">
+      {{ footer:case_study_default_text | classify:margins }}
+    </div>
+  </div>
+</section>
+
+{{ partial:sections/ctas theme="bg-white text-dark-grey" }}
+
+{{ section:jsbefore }}
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+{{ /section:jsbefore }}

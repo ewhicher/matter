@@ -1,0 +1,40 @@
+title: Footer
+data:
+  case_study_default_text:
+    -
+      type: heading
+      attrs:
+        level: 4
+      content:
+        -
+          type: text
+          text: 'Benchmark your product experience and uncover new opportunities to leapfrog the competition.'
+  pov_default_text:
+    -
+      type: heading
+      attrs:
+        level: 4
+      content:
+        -
+          type: text
+          text: 'How are the challenges of MaaS affecting your business?'
+    -
+      type: paragraph
+    -
+      type: heading
+      attrs:
+        level: 4
+      content:
+        -
+          type: text
+          marks:
+            -
+              type: link
+              attrs:
+                href: 'statamic://entry::73ce858f-5c90-4f16-bfa5-e6dea947b2d3'
+                rel: null
+                target: null
+                title: null
+          text: 'Feedback your thoughts'
+  cta_talk_text: 'Thinking of starting a new project?'
+  cta_join_text: 'Interesting in joining our team?'

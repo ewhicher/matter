@@ -1,12 +1,53 @@
-<section class="py-4">
+<section class="pb-32">
   <div class="wrap-2xl">
-    <div class="w-6/12 ml-4/12 px-4">
-      {{ testimonials }}
-        <div class="py-4">
-          <h3>“{{ quote }}”</h3>
-          <p>{{ name }}</p>
+    <div class="lg:w-5/12 ml-4/12 pl-4">
+      <div class="pb-10">
+        {{ partial:components/speach color="blue" }}
+      </div>
+      <div
+        x-data="{ typed: null, current: 0 }"
+        x-init="() => {
+          typed = new Typed($refs.showcase, {
+            stringsElement: $refs.quotes,
+            typeSpeed: 30,
+            backSpeed: 10,
+            loop: true,
+            onStringTyped: (arrayPos, self) => {
+              if (arrayPos > 0) {
+                self.stop()
+                $refs.wrapper.children[arrayPos].style = '';
+                setTimeout(() => {
+                  $refs.wrapper.children[arrayPos].style.display = 'none';
+                  self.start()
+                }, 2000)
+              }
+            },
+          });
+        }"
+        class="h-[300px]"
+      >
+        <div x-ref="quotes">
+          <span></span>
+          {{ testimonials }}
+            <span>"{{ quote }}"</span>
+          {{ /testimonials }}
         </div>
-      {{ /testimonials }}
+        <div>
+          <div class="type-headline text-blue">
+            <span x-ref="showcase"></span>
+          </div>
+          <div x-ref="names">
+            <div class="pt-8" x-ref="wrapper">
+              <div class="inline-block" style="display: none;"></div>
+              {{ testimonials }}
+              <div class="inline-block" style="display: none;">
+                <p class="type-leadline text-blue">{{ name }}</p>
+              </div>
+              {{ /testimonials }}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

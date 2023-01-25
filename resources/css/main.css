@@ -213,6 +213,15 @@
     text-decoration:none;
     text-transform:none;
   }
+
+  .type-href {
+    @apply underline
+  }
+
+  .type-safe:empty:before {
+    content: ' ';
+    white-space: pre;
+  }
 }
 
 .flickity-viewport,

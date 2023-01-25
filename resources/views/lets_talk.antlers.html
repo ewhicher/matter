@@ -2,10 +2,10 @@
 theme: 'bg-light-blue-strong text-dark-grey'
 ---
 
-<section class="pt-[13.75rem] pb-[10rem]">
+<section class="pt-[8rem] pb-[10rem]">
   <div class="wrap-2xl">
     <div class="lg:w-6/12 ml-2/12 px-4">
-      <h2 class="type-heading mt-10 mb-14">{{ hero_heading }}</h2>
+      <h2 class="type-title mt-10 mb-10">{{ hero_heading }}</h2>
       <div>{{ hero_text | classify:margins }}</>
     </div>
   </div>
@@ -37,6 +37,7 @@ theme: 'bg-light-blue-strong text-dark-grey'
             },
           });
         }"
+        class="h-[300px]"
       >
         <div x-ref="quotes">
           <span></span>
@@ -68,20 +69,9 @@ theme: 'bg-light-blue-strong text-dark-grey'
     </div>
   </div>
 </section>
-
-<section class="pb-[15rem] bg-light-green">
-  <div class="wrap-2xl md:flex">
-    <div class="md:w-1/2 lg:w-4/12 px-4">
-      <p class="type-body">{{ cta_talk_text }}</p>
-      <a class="type-headline text-blue" href="/lets-talk"><span class="border-b border-blue">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a>
-    </div>
-    <div class="md:w-1/2 lg:w-4/12 lg:ml-2/12 px-4 pt-8 md:pt-0">
-      <p class="type-body">{{ cta_join_text }}</p>
-      <a class="type-headline text-blue" href="/join"><span class="border-b border-blue">Join us</span>{{ partial:svg/join class="inline ml-4 h-[1.2em]" }}</a>
-    </div>
-  </div>
-</section>
 {{ /get_content }}
+
+{{ partial:sections/ctas }}
 
 {{ section:jsbefore }}
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
