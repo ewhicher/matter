@@ -4,8 +4,8 @@ blueprint: home
 title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1674491031
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1674814518
 heading: 'Active Matter is an experience design studio for people on a mission'
 intro:
   -
@@ -66,7 +66,7 @@ views_list:
   - a356a7b7-554d-4d82-830e-161c8919dc37
 views_cta_text: 'Thinking of starting a new project?'
 what_we_do_heading: 'From opportunity to impact'
-views_heading: 'Views from the studio'
+views_heading: 'Latest from the studio'
 testimonials:
   -
     id: ld8z7sjd
