@@ -10,12 +10,13 @@
     "type": "project",
     "require": {
         "php": "^8.0",
+        "embed/embed": "^4.4",
         "fruitcake/laravel-cors": "^2.0.5",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.0",
         "laravel/sanctum": "^2.14",
         "laravel/tinker": "^2.7",
-        "statamic/cms": "3.3.*",
+        "statamic/cms": "3.4.*",
         "visuellverstehen/statamic-classify": "^2.4"
     },
     "require-dev": {

@@ -32,31 +32,9 @@ sections:
           always_save: false
       -
         handle: intro
-        field:
-          collapse: false
-          always_show_set_button: false
-          previews: true
-          buttons:
-            - bold
-          save_html: false
-          toolbar_mode: fixed
-          link_noopener: false
-          link_noreferrer: false
-          target_blank: false
-          reading_time: false
-          fullscreen: true
-          allow_source: true
-          enable_input_rules: true
-          enable_paste_rules: true
-          antlers: false
-          remove_empty_nodes: false
+        field: common.single
+        config:
           display: Intro
-          type: bard
-          icon: bard
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
       -
         handle: showcase
         field:
@@ -68,16 +46,16 @@ sections:
           visibility: visible
           always_save: false
       -
-        handle: showcase_cards
+        handle: showcase_showcase
         field:
           collapse: true
           previews: true
           sets:
-            image_card:
-              display: 'Image Card'
+            video:
+              display: Video
               fields:
                 -
-                  handle: image
+                  handle: loop
                   field:
                     mode: grid
                     container: assets
@@ -85,92 +63,52 @@ sections:
                     allow_uploads: true
                     show_filename: true
                     max_files: 1
-                    display: Image
+                    display: Loop
                     type: assets
                     icon: assets
                     listable: hidden
                     instructions_position: above
                     visibility: visible
                     always_save: false
-                -
-                  handle: heading
-                  field:
-                    input_type: text
-                    antlers: false
-                    display: Heading
-                    type: text
-                    icon: text
-                    listable: hidden
-                    instructions_position: above
-                    visibility: visible
-                    always_save: false
-                -
-                  handle: button_text
-                  field:
-                    input_type: text
-                    antlers: false
-                    display: 'Button Text'
-                    type: text
-                    icon: text
-                    listable: hidden
-                    instructions_position: above
-                    visibility: visible
-                    always_save: false
-                -
-                  handle: button_link
-                  field:
-                    input_type: text
-                    antlers: false
-                    display: 'Button Link'
-                    type: text
-                    icon: text
-                    listable: hidden
-                    instructions_position: above
-                    visibility: visible
-                    always_save: false
-            video_card:
-              display: 'Video Card'
-              fields:
-                -
-                  handle: image
-                  field:
-                    mode: grid
-                    container: assets
-                    restrict: false
-                    allow_uploads: true
-                    show_filename: true
-                    max_files: 1
-                    display: Image
-                    type: assets
-                    icon: assets
                     width: 50
-                    listable: hidden
-                    instructions_position: above
-                    visibility: visible
-                    always_save: false
                 -
                   handle: video
                   field:
+                    input_type: text
+                    antlers: false
+                    display: Video
+                    type: text
+                    icon: text
+                    width: 50
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+            image:
+              display: Image
+              fields:
+                -
+                  handle: image
+                  field:
                     mode: grid
                     container: assets
                     restrict: false
                     allow_uploads: true
                     show_filename: true
                     max_files: 1
-                    display: Video
+                    display: Image
                     type: assets
                     icon: assets
                     listable: hidden
                     instructions_position: above
                     visibility: visible
                     always_save: false
-                    width: 50
                 -
-                  handle: play_text
+                  handle: text
                   field:
                     input_type: text
                     antlers: false
-                    display: 'Play text'
+                    display: Text
                     type: text
                     icon: text
                     listable: hidden
@@ -178,24 +116,89 @@ sections:
                     visibility: visible
                     always_save: false
                 -
-                  handle: heading
+                  import: button_with_icon
+                -
+                  handle: colour
                   field:
-                    input_type: text
-                    antlers: false
-                    display: Heading
-                    type: text
-                    icon: text
+                    options:
+                      black: null
+                      white: null
+                      green: null
+                    multiple: false
+                    clearable: false
+                    searchable: true
+                    taggable: false
+                    push_tags: false
+                    cast_booleans: false
+                    default: black
+                    display: Colour
+                    type: select
+                    icon: select
                     listable: hidden
                     instructions_position: above
                     visibility: visible
                     always_save: false
-          display: 'Showcase Cards'
+            split:
+              display: Split
+              fields:
+                -
+                  handle: image
+                  field:
+                    mode: grid
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: Image
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  handle: text
+                  field:
+                    antlers: false
+                    display: Text
+                    type: textarea
+                    icon: textarea
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                -
+                  import: button_with_icon
+                -
+                  handle: colour
+                  field:
+                    options:
+                      black: null
+                      white: null
+                      blue: null
+                    multiple: false
+                    clearable: false
+                    searchable: true
+                    taggable: false
+                    push_tags: false
+                    cast_booleans: false
+                    default: black
+                    display: Colour
+                    type: select
+                    icon: select
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+          display: Showcase
           type: replicator
           icon: replicator
           listable: hidden
           instructions_position: above
           visibility: visible
           always_save: false
+          max_sets: 1
       -
         handle: what_we_do
         field:
@@ -218,6 +221,11 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+      -
+        handle: what_we_do_intro
+        field: common.single
+        config:
+          display: Intro
       -
         handle: card_one_text
         field:
@@ -359,6 +367,31 @@ sections:
                     visibility: visible
                     always_save: false
                 -
+                  handle: name
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Name
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                    always_save: false
+                    width: 50
+                -
+                  handle: role
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Role
+                    type: text
+                    icon: text
+                    width: 50
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                -
                   handle: logo
                   field:
                     mode: grid
@@ -375,19 +408,6 @@ sections:
                     instructions_position: above
                     visibility: visible
                     always_save: false
-                -
-                  handle: name
-                  field:
-                    input_type: text
-                    antlers: false
-                    display: Name
-                    type: text
-                    icon: text
-                    instructions: Optional
-                    listable: hidden
-                    instructions_position: above
-                    visibility: visible
-                    always_save: false
           display: Testimonials
           type: replicator
           icon: replicator
@@ -395,6 +415,29 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+  story:
+    display: Story
+    fields:
+      -
+        handle: story_box_one
+        field: common.richtext
+        config:
+          display: 'Box one'
+      -
+        handle: story_box_two
+        field: common.richtext
+        config:
+          display: 'Box two'
+      -
+        handle: story_box_three
+        field: common.richtext
+        config:
+          display: 'Box three'
+      -
+        handle: story_box_four
+        field: common.richtext
+        config:
+          display: 'Box four'
   sidebar:
     display: Sidebar
     fields:

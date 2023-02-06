@@ -5,8 +5,8 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1674491031
-heading: 'Active Matter is an experience design studio for people on a mission'
+updated_at: 1675705534
+heading: 'An experience design studio for people on a mission'
 intro:
   -
     type: paragraph
@@ -23,36 +23,21 @@ intro:
       -
         type: text
         text: ', we design products and services that improve experiences, open new markets, and redefine categories.'
-showcase_cards:
-  -
-    id: ld4obalc
-    image: temp/mobility.png
-    heading: 'We’ve been thinking hard about making mobility matter'
-    button_text: 'Download the report'
-    button_link: '#'
-    type: image_card
-    enabled: true
-  -
-    id: ld4oelhm
-    image: temp/world.png
-    type: image_card
-    enabled: true
-  -
-    id: ld4oeqrd
-    type: video_card
-    enabled: true
-    image: temp/video.png
 card_one_text: 'Analyse your customer journey and map your incremental and breakthrough growth opportunities'
 card_two_text: 'Design experiences that customers love and bring them to market faster than you previously thought possible'
 card_three_text: 'Learn from data, improve market fit, enable sales teams and create scalable design operations'
 hidden_text: 'We inject momentum into important projects and light fires in the bellies of the people and teams we work with.'
 logos:
-  - clients/blackberry-artworked.png
-  - clients/wit-artworked.png
-  - clients/mb-artworked.png
-  - clients/basf-artworked.png
-  - clients/mg-artworked.png
-  - clients/bp-artworked.png
+  - basf-white-artworked.png
+  - blackberry-white-artworked.png
+  - bp-white-artworked.png
+  - crawford-white-artworked.png
+  - diageo-white-artworked.png
+  - erm-white-artworked.png
+  - merc-white-artworked.png
+  - mg-white-artworked.png
+  - ou-white-artworked.png
+  - wit-white-artworked.png
 views_list:
   - 6ed034df-ddc9-4359-a8d7-7be971319dcb
   - e4fff61a-dff4-4659-baa5-2d30da111a1e
@@ -65,8 +50,8 @@ views_list:
   - d059bc47-5cea-4b3c-b75b-ce4c913a6d7a
   - a356a7b7-554d-4d82-830e-161c8919dc37
 views_cta_text: 'Thinking of starting a new project?'
-what_we_do_heading: 'From opportunity to impact'
-views_heading: 'Views from the studio'
+what_we_do_heading: 'What we do'
+views_heading: 'Latest from the studio'
 testimonials:
   -
     id: ld8z7sjd
@@ -74,6 +59,8 @@ testimonials:
     logo: clients/testimo/diagio-logo-small.png
     type: testimonial
     enabled: true
+    name: 'Gina Norton'
+    role: 'Global Digital Director'
   -
     id: ld8z928s
     quote: 'We inject momentum into important projects and light fires in the bellies of the people and teams we work with.'
@@ -86,4 +73,102 @@ testimonials:
     name: 'The machine | Active Matter'
     type: testimonial
     enabled: true
+showcase_image:
+  -
+    id: ldn438dk
+    image: temp/mobility.png
+    text: 'We’ve been thinking hard about making mobility matter'
+    button_link: 'entry::81c0d66d-e8ab-445b-b322-62143fe6e018'
+    button_label: 'Download the report'
+    button_icon: arrow
+    colour: green
+    type: image
+    enabled: true
+showcase_video:
+  -
+    id: ldn6hfs3
+    loop: loop.mp4
+    video: 'https://vimeo.com/8697260'
+    type: video
+    enabled: true
+showcase_showcase:
+  -
+    id: ldnb3w5q
+    image: basf-coe.gif
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu sagittis arcu, vitae egestas metus. Duis tristique metus nulla, quis tristique nunc vulputate nec. Aenean mollis lectus eros, non porta mi malesuada id. Mauris purus nisl, sollicitudin ac diam.'
+    button_link: 'entry::74e99569-bdd5-426d-8a8a-ec5a82768a56'
+    button_label: 'View case study'
+    button_icon: arrow
+    colour: blue
+    type: split
+    enabled: true
+what_we_do_intro:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'We work in clearly defined sprints to rapidly explore opportunities, create new concepts and grow existing offerings.'
+story_box_one:
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Our Story'
+  -
+    type: heading
+    attrs:
+      level: 5
+    content:
+      -
+        type: text
+        text: 'Brought together in 2018 by a shared mission to bring creativity and commerciality together to tackle increasingly complex business challenges while shaking-up the outdated model of slow, ego-driven and inflexible design consulting.'
+story_box_two:
+  -
+    type: heading
+    attrs:
+      level: 5
+    content:
+      -
+        type: text
+        text: 'Prototypes before presentations'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'We work in clearly defined sprints to rapidly explore possibilities, prove cutting-edge concepts and go to market, fast.'
+story_box_three:
+  -
+    type: heading
+    attrs:
+      level: 5
+    content:
+      -
+        type: text
+        text: 'Entrepreneurs at heart'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'We love making things happen and getting our hands dirty. We experiment and are willing to invest in our clients for shared upside in the future. We are also professionals who know how to go from ideas to results.'
+story_box_four:
+  -
+    type: heading
+    attrs:
+      level: 5
+    content:
+      -
+        type: text
+        text: 'Tuned for the future'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'We augment our strategic design team with world-class associates and specialist partners. That means we can scale on demand, giving our clients the ability to do more, for less.'
 ---

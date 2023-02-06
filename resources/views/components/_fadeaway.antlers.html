@@ -1,0 +1,98 @@
+<div
+  x-data="{ current: 0, screen: null, last: null, next: null, timer: null, animating: false }"
+  x-init="() => {
+    const view = $refs.view
+    const screens = view.children
+    animating = true
+    gsap.set(screens, { display: 'none', opacity: 0 })
+
+    const setNewScreen = () => {
+      gsap.set(view, { height: view.offsetHeight })
+      screen = screens[current]
+      gsap.set(screen, { display: 'block' })
+      if (last !== null) gsap.set(screens[last], { display: 'none', opacity: 0 })
+
+      const h = screen.offsetHeight
+      gsap.to(view, .25, {
+        height: h,
+        clearProps: 'all',
+        onComplete: animateIn
+      })
+    }
+
+    const animateIn = () => {
+      gsap.fromTo(screen, .75, {
+        x: '2rem',
+        opacity: 0,
+      }, {
+        x: 0,
+        opacity: 1,
+        ease: 'power4.out',
+        clearProps: 'all',
+        onComplete: waitOnScreen
+      })
+    }
+
+    const waitOnScreen = () => {
+      animating = false
+      timer = setTimeout(() => animateAway(), 3000)
+    }
+
+    const animateAway = (prev = false) => {
+      animating = true
+      gsap.to(screen, .75, {
+        x: '-2rem',
+        opacity: 0,
+        ease: 'power4.in',
+        clearProps: 'all',
+        onCompleteParams: [prev],
+        onComplete: changeScreen
+      })
+    }
+
+    const changeScreen = (prev = false) => {
+      clearTimeout(timer)
+      animating = true
+      last = current
+      if (prev) current = last > 0 ? last - 1 : screens.length - 1
+      if (!prev) current = last < screens.length - 1 ? last + 1 : 0
+      setNewScreen()
+    }
+
+    next = () => {
+      if (!animating) {
+        clearTimeout(timer)
+        animateAway()
+      }
+    }
+
+    prev = () => {
+      if (!animating) {
+        clearTimeout(timer)
+        animateAway(true)
+      }
+    }
+
+    setNewScreen()
+  }"
+>
+  <div x-ref="view" style="overflow: hidden; height: 0;">
+    {{ slot }}
+  </div>
+  <div class="flex pt-8">
+    <button
+      class="inline-block mr-4 p-4 bg-dark-grey/10 rounded-full text-dark-grey hover:bg-dark-grey hover:text-white"
+      type="button"
+      @click="prev()"
+    >
+      {{ partial:svg/arrow_left class="w-4" }}
+    </button>
+    <button
+      class="inline-block p-4 bg-dark-grey/10 rounded-full text-dark-grey hover:bg-dark-grey hover:text-white"
+      type="button"
+      @click="next()"
+    >
+      {{ partial:svg/arrow class="w-4" }}
+    </button>
+  </div>
+</div>

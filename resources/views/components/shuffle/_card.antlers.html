@@ -1,0 +1,33 @@
+<div
+  class="relative w-full h-full p-2 bg-white rounded-lg overflow-hidden"
+  :class="current === {{ index }} ? 'shadow-xl' : ''"
+>
+  <div class="flex flex-col w-full h-full rounded border border-light-blue">
+    <div class="px-4 lg:px-8 pt-2 lg:pt-4 type-subheading text-center leading-[32px]">{{ heading }}</div>
+    <div class="relative z-30 mt-auto px-4 text-center">
+      {{ slot }}
+    </div>
+    <div class="relative z-20 p-4 text-center">
+      <div class="inline-block relative">
+        <div
+          class="absolute top-1/2 left-1/2 w-[206px] h-[206px] rounded-full opacity-20 bg-green -translate-x-1/2 -translate-y-1/2 transition duration-200 ease-out"
+          :class="current === {{ index }} ? 'scale-100 delay-100' : 'scale-0'"
+        ></div>
+        <div
+          class="absolute top-1/2 left-1/2 w-[390px] h-[390px] rounded-full opacity-10 bg-green -translate-x-1/2 -translate-y-1/2 transition duration-200 ease-out"
+          :class="current === {{ index }} ? 'scale-100 delay-150' : 'scale-0'"
+        ></div>
+        <div
+          class="absolute top-1/2 left-1/2 w-[526px] h-[526px] rounded-full opacity-10 bg-green -translate-x-1/2 -translate-y-1/2 transition duration-200 ease-out"
+          :class="current === {{ index }} ? 'scale-100 delay-200' : 'scale-0'"
+        ></div>
+        <div
+          class="btn-base"
+          :class="current === {{ index }} ? 'btn-blue bg-blue text-white' : 'btn-dark-grey'"
+        >
+          {{ partial src="svg/arrow" class="inline-block w-3.5 mx-1" }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

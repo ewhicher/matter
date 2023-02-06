@@ -139,13 +139,14 @@
 
   /* boby-g-rl*/
   .type-body {
-    font-size:1.125rem;
+    font-size:1rem;
     font-family:"DM Sans";
     font-weight:400;
     font-style:normal;
     line-height:28px;
     text-decoration:none;
     text-transform:none;
+    @apply lg:text-[1.125rem];
   }
 
   /* big-title-rl*/
@@ -154,7 +155,7 @@
     font-family:"DM Sans";
     font-weight:500;
     font-style:normal;
-    line-height:112px;
+    line-height:80px;
     text-decoration:none;
     text-transform:none;
   }
@@ -170,7 +171,6 @@
     text-transform:none;
   }
 
-  /*  h-3-g-rl */
   .type-headline {
     font-size:2.375rem;
     font-family:"DM Sans";
@@ -181,7 +181,6 @@
     text-transform:none;
   }
 
-  /*  h-3-g-rl */
   .type-leadline {
     font-size:1.875rem;
     font-family:"DM Sans";
@@ -194,13 +193,14 @@
 
   /*  h-3-g-rl */
   .type-subheading {
-    font-size:1.75rem;
+    font-size:1.25rem;
     font-family:"DM Sans";
     font-weight:500;
     font-style:normal;
     line-height:40px;
     text-decoration:none;
     text-transform:none;
+    @apply lg:text-[1.75rem];
   }
 
   /* callout */
@@ -221,6 +221,15 @@
   .type-safe:empty:before {
     content: ' ';
     white-space: pre;
+  }
+
+
+  .shuffle-card {
+    @apply flex items-center justify-center relative w-full h-full bg-white rounded shadow-xl;
+  }
+
+  .shuffle-active .shuffle-card {
+    @apply bg-green;
   }
 }
 

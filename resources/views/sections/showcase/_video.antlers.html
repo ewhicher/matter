@@ -1,0 +1,64 @@
+<div
+  x-data="{ open: false, visible: false }"
+  x-init="
+    $watch('open', (value) => {
+      document.body.style.overflow = value ? `hidden` : ``
+      if (!animating) {
+        animating = true
+        if (value) {
+          gsap.set($el, { display: 'block' })
+          gsap.fromTo($refs.overlay, { opacity: 0 }, { opacity: .9, duration: .25 })
+          gsap.from($refs.inner, { opacity: 0, y: 8, clearProps: 'all', duration: .25, onComplete: () => animating = false })
+        } else {
+          gsap.to($refs.overlay, { opacity: 0, clearProps: 'all', duration: .25 })
+          gsap.to($refs.inner, { opacity: 0, y: 8, clearProps: 'all', duration: .25, onComplete: () => {
+            gsap.set($el, { display: 'none' })
+            animating = false
+          } })
+        }
+      }
+    })
+  "
+  @click="open = true"
+>
+  <div class="block relative w-full">
+    <video class="w-full rounded" autoplay loop muted playsinline>
+      <source src="{{ loop }}" type="video/mp4">
+    </video>
+    {{ partial:components/hoverit }}
+      <div class="flex items-center justify-center w-[220px] h-[110px] rounded bg-blue text-white pointer-events-normal">
+        <span class="block">Play</span>
+        <span class="block ml-4">{{ partial:svg/play class="w-4" }}</span>
+      </button>
+    {{ /partial:components/hoverit }}
+  </div>
+  <div
+    class="fixed top-0 left-0 w-full h-screen p-8 z-50"
+    x-show="open"
+    x-transition.opacity
+    x-cloak
+  >
+    <div x-ref="cover" class="absolute inset-0 z-10 bg-dark-grey opacity-90"></div>
+    <div
+      x-ref="wrapper"
+      class="flex flex-col absolute inset-0 z-20"
+      @click.stop="open = false"
+    >
+      <div x-ref="wrapper" class="m-auto">
+        <div class="w-xl max-w-full" @click.stop>{{ viddy src="{ video }" }}</div>
+      </div>
+    </div>
+    <button
+      class="absolute top-0 right-0 z-30 p-4 focus:outline-none"
+      type="button"
+      @click.stop="open = false"
+    >
+      <div class="w-8 h-8 opacity-75 hover:opacity-100 text-white">
+        <svg viewBox="0 0 100 100">
+          <path d="M 10,20 L 80,90 L 90,80 L 20,10 Z" fill="currentColor"></path>
+          <path d="M 80,10 L 90,20 L 20,90 L 10,80 Z" fill="currentColor"></path>
+        </svg>
+      </div>
+    </button>
+  </div>
+</div>

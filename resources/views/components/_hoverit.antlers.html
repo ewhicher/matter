@@ -1,0 +1,18 @@
+<div
+  class="block absolute inset-0 z-20 cursor-pointer"
+  x-data="{ active: false }"
+  @mouseenter="active = true"
+  @mouseleave="active = false"
+  @mousemove="(e) => {
+    const l = $refs.label
+    l.style.left = e.offsetX + 'px'
+    l.style.top = e.offsetY + 'px'
+  }"
+>
+  <div
+    class="absolute pointer-events-none -translate-x-1/2 -translate-y-1/2 transition"
+    :class="{ 'opacity-0' : !active }"
+    x-ref="label"
+    x-cloak
+  >{{ slot }}</div>
+</div>

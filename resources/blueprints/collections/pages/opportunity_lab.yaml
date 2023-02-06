@@ -1,3 +1,4 @@
+hide: true
 title: 'Opportunity lab'
 sections:
   main:
@@ -121,7 +122,7 @@ sections:
         handle: cta_text
         field: common.richtext
         config:
-          display: 'Text'
+          display: Text
       -
         handle: proof_section
         field:
@@ -152,7 +153,7 @@ sections:
         handle: proof_quote
         field:
           antlers: false
-          display: 'Quote'
+          display: Quote
           type: textarea
           icon: textarea
           listable: hidden
@@ -173,7 +174,7 @@ sections:
         handle: footer_text
         field: common.richtext
         config:
-          display: 'Text'
+          display: Text
   sidebar:
     display: Sidebar
     fields:

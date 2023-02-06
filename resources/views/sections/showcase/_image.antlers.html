@@ -1,0 +1,18 @@
+<div class="block w-full relative">
+  <img class="block relative z-10 w-full rounded" src="{{ glide:image w="2720" h="1440" fit="crop_focal" }}">
+  <div class="relative lg:absolute lg:left-1/6 lg:bottom-8 xl:bottom-[3.5rem] z-20 -mt-8 lg:mt-0 pl-4 lg:pl-0 pr-8 lg:pr-0">
+    <div class="p-8 lg:p-12 max-w-[34rem] rounded
+      {{ if colour == 'black' }}bg-dark-grey text-white{{ elseif colour == 'white' }}bg-white text-dark-grey{{ elseif colour == 'green'  }}bg-light-green text-dark-grey{{ /if }}">
+      <p class="mb-6 type-subheading">{{ text }}</p> 
+      {{ if button_label }}
+        <a
+          class="btn-base {{ if colour == 'black' }}btn-white hover:bg-white hover:text-dark-grey{{ elseif colour == 'white' }}btn-dark-grey hover:bg-dark-grey hover:text-white{{ elseif colour == 'green'  }}btn-dark-grey hover:bg-dark-grey hover:text-white{{ /if }}"
+          href="{{ button_link }}"
+        >
+          <span class="inline-block align-middle">{{ button_label }}</span>
+          {{ if button_icon != 'none' }}<span class="inline-block align-middle ml-4">{{ partial src="svg/{ button_icon }" class="w-3.5" }}</span>{{ /if }}
+        </a>
+      {{ /if }}
+    </div>
+  </div>
+</div>

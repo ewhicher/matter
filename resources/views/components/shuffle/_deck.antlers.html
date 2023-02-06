@@ -1,0 +1,164 @@
+<div
+  class="py-8 overflow-hidden"
+  x-data="{
+    ltr: true,
+    active: false,
+    current: 1,
+    progress: 0,
+    lastTouch: null,
+    mousedown() {
+      this.active = true
+    },
+    mouseup() {
+      this.active = false
+      this.lastTouch = null
+    },
+    mousemove(e) {
+      if (this.active) {
+        const movx = e.movementX
+        this.ltr = e.movementX >= 0
+        this.progress += movx * 0.001
+      }
+    },
+    touchmove(e) {
+      if (this.active) {
+        const touch = e.touches[0]
+        if (this.lastTouch) {
+          const movx = touch.pageX - this.lastTouch.pageX
+          this.ltr = movx >= 0
+          this.progress += movx * 0.001
+        }
+        this.lastTouch = touch
+      }
+    },
+  }"
+  x-init="() => {
+    const a = {
+      x: -170,
+      y: 10,
+      rotate: -15,
+      scale: .8,
+      ease: 'none',
+    }
+    const b = {
+      x: 0,
+      y: 0,
+      rotate: 0,
+      scale: 1,
+      ease: 'none',
+    }
+    const c = {
+      x: 170,
+      y: 10,
+      rotate: 15,
+      scale: .8,
+      ease: 'none',
+    }
+    const duration = 1
+    const totalDuration = duration*3
+    const direction = 'ltr'
+    const setDepths = (val) => {
+      if (val >= 0 && val < .16) {
+        $refs.one.style.zIndex = 20
+        $refs.two.style.zIndex = 30
+        $refs.three.style.zIndex = 10
+        current = 2
+      }
+      if (val >= .16 && val < .33) {
+        $refs.one.style.zIndex = 30
+        $refs.two.style.zIndex = 20
+        $refs.three.style.zIndex = 10
+        current = 1
+
+      }
+      if (val >= .33 && val < .49) {
+        $refs.one.style.zIndex = 30
+        $refs.two.style.zIndex = 10
+        $refs.three.style.zIndex = 20
+        current = 1
+      }
+      if (val >= .49 && val < .66) {
+        $refs.one.style.zIndex = 20
+        $refs.two.style.zIndex = 10
+        $refs.three.style.zIndex = 30
+        current = 3
+      }
+      if (val >= .66 && val < .82) {
+        $refs.one.style.zIndex = 10
+        $refs.two.style.zIndex = 20
+        $refs.three.style.zIndex = 30
+        current = 3
+      }
+      if (val >= .82 && val < 1) {
+        $refs.one.style.zIndex = 10
+        $refs.two.style.zIndex = 30
+        $refs.three.style.zIndex = 20
+        current = 2
+      }
+    }
+    gsap.set($refs.one, a)
+    gsap.set($refs.two, b)
+    gsap.set($refs.three, c)
+    var tl1 = gsap.timeline({ paused: true, repeat: -1 }).to($refs.one, { ...b, duration}).to($refs.one, { ...c, duration}).to($refs.one, { ...a, duration})
+    var tl2 = gsap.timeline({ paused: true, repeat: -1 }).to($refs.two, { ...c, duration}).to($refs.two, { ...a, duration}).to($refs.two, { ...b, duration})
+    var tl3 = gsap.timeline({ paused: true, repeat: -1 }).to($refs.three, { ...a, duration}).to($refs.three, { ...b, duration}).to($refs.three, { ...c, duration})
+
+    $watch('progress', (val) => {
+      tl1.progress(val)
+      tl2.progress(val)
+      tl3.progress(val)
+
+      if (val < 0) progress = 1
+      if (val > 1) progress = 0
+
+      setDepths(val)
+    })
+
+    $watch('active', (val) => {
+      if (!val) {
+        let current = progress*totalDuration
+        let stop = Math.round(current)
+
+        tl1.tweenFromTo(current, stop, {
+          duration: .3,
+        })
+
+        tl2.tweenFromTo(current, stop, {
+          duration: .3,
+        })
+
+        tl3.tweenFromTo(current, stop, {
+          duration: .3,
+          onComplete: () => progress = stop/totalDuration
+        })
+
+      }
+    })
+    setDepths(progress)
+  }"
+  @mousedown="mousedown"
+  @touchstart="mousedown"
+  @mouseup="mouseup"
+  @touchend="mouseup"
+  @mousemove="mousemove"
+  @touchmove="touchmove"
+  @mouseleave="mouseup"
+>
+  <div class="wrap-lg">
+    <div class="flex items-center justify-center select-none">
+      <div class="relative w-[250px] h-[367px]">
+        <div x-ref="one" class="absolute inset-0 touch-pan-y">
+          {{ partial:components/shuffle/cards index="1" }}
+        </div>
+        <div x-ref="two" class="absolute inset-0 touch-pan-y">
+          {{ partial:components/shuffle/cards index="2" }}
+        </div>
+        <div x-ref="three" class="absolute inset-0 touch-pan-y">
+          {{ partial:components/shuffle/cards index="3" }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- z-index: 0; box-shadow: rgba(0, 0, 0, 0) 0px 8px 40px; height: 476px; width: 340px; transform: translate(170px, 10px) rotate(15deg) scale(0.8, 0.8); touch-action: pan-y; -->

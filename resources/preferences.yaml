@@ -1,0 +1,9 @@
+nav:
+  content:
+    reorder: true
+    items:
+      'content::collections::pages': '@move'
+      'content::collections::case_studies': '@move'
+      'content::collections::pov': '@move'
+      'content::collections::projects': '@move'
+      'content::collections': '@hide'
