@@ -4,7 +4,7 @@ blueprint: am_files
 template: am_files
 title: 'AM Files'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675766607
+updated_at: 1675769094
 hero_heading: 'Active Matter Files'
 hero_text:
   -
@@ -23,6 +23,7 @@ files:
   - 8b101014-a717-42de-95e3-8e46c12db390
   - 74e99569-bdd5-426d-8a8a-ec5a82768a56
   - a121bcdb-f2ff-4837-9dd6-3e92ff571c93
+  - af01585d-e025-4a3c-b4d8-b5fd6dc2f4b2
   - 81c0d66d-e8ab-445b-b322-62143fe6e018
   - 7afa9f60-3180-49af-8ab6-c40ded4764bc
   - d059bc47-5cea-4b3c-b75b-ce4c913a6d7a
