@@ -47,7 +47,9 @@ article:
       -
         type: text
         text: 'This rapid process has also inspired the company to adapt the way it works and implement a new, design-led approach to its ongoing product development.'
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1674479325
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1675789071
 snippet: 'Diageo asked us to design a tool to help pubs and bars across Europe to serve the perfect drink, activate seasonal events and stay on top of the latest consumer trends.'
+theme: 'bg-light-blue-strong text-dark-grey'
+thumbnail: diageoone-1675789066.jpg
 ---
