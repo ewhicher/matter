@@ -140,10 +140,10 @@ article:
         type: text
         text: 'By processing this data, either locally or in the cloud, the EV Range Expert application is then able to:'
   -
-    type: bullet_list
+    type: bulletList
     content:
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -152,7 +152,7 @@ article:
                 type: text
                 text: 'Instruct the family when and how to optimally charge the vehicle'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -161,7 +161,7 @@ article:
                 type: text
                 text: 'Identify who is driving and their preferred driving style'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -170,7 +170,7 @@ article:
                 type: text
                 text: 'Predict that particular drivers expected range'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -179,7 +179,7 @@ article:
                 type: text
                 text: 'Identify that the kids are travelling and set the in-car media appropriately'
       -
-        type: list_item
+        type: listItem
         content:
           -
             type: paragraph
@@ -250,10 +250,10 @@ article:
             name: 'Tarun Shome – BlackBerry IVY - Product Management Director'
   -
     type: paragraph
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1674479297
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1675764376
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
-thumbnail: ivy-dash-1672935554.png
+thumbnail: yxnzzxrzl2l2es1kyxnolte2nzi5mzu1ntqucg5n.png
 snippet: 'We collaborated with BlackBerry, AWS and a host of support partners to define, design and build two memorable experiences to support the global launch of BlackBerry IVY - the future of connected vehicles.'
 ---
