@@ -41,6 +41,8 @@ article:
         text: 'We’ve been exploring the challenges of EV ownership and thinking about what the experience may look like for the next generation of drivers. Spoiler alert – there’s lots of work to do...'
   -
     type: paragraph
+  -
+    type: paragraph
     content:
       -
         type: text
@@ -98,7 +100,7 @@ article:
         wide_video: false
         wide_view: false
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675765138
+updated_at: 1675765274
 heading: 'Gen-Z – travel and transportation behaviours, preferences, and the future of electric mobility'
 author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
