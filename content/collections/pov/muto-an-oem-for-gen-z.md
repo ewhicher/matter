@@ -1,7 +1,7 @@
 ---
 id: 81c0d66d-e8ab-445b-b322-62143fe6e018
 blueprint: pov
-title: 'Making Mobility Matter'
+title: 'MUTO - an OEM for Gen-Z'
 takeaway:
   -
     id: lbxvcsf7
@@ -11,7 +11,7 @@ takeaway:
         content:
           -
             type: text
-            text: 'Phasellus ullamcorper magna quis nibh luctus'
+            text: 'In the rush to electrification, we must not forget the customer experience'
   -
     id: lbxvebnx
     text:
@@ -20,7 +20,7 @@ takeaway:
         content:
           -
             type: text
-            text: 'Nulla condimentum ultrices accumsan integer tincidunt pellentesque'
+            text: 'Purchasing preferences are changing – the winners will be those who provide the types of packages that people want to buy into'
   -
     id: lbxved0z
     text:
@@ -29,7 +29,7 @@ takeaway:
         content:
           -
             type: text
-            text: 'Mauris rhoncus diam id mattis tristique'
+            text: 'Gen-Z will choose to be loyal to brands that behave in a way that’s consistent with their own beliefs and values'
 article:
   -
     type: heading
@@ -100,10 +100,11 @@ article:
         wide_video: false
         wide_view: false
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675764605
-heading: 'Making mobility matter in an age where we’re all still addicted to our cars'
+updated_at: 1675764986
+heading: 'Gen-Z – travel and transportation behaviours, preferences, and the future of electric mobility'
 author:
   - 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
+  - a6f8143b-8371-453c-bd79-fb7df286a1d9
 thumbnail: muto-1.jpg
 snippet: 'Making mobility matter in an age where we’re all still addicted to our cars'
 ---
