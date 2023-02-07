@@ -20,5 +20,6 @@ sections:
     enabled: true
 client: BP
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675770038
+updated_at: 1675771239
+logo: am-clients-w_bp.png
 ---
