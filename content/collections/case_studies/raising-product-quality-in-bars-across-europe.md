@@ -14,6 +14,16 @@ article:
         type: text
         text: 'Diageo asked us to design a tool to help pubs and bars across Europe to serve the perfect drink, activate seasonal events and stay on top of the latest consumer trends.'
   -
+    type: set
+    attrs:
+      id: lduidgs8
+      values:
+        type: image
+        file: diageoone-1675790485.jpg
+        wide_view: false
+  -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 4
@@ -48,7 +58,7 @@ article:
         type: text
         text: 'This rapid process has also inspired the company to adapt the way it works and implement a new, design-led approach to its ongoing product development.'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675789071
+updated_at: 1675790492
 snippet: 'Diageo asked us to design a tool to help pubs and bars across Europe to serve the perfect drink, activate seasonal events and stay on top of the latest consumer trends.'
 theme: 'bg-light-blue-strong text-dark-grey'
 thumbnail: diageoone-1675789066.jpg
