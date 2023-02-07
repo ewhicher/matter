@@ -4,8 +4,8 @@ blueprint: home
 title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1675705534
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1675759642
 heading: 'An experience design studio for people on a mission'
 intro:
   -
@@ -99,7 +99,7 @@ showcase_showcase:
     button_link: 'entry::74e99569-bdd5-426d-8a8a-ec5a82768a56'
     button_label: 'View case study'
     button_icon: arrow
-    colour: blue
+    colour: black
     type: split
     enabled: true
 what_we_do_intro:
