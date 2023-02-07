@@ -38,7 +38,13 @@ article:
     content:
       -
         type: text
-        text: 'We’ve been exploring the challenges of EV ownership and thinking about what the experience may look like for the next generation of drivers. Spoiler alert – there’s lots of work to do...'
+        text: 'We’ve been exploring the challenges of EV ownership and thinking about what the experience may look like for the next generation of drivers. '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'Spoiler alert – there’s lots of work to do...'
   -
     type: paragraph
   -
@@ -46,7 +52,7 @@ article:
     content:
       -
         type: text
-        text: 'The next 5 years will be critical to the future of the automotive industry. New consumer values will drive a greater preference for individuality, self-expression and sustainability. New technologies will impact every aspect of the journeys we make – from the modes of transport we select, to where and how we spend our money. And new disruptors will enter the market, injecting ever greater competition and choice to a consumer more concerned with social currency than material or financial possessions. All of these factors, and may more, demand we seek a new approach.'
+        text: 'The next 5 years will be critical to the future of the automotive industry. New consumer values will drive a greater preference for individuality, self-expression and sustainability. New technologies will impact every aspect of the journeys we make – from the modes of transport we select, to where and how we spend our money. And new disruptors will enter the market, injecting ever greater competition and choice to a consumer more concerned with social currency than material or financial possessions. All of these factors, and many more, demand we seek a new approach.'
   -
     type: paragraph
     content:
@@ -82,12 +88,10 @@ article:
         testimonials:
           -
             id: lbxxhm3y
-            quote: 'Lorem ipsum dolor sit amet consectetur adipiscing elit nullam lobortis dui ac fringilla iaculis viverra tortor eget aliquam ligula augue'
-            name: 'Firstname Lastname'
+            quote: 'Gen-Z makes up approximately 32% of the global human population and has a spending power of more than $143 billion.'
           -
             id: ldbs2j9v
-            quote: 'Aenean fermentum maximus justo eget semper'
-            name: 'Tom Daplyn'
+            quote: '52% of car shoppers feel anxious or uncomfortable at dealerships.'
   -
     type: set
     attrs:
@@ -100,7 +104,7 @@ article:
         wide_video: false
         wide_view: false
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675765274
+updated_at: 1675765361
 heading: 'Gen-Z – travel and transportation behaviours, preferences, and the future of electric mobility'
 author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
