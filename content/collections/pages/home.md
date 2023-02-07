@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675766178
+updated_at: 1675787474
 heading: 'An experience design studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -89,14 +89,13 @@ showcase_video:
     enabled: true
 showcase_showcase:
   -
-    id: ldnb3w5q
-    image: basf-coe.gif
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu sagittis arcu, vitae egestas metus. Duis tristique metus nulla, quis tristique nunc vulputate nec. Aenean mollis lectus eros, non porta mi malesuada id. Mauris purus nisl, sollicitudin ac diam.'
-    button_link: 'entry::74e99569-bdd5-426d-8a8a-ec5a82768a56'
-    button_label: 'View case study'
+    id: ldug7jnc
+    image: mobility-experiences---cover.jpg
+    text: "What's the"
+    button_label: 'Download report'
     button_icon: arrow
     colour: black
-    type: split
+    type: image
     enabled: true
 what_we_do_intro:
   -
