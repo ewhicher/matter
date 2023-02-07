@@ -1,7 +1,7 @@
 ---
 id: c20d41fb-7de9-4629-b606-7fae53481ed1
 blueprint: project
-title: 'How can we create a new product launch that breaks records, without breaking the bank?'
+title: 'WIT x Reebok - Product Launch'
 logo: am-clients-w_wit.png
 cover_text: 'How can we create a new product launch that breaks records, without breaking the bank?'
 sections:
@@ -29,5 +29,5 @@ sections:
     enabled: true
 client: 'WIT x Reebok'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675760422
+updated_at: 1675760833
 ---
