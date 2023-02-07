@@ -224,12 +224,16 @@
   }
 
 
-  .shuffle-card {
-    @apply flex items-center justify-center relative w-full h-full bg-white rounded shadow-xl;
+  .amline {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
+    background-size: 200% 1px;
+    background-position: 0% 100%;
+    background-repeat: repeat no-repeat;
+    transition: background-position 750ms cubic-bezier(.54,.1,.33,.93);
   }
 
-  .shuffle-active .shuffle-card {
-    @apply bg-green;
+  .amline:hover {
+    background-position: -200% 100%;
   }
 }
 

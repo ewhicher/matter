@@ -2,347 +2,366 @@
 theme: 'bg-white text-dark-grey'
 ---
 
-<section class="pt-[13.75rem] pb-[10rem]">
-  <div class="wrap-2xl">
-    <div class="lg:w-10/12 px-4 pt-10">
-      <h1 class="type-subheading">Active Matter</h1>
-      <h2 class="type-title mb-14 text-blue">{{ heading }}</h2>
-    </div>
-    <div class="lg:w-8/12 mx-auto px-4">
-      <div class="type-leadline">{{ intro | nl2br }}</>
-    </div>
-  </div>
-</section>
-
-<section class="relative pb-[10rem]">
-  <div class="absolute top-1/3 bottom-0 left-0 right-0 -z-10 bg-gradient-to-b from-white to-light-blue-strong"></div>
-  <div class="wrap-2xl">
-    <div class="px-4">
-      <div>
-        {{ showcase_showcase }}{{ partial src="sections/showcase/{ type }" }}{{ /showcase_showcase }}
+<main
+  style="background:#ffffff;"
+  x-data
+  x-init="() => {
+    gsap.to($el, {
+      scrollTrigger: {
+        trigger: $el,
+        start: 'top top',
+        end: window.innerHeight * 1.5,
+        scrub: true,
+      },
+      background: '#e4e1f9'
+    });
+  }"
+>
+  <section class="pt-[13.75rem] pb-[10rem]">
+    <div class="wrap-2xl">
+      <div class="lg:w-10/12 px-4 pt-10">
+        <h1 class="type-subheading">Active Matter</h1>
+        <h2 class="type-title mb-14 text-blue">{{ heading }}</h2>
+      </div>
+      <div class="lg:w-8/12 mx-auto px-4">
+        <div class="type-leadline">We partner with corporate and scale-up teams at moments of reinvention and growth.
+          <span class="inline-block relative amline">
+            {{ partial:components/hoverit }}<img class="inline-block w-[300px] max-w-none translate-x-1/2 -translate-y-1/2" src="/img/together.gif">{{ /partial:components/hoverit }}
+            <span class="font-bold">Together</span>
+          </span>, we design products and services that improve experiences, open new markets, and redefine categories.</>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="relative pb-[10rem] bg-light-blue-strong">
-  <div class="wrap-2xl">
-    <div class="px-4 pb-8">
-      <h2 class="type-heading">{{ what_we_do_heading }}</h2>
-    </div>
-    <div class="lg:w-6/12 lg:ml-2/12 px-4">
-      <div class="type-body">{{ what_we_do_intro }}</div>
-    </div>
-  </div>
-  <div class="hidden lg:block wrap-2xl pt-16">
-    <div x-data="{ current: 0, open: false }">
-      <div class="relative">
-        <div :class="{ 'opacity-0' : open }">
-          <div class="flex justify-between relative z-20 xl:w-10/12 mx-auto">
-            <a
-              class="block relative w-[340px] h-[476px] mx-4 cursor-pointer transition"
-              href="/"
-              x-ref="one"
-              :class="{ '-translate-y-1' : current === 1 }"
-              @mouseenter="current = 1"
-              @mouseleave="current = 0"
-            >
-              {{ partial:components/shuffle/cards index="1" }}
-            </a>
-            <a
-              class="block relative w-[340px] h-[476px] mx-4 cursor-pointer transition"
-              href="/"
-              x-ref="two"
-              :class="{ '-translate-y-1' : current === 2 }"
-              @mouseenter="current = 2"
-              @mouseleave="current = 0"
-            >
-              {{ partial:components/shuffle/cards index="2" }}
-            </a>
-            <a
-              class="block relative w-[340px] h-[476px] mx-4 cursor-pointer transition"
-              href="/"
-              x-ref="three"
-              :class="{ '-translate-y-1' : current === 3 }"
-              @mouseenter="current = 3"
-              @mouseleave="current = 0"
-            >
-              {{ partial:components/shuffle/cards index="3" }}
-            </a>
-          </div>
-        </div>
-        <div
-          class="flex absolute inset-0 z-10"
-          x-show="open"
-          x-transition
-        >
-          <div class="relative m-auto">
-            <img class="block max-w-full" src="/img/svg/montpeeps.svg">
-            <p class="absolute bottom-0 right-0 left-1/3 type-subheading">{{ hidden_text }}</p>
-          </div>
+  <section class="relative pb-[10rem]">
+    <div class="wrap-2xl">
+      <div class="px-4">
+        <div>
+          {{ showcase_showcase }}{{ partial src="sections/showcase/{ type }" }}{{ /showcase_showcase }}
         </div>
       </div>
-      <div class="pt-16 text-center">
-        <button
-          class="btn-base btn-blue hover:bg-blue hover:text-white"
-          type="button"
-          @click="open = !open"
-        >
-          {{ partial:svg/rotate class="inline-block w-4 h-4 mr-2" }} What we really do
-        </button>
+    </div>
+  </section>
+
+  <section class="relative pb-[10rem]">
+    <div class="wrap-2xl">
+      <div class="px-4 pb-8">
+        <h2 class="type-heading">{{ what_we_do_heading }}</h2>
+      </div>
+      <div class="lg:w-6/12 lg:ml-2/12 px-4">
+        <div class="type-body">{{ what_we_do_intro }}</div>
       </div>
     </div>
-  </div>
-  <div class="lg:hidden">
-    {{ partial:components/shuffle/deck }}
-  </div>
-</section>
+    <div class="hidden lg:block wrap-2xl pt-16">
+      <div x-data="{ current: 0, open: false }">
+        <div class="relative">
+          <div :class="{ 'opacity-0' : open }">
+            <div class="flex justify-between relative z-20 xl:w-10/12 mx-auto">
+              <a
+                class="block relative w-[340px] h-[476px] mx-4 cursor-pointer transition"
+                href="/"
+                x-ref="one"
+                :class="{ '-translate-y-1' : current === 1 }"
+                @mouseenter="current = 1"
+                @mouseleave="current = 0"
+              >
+                {{ partial:components/shuffle/cards index="1" }}
+              </a>
+              <a
+                class="block relative w-[340px] h-[476px] mx-4 cursor-pointer transition"
+                href="/"
+                x-ref="two"
+                :class="{ '-translate-y-1' : current === 2 }"
+                @mouseenter="current = 2"
+                @mouseleave="current = 0"
+              >
+                {{ partial:components/shuffle/cards index="2" }}
+              </a>
+              <a
+                class="block relative w-[340px] h-[476px] mx-4 cursor-pointer transition"
+                href="/"
+                x-ref="three"
+                :class="{ '-translate-y-1' : current === 3 }"
+                @mouseenter="current = 3"
+                @mouseleave="current = 0"
+              >
+                {{ partial:components/shuffle/cards index="3" }}
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex absolute inset-0 z-10"
+            x-show="open"
+            x-transition
+          >
+            <div class="relative m-auto">
+              <img class="block max-w-full" src="/img/svg/montpeeps.svg">
+              <p class="absolute bottom-0 right-0 left-1/3 type-subheading">{{ hidden_text }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="pt-16 text-center">
+          <button
+            class="btn-base btn-blue hover:bg-blue hover:text-white"
+            type="button"
+            @click="open = !open"
+          >
+            {{ partial:svg/rotate class="inline-block w-4 h-4 mr-2" }} What we really do
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="lg:hidden">
+      {{ partial:components/shuffle/deck }}
+    </div>
+  </section>
 
-<section class="py-24 bg-blue overflow-hidden">
-  <div>
+  <section class="py-24 bg-blue overflow-hidden">
+    <div>
+      <div
+        class="w-full"
+        x-data="{ tl: null, lazies: null }"
+        x-init="() => {
+          const chunk = $refs.track.innerHTML
+          $refs.track.innerHTML += chunk + chunk + chunk
+          this.lazies = [].slice.call($el.querySelectorAll(`[loading='lazy']`))
+
+          var loadImages = () => {
+            this.lazies.forEach((item, index) => {
+              if (item.getBoundingClientRect().left <= window.innerWidth) {
+                this.lazies.splice(index, 1)
+                item.loading = 'none'
+              }
+            })
+          }
+
+          this.tl = gsap.timeline({repeat: -1, repeatDelay: 0, onUpdate: loadImages })
+          this.tl.set($refs.track, { x: '-25%' })
+          this.tl.to($refs.track, 120, { x: '-50%', ease: 'none' })
+          this.tl.play()
+        }"
+      >
+        <div x-ref="view" class="flex">
+          <div x-ref="track" class="flex">
+            <div class="flex">
+              {{ logos }}
+                <div class="w-[270px]">
+                  <img class="inline-block" src="{{ url }}" loading="lazy">
+                </div>
+              {{ /logos }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pt-[15rem] pb-[8rem] bg-white">
+    <div class="wrap-2xl">
+      <div class="px-4">
+        <h2 class="type-heading">{{ views_heading }}</h2>
+      </div>
+    </div>
     <div
-      class="w-full"
-      x-data="{ tl: null, lazies: null }"
+      class="overflow-hidden"
+      x-data="{ slider: null, progress: 0 }"
       x-init="() => {
-        const chunk = $refs.track.innerHTML
-        $refs.track.innerHTML += chunk + chunk + chunk
-        this.lazies = [].slice.call($el.querySelectorAll(`[loading='lazy']`))
-
-        var loadImages = () => {
-          this.lazies.forEach((item, index) => {
-            if (item.getBoundingClientRect().left <= window.innerWidth) {
-              this.lazies.splice(index, 1)
-              item.loading = 'none'
-            }
-          })
-        }
-
-        this.tl = gsap.timeline({repeat: -1, repeatDelay: 0, onUpdate: loadImages })
-        this.tl.set($refs.track, { x: '-25%' })
-        this.tl.to($refs.track, 120, { x: '-50%', ease: 'none' })
-        this.tl.play()
-      }"
-    >
-      <div x-ref="view" class="flex">
-        <div x-ref="track" class="flex">
-          <div class="flex">
-            {{ logos }}
-              <div class="w-[270px]">
-                <img class="inline-block" src="{{ url }}" loading="lazy">
-              </div>
-            {{ /logos }}
+        slider = new Flickity($refs.slider, {
+          autoPlay: false,
+          adaptiveHeight: false,
+          pauseAutoPlayOnHover: false,
+          contain: true,
+          pageDots: false,
+          cellAlign: 'left',
+          wrapAround: false,
+          imagesLoaded: true,
+          initialIndex: 0,
+          freeScroll: true,
+          prevNextButtons: false
+        })
+        slider.on('scroll', (p) => {
+          p = Math.max( 0, Math.min( 1, p ) );
+          $refs.bar.style.width = p * 90 + 10 + '%';
+          progress = p
+        })
+      }">
+      <div class="wrap-2xl flex items-center">
+        <div class="flex-1 px-4 py-8">
+          <div class="block relative h-2 bg-light-blue rounded-full overflow-hidden">
+            <div class="absolute top-0 bottom-0 left-0 bg-blue rounded-full" x-ref="bar"></div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="pt-[15rem] pb-[8rem] bg-white">
-  <div class="wrap-2xl">
-    <div class="px-4">
-      <h2 class="type-heading">{{ views_heading }}</h2>
-    </div>
-  </div>
-  <div
-    class="overflow-hidden"
-    x-data="{ slider: null, progress: 0 }"
-    x-init="() => {
-      slider = new Flickity($refs.slider, {
-        autoPlay: false,
-        adaptiveHeight: false,
-        pauseAutoPlayOnHover: false,
-        contain: true,
-        pageDots: false,
-        cellAlign: 'left',
-        wrapAround: false,
-        imagesLoaded: true,
-        initialIndex: 0,
-        freeScroll: true,
-        prevNextButtons: false
-      })
-      slider.on('scroll', (p) => {
-        p = Math.max( 0, Math.min( 1, p ) );
-        $refs.bar.style.width = p * 90 + 10 + '%';
-        progress = p
-      })
-    }">
-    <div class="wrap-2xl flex items-center">
-      <div class="flex-1 px-4 py-8">
-        <div class="block relative h-2 bg-light-blue rounded-full overflow-hidden">
-          <div class="absolute top-0 bottom-0 left-0 bg-blue rounded-full" x-ref="bar"></div>
-        </div>
-      </div>
-      <div class="hidden lg:block flex w-2/12 px-2">
-        <button
-          class="inline-block mx-2 p-4 bg-light-blue rounded-full text-blue hover:bg-blue hover:text-white"
-          type="button"
-          @click="slider.previous()"
-        >
-          {{ partial:svg/arrow_left class="w-4" }}
-        </button>
-        <div class="relative">
-          <div class="relative inline-block mx-2 bg-light-blue rounded-full text-blue hover:bg-blue hover:text-white">
-            <button
-              class="appearance-none inline-block p-4 text-current transition"
-              type="button"
-              :class="{ 'opacity-0' : progress > .9 }"
-              @click="slider.next()"
-              x-transition
-            >
-              {{ partial:svg/arrow class="w-4" }}
-            </button>
-            <a
-              class="inline-block absolute top-0 right-0 p-4 text-current"
-              href="/am-files"
-              x-show="progress > .9"
-              x-transition
-            >
-              {{ partial:svg/plus class="w-4" }}
-            </a>
+        <div class="hidden lg:flex w-2/12 px-2">
+          <button
+            class="inline-block mx-2 p-4 bg-light-blue rounded-full text-blue hover:bg-blue hover:text-white"
+            type="button"
+            @click="slider.previous()"
+          >
+            {{ partial:svg/arrow_left class="w-4" }}
+          </button>
+          <div class="relative">
+            <div class="relative inline-block mx-2 bg-light-blue rounded-full text-blue hover:bg-blue hover:text-white">
+              <button
+                class="appearance-none inline-block p-4 text-current transition"
+                type="button"
+                :class="{ 'opacity-0' : progress > .9 }"
+                @click="slider.next()"
+                x-transition
+              >
+                {{ partial:svg/arrow class="w-4" }}
+              </button>
+              <a
+                class="inline-block absolute top-0 right-0 p-4 text-current"
+                href="/am-files"
+                x-show="progress > .9"
+                x-transition
+              >
+                {{ partial:svg/plus class="w-4" }}
+              </a>
+            </div>
           </div>
+          <!-- <a
+            class="inline-block p-4 bg-light-blue rounded-full"
+            href="/am-files"
+            x-show="progress > .9"
+            x-transition
+          >{{ partial:svg/plus class="w-4" }}</a> -->
         </div>
-        <!-- <a
-          class="inline-block p-4 bg-light-blue rounded-full"
-          href="/am-files"
-          x-show="progress > .9"
-          x-transition
-        >{{ partial:svg/plus class="w-4" }}</a> -->
       </div>
-    </div>
-    <div class="wrap-2xl pt-4">
-      <div class="block relative" x-ref="slider">
-        {{ views_list }}
+      <div class="wrap-2xl pt-4">
+        <div class="block relative" x-ref="slider">
+          {{ views_list }}
+            <div class="md:w-1/2 lg:w-1/3 px-4">
+              <a class="block" href="{{ url }}">
+                <div>
+                  {{ if thumbnail }}
+                    <img class="block w-full rounded-sm" src="{{ glide:thumbnail w="860" h="880" fit="crop_focal" }}">
+                  {{ else }}
+                    <img class="block w-full rounded-sm" src="{{ glide src="/img/placeholder.png" w="860" h="880" fit="crop_focal" }}">
+                  {{ /if }}
+                </div>
+                <div class="pt-8"><p class="type-callout">{{ snippet | truncate:80:... }}</p></div>
+              </a>
+            </div>
+          {{ /views_list }}
           <div class="md:w-1/2 lg:w-1/3 px-4">
-            <a class="block" href="{{ url }}">
-              <div>
-                {{ if thumbnail }}
-                  <img class="block w-full rounded-sm" src="{{ glide:thumbnail w="860" h="880" fit="crop_focal" }}">
-                {{ else }}
-                  <img class="block w-full rounded-sm" src="{{ glide src="/img/placeholder.png" w="860" h="880" fit="crop_focal" }}">
-                {{ /if }}
-              </div>
-              <div class="pt-8"><p class="type-callout">{{ snippet | truncate:80:... }}</p></div>
-            </a>
-          </div>
-        {{ /views_list }}
-        <div class="md:w-1/2 lg:w-1/3 px-4">
-          <div>
-            <p class="mb-[.5em] type-headline">{{ views_cta_text }}</p>
-            <p class="type-headline text-blue"><a class="block" href="/lets-talk"><span class="border-b border-blue">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="lg:hidden flex items-center justify-center px-2 pt-8">
-        <button
-          class="inline-block mx-2 p-4 bg-light-blue rounded-full text-blue hover:bg-blue hover:text-white"
-          type="button"
-          @click="slider.previous()"
-        >
-          {{ partial:svg/arrow_left class="w-4" }}
-        </button>
-        <div class="relative">
-          <div class="relative inline-block mx-2 bg-light-blue rounded-full text-blue hover:bg-blue hover:text-white">
-            <button
-              class="appearance-none inline-block p-4 text-current transition"
-              type="button"
-              :class="{ 'opacity-0' : progress > .9 }"
-              @click="slider.next()"
-              x-transition
-            >
-              {{ partial:svg/arrow class="w-4" }}
-            </button>
-            <a
-              class="inline-block absolute top-0 right-0 p-4 text-current"
-              href="/am-files"
-              x-show="progress > .9"
-              x-transition
-            >
-              {{ partial:svg/plus class="w-4" }}
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="py-[10rem] bg-light-green">
-  <div class="wrap-2xl">
-    <div class="lg:w-8/12 pl-4">
-      {{ partial:components/fadeaway }}
-        {{ testimonials }}
-          <div class="py-4">
-            <div class="type-heading">
-              <span>“{{ quote }}”</span>
-            </div>
             <div>
-              <p class="mb-8 mt-2 type-body">{{ if name != '' }}<span class="font-medium">{{ name }}</span>{{ /if }}{{ if name != '' && role != '' }}<span class="inline-block align-middle w-6 h-px mx-2 bg-dark-grey"></span>{{ /if }}{{ if role != '' }}<span>{{ role }}</span>{{ /if }}</p>
-              {{ if logo }}<img class="h-6" src="{{ logo }}">{{ /if }}
+              <p class="mb-[.5em] type-headline">{{ views_cta_text }}</p>
+              <p class="type-headline text-blue"><a class="block" href="/lets-talk"><span class="border-b border-blue">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a></p>
             </div>
           </div>
-        {{ /testimonials }}
-      {{ /partial:components/fadeaway }}
+        </div>
+        <div class="lg:hidden flex items-center justify-center px-2 pt-8">
+          <button
+            class="inline-block mx-2 p-4 bg-light-blue rounded-full text-blue hover:bg-blue hover:text-white"
+            type="button"
+            @click="slider.previous()"
+          >
+            {{ partial:svg/arrow_left class="w-4" }}
+          </button>
+          <div class="relative">
+            <div class="relative inline-block mx-2 bg-light-blue rounded-full text-blue hover:bg-blue hover:text-white">
+              <button
+                class="appearance-none inline-block p-4 text-current transition"
+                type="button"
+                :class="{ 'opacity-0' : progress > .9 }"
+                @click="slider.next()"
+                x-transition
+              >
+                {{ partial:svg/arrow class="w-4" }}
+              </button>
+              <a
+                class="inline-block absolute top-0 right-0 p-4 text-current"
+                href="/am-files"
+                x-show="progress > .9"
+                x-transition
+              >
+                {{ partial:svg/plus class="w-4" }}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="pt-[5rem] pb-[15rem] bg-light-green">
-  <div class="wrap-2xl hidden lg:flex ">
-    <div class="lg:w-1/12"></div>
-    <div class="lg:w-3/12">
-      <img class="relative z-30 w-[14rem] max-w-full -translate-y-4" src="/img/story/1.png">
-      <img class="relative z-10 w-[18.5rem] max-w-full ml-1/3 -translate-y-8" src="/img/story/2.png">
-      <img class="relative z-20 w-[14rem] max-w-full ml-1/6 -translate-y-2" src="/img/story/3.png">
+  <section class="py-[10rem] bg-light-green">
+    <div class="wrap-2xl">
+      <div class="lg:w-8/12 pl-4">
+        {{ partial:components/fadeaway }}
+          {{ testimonials }}
+            <div class="py-4">
+              <div class="type-heading">
+                <span>“{{ quote }}”</span>
+              </div>
+              <div>
+                <p class="mb-8 mt-2 type-body">{{ if name != '' }}<span class="font-medium">{{ name }}</span>{{ /if }}{{ if name != '' && role != '' }}<span class="inline-block align-middle w-6 h-px mx-2 bg-dark-grey"></span>{{ /if }}{{ if role != '' }}<span>{{ role }}</span>{{ /if }}</p>
+                {{ if logo }}<img class="h-6" src="{{ logo }}">{{ /if }}
+              </div>
+            </div>
+          {{ /testimonials }}
+        {{ /partial:components/fadeaway }}
+      </div>
     </div>
-    <div class="lg:w-1/12"></div>
-    <div class="lg:w-7/12 px-4">
-      <div class="px-8 lg:px-24 pt-24 pb-16 border border-black rounded-lg">{{ story_box_one | classify:margins }}</div>
-    </div>
-  </div>
-  <div class="wrap-2xl hidden lg:flex items-center">
-    <div class="lg:w-4/12 px-4"></div>
-    <div class="lg:w-4/12 px-4">
-      <div class="-mt-4 px-16 pt-16 pb-8 border border-black rounded-lg">{{ story_box_two | classify:margins }}</div>
-    </div>
-    <div class="lg:w-3/12 px-16">
-      <img class="w-[12.5rem] max-w-full rounded-lg" src="/img/story/draw.gif">
-    </div>
-  </div>
-  <div class="wrap-2xl hidden lg:flex items-end">
-    <div class="lg:w-4/12 px-4"></div>
-    <div class="lg:w-3/12">
-      <img class="w-[17.5rem] max-w-full translate-y-4" src="/img/story/4.png">
-    </div>
-    <div class="lg:w-4/12 px-4">
-      <div class="-mt-4 px-16 pt-16 pb-8 border border-black rounded-lg">{{ story_box_three | classify:margins }}</div>
-    </div>
-  </div>
-  <div class="wrap-2xl hidden lg:flex pt-16">
-    <div class="lg:w-3/12 px-4"></div>
-    <div class="lg:w-5/12 px-4">
-      <div class="px-16 pt-16 pb-8 border border-black rounded-lg">{{ story_box_four | classify:margins }}</div>
-    </div>
-  </div>
-  <div class="wrap-2xl hidden lg:flex items-center">
-    <div class="lg:w-6/12 px-4"></div>
-    <div class="lg:w-3/12 px-16 pt-16">
-      <img class="w-[16.5rem] max-w-full rounded-full" src="/img/story/looking.gif">
-    </div>
-  </div>
-  <div class="wrap-2xl lg:flex items-center pt-20">
-    <div class="lg:w-4/12 px-4"></div>
-    <div class="relative lg:w-6/12 px-4">
-      <p class="md:absolute md:top-0 md:right-full type-heading">💪</p>
-      <h3 class="type-heading"><span class="text-blue">We work hard.</span><br>We're not hard work.</h3>
-    </div>
-  </div>
-</section>
+  </section>
 
-{{ partial:sections/ctas }}
+  <section class="pt-[5rem] pb-[15rem] bg-light-green">
+    <div class="wrap-2xl hidden lg:flex ">
+      <div class="lg:w-1/12"></div>
+      <div class="lg:w-3/12">
+        <img class="relative z-30 w-[14rem] max-w-full -translate-y-4" src="/img/story/1.png">
+        <img class="relative z-10 w-[18.5rem] max-w-full ml-1/3 -translate-y-8" src="/img/story/2.png">
+        <img class="relative z-20 w-[14rem] max-w-full ml-1/6 -translate-y-2" src="/img/story/3.png">
+      </div>
+      <div class="lg:w-1/12"></div>
+      <div class="lg:w-7/12 px-4">
+        <div class="px-8 lg:px-24 pt-24 pb-16 border border-black rounded-lg">{{ story_box_one | classify:margins }}</div>
+      </div>
+    </div>
+    <div class="wrap-2xl hidden lg:flex items-center">
+      <div class="lg:w-4/12 px-4"></div>
+      <div class="lg:w-4/12 px-4">
+        <div class="-mt-4 px-16 pt-16 pb-8 border border-black rounded-lg">{{ story_box_two | classify:margins }}</div>
+      </div>
+      <div class="lg:w-3/12 px-16">
+        <img class="w-[12.5rem] max-w-full rounded-lg" src="/img/story/draw.gif">
+      </div>
+    </div>
+    <div class="wrap-2xl hidden lg:flex items-end">
+      <div class="lg:w-4/12 px-4"></div>
+      <div class="lg:w-3/12">
+        <img class="w-[17.5rem] max-w-full translate-y-4" src="/img/story/4.png">
+      </div>
+      <div class="lg:w-4/12 px-4">
+        <div class="-mt-4 px-16 pt-16 pb-8 border border-black rounded-lg">{{ story_box_three | classify:margins }}</div>
+      </div>
+    </div>
+    <div class="wrap-2xl hidden lg:flex pt-16">
+      <div class="lg:w-3/12 px-4"></div>
+      <div class="lg:w-5/12 px-4">
+        <div class="px-16 pt-16 pb-8 border border-black rounded-lg">{{ story_box_four | classify:margins }}</div>
+      </div>
+    </div>
+    <div class="wrap-2xl hidden lg:flex items-center">
+      <div class="lg:w-6/12 px-4"></div>
+      <div class="lg:w-3/12 px-16 pt-16">
+        <img class="w-[16.5rem] max-w-full rounded-full" src="/img/story/looking.gif">
+      </div>
+    </div>
+    <div class="wrap-2xl lg:flex items-center pt-20">
+      <div class="lg:w-4/12 px-4"></div>
+      <div class="relative lg:w-6/12 px-4">
+        <p class="md:absolute md:top-0 md:right-full type-heading">💪</p>
+        <h3 class="type-heading"><span class="text-blue">We work hard.</span><br>We're not hard work.</h3>
+      </div>
+    </div>
+  </section>
+
+  {{ partial:sections/ctas }}
+</main>
 
 {{ section:jsbefore }}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/Draggable.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 {{ /section:jsbefore }}
