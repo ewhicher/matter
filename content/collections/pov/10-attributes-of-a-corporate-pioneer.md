@@ -37,7 +37,7 @@ article:
   -
     type: heading
     attrs:
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -53,7 +53,7 @@ article:
   -
     type: heading
     attrs:
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -69,7 +69,7 @@ article:
   -
     type: heading
     attrs:
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -85,7 +85,7 @@ article:
   -
     type: heading
     attrs:
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -101,7 +101,7 @@ article:
   -
     type: heading
     attrs:
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -117,7 +117,7 @@ article:
   -
     type: heading
     attrs:
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -133,7 +133,7 @@ article:
   -
     type: heading
     attrs:
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -149,7 +149,7 @@ article:
   -
     type: heading
     attrs:
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -165,7 +165,7 @@ article:
   -
     type: heading
     attrs:
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -181,7 +181,7 @@ article:
   -
     type: heading
     attrs:
-      level: 5
+      level: 4
     content:
       -
         type: text
@@ -210,6 +210,6 @@ author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
 snippet: '10 attributes of a corporate pioneer'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675766593
+updated_at: 1675766811
 thumbnail: content-illustrations_10-commandments.png
 ---
