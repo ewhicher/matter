@@ -32,7 +32,7 @@
     </div>
     <div class="ml-auto px-4">
       <button
-        class="btn-base btn-dark-grey hover:bg-dark-grey hover:text-white"
+        class="btn-base {{ if view:invert_nav }}btn-white hover:bg-white hover:text-blue{{ else }}btn-dark-grey hover:bg-dark-grey hover:text-white{{ /if }}"
         type="button"
         @click="open"
       >
@@ -40,7 +40,7 @@
       </button>
     </div>
   </div>
-  <div class="absolute top-0 left-0 right-0 z-20 {{ view:nav ?? 'bg-blue' }} text-white overflow-hidden" x-ref="inner" style="height: 0;">
+  <div class="flex flex-col absolute top-0 left-0 right-0 z-20 {{ view:nav ?? 'bg-blue' }} text-white overflow-auto touch-scroll" x-ref="inner" style="height: 0;">
     <div class="wrap-2xl flex items-center pt-14">
       <div class="px-4">
         <a href="/">
@@ -78,6 +78,17 @@
           <a class="group" href="/join-us"><span class="hoverline-base hoverline-offset group-hover:hoverline-active">Join us</span> {{ partial:svg/join class="inline ml-2 h-[1.2em]" }}</a>
         </li>
       </ul>
+    </div>
+    <div class="wrap-2xl md:flex mt-auto py-24">
+      <div class="px-4">
+        <p class="type-body mb-4">Find us</p>
+        <p class="type-body font-medium mb-4">{{ information:address | nl2br }}</p>
+        <p class="text-[1.5rem] leading-[2rem] font-medium"><a class="hoverline-base hover:hoverline-active" href="{{ information:map_link }}" target="_blank">{{ information:postcode }}</a></p>
+      </div>
+      <div class="ml-auto px-4 md:pt-8">
+        <div class="mt-8"><a href="{{ information:in }}" target="_blank">{{ partial:svg/in class="w-8 h-8" }}</a></div>
+        <div class="mt-8"><a href="{{ information:li }}" target="_blank">{{ partial:svg/li class="w-8 h-8" }}</a></div>
+      </div>
     </div>
   </div>
 </nav>

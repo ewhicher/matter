@@ -5,6 +5,7 @@ template: opportunity_lab
 title: 'Opportunity lab'
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_at: 1674561892
+theme: 'bg-light-yellow bg-contain text-dark-grey'
 intro_text:
   -
     type: heading

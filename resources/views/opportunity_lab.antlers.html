@@ -1,208 +1,199 @@
----
-theme: "bg-light-yellow bg-contain bg-[url('/img/olbg.png')] text-dark-grey"
----
-
-<section class="pt-[13.75rem] pb-16">
-  <div class="wrap-2xl">
-    <div class="lg:w-10/12 px-4">
-      <h2 class="type-heading mt-10 mb-14">Opportunity lab</h2>
+<main class="bg-contain bg-[url('/img/olbg.png')]">
+  <section class="pt-[13.75rem] pb-16">
+    <div class="wrap-2xl">
+      <div class="lg:w-10/12 px-4">
+        <h2 class="type-heading mt-10 mb-14">Opportunity lab</h2>
+      </div>
+      <div class="lg:w-8/12 mx-auto px-4">
+        <div class="">{{ intro_text | classify }}</>
+      </div>
     </div>
-    <div class="lg:w-8/12 mx-auto px-4">
-      <div class="">{{ intro_text | classify }}</>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section class="pb-16">
-  <div class="wrap-2xl">
-    <div class="lg:w-10/12 mx-auto px-4">
-      <div class="relative rounded border border-black overflow-hidden">
-        <img class="block relative z-10 w-full" src="/img/olvid.png">
-        <div class="absolute top-1/2 left-1/2 z-20 -translate-x-1/2 -translate-y-1/2">
-          <button
-            class="btn-base btn-blue"
-            type="button"
-          >
-            {{ partial:svg/play class="w-6" }}
-          </button>
+  <section class="pb-16">
+    <div class="wrap-2xl">
+      <div class="lg:w-10/12 mx-auto px-4">
+        <div class="relative rounded border border-black overflow-hidden">
+          <img class="block relative z-10 w-full" src="/img/olvid.png">
+          <div class="absolute top-1/2 left-1/2 z-20 -translate-x-1/2 -translate-y-1/2">
+            <button
+              class="btn-base btn-blue"
+              type="button"
+            >
+              {{ partial:svg/play class="w-6" }}
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="pb-16">
-  <div class="wrap-2xl">
-    <div class="lg:w-8/12 mx-auto">
-      <div class="lg:w-[62.5%] pl-4">
-        <div>{{ more_text | classify:margins }}<div>
+  <section class="pb-16">
+    <div class="wrap-2xl">
+      <div class="lg:w-8/12 mx-auto">
+        <div class="lg:w-[62.5%] pl-4">
+          <div>{{ more_text | classify:margins }}<div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="pb-32">
-  <div class="wrap-2xl">
-    <div class="lg:w-5/12 ml-4/12 pl-4">
-      <div class="pb-10">
-        {{ partial:components/speach color="blue" }}
+  <section class="pb-32">
+    <div class="wrap-2xl">
+      <div class="lg:w-5/12 ml-4/12 pl-4">
+        <div class="pb-10">
+          {{ partial:components/speach color="blue" }}
+        </div>
+        <div
+          x-data="{ typed: null, current: 0 }"
+          x-init="() => {
+            typed = new Typed($refs.showcase, {
+              stringsElement: $refs.quotes,
+              typeSpeed: 30,
+              backSpeed: 10,
+              loop: true,
+            });
+          }"
+          class="h-[300px]"
+        >
+          <div x-ref="quotes">
+            <span></span>
+            {{ typed_rows }}
+              <span>{{ text }}</span>
+            {{ /typed_rows }}
+          </div>
+          <div>
+            <div class="type-headline text-blue">
+              <span x-ref="showcase"></span>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+  </section>
+
+  <section class="pb-40">
+    <div class="wrap-2xl">
+      <div class="flex items-center lg:w-8/12 mx-auto">
+        <div class="w-1/4 pl-4"><h3 class="type-leadline">Together we'll...</h3></div>
+        <div class="w-1/4 px-4"><img class="w-24 max-w-full" src="/img/svg/together.svg"></div>
+      </div>
+      <div class="flex relative w-8/12 mx-auto mt-8 pt-8 pb-4">
+        <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
+        <div class="flex justify-end w-1/4 px-4 text-right"><h3 class="self-start block type-leadline">1</h3><img class="self-center block w-24 max-w-full" src="/img/svg/immersed.svg"></div>
+        <div class="w-3/4 pl-4 pr-16">{{ together_text_one | classify:margins }}</div>
+      </div>
+      <div class="flex relative w-8/12 mx-auto mt-8 pt-8 pb-4">
+        <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
+        <div class="flex justify-end w-1/4 px-4 text-right"><h3 class="self-start block type-leadline">2</h3><img class="self-center block w-24 max-w-full" src="/img/svg/outside.svg"></div>
+        <div class="w-3/4 pl-4 pr-16">{{ together_text_two | classify:margins }}</div>
+      </div>
+      <div class="flex relative w-8/12 mx-auto mt-8 pt-8 pb-4">
+        <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
+        <div class="flex justify-end w-1/4 px-4 text-right"><h3 class="self-start block type-leadline">3</h3><img class="self-center block w-24 max-w-full" src="/img/svg/define.svg"></div>
+        <div class="w-3/4 pl-4 pr-16">{{ together_text_three | classify:margins }}</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-40 overflow-hidden">
+    <div>
       <div
-        x-data="{ typed: null, current: 0 }"
+        class="w-full"
+        x-data
         x-init="() => {
-          typed = new Typed($refs.showcase, {
-            stringsElement: $refs.quotes,
-            typeSpeed: 30,
-            backSpeed: 10,
-            loop: true,
-          });
-        }"
-        class="h-[300px]"
-      >
-        <div x-ref="quotes">
-          <span></span>
-          {{ typed_rows }}
-            <span>{{ text }}</span>
-          {{ /typed_rows }}
-        </div>
-        <div>
-          <div class="type-headline text-blue">
-            <span x-ref="showcase"></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="pb-40">
-  <div class="wrap-2xl">
-    <div class="flex items-center lg:w-8/12 mx-auto">
-      <div class="w-1/4 pl-4"><h3 class="type-leadline">Together we'll...</h3></div>
-      <div class="w-1/4 px-4"><img class="w-24 max-w-full" src="/img/svg/together.svg"></div>
-    </div>
-    <div class="flex relative w-8/12 mx-auto mt-8 pt-8 pb-4">
-      <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
-      <div class="flex justify-end w-1/4 px-4 text-right"><h3 class="self-start block type-leadline">1</h3><img class="self-center block w-24 max-w-full" src="/img/svg/immersed.svg"></div>
-      <div class="w-3/4 pl-4 pr-16">{{ together_text_one | classify:margins }}</div>
-    </div>
-    <div class="flex relative w-8/12 mx-auto mt-8 pt-8 pb-4">
-      <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
-      <div class="flex justify-end w-1/4 px-4 text-right"><h3 class="self-start block type-leadline">2</h3><img class="self-center block w-24 max-w-full" src="/img/svg/outside.svg"></div>
-      <div class="w-3/4 pl-4 pr-16">{{ together_text_two | classify:margins }}</div>
-    </div>
-    <div class="flex relative w-8/12 mx-auto mt-8 pt-8 pb-4">
-      <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
-      <div class="flex justify-end w-1/4 px-4 text-right"><h3 class="self-start block type-leadline">3</h3><img class="self-center block w-24 max-w-full" src="/img/svg/define.svg"></div>
-      <div class="w-3/4 pl-4 pr-16">{{ together_text_three | classify:margins }}</div>
-    </div>
-  </div>
-</section>
-
-<section class="pb-40 overflow-hidden">
-  <div>
-    <div
-      class="w-full"
-      x-data="{ tl: null, lazies: null }"
-      x-init="() => {
-        const chunk = $refs.track.innerHTML
-        $refs.track.innerHTML += chunk + chunk + chunk
-        this.lazies = [].slice.call($el.querySelectorAll(`[loading='lazy']`))
-
-        var loadImages = () => {
-          this.lazies.forEach((item, index) => {
-            if (item.getBoundingClientRect().left <= window.innerWidth) {
-              this.lazies.splice(index, 1)
-              item.loading = 'none'
-            }
+          gsap.to($refs.track, {
+            scrollTrigger: {
+              trigger: $el,
+              start: 'top bottom',
+              end: 'bottom top',
+              scrub: true,
+            },
+            x: '-50%',
+            ease: 'none',
           })
-        }
-
-        this.tl = gsap.timeline({repeat: -1, repeatDelay: 0, onUpdate: loadImages })
-        this.tl.set($refs.track, { x: '-25%' })
-        this.tl.to($refs.track, 80, { x: '-50%', ease: 'none' })
-        this.tl.play()
-      }"
-    >
-      <div x-ref="view" class="flex">
-        <div x-ref="track" class="flex">
-          <div class="flex items-center whitespace-nowrap">
-            <div>
-              <p class="type-heading">Concept creation</p>
+        }"
+      >
+        <div x-ref="view" class="flex translate-x-1/4">
+          <div x-ref="track" class="flex">
+            <div class="flex items-center whitespace-nowrap">
+              <div>
+                <p class="type-heading">Concept creation</p>
+              </div>
+              <div class="px-8"><div class="w-14 border-b border-black"></div></div>
+              <div>
+                <p class="type-heading">Rapid prototyping</p>
+              </div>
+              <div class="px-8"><div class="w-14 border-b border-black"></div></div>
+              <div>
+                <p class="type-heading">UX</p>
+              </div>
+              <div class="px-8"><div class="w-14 border-b border-black"></div></div>
+              <div>
+                <p class="type-heading">Service design</p>
+              </div>
             </div>
-            <div class="px-8"><div class="w-14 border-b border-black"></div></div>
-            <div>
-              <p class="type-heading">Rapid prototyping</p>
-            </div>
-            <div class="px-8"><div class="w-14 border-b border-black"></div></div>
-            <div>
-              <p class="type-heading">UX</p>
-            </div>
-            <div class="px-8"><div class="w-14 border-b border-black"></div></div>
-            <div>
-              <p class="type-heading">Service design</p>
-            </div>
-            <div class="px-8"><div class="w-14 border-b border-black"></div></div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="pb-40">
-  <div class="wrap-2xl">
-    <div class="lg:w-6/12 mx-auto px-4">
-      <div class="flex relative bg-light-yellow border border-black rounded-full">
-        <div class="flex-1 p-8 type-callout text-center">2 weeks</div>
-        <div class="flex-1 p-8 type-callout text-center">£30k</div>
-        <div class="absolute top-0 bottom-0 left-1/2 border-l border-black"></div>
-        <div class="absolute top-1/2 left-1/2 px-4 bg-light-yellow border border-black rounded font-bold text-[14px] leading-[28px] uppercase -translate-x-1/2 -translate-y-1/2">Estimate</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="pb-40">
-  <div class="wrap-2xl">
-    <div class="lg:w-8/12 mx-auto px-4">
-      <div class="pb-20 text-blue">{{ cta_text | classify }}</div>
-      <a class="type-headline text-blue group" href="/lets'talk"><span class="hoverline-base group-hover:hoverline-active">Book a call</span>{{ partial:svg/book class="inline ml-4 h-[1.2em]" }}</a>
-    </div>
-  </div>
-</section>
-
-<section class="pb-40">
-  <div class="wrap-2xl flex">
-    <div class="lg:w-1/2 px-4">
-      <div class="relative pb-[101.87%] bg-green">
-        <div class="absolute inset-0 px-20 py-24">
-          <img class="block max-w-[128px] max-h-[48px] mb-16" src="{{ proof_logo }}">
-          <p class="type-subheading max-w-[26.5rem]">"{{ proof_quote }}"</p>
+  <section class="pb-40">
+    <div class="wrap-2xl">
+      <div class="lg:w-6/12 mx-auto px-4">
+        <div class="flex relative bg-light-yellow border border-black rounded-full">
+          <div class="flex-1 p-8 type-callout text-center">2 weeks</div>
+          <div class="flex-1 p-8 type-callout text-center">£30k</div>
+          <div class="absolute top-0 bottom-0 left-1/2 border-l border-black"></div>
+          <div class="absolute top-1/2 left-1/2 px-4 bg-light-yellow border border-black rounded font-bold text-[14px] leading-[28px] uppercase -translate-x-1/2 -translate-y-1/2">Estimate</div>
         </div>
       </div>
     </div>
-    <div class="lg:w-1/2 px-4">
-      <div class="relative pb-[101.87%] bg-mid-blue">
-        <div class="absolute inset-0 p-20">
+  </section>
+
+  <section class="pb-40">
+    <div class="wrap-2xl">
+      <div class="lg:w-8/12 mx-auto px-4">
+        <div class="pb-20 text-blue">{{ cta_text | classify }}</div>
+        <a class="type-headline text-blue group" href="/lets'talk"><span class="hoverline-base group-hover:hoverline-active">Book a call</span>{{ partial:svg/book class="inline ml-4 h-[1.2em]" }}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-40">
+    <div class="wrap-2xl flex">
+      <div class="lg:w-1/2 px-4">
+        <div class="relative pb-[101.87%] bg-green">
+          <div class="absolute inset-0 px-20 py-24">
+            <img class="block max-w-[128px] max-h-[48px] mb-16" src="{{ proof_logo }}">
+            <p class="type-subheading max-w-[26.5rem]">"{{ proof_quote }}"</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/2 px-4">
+        <div class="relative pb-[101.87%] bg-mid-blue">
+          <div class="absolute inset-0 p-20">
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="pt-[10rem] pb-[8rem] bg-light-green">
-  <div class="wrap-2xl">
-    <div class="lg:w-8/12 pl-4">
-      <div class="type-leadline">
-        {{ footer_text }}
+  <section class="pt-[10rem] pb-[8rem] bg-light-green">
+    <div class="wrap-2xl">
+      <div class="lg:w-8/12 pl-4">
+        <div class="type-leadline">
+          {{ footer_text }}
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-{{ partial:sections/ctas }}
+  {{ partial:sections/ctas }}
+</main>
 
 {{ section:jsbefore }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 {{ /section:jsbefore }}

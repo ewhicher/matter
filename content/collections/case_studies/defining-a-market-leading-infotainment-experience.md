@@ -49,8 +49,9 @@ article:
         type: text
         text: 'The launch of the new, improved system at the Paris Motor Show to rave reviews. An ongoing programme to continue to improve the experience across the vehicle for new use cases, including voice command and other connected applications.'
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1674479225
+updated_at: 1675773999
 heading: 'Defining a market-leading infotainment experience'
 thumbnail: mbux1.png
 snippet: 'We worked with the Daimler R&D and UX teams to test product simulations and make recommendations to improve the experience ahead of its global launch.'
+theme: 'bg-light-red text-dark-grey'
 ---

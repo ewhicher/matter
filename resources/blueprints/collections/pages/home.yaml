@@ -31,12 +31,6 @@ sections:
           visibility: visible
           always_save: false
       -
-        handle: intro
-        field: common.single
-        config:
-          display: Intro
-          hide: true
-      -
         handle: showcase
         field:
           display: Showcase

@@ -52,51 +52,6 @@ sections:
           icon: text
           listable: hidden
       -
-        handle: fb
-        field:
-          input_type: url
-          antlers: false
-          display: Facebook
-          type: text
-          icon: text
-          listable: hidden
-      -
-        handle: tw
-        field:
-          input_type: url
-          antlers: false
-          display: Twitter
-          type: text
-          icon: text
-          listable: hidden
-      -
-        handle: li
-        field:
-          input_type: url
-          antlers: false
-          display: LinkedIn
-          type: text
-          icon: text
-          listable: hidden
-      -
-        handle: in
-        field:
-          input_type: url
-          antlers: false
-          display: Instagram
-          type: text
-          icon: text
-          listable: hidden
-      -
-        handle: yt
-        field:
-          input_type: url
-          antlers: false
-          display: YouTube
-          type: text
-          icon: text
-          listable: hidden
-      -
         handle: head_code
         field:
           antlers: false

@@ -64,3 +64,25 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+  -
+    handle: theme
+    field:
+      options:
+        'bg-light-red text-dark-grey': red
+        'bg-light-yellow text-dark-grey': yellow
+        'bg-light-blue-strong text-dark-grey': blue
+        'bg-light-green text-dark-grey': green
+      multiple: false
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      default: 'bg-light-blue-strong text-dark-grey'
+      display: Colour
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

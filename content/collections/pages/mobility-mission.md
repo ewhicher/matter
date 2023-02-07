@@ -5,6 +5,7 @@ template: mobility_mission
 title: 'Mobility Mission'
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_at: 1674660788
+theme: 'bg-blue text-white'
 footer_text:
   -
     type: paragraph

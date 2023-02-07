@@ -114,4 +114,14 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+      -
+        handle: theme
+        field:
+          default: 'bg-light-green text-dark-grey'
+          display: theme
+          type: hidden
+          icon: hidden
+          listable: hidden
+          instructions_position: above
+          visibility: visible
 title: PoV

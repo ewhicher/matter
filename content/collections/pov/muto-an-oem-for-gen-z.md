@@ -118,11 +118,12 @@ article:
           - muto-4.jpg
         wide_video: false
         wide_view: false
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675765785
+updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
+updated_at: 1675774076
 heading: 'Gen-Z – travel and transportation behaviours, preferences, and the future of electric mobility'
 author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
 thumbnail: muto-1.jpg
 snippet: 'Gen-Z – travel and transportation behaviours, preferences, and the future of electric mobility'
+theme: 'bg-light-green text-dark-grey'
 ---

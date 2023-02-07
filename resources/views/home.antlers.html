@@ -1,7 +1,3 @@
----
-theme: 'bg-white text-dark-grey'
----
-
 <main
   style="background:#ffffff;"
   x-data
@@ -120,36 +116,30 @@ theme: 'bg-white text-dark-grey'
     <div>
       <div
         class="w-full"
-        x-data="{ tl: null, lazies: null }"
         x-init="() => {
-          const chunk = $refs.track.innerHTML
-          $refs.track.innerHTML += chunk + chunk + chunk
-          this.lazies = [].slice.call($el.querySelectorAll(`[loading='lazy']`))
-
-          var loadImages = () => {
-            this.lazies.forEach((item, index) => {
-              if (item.getBoundingClientRect().left <= window.innerWidth) {
-                this.lazies.splice(index, 1)
-                item.loading = 'none'
-              }
-            })
-          }
-
-          this.tl = gsap.timeline({repeat: -1, repeatDelay: 0, onUpdate: loadImages })
-          this.tl.set($refs.track, { x: '-25%' })
-          this.tl.to($refs.track, 120, { x: '-50%', ease: 'none' })
-          this.tl.play()
+          gsap.to($refs.track, {
+            scrollTrigger: {
+              trigger: $el,
+              start: 'top bottom',
+              end: 'bottom top',
+              scrub: true,
+            },
+            x: -($refs.track.offsetWidth - window.innerWidth),
+            ease: 'none',
+          })
         }"
       >
         <div x-ref="view" class="flex">
           <div x-ref="track" class="flex">
             <div class="flex">
+                <div class="w-[270px]"></div>
               {{ logos }}
                 <div class="w-[270px]">
                   <img class="inline-block" src="{{ url }}" loading="lazy">
                 </div>
               {{ /logos }}
             </div>
+            <div class="w-[270px]"></div>
           </div>
         </div>
       </div>
@@ -354,7 +344,7 @@ theme: 'bg-white text-dark-grey'
     </div>
   </section>
 
-  {{ partial:sections/ctas }}
+  {{ partial:sections/ctas theme="bg-light-green" }}
 </main>
 
 {{ section:jsbefore }}

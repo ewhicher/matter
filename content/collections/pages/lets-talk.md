@@ -5,6 +5,7 @@ template: lets_talk
 title: "Let's Talk"
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_at: 1674585868
+theme: 'bg-white text-dark-grey'
 hero_heading: 'Hi there 👋'
 hero_text:
   -

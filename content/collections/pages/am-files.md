@@ -5,6 +5,7 @@ template: am_files
 title: 'AM Files'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
 updated_at: 1675771103
+theme: 'bg-white text-dark-grey'
 hero_heading: 'Active Matter Files'
 hero_text:
   -

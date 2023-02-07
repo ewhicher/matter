@@ -197,7 +197,8 @@ article:
 author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
 snippet: '10 attributes of a corporate pioneer'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675767876
+updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
+updated_at: 1675774068
 thumbnail: content-illustrations_10-commandments.png
+theme: 'bg-light-green text-dark-grey'
 ---

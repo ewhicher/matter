@@ -3,6 +3,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
     './resources/views/**/*',
+    './resources/fieldsets/**/*',
     './config/classify.php',
   ],
   theme: {

@@ -32,6 +32,11 @@ sections:
           type: slug
           localizable: true
       -
+        handle: theme
+        field: common.theme
+        config:
+          display: Colour
+      -
         handle: client
         field:
           input_type: text
