@@ -4,7 +4,7 @@ blueprint: am_files
 template: am_files
 title: 'AM Files'
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1674499280
+updated_at: 1675762620
 hero_heading: 'Active Matter Files'
 hero_text:
   -
@@ -14,6 +14,7 @@ hero_text:
         type: text
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam tortor augue faucibus vel orci a fermentum pharetra quam nulla vestibulum augue sed malesuada sollicitudin.'
 files:
+  - c20d41fb-7de9-4629-b606-7fae53481ed1
   - 6ed034df-ddc9-4359-a8d7-7be971319dcb
   - a5a44c9a-9878-469f-b443-145f099e1eef
   - e4fff61a-dff4-4659-baa5-2d30da111a1e
