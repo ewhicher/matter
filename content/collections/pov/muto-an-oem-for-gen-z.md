@@ -100,10 +100,9 @@ article:
         wide_video: false
         wide_view: false
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675764986
+updated_at: 1675765018
 heading: 'Gen-Z – travel and transportation behaviours, preferences, and the future of electric mobility'
 author:
-  - 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
 thumbnail: muto-1.jpg
 snippet: 'Making mobility matter in an age where we’re all still addicted to our cars'
