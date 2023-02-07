@@ -25,7 +25,8 @@ sections:
             text: '83% reduction in operational costs.'
     type: section
     enabled: true
+    background: smirnoff-dark.png
 client: Smirnoff
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675773102
+updated_at: 1675775723
 ---
