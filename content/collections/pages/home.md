@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675787807
+updated_at: 1675788099
 heading: 'An experience design studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -90,8 +90,8 @@ showcase_video:
 showcase_showcase:
   -
     id: ldug7jnc
-    image: mobility-experiences---cover-1675787757.jpg
-    text: 'Where are we heading with mobility?'
+    image: mobility-experiences---cover-1675788093.jpg
+    text: 'Mobility – where are we heading and when will we get there?'
     button_label: 'Download report'
     button_icon: arrow
     colour: black
