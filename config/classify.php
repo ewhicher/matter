@@ -20,7 +20,7 @@ return [
         'h5' => 'type-safe type-subheading',
         'h6' => 'type-safe type-callout',
         'p' => 'type-safe type-body',
-        'a'  => 'type-safe type-href',
+        'a'  => 'type-safe hoverline-base hover:hoverline-active',
     ],
 
     'margins' => [
@@ -31,6 +31,6 @@ return [
         'h5' => 'type-safe type-subheading mb-[1.333em]',
         'h6' => 'type-safe type-callout mb-[1.333em]',
         'p' => 'type-safe type-body mb-[1.333em]',
-        'a'  => 'type-safe type-href',
+        'a'  => 'type-safe hoverline-base hover:hoverline-active',
     ],
 ];

@@ -5,7 +5,7 @@ theme: 'bg-white text-dark-grey'
 <section class="pt-[13.75rem] pb-12">
   <div class="wrap-2xl">
     <div class="lg:w-6/12 px-4">
-      <h2 class="type-heading mb-14 text-blue">{{ hero_heading }}</h2>
+      <h2 class="type-heading mb-8 text-blue">{{ hero_heading }}</h2>
       <div>{{ hero_text | classify:margins }}</>
       <div>
         <div
@@ -98,6 +98,7 @@ theme: 'bg-white text-dark-grey'
               }"
               @mouseenter="hover = true"
               @mouseleave="hover = false"
+              @click="slider.next()"
             >
               <div class="relative w-full bg-blue overflow-hidden" x-ref="slider">
                 <div class="relative">
@@ -121,19 +122,11 @@ theme: 'bg-white text-dark-grey'
                 {{ /sections }}
               </div>
               <div class="absolute left-[15%] top-[85%] type-callout text-white"><span x-text="slider.selectedIndex + 1"></span> <span class="text-mid-blue">/ <span x-text="slider.slides.length"></span></span></div>
-              <div
-                class="absolute bottom-[15%] -right-4"
-                x-show="hover"
-                x-transition
-              >
-                <button
-                  class="btn-base btn-blue bg-white"
-                  type="button"
-                  @click="slider.next()"
-                >
+              {{ partial:components/hoverit }}
+                <div class="btn-base btn-blue bg-white pointer-events-normal">
                   {{ partial:svg/arrow class="w-5 mx-px my-1.5" }}
-                </button>
-              </div>
+                </div>
+              {{ /partial:components/hoverit }}
             </div>
             <div class="pt-8">
               <p class="mb-2 type-callout"><span class="inline-block pb-2 {{ if (collection:handle) != 'projects' }}text-blue border-b border-blue{{ /if }}">{{ if client }}{{ client }}{{ elseif (collection:handle) == 'pov' }}Point of View{{ else }}&nbsp;{{ /if }}</span></p>
@@ -141,7 +134,7 @@ theme: 'bg-white text-dark-grey'
             </div>
           </div>
         {{ else }}
-          <a class="block pb-32" href="{{ url }}">
+          <a class="block relative pb-32 group" href="{{ url }}">
             <div>
               {{ if thumbnail }}
                 <img class="block w-full rounded-sm" src="{{ glide:thumbnail w="860" h="880" fit="crop_focal" }}">
@@ -151,8 +144,11 @@ theme: 'bg-white text-dark-grey'
             </div>
             <div class="pt-8">
               <p class="mb-2 type-callout"><span class="inline-block pb-2 {{ if (collection:handle) != 'projects' }}text-blue border-b border-blue{{ /if }}">{{ if client }}{{ client }}{{ elseif (collection:handle) == 'pov' }}Point of View{{ else }}&nbsp;{{ /if }}</span></p>
-              <p class="type-callout">{{ snippet | truncate:105:... }}</p>
+              <p class="type-callout"><span class="hoverline-base hoverline-offset group-hover:hoverline-active">{{ snippet | truncate:105:... }}</span></p>
             </div>
+            {{ partial:components/hoverit }}
+              <div class="btn-base btn-blue bg-white pointer-events-normal whitespace-nowrap">View the work</div>
+            {{ /partial:components/hoverit }}
           </a>
         {{ /if }}
       </div>

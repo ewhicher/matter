@@ -25,7 +25,7 @@ theme: 'bg-white text-dark-grey'
       </div>
       <div class="lg:w-8/12 mx-auto px-4">
         <div class="type-leadline">We partner with corporate and scale-up teams at moments of reinvention and growth.
-          <span class="inline-block relative amline">
+          <span class="inline-block relative hoverline-base hover:hoverline-active">
             {{ partial:components/hoverit }}<img class="inline-block w-[300px] max-w-none translate-x-1/2 -translate-y-1/2" src="/img/together.gif">{{ /partial:components/hoverit }}
             <span class="font-bold">Together</span>
           </span>, we design products and services that improve experiences, open new markets, and redefine categories.</>
@@ -220,19 +220,13 @@ theme: 'bg-white text-dark-grey'
               </a>
             </div>
           </div>
-          <!-- <a
-            class="inline-block p-4 bg-light-blue rounded-full"
-            href="/am-files"
-            x-show="progress > .9"
-            x-transition
-          >{{ partial:svg/plus class="w-4" }}</a> -->
         </div>
       </div>
       <div class="wrap-2xl pt-4">
         <div class="block relative" x-ref="slider">
           {{ views_list }}
             <div class="md:w-1/2 lg:w-1/3 px-4">
-              <a class="block" href="{{ url }}">
+              <a class="block relative group" href="{{ url }}">
                 <div>
                   {{ if thumbnail }}
                     <img class="block w-full rounded-sm" src="{{ glide:thumbnail w="860" h="880" fit="crop_focal" }}">
@@ -240,14 +234,17 @@ theme: 'bg-white text-dark-grey'
                     <img class="block w-full rounded-sm" src="{{ glide src="/img/placeholder.png" w="860" h="880" fit="crop_focal" }}">
                   {{ /if }}
                 </div>
-                <div class="pt-8"><p class="type-callout">{{ snippet | truncate:80:... }}</p></div>
+                <div class="pt-8"><p class="type-callout"><span class="hoverline-base hoverline-offset group-hover:hoverline-active">{{ snippet | truncate:80:... }}</span></p></div>
+                {{ partial:components/hoverit }}
+                  <div class="btn-base btn-blue bg-white pointer-events-normal whitespace-nowrap">View the work</div>
+                {{ /partial:components/hoverit }}
               </a>
             </div>
           {{ /views_list }}
           <div class="md:w-1/2 lg:w-1/3 px-4">
             <div>
               <p class="mb-[.5em] type-headline">{{ views_cta_text }}</p>
-              <p class="type-headline text-blue"><a class="block" href="/lets-talk"><span class="border-b border-blue">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a></p>
+              <p class="type-headline text-blue"><a class="block group" href="/lets-talk"><span class="hoverline-base group-hover:hoverline-active">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a></p>
             </div>
           </div>
         </div>
