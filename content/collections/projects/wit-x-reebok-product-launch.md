@@ -16,11 +16,10 @@ sections:
           -
             type: text
             text: '1 successful limited edition drop.'
-      -
-        type: heading
-        attrs:
-          level: 5
-        content:
+          -
+            type: hardBreak
+          -
+            type: hardBreak
           -
             type: text
             text: 'Hundreds of happy fans.'
@@ -29,5 +28,5 @@ sections:
     enabled: true
 client: 'WIT x Reebok'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675763385
+updated_at: 1675763462
 ---
