@@ -68,18 +68,6 @@ article:
         file: stock.png
         wide_view: true
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Aenean fermentum maximus justo eget semper. Aliquam congue velit sed convallis ultricies. Donec feugiat dapibus viverra. Aliquam non nulla libero. Sed justo magna, vulputate in tellus sed, ultrices venenatis lacus. Pellentesque ut efficitur justo. Donec vulputate posuere ex eget rutrum. Nullam ut nunc at nisi eleifend porta. Fusce turpis eros, tincidunt et faucibus sit amet, pellentesque et quam. Duis mollis elementum arcu. Integer vel imperdiet purus, vitae lacinia metus.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Aenean fermentum maximus justo eget semper. Aliquam congue velit sed convallis ultricies. Donec feugiat dapibus viverra. Aliquam non nulla libero. Sed justo magna, vulputate in tellus sed, ultrices venenatis lacus. Pellentesque ut efficitur justo.'
-  -
     type: set
     attrs:
       id: lbxxhkd4
@@ -92,6 +80,33 @@ article:
           -
             id: ldbs2j9v
             quote: '52% of car shoppers feel anxious or uncomfortable at dealerships.'
+          -
+            id: ldu3iiwq
+            quote: 'Dealerships take just over 9 hours on average to respond to a test drive request.'
+          -
+            id: ldu3isne
+            quote: '64% of Gen-Z have never seen an EV charging point.'
+  -
+    type: heading
+    attrs:
+      level: 4
+    content:
+      -
+        type: text
+        text: 'Want to know more? '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://wherenext.activematter.co/the-future-of-car-ownership/'
+              rel: null
+              target: _blank
+              title: null
+          -
+            type: bold
+        text: 'Read the full MUTO article'
   -
     type: set
     attrs:
@@ -99,12 +114,12 @@ article:
       values:
         type: image_pair
         files:
-          - stock1.png
-          - stock.png
+          - muto-3.jpg
+          - muto-4.jpg
         wide_video: false
         wide_view: false
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675765361
+updated_at: 1675765644
 heading: 'Gen-Z – travel and transportation behaviours, preferences, and the future of electric mobility'
 author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
