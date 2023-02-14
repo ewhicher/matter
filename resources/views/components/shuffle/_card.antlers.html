@@ -1,6 +1,6 @@
 <div
-  class="relative w-full h-full p-2 bg-white rounded-lg overflow-hidden"
-  :class="current === {{ index }} ? 'shadow-xl' : ''"
+  class="relative w-full h-full p-2 bg-white rounded-lg shadow overflow-hidden"
+  :class="current === {{ index }} && !open ? 'shadow-xl' : ''"
 >
   <div class="flex flex-col w-full h-full rounded border border-light-blue">
     <div class="px-4 lg:px-8 pt-2 lg:pt-4 type-subheading text-center leading-[32px]"><b>{{ heading replace=" |<br>" }}</b></div>
