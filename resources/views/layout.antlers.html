@@ -38,7 +38,9 @@
   </head>
   <body class="font-normal leading-none antialiased">
     {{ partial:layout/nav }}
-    {{ template_content }}
+    <main class="relative z-20 {{ theme ?? 'bg-light-blue-strong text-dark-grey' }}">
+      {{ template_content }}
+    </main>
     {{ partial:layout/footer }}
     {{ yield:jsafter }}
     {{ if environment == 'production' }}{{ settings:footer_code }}{{ /if }}

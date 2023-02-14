@@ -2,7 +2,3 @@ name: Admin
 super: true
 id: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 password_hash: $2y$10$lG8407hZPo2bhfx4lm7b7e1SQxIQHBlCIPS6YLnBbN/UdiZc3MqBe
-preferences:
-  assets:
-    assets:
-      mode: grid

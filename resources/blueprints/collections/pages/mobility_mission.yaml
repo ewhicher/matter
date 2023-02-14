@@ -22,7 +22,7 @@ sections:
           visibility: visible
           always_save: false
       -
-        handle: intro_video
+        handle: intro_video_placeholder
         field:
           mode: list
           container: assets
@@ -126,42 +126,158 @@ sections:
           visibility: visible
           always_save: false
       -
-        handle: proof_section
+        handle: cards_section
         field:
-          display: Proof
+          display: Cards
           type: section
           icon: section
           listable: hidden
           instructions_position: above
           visibility: visible
-          always_save: false
       -
-        handle: proof_logo
+        handle: cards_cards
         field:
-          mode: grid
-          container: assets
-          restrict: false
-          allow_uploads: true
-          show_filename: true
-          max_files: 1
-          display: Logo
-          type: assets
-          icon: assets
+          collapse: true
+          previews: true
+          sets:
+            quote:
+              display: Quote
+              fields:
+                -
+                  handle: colour
+                  field: common.colour
+                  config:
+                    display: Colour
+                -
+                  handle: logo
+                  field:
+                    mode: grid
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: Logo
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                -
+                  handle: text
+                  field: common.richtext
+                  config:
+                    display: Text
+            link:
+              display: Link
+              fields:
+                -
+                  handle: colour
+                  field: common.colour
+                  config:
+                    display: Colour
+                -
+                  handle: logo
+                  field:
+                    mode: grid
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: Logo
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                -
+                  handle: text
+                  field: common.richtext
+                  config:
+                    display: Text
+                -
+                  handle: hover_section
+                  field:
+                    display: Hover
+                    type: section
+                    icon: section
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                -
+                  handle: hover_logo
+                  field:
+                    mode: grid
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: Logo
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                -
+                  handle: background
+                  field:
+                    mode: grid
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: Background
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+                -
+                  handle: link
+                  field:
+                    mode: default
+                    create: true
+                    collections:
+                      - case_studies
+                      - pages
+                      - pov
+                    display: Link
+                    type: entries
+                    icon: entries
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+          display: Cards
+          type: replicator
+          icon: replicator
           listable: hidden
           instructions_position: above
           visibility: visible
-          always_save: false
       -
-        handle: proof_quote
+        handle: pov_section
         field:
-          antlers: false
-          display: Quote
-          type: textarea
-          icon: textarea
+          display: POV
+          type: section
+          icon: section
           listable: hidden
           instructions_position: above
           visibility: visible
-          always_save: false
+      -
+        handle: pov_items
+        field:
+          mode: default
+          create: true
+          collections:
+            - pov
+          display: 'POV items'
+          type: entries
+          icon: entries
+          listable: hidden
+          instructions_position: above
+          visibility: visible
       -
         handle: footer_section
         field:

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+.bard-fieldtype .ProseMirror>h1 {
+  font-size:3rem;
+  font-family:"DM Sans";
+  font-weight:500;
+  font-style:normal;
+  line-height:1.11111111;
+  text-decoration:none;
+  text-transform:none;
+  letter-spacing: initial;
+  color: inherit;
+}
+
+.bard-fieldtype .ProseMirror>h2 {
+  font-size:2rem;
+  font-family:"DM Sans";
+  font-weight:500;
+  font-style:normal;
+  line-height:1.285;
+  text-decoration:none;
+  text-transform:none;
+  letter-spacing: initial;
+  color: inherit;
+}
+
+.bard-fieldtype .ProseMirror>h3 {
+  font-size:1.75rem;
+  font-family:"DM Sans";
+  font-weight:100;
+  font-style:normal;
+  line-height:1.263;
+  text-decoration:none;
+  text-transform:none;
+  letter-spacing: initial;
+  color: inherit;
+}
+
+.bard-fieldtype .ProseMirror>h4 {
+  font-size:1.5rem;
+  font-family:"DM Sans";
+  font-weight:100;
+  font-style:normal;
+  line-height:1.6;
+  text-decoration:none;
+  text-transform:none;
+  letter-spacing: initial;
+  color: inherit;
+}
+
+.bard-fieldtype .ProseMirror>h5 {
+  font-size:1.25rem;
+  font-family:"DM Sans";
+  font-weight:400;
+  font-style:normal;
+  line-height:1.428;
+  text-decoration:none;
+  text-transform:none;
+  letter-spacing: initial;
+  color: inherit;
+}
+
+.bard-fieldtype .ProseMirror>h6 {
+  font-size:1.125rem;
+  font-family:"DM Sans";
+  font-weight:500;
+  font-style:normal;
+  line-height:1.444;
+  text-decoration:none;
+  text-transform:none;
+  letter-spacing: initial;
+  color: inherit;
+}
+
+.bard-fieldtype .ProseMirror>p {
+  font-size:1rem;
+  font-family:"DM Sans";
+  font-weight:400;
+  font-style:normal;
+  line-height:1.555;
+  text-decoration:none;
+  text-transform:none;
+  letter-spacing: initial;
+  color: inherit;
+}
+
+html body.outside.business-theme {background-color: #e4e1f9;-webkit-animation: loginbg 30s infinite;animation: loginbg 30s infinite;};
+@-webkit-keyframes loginbg {0%{background-color:#e4e1f9;}50%{background-color:#eafff4;}100%{background-color:#e4e1f9;}}
+@keyframes loginbg {0%{background-color:#e4e1f9;}50%{background-color:#eafff4;}100%{background-color: #e4e1f9;}}

@@ -1,11 +1,11 @@
 ---
 id: 135d10cd-19b2-43c9-a526-9a515bedb951
-blueprint: product_launchpad
-template: product_launchpad
+blueprint: page
+template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1674657384
+updated_at: 1676368511
 intro_text:
   -
     type: heading
@@ -23,9 +23,9 @@ more_text:
         type: text
         text: 'Identifying promising growth opportunities is a science and the first step to a meaningful product strategy.'
       -
-        type: hard_break
+        type: hardBreak
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: 'As well as helping you to discover new whitespace and under-served opportunities, our rigorous opportunity pack provides a solid foundation for many future initiatives.'
@@ -101,4 +101,14 @@ cta_text:
         text: 'Get a map of areas and markets, bursting with opportunities to fill your innovation pipeline.'
 proof_quote: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic.'
 proof_logo: clients/testimo/diagio-logo-small.png
+pattern: patterns/product.png
+intro_video_placeholder:
+  - temp/olvid.png
+footer_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Benchmark your product experience and uncover new opportunities to leapfrog the competition.'
 ---

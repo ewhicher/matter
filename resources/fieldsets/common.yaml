@@ -86,3 +86,26 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+  -
+    handle: colour
+    field:
+      options:
+        - red
+        - yellow
+        - blue
+        - green
+        - plumb
+      multiple: false
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      default: green
+      display: Colour
+      type: select
+      icon: select
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: false

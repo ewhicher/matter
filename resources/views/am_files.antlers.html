@@ -1,4 +1,4 @@
-<section class="pt-[13.75rem] pb-12">
+<section class="relative z-30 pt-[8rem] md:pt-[12rem] lg:pt-[13.75rem] pb-4 md:pb-6 lg:pb-12">
   <div class="wrap-2xl">
     <div class="lg:w-6/12 px-4">
       <h2 class="type-heading mb-8 text-blue">{{ hero_heading }}</h2>
@@ -26,6 +26,7 @@
                 label = 'Case Studies';
             }
           }"
+          x-cloak
         >
           <button
             class="btn-base btn-blue type-callout"
@@ -63,7 +64,7 @@
   </div>
 </section>
 
-<section class="pb-[10rem]">
+<section class="pb-[6rem] lg:pb-[10rem]">
   <div class="wrap-2xl">
     <div class="px-4">
       <h2 class="type-heading">{{ views_heading }}</h2>
@@ -71,66 +72,11 @@
   </div>
   <div class="wrap-2xl flex flex-wrap">
     {{ files query_scope="handle" scope_handle="{ get:type }" }}
-      <div class="md:w-1/2 lg:w-1/3 px-4">
+      <div class="w-full md:w-1/2 lg:w-1/3 px-4">
         {{ if (collection:handle) == 'projects' }}
-          <div class="relative">
-            <div
-              class="relative"
-              x-data="{ slider: null, hover: false }"
-              x-init="() => {
-                slider = new Flickity($refs.slider, {
-                  autoPlay: false,
-                  draggable: false,
-                  adaptiveHeight: false,
-                  pauseAutoPlayOnHover: false,
-                  contain: false,
-                  pageDots: false,
-                  cellAlign: 'left',
-                  wrapAround: true,
-                  imagesLoaded: true,
-                  initialIndex: 0,
-                  prevNextButtons: false
-                })
-              }"
-              @mouseenter="hover = true"
-              @mouseleave="hover = false"
-              @click="slider.next()"
-            >
-              <div class="relative w-full bg-blue overflow-hidden" x-ref="slider">
-                <div class="relative">
-                  <img class="block relative z-10 w-full rounded-sm opacity-0" src="{{ glide src="/img/placeholder.png" w="860" h="880" fit="crop_focal" }}">
-                  <div class="absolute inset-0 z-20 p-[15%] bg-blue text-white">
-                    <img class="max-w-[3.75rem] max-h-[3.75rem]" src="{{ logo }}">
-                    <h3 class="mt-8 type-subheading">{{ cover_text }}</h3>
-                  </div>
-                </div>
-                {{ sections }}
-                  <div class="relative">
-                    {{ if background }}
-                      <img class="block relative z-10 w-full" src="{{ glide:background w="860" h="880" fit="crop_focal" }}">
-                    {{ else }}
-                      <img class="block relative z-10 w-full opacity-0" src="{{ glide src="/img/placeholder.png" w="860" h="880" fit="crop_focal" }}">
-                    {{ /if }}
-                    <div class="absolute inset-0 z-20 p-[15%] {{ if background }}bg-blue/70{{ else }}bg-blue{{ /if }} text-white">
-                      {{ text | classify }}
-                    </div>
-                  </div>
-                {{ /sections }}
-              </div>
-              <div class="absolute left-[15%] top-[85%] type-callout text-white"><span x-text="slider.selectedIndex + 1"></span> <span class="text-mid-blue">/ <span x-text="slider.slides.length"></span></span></div>
-              {{ partial:components/hoverit }}
-                <div class="btn-base btn-blue bg-white pointer-events-normal">
-                  {{ partial:svg/arrow class="w-5 mx-px my-1.5" }}
-                </div>
-              {{ /partial:components/hoverit }}
-            </div>
-            <div class="pt-8">
-              <p class="mb-2 type-callout"><span class="inline-block pb-2 {{ if (collection:handle) != 'projects' }}text-blue border-b border-blue{{ /if }}">{{ if client }}{{ client }}{{ elseif (collection:handle) == 'pov' }}Point of View{{ else }}&nbsp;{{ /if }}</span></p>
-              <p class="type-callout">{{ snippet | truncate:105:... }}</p>
-            </div>
-          </div>
+          {{ partial:components/project_tile }}
         {{ else }}
-          <a class="block relative pb-32 group" href="{{ url }}">
+          <a class="block relative pb-16 md:pb-24 lg:pb-32 group" href="{{ url }}">
             <div>
               {{ if thumbnail }}
                 <img class="block w-full rounded-sm" src="{{ glide:thumbnail w="860" h="880" fit="crop_focal" }}">
@@ -143,7 +89,9 @@
               <p class="type-callout"><span class="hoverline-base hoverline-offset group-hover:hoverline-active">{{ snippet | truncate:105:... }}</span></p>
             </div>
             {{ partial:components/hoverit }}
-              <div class="btn-base btn-blue bg-white pointer-events-normal whitespace-nowrap">View the work</div>
+              <div class="btn-base btn-blue bg-white pointer-events-normal whitespace-nowrap">
+                {{ if (collection:handle) == 'pov' }}Read more{{ else }}View the work{{ /if }}
+              </div>
             {{ /partial:components/hoverit }}
           </a>
         {{ /if }}
@@ -153,9 +101,9 @@
 </section>
 
 {{ get_content from="/"}}
-<section class="py-[15rem] bg-light-green">
+<section class="py-[6rem] md:py-[10rem] lg:py-[15rem] bg-light-green">
   <div class="wrap-2xl">
-    <div class="lg:w-8/12 pl-4">
+    <div class="lg:w-8/12 px-4 lg:pr-0">
       <div class="pb-10">
         {{ partial:components/speach }}
       </div>
@@ -181,6 +129,7 @@
           });
         }"
         class="h-[300px]"
+        x-cloak
       >
         <div x-ref="quotes">
           <span></span>

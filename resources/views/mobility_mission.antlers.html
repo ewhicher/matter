@@ -3,15 +3,23 @@ nav: "bg-dark-grey"
 invert_nav: true
 ---
 
-<section class="pt-[13.75rem] pb-16">
+<section class="pt-[8rem] md:pt-[12rem] lg:pt-[13.75rem] lg:pb-16">
   <div class="wrap-2xl">
     <div class="lg:w-10/12 px-4">
-      <h2 class="type-heading mt-10 mb-14">Mobility mission</h2>
+      <h2 class="type-heading lg:mt-10 mb-8 lg:mb-14">Mobility mission</h2>
     </div>
   </div>
 </section>
 
-<section class="pb-16">
+  {{ partial:sections/video :img="intro_video_placeholder" }}
+
+  {{ partial:sections/intro pt="pt-0" }}
+
+  {{ partial:sections/more }}
+
+  {{ partial:sections/together invert="true" }}
+
+<!-- <section class="pb-16">
   <div class="wrap-2xl">
     <div class="lg:w-10/12 mx-auto px-4">
       <div class="relative rounded border border-black overflow-hidden">
@@ -45,14 +53,13 @@ invert_nav: true
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
-<section class="pb-40">
+<!-- <section class="pb-40">
   <div class="wrap-2xl">
     <div class="flex items-center lg:w-8/12 mx-auto">
       <div class="w-1/4 pl-4"><h3 class="type-leadline">Together we'll...</h3></div>
       <div class="w-1/4 px-4">
-        <!-- <img class="w-24 max-w-full" src="/img/svg/together.svg"> -->
         {{ partial:svg/together class="self-center w-24" }}
       </div>
     </div>
@@ -60,7 +67,6 @@ invert_nav: true
       <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
       <div class="flex justify-end w-1/4 px-4 text-right">
         <h3 class="self-start block type-leadline">1</h3>
-        <!-- <img class="self-center block w-24 max-w-full" src="/img/svg/immersed.svg"> -->
         {{ partial:svg/immersed class="self-center w-24" }}
       </div>
       <div class="w-3/4 pl-4 pr-16">{{ together_text_one | classify:margins }}</div>
@@ -69,7 +75,6 @@ invert_nav: true
       <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
       <div class="flex justify-end w-1/4 px-4 text-right">
         <h3 class="self-start block type-leadline">2</h3>
-        <!-- <img class="self-center block w-24 max-w-full" src="/img/svg/outside.svg"> -->
         {{ partial:svg/outside class="self-center w-24" }}
       </div>
       <div class="w-3/4 pl-4 pr-16">{{ together_text_two | classify:margins }}</div>
@@ -78,13 +83,12 @@ invert_nav: true
       <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
       <div class="flex justify-end w-1/4 px-4 text-right">
         <h3 class="self-start block type-leadline">3</h3>
-        <!-- <img class="self-center block w-24 max-w-full" src="/img/svg/define.svg"> -->
         {{ partial:svg/define class="self-center w-24" }}
       </div>
       <div class="w-3/4 pl-4 pr-16">{{ together_text_three | classify:margins }}</div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="pb-16">
   <div class="wrap-2xl">
@@ -96,72 +100,29 @@ invert_nav: true
   </div>
 </section>
 
-<section class="pb-32">
+<section class="pb-20 lg:pb-32">
   <div class="wrap-2xl">
-    <div class="lg:w-5/12 ml-2/12 pl-4">
-      <div class="pb-10">
-        {{ partial:components/speach color="white" }}
-      </div>
-      <div
-        x-data="{ typed: null, current: 0 }"
-        x-init="() => {
-          typed = new Typed($refs.showcase, {
-            stringsElement: $refs.quotes,
-            typeSpeed: 30,
-            backSpeed: 10,
-            loop: true,
-          });
-        }"
-        class="h-[300px]"
-      >
-        <div x-ref="quotes">
-          <span></span>
-          {{ typed_rows }}
-            <span>{{ text }}</span>
-          {{ /typed_rows }}
-        </div>
-        <div>
-          <div class="type-headline text-white">
-            <span x-ref="showcase"></span>
-          </div>
-        </div>
-      </div>
+    <div class="lg:w-5/12 lg:ml-2/12 px-4 lg:pr-0 text-white">
+      {{ partial:components/typed bg="bg-white" border="border-white" }}
     </div>
   </div>
 </section>
 
-<section class="py-40 bg-white text-dark-grey">
-  <div class="wrap-2xl flex">
-    <div class="lg:w-1/2 px-4">
-      <div class="relative pb-[101.87%] bg-mid-blue">
-        <div class="absolute inset-0 px-20 py-24">
+{{ partial:sections/cards }}
+
+<section class="py-24 md:py-32 lg:py-40 bg-white text-dark-grey">
+  <div class="wrap-2xl lg:flex">
+<!--     <div class="lg:w-1/2 px-4">
+      <div class="relative lg:pb-[101.87%] bg-mid-blue">
+        <div class="lg:absolute lg:inset-0 lg:px-20 lg:py-24">
           <img class="block max-w-[128px] max-h-[90px] mb-16" src="{{ proof_logo }}">
           <p class="type-subheading max-w-[26.5rem]">{{ proof_quote }}</p>
         </div>
       </div>
-    </div>
-    <div class="lg:w-1/2 px-4">
-      <div class="relative pb-[101.87%] bg-mid-blue">
-        <div class="absolute inset-0 p-20">
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="wrap-2xl py-20 px-4">
-    <div class="relative pb-[56.666%] bg-mid-blue"></div>
-  </div>
-  <div class="wrap-2xl flex">
-    <div class="lg:w-1/2 px-4">
-      <div class="relative pb-[101.87%] bg-mid-blue">
-        <div class="absolute inset-0 px-20 py-24">
-          <img class="block max-w-[128px] max-h-[90px] mb-16" src="{{ proof_logo }}">
-          <p class="type-subheading max-w-[26.5rem]">{{ proof_quote }}</p>
-        </div>
-      </div>
-    </div>
+    </div> -->
     <div class="lg:w-1/2 px-4">
       <div class="relative">
-        <div class="p-20">
+        <div class="lg:p-20">
           <p class="mb-[.5em] type-headline">Thinking of starting a new mobility project?</p>
           <p class="type-headline text-blue"><a class="block" href="/lets-talk"><span class="border-b border-blue">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a></p>
         </div>
@@ -170,14 +131,14 @@ invert_nav: true
   </div>
 </section>
 
-<section class="pb-40 bg-white">
+<section class="pb-24 md:pb-32 lg:pb-40 bg-white text-dark-grey">
   <div class="wrap-2xl">
-    <div class="px-4 pb-16">
+    <div class="px-4 pb-4 lg:pb-16">
       <h2 class="type-title text-blue">Points of view</h2>
     </div>
   </div>
-  <div class="wrap-2xl flex flex-wrap text-dark-grey">
-    {{ collection:pov }}
+  <div class="hidden wrap-2xl text-dark-grey md:flex md:flex-wrap">
+    {{ pov_items }}
       <div class="md:w-1/2 lg:w-1/3 px-4">
         <a class="block pb-32" href="{{ url }}">
           <div>
@@ -192,11 +153,81 @@ invert_nav: true
           </div>
         </a>
       </div>
-    {{ /collection:pov }}
+    {{ /pov_items }}
   </div>
+  <div
+    class="lg:hidden overflow-hidden"
+    x-data="{ slider: null, progress: 0 }"
+    x-init="() => {
+      slider = new Flickity($refs.slider, {
+        autoPlay: false,
+        adaptiveHeight: true,
+        pauseAutoPlayOnHover: false,
+        contain: true,
+        pageDots: false,
+        cellAlign: 'left',
+        wrapAround: false,
+        imagesLoaded: true,
+        initialIndex: 0,
+        freeScroll: true,
+        prevNextButtons: false
+      })
+    }">
+      <div class="wrap-2xl pt-4">
+        <div class="block relative" x-ref="slider">
+          {{ pov_items }}
+            <div class="md:w-1/2 lg:w-1/3 px-4">
+              <a class="block relative group" href="{{ url }}">
+                <div>
+                  {{ if thumbnail }}
+                    <img class="block w-full rounded-sm" src="{{ glide:thumbnail w="860" h="880" fit="crop_focal" }}">
+                  {{ else }}
+                    <img class="block w-full rounded-sm" src="{{ glide src="/img/placeholder.png" w="860" h="880" fit="crop_focal" }}">
+                  {{ /if }}
+                </div>
+                <div class="pt-8"><p class="type-callout"><span class="hoverline-base hoverline-offset group-hover:hoverline-active">{{ snippet | truncate:80:... }}</span></p></div>
+                {{ partial:components/hoverit }}
+                  <div class="btn-base btn-blue bg-white pointer-events-normal whitespace-nowrap">View the work</div>
+                {{ /partial:components/hoverit }}
+              </a>
+            </div>
+          {{ /pov_items }}
+        </div>
+        <div class="flex items-center justify-center px-2 pt-8">
+          <button
+            class="inline-block mx-2 p-4 bg-light-blue rounded-full text-blue hover:bg-blue hover:text-white"
+            type="button"
+            @click="slider.previous()"
+          >
+            {{ partial:svg/arrow_left class="w-4" }}
+          </button>
+          <div class="relative">
+            <div class="relative inline-block mx-2 bg-light-blue rounded-full text-blue hover:bg-blue hover:text-white">
+              <button
+                class="appearance-none inline-block p-4 text-current transition"
+                type="button"
+                :class="{ 'opacity-0' : progress > .9 }"
+                @click="slider.next()"
+                x-transition
+              >
+                {{ partial:svg/arrow class="w-4" }}
+              </button>
+              <a
+                class="inline-block absolute top-0 right-0 p-4 text-current"
+                href="/am-files"
+                x-show="progress > .9"
+                x-transition
+              >
+                {{ partial:svg/plus class="w-4" }}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 </section>
 
-<section class="pt-[10rem] pb-[8rem] bg-light-green text-dark-grey">
+<section class="pt-[6rem] lg:pt-[10rem] pb-[6rem] lg:pb-[8rem] bg-light-green text-dark-grey">
   <div class="wrap-2xl">
     <div class="lg:w-8/12 pl-4">
       <div class="type-leadline">
@@ -206,8 +237,11 @@ invert_nav: true
   </div>
 </section>
 
-{{ partial:sections/ctas theme="bg-light-green text-dark-grey" }}
+<div class="text-dark-grey">
+  {{ partial:sections/ctas style="yellow" }}
+</div>
 
 {{ section:jsbefore }}
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 {{ /section:jsbefore }}

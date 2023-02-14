@@ -1,0 +1,57 @@
+<main class="bg-contain" style="background-image: url('{{ pattern }}');">
+
+  {{ partial:sections/intro intro_heading="{ title }" }}
+
+  {{ partial:sections/video :img="intro_video_placeholder" }}
+
+  {{ partial:sections/more }}
+
+  {{ partial:sections/quotes }}
+
+  {{ partial:sections/together }}
+
+  {{ partial:sections/scrolltext }}
+    <div>
+      <p class="type-heading">Concept creation</p>
+    </div>
+    <div class="px-8"><div class="w-14 border-b border-black"></div></div>
+    <div>
+      <p class="type-heading">Rapid prototyping</p>
+    </div>
+    <div class="px-8"><div class="w-14 border-b border-black"></div></div>
+    <div>
+      <p class="type-heading">UX</p>
+    </div>
+    <div class="px-8"><div class="w-14 border-b border-black"></div></div>
+    <div>
+      <p class="type-heading">Service design</p>
+    </div>
+  {{ /partial:sections/scrolltext }}
+
+  {{ partial:sections/estimate class="{ theme }" }}
+
+  {{ partial:sections/book }}
+
+  {{ partial:sections/cards }}
+
+  <section class="pt-[6rem] lg:pt-[10rem] pb-[6rem] lg:pb-[8rem]
+    {{ if !theme:label }} bg-light-green{{ /if }}
+    {{ if theme:label }}
+      {{ if theme:label == 'yellow' }} bg-light-green{{ elseif theme:label === 'white' }} bg-white text-dark-grey{{ else }} bg-light-yellow{{ /if }}
+    {{ /if }}
+  ">
+    <div class="wrap-2xl">
+      <div class="lg:w-8/12 px-4 lg:pr-0">
+        <div class="type-leadline">
+          {{ footer_text }}
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ partial:sections/ctas style="{theme:label}" }}
+</main>
+
+{{ section:jsbefore }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+{{ /section:jsbefore }}

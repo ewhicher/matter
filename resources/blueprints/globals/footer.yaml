@@ -56,3 +56,23 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+      -
+        handle: newsletter_section
+        field:
+          display: Newsletter
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: newsletter_text
+        field:
+          input_type: text
+          antlers: false
+          display: 'Newsletter text'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible

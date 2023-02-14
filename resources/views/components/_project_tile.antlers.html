@@ -1,0 +1,56 @@
+<div class="relative pb-16 md:pb-24 lg:pb-32">
+  <div
+    class="relative"
+    x-data="{ slider: null, hover: false }"
+    x-init="() => {
+      slider = new Flickity($refs.slider, {
+        autoPlay: false,
+        draggable: false,
+        adaptiveHeight: false,
+        pauseAutoPlayOnHover: false,
+        contain: false,
+        pageDots: false,
+        cellAlign: 'left',
+        wrapAround: true,
+        imagesLoaded: true,
+        initialIndex: 0,
+        prevNextButtons: false
+      })
+    }"
+    @mouseenter="hover = true"
+    @mouseleave="hover = false"
+    @click="slider.next()"
+  >
+    <div class="relative w-full bg-blue overflow-hidden" x-ref="slider">
+      <div class="relative">
+        <img class="block relative z-10 w-full rounded-sm opacity-0" src="{{ glide src="/img/placeholder.png" w="860" h="880" fit="crop_focal" }}">
+        <div class="absolute inset-0 z-20 p-[10%] lg:p-[15%] bg-blue text-white">
+          <img class="max-w-[5rem] max-h-[5rem]" src="{{ logo }}">
+          <h3 class="mt-4 type-brave">{{ cover_text }}</h3>
+        </div>
+      </div>
+      {{ sections }}
+        <div class="relative">
+          {{ if background }}
+            <img class="block relative z-10 w-full" src="{{ glide:background w="860" h="880" fit="crop_focal" }}">
+          {{ else }}
+            <img class="block relative z-10 w-full opacity-0" src="{{ glide src="/img/placeholder.png" w="860" h="880" fit="crop_focal" }}">
+          {{ /if }}
+          <div class="absolute inset-0 z-20 p-[10%] lg:p-[15%] {{ if background }}bg-blue/80{{ else }}bg-blue{{ /if }} text-white">
+            {{ text | classify }}
+          </div>
+        </div>
+      {{ /sections }}
+    </div>
+    <div class="absolute left-[10%] lg:left-[15%] bottom-[10%] lg:bottom-[15%] type-callout text-white"><span x-text="slider.selectedIndex + 1"></span> <span class="text-mid-blue">/ <span x-text="slider.slides.length"></span></span></div>
+    {{ partial:components/hoverit }}
+      <div class="btn-base btn-blue bg-white pointer-events-normal">
+        {{ partial:svg/arrow class="w-5 mx-px my-1.5" }}
+      </div>
+    {{ /partial:components/hoverit }}
+  </div>
+  <div class="pt-8">
+    <p class="mb-2 type-callout"><span class="inline-block pb-2 {{ if (collection:handle) != 'projects' }}text-blue border-b border-blue{{ /if }}">{{ if client }}{{ client }}{{ elseif (collection:handle) == 'pov' }}Point of View{{ else }}&nbsp;{{ /if }}</span></p>
+    <p class="type-callout">{{ snippet | truncate:105:... }}</p>
+  </div>
+</div>

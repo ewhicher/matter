@@ -4,7 +4,7 @@ blueprint: mobility_mission
 template: mobility_mission
 title: 'Mobility Mission'
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1674660788
+updated_at: 1676369327
 theme: 'bg-blue text-white'
 footer_text:
   -
@@ -110,4 +110,9 @@ extra_text:
       -
         type: text
         text: 'Our rapid design process has already helped global mobility clients solve some of their most demanding mobility challenges'
+intro_video_placeholder:
+  - temp/olvid.png
+pov_items:
+  - edfab6f8-1a14-4099-8435-4797d1fa3b71
+  - 81c0d66d-e8ab-445b-b322-62143fe6e018
 ---

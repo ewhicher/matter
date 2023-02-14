@@ -133,74 +133,79 @@
     bg-white;
   }
 
-  .type-h1 {
-
-  }
-
-  /* boby-g-rl*/
-  .type-body {
-    font-size:1rem;
-    font-family:"DM Sans";
-    font-weight:400;
-    font-style:normal;
-    line-height:28px;
-    text-decoration:none;
-    text-transform:none;
-    @apply lg:text-[1.125rem];
-  }
 
   /* big-title-rl*/
   .type-title {
-    font-size:5rem;
+    font-size:3rem;
     font-family:"DM Sans";
     font-weight:500;
     font-style:normal;
-    line-height:80px;
+    line-height:1.11111111;
     text-decoration:none;
     text-transform:none;
+    @apply
+    lg:text-[4.5rem];
   }
 
   /* h-2-g-rl */
   .type-heading {
-    font-size:3.5rem;
+    font-size:2rem;
     font-family:"DM Sans";
     font-weight:500;
     font-style:normal;
-    line-height:72px;
+    line-height:1.285;
     text-decoration:none;
     text-transform:none;
+    @apply
+    lg:text-[3.5rem];
   }
 
   .type-headline {
-    font-size:2.375rem;
+    font-size:1.75rem;
     font-family:"DM Sans";
     font-weight:100;
     font-style:normal;
-    line-height:48px;
+    line-height:1.263;
     text-decoration:none;
     text-transform:none;
+    @apply
+    lg:text-[2.375rem];
   }
 
   .type-leadline {
-    font-size:1.875rem;
+    font-size:1.5rem;
     font-family:"DM Sans";
     font-weight:100;
     font-style:normal;
-    line-height:48px;
+    line-height:1.6;
     text-decoration:none;
     text-transform:none;
+    @apply
+    lg:text-[1.875rem];
   }
 
   /*  h-3-g-rl */
   .type-subheading {
     font-size:1.25rem;
     font-family:"DM Sans";
-    font-weight:500;
+    font-weight:400;
     font-style:normal;
-    line-height:40px;
+    line-height:1.428;
     text-decoration:none;
     text-transform:none;
     @apply lg:text-[1.75rem];
+  }
+
+  /* callout */
+  .type-brave {
+    font-size:1.35rem;
+    font-family:"DM Sans";
+    font-weight:500;
+    font-style:normal;
+    line-height:1.333;
+    text-decoration:none;
+    text-transform:none;
+    @apply lg:text-[1.5rem];
   }
 
   /* callout */
@@ -209,9 +214,23 @@
     font-family:"DM Sans";
     font-weight:500;
     font-style:normal;
-    line-height:28px;
+    line-height:1.444;
     text-decoration:none;
     text-transform:none;
+  }
+
+  /* boby-g-rl*/
+  .type-body {
+    font-size:1rem;
+    font-family:"DM Sans";
+    font-weight:400;
+    font-style:normal;
+    line-height:1.2555;
+    text-decoration:none;
+    text-transform:none;
+    @apply
+    lg:text-[1.125rem]
+    lg:leading-[1.555];
   }
 
   .type-href {

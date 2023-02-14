@@ -23,6 +23,21 @@ sections:
           always_save: false
       -
         import: article
+      -
+        handle: footer_section
+        field:
+          display: Footer
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
+        handle: footer_text
+        field: common.richtext
+        config:
+          display: Text
   sidebar:
     display: Sidebar
     fields:

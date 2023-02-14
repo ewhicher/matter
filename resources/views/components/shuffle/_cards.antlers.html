@@ -1,16 +1,16 @@
 {{ if index == 1 }}
-  {{ partial:components/shuffle/card heading="Opportunity Lab" }}
-    <img class="inline-block max-w-[112px] lg:max-w-none mx-auto lg:my-4" src="/img/svg/circle.svg">
+  {{ partial:components/shuffle/card heading="{ card_one_heading }" }}
+    <img class="inline-block max-w-[112px] lg:max-w-none m-auto lg:my-4" src="/img/svg/circle.svg">
     <p class="type-body">{{ card_one_text | widont }}</p>
   {{ /partial:components/shuffle/card }}
 {{ elseif index == 2 }}
-  {{ partial:components/shuffle/card heading="Product Launchpad" }}
-    <img class="inline-block max-w-[112px] lg:max-w-none mx-auto lg:my-4" src="/img/svg/square.svg">
+  {{ partial:components/shuffle/card heading="{ card_two_heading }" }}
+    <img class="inline-block max-w-[112px] lg:max-w-none m-auto lg:my-4" src="/img/svg/square.svg">
     <p class="type-body">{{ card_two_text | widont }}</p>
   {{ /partial:components/shuffle/card }}
 {{ elseif index == 3 }}
-  {{ partial:components/shuffle/card heading="Growth Driver" }}
-    <img class="inline-block max-w-[112px] lg:max-w-none mx-auto lg:my-4" src="/img/svg/triangle.svg">
+  {{ partial:components/shuffle/card heading="{ card_three_heading }" }}
+    <img class="inline-block max-w-[112px] lg:max-w-none m-auto lg:my-4" src="/img/svg/triangle.svg">
     <p class="type-body">{{ card_three_text | widont }}</p>
   {{ /partial:components/shuffle/card }}
 {{ /if }}

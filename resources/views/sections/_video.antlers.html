@@ -1,0 +1,17 @@
+<section class="pb-16">
+  <div class="wrap-2xl">
+    <div class="lg:w-10/12 mx-auto px-4">
+      <div class="relative rounded border border-black overflow-hidden">
+        {{ img }}<img class="block relative z-10 w-full" src="{{ url }}">{{ /img }}
+        <div class="absolute top-1/2 left-1/2 z-20 -translate-x-1/2 -translate-y-1/2">
+          <button
+            class="btn-base btn-blue"
+            type="button"
+          >
+            {{ partial:svg/play class="w-6" }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,4 +1,9 @@
-<section class="pb-[15rem] {{ theme ?? 'bg-light-green' }}">
+<section class="pb-[6rem] md:pb-[10rem] lg:pb-[15rem]
+  {{ if !style }} bg-light-green{{ /if }}
+  {{ if style }}
+    {{ if style == 'yellow' }} bg-light-green{{ elseif style === 'white' }} bg-white text-dark-grey{{ else }} bg-light-yellow{{ /if }}
+  {{ /if }}
+">
   <div class="wrap-2xl md:flex">
     <div class="md:w-1/2 lg:w-4/12 px-4">
       <p class="type-body">{{ footer:cta_talk_text }}</p>

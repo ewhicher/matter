@@ -3,7 +3,7 @@
   :class="current === {{ index }} ? 'shadow-xl' : ''"
 >
   <div class="flex flex-col w-full h-full rounded border border-light-blue">
-    <div class="px-4 lg:px-8 pt-2 lg:pt-4 type-subheading text-center leading-[32px]">{{ heading }}</div>
+    <div class="px-4 lg:px-8 pt-2 lg:pt-4 type-subheading text-center leading-[32px]"><b>{{ heading replace=" |<br>" }}</b></div>
     <div class="relative z-30 mt-auto px-4 text-center">
       {{ slot }}
     </div>

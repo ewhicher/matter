@@ -1,11 +1,11 @@
 ---
 id: 13c74b3b-72d0-4181-a3fc-e404c9f8bf09
-blueprint: opportunity_lab
-template: opportunity_lab
+blueprint: page
+template: page
 title: 'Opportunity lab'
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1674561892
-theme: 'bg-light-yellow bg-contain text-dark-grey'
+updated_at: 1676312785
+theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
     type: heading
@@ -25,9 +25,9 @@ more_text:
         type: text
         text: 'Identifying promising growth opportunities is a science and the first step to a meaningful product strategy.'
       -
-        type: hard_break
+        type: hardBreak
       -
-        type: hard_break
+        type: hardBreak
       -
         type: text
         text: 'As well as helping you to discover new whitespace and under-served opportunities, our rigorous opportunity pack provides a solid foundation for many future initiatives.'
@@ -110,4 +110,42 @@ footer_text:
       -
         type: text
         text: 'Benchmark your product experience and uncover new opportunities to leapfrog the competition.'
+pattern: patterns/opp.png
+intro_video_placeholder:
+  - temp/olvid.png
+cards_cards:
+  -
+    id: le34vgzr
+    logo: am-clients-w_diageo.png
+    text:
+      -
+        type: heading
+        attrs:
+          level: 4
+        content:
+          -
+            type: text
+            text: '"It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic."'
+    type: quote
+    enabled: true
+    colour: green
+  -
+    id: le34wnhu
+    logo: am-clients-w_mercedes.png
+    text:
+      -
+        type: heading
+        attrs:
+          level: 4
+        content:
+          -
+            type: text
+            text: 'Working with the Daimler R&D team, we benchmarked their in-car experience against market-leading products, and inspired the future direction of MBUX.'
+    hover_logo: am-clients-w_seedlip.png
+    background: 7702b761af277ed5bb2cdc47ab23a040a734bd76-2880x1400.jpg
+    link:
+      - 81c0d66d-e8ab-445b-b322-62143fe6e018
+    type: link
+    enabled: true
+    colour: plumb
 ---

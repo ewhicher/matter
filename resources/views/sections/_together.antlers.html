@@ -1,0 +1,32 @@
+<section class="pb-24 md:pb-32 lg:pb-40">
+  <div class="wrap-2xl">
+    <div class="lg:flex lg:flex-row-reverse lg:items-center lg:justify-end lg:w-8/12 mx-auto text-center lg:text-left">
+      <div class="lg:w-1/4 px-4 lg:pr-0"><img class="w-24 max-w-full mx-auto" src="/img/svg/together{{ if invert }}-i{{ /if }}.svg"></div>
+      <div class="lg:w-1/4 px-4"><h3 class="type-leadline whitespace-nowrap">Together we'll...</h3></div>
+    </div>
+    <div class="lg:flex relative lg:w-8/12 mx-auto mt-8 pt-8 pb-2 lg:pb-4 px-4 text-center lg:text-left">
+      <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
+      <div class="lg:flex lg:flex-row-reverse lg:justify-end lg:w-1/4 px-4 lg:text-right">
+        <img class="lg:self-center block lg:w-24 max-w-full mx-auto lg:mx-0" src="/img/svg/immersed{{ if invert }}-i{{ /if }}.svg">
+        <h3 class="hidden lg:block self-start block type-leadline mx-auto lg:mr-0">1</h3>
+      </div>
+      <div class="lg:w-3/4 px-4 lg:pr-16">{{ together_text_one | classify:margins }}</div>
+    </div>
+    <div class="lg:flex relative lg:w-8/12 mx-auto mt-8 pt-8 pb-2 lg:pb-4 px-4 text-center lg:text-left">
+      <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
+      <div class="lg:flex lg:flex-row-reverse lg:justify-end lg:w-1/4 px-4 lg:text-right">
+        <img class="lg:self-center block lg:w-24 max-w-full mx-auto lg:mx-0" src="/img/svg/outside{{ if invert }}-i{{ /if }}.svg">
+        <h3 class="hidden lg:block self-start block type-leadline mx-auto lg:mr-0">2</h3>
+      </div>
+      <div class="lg:w-3/4 px-4 lg:pr-16">{{ together_text_two | classify:margins }}</div>
+    </div>
+    <div class="lg:flex relative lg:w-8/12 mx-auto mt-8 pt-8 pb-2 lg:pb-4 px-4 text-center lg:text-left">
+      <div class="absolute left-4 right-4 top-0 bottom-0 -z-10 border border-black rounded"></div>
+      <div class="lg:flex lg:flex-row-reverse lg:justify-end lg:w-1/4 px-4 lg:text-right">
+        <img class="lg:self-center block lg:w-24 max-w-full mx-auto lg:mx-0" src="/img/svg/define{{ if invert }}-i{{ /if }}.svg">
+        <h3 class="hidden lg:block self-start block type-leadline mx-auto lg:mr-0">3</h3>
+      </div>
+      <div class="lg:w-3/4 px-4 lg:pr-16">{{ together_text_three | classify:margins }}</div>
+    </div>
+  </div>
+</section>

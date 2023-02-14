@@ -1,0 +1,45 @@
+<div class="pb-10">
+  {{ partial:components/speach }}
+</div>
+<div
+  x-data="{ typed: null, current: 0, animating: false }"
+  x-init="() => {
+    const view = $refs.view
+    const screen = $refs.screen
+    const screens = view.children
+
+    typed = new Typed($refs.showcase, {
+      stringsElement: $refs.quotes,
+      typeSpeed: 30,
+      backSpeed: 10,
+      loop: true,
+      preStringTyped: (arrayPos, self) => {
+        const h = screens[arrayPos].offsetHeight
+        gsap.to(screen, .75, {
+          height: `${h}px`,
+          ease: 'power4.inOut',
+        })
+      },
+    })
+  }"
+  class="relative"
+  x-cloak
+>
+  <div x-ref="quotes">
+    <span></span>
+    {{ typed_rows }}
+      <span>{{ text }}</span>
+    {{ /typed_rows }}
+  </div>
+  <div x-ref="view" class="relative type-headline opacity-0">
+    <div class="absolute top-0 left-0 w-full opacity-0"></div>
+    {{ typed_rows }}
+      <div class="absolute top-0 left-0 w-full opacity-0">{{ text }}</div>
+    {{ /typed_rows }}
+  </div>
+  <div>
+    <div x-ref="screen" class="type-headline">
+      <span x-ref="showcase"></span>
+    </div>
+  </div>
+</div>

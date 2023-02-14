@@ -1,8 +1,8 @@
-<article class="py-[16.5rem]">
+<article class="pt-[16.5rem]">
   <section>
     <div class="wrap-2xl flex">
       <div class="w-2/12 px-4">
-        <a class="btn-base btn-blue" href="/am-files">{{ partial:svg/arrow_left class="w-8" }}</a>
+        <a class="btn-base btn-blue hover:bg-blue hover:text-white" href="/am-files">{{ partial:svg/arrow_left class="h-4" }}</a>
       </div>
     </div>
     <div class="wrap-2xl flex">
@@ -26,16 +26,15 @@
   {{ partial:article/article }}
 </article>
 
-<section class="pt-[10rem] pb-[8rem] bg-white text-dark-grey">
+<section class="pt-[6rem] lg:pt-[10rem] pb-[6rem] lg:pb-[8rem] bg-white text-dark-grey">
   <div class="wrap-2xl">
     <div class="lg:w-6/12 pl-4">
-      {{ footer:pov_default_text | classify:margins }}
+      {{ footer_text ?? footer:pov_default_text | classify:margins }}
     </div>
   </div>
 </section>
 
-{{ partial:sections/ctas theme="bg-white text-dark-grey" }}
-
+{{ partial:sections/ctas style="white" }}
 
 {{ section:jsbefore }}
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>

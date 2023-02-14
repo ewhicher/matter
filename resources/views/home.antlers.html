@@ -1,4 +1,4 @@
-<main
+<div
   style="background:#ffffff;"
   x-data
   x-init="() => {
@@ -13,14 +13,14 @@
     });
   }"
 >
-  <section class="pt-[13.75rem] pb-[10rem]">
+  <section class="pt-[8rem] md:pt-[12rem] lg:pt-[13.75rem] pb-[6rem] lg:pb-[10rem]">
     <div class="wrap-2xl">
       <div class="lg:w-10/12 px-4 pt-10">
-        <h1 class="type-subheading">Active Matter</h1>
-        <h2 class="type-title mb-14 text-blue">{{ heading }}</h2>
+        <h1 class="mb-4 type-subheading font-medium">Active Matter</h1>
+        <h2 class="type-title mb-14 text-blue max-w-[14em]">{{ heading }}</h2>
       </div>
-      <div class="lg:w-8/12 mx-auto px-4">
-        <div class="type-leadline">We partner with corporate and scale-up teams at moments of reinvention and growth.
+      <div class="lg:w-7/12 lg:ml-2/12 px-4 lg:pr-0">
+        <div class="type-subheading">We partner with corporate and scale-up teams at moments of reinvention and growth.
           <span class="inline-block relative hoverline-base hover:hoverline-active">
             {{ partial:components/hoverit }}<img class="inline-block w-[300px] max-w-none translate-x-1/2 -translate-y-1/2" src="/img/together.gif">{{ /partial:components/hoverit }}
             <span class="font-bold">Together</span>
@@ -29,7 +29,7 @@
     </div>
   </section>
 
-  <section class="relative pb-[10rem]">
+  <section class="relative pb-[6rem] lg:pb-[10rem]">
     <div class="wrap-2xl">
       <div class="px-4">
         <div>
@@ -39,7 +39,7 @@
     </div>
   </section>
 
-  <section class="relative pb-[10rem]">
+  <section class="relative pb-[6rem] lg:pb-[10rem]">
     <div class="wrap-2xl">
       <div class="px-4 pb-8">
         <h2 class="type-heading">{{ what_we_do_heading }}</h2>
@@ -52,9 +52,9 @@
       <div x-data="{ current: 0, open: false }">
         <div class="relative">
           <div :class="{ 'opacity-0' : open }">
-            <div class="flex justify-between relative z-20 xl:w-10/12 mx-auto">
+            <div class="flex justify-between items-stretch relative z-20 xl:w-10/12 mx-auto">
               <a
-                class="block relative w-[340px] h-[476px] mx-4 cursor-pointer transition"
+                class="block relative w-[340px] mx-4 cursor-pointer transition"
                 href="/"
                 x-ref="one"
                 :class="{ '-translate-y-1' : current === 1 }"
@@ -64,7 +64,7 @@
                 {{ partial:components/shuffle/cards index="1" }}
               </a>
               <a
-                class="block relative w-[340px] h-[476px] mx-4 cursor-pointer transition"
+                class="block relative w-[340px] mx-4 cursor-pointer transition"
                 href="/"
                 x-ref="two"
                 :class="{ '-translate-y-1' : current === 2 }"
@@ -74,7 +74,7 @@
                 {{ partial:components/shuffle/cards index="2" }}
               </a>
               <a
-                class="block relative w-[340px] h-[476px] mx-4 cursor-pointer transition"
+                class="block relative w-[340px] mx-4 cursor-pointer transition"
                 href="/"
                 x-ref="three"
                 :class="{ '-translate-y-1' : current === 3 }"
@@ -146,7 +146,7 @@
     </div>
   </section>
 
-  <section class="pt-[15rem] pb-[8rem] bg-white">
+  <section class="pt-[6rem] md:pt-[10rem] lg:pt-[15rem] pb-[6rem] lg:pb-[8rem] bg-white">
     <div class="wrap-2xl">
       <div class="px-4">
         <h2 class="type-heading">{{ views_heading }}</h2>
@@ -232,7 +232,7 @@
             </div>
           {{ /views_list }}
           <div class="md:w-1/2 lg:w-1/3 px-4">
-            <div>
+            <div class="p-10">
               <p class="mb-[.5em] type-headline">{{ views_cta_text }}</p>
               <p class="type-headline text-blue"><a class="block group" href="/lets-talk"><span class="hoverline-base group-hover:hoverline-active">Let's talk</span>{{ partial:svg/talk class="inline ml-4 h-[1.2em]" }}</a></p>
             </div>
@@ -272,9 +272,9 @@
     </div>
   </section>
 
-  <section class="py-[10rem] bg-light-green">
+  <section class="py-[6rem] lg:py-[10rem] bg-light-green">
     <div class="wrap-2xl">
-      <div class="lg:w-8/12 pl-4">
+      <div class="lg:w-8/12 px-4 lg:pr-0">
         {{ partial:components/fadeaway }}
           {{ testimonials }}
             <div class="py-4">
@@ -292,7 +292,7 @@
     </div>
   </section>
 
-  <section class="pt-[5rem] pb-[15rem] bg-light-green">
+  <section class="pt-[5rem] pb-[6rem] md:pb-[10rem] lg:pb-[15rem] bg-light-green">
     <div class="wrap-2xl hidden lg:flex ">
       <div class="lg:w-1/12"></div>
       <div class="lg:w-3/12">
@@ -345,7 +345,7 @@
   </section>
 
   {{ partial:sections/ctas theme="bg-light-green" }}
-</main>
+</div>
 
 {{ section:jsbefore }}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>

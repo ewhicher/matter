@@ -1,6 +1,6 @@
 <div class="inline-block">
   <div
-    class="flex p-4 border-2 border-{{ color ?? 'dark-grey' }} rounded-full"
+    class="flex p-4 border-2 {{ border ?? 'border-dark-grey' }} rounded-full"
     x-data
     x-init="() => {
       let refs = [$refs.one, $refs.two, $refs.three]
@@ -14,8 +14,8 @@
     }"
     x-cloak
   >
-    <span class="inline-block w-3 h-3 mx-0.5 bg-{{ color ?? 'dark-grey' }} rounded-full" x-ref="one"></span>
-    <span class="inline-block w-3 h-3 mx-0.5 bg-{{ color ?? 'dark-grey' }} rounded-full" x-ref="two"></span>
-    <span class="inline-block w-3 h-3 mx-0.5 bg-{{ color ?? 'dark-grey' }} rounded-full" x-ref="three"></span>
+    <span class="inline-block w-3 h-3 mx-0.5 {{ bg ?? 'bg-dark-grey' }} rounded-full" x-ref="one"></span>
+    <span class="inline-block w-3 h-3 mx-0.5 {{ bg ?? 'bg-dark-grey' }} rounded-full" x-ref="two"></span>
+    <span class="inline-block w-3 h-3 mx-0.5 {{ bg ?? 'bg-dark-grey' }} rounded-full" x-ref="three"></span>
   </div>
 </div>

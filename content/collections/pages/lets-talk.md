@@ -1,6 +1,6 @@
 ---
 id: 73ce858f-5c90-4f16-bfa5-e6dea947b2d3
-blueprint: page
+blueprint: plain
 template: lets_talk
 title: "Let's Talk"
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005

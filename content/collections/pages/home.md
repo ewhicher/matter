@@ -4,8 +4,8 @@ blueprint: home
 title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675788322
+updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
+updated_at: 1676290293
 heading: 'An experience design studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -166,4 +166,7 @@ story_box_four:
       -
         type: text
         text: 'We augment our strategic design team with world-class associates and specialist partners. That means we can scale on demand, giving our clients the ability to do more, for less.'
+card_one_heading: 'Opportunity Lab'
+card_two_heading: 'Product Launchpad'
+card_three_heading: 'Growth Mission'
 ---

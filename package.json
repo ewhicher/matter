@@ -1,7 +1,8 @@
 {
   "scripts": {
     "watch": "yarn tailwindcss -i ./resources/css/main.css -o ./public/css/main.css --watch",
-    "build": "yarn tailwindcss -i ./resources/css/main.css -o ./public/css/main.css --minify"
+    "build": "yarn tailwindcss -i ./resources/css/main.css -o ./public/css/main.css --minify",
+    "cp": "yarn tailwindcss -i ./resources/css/cp.css -o ./public/css/cp.css --minify"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",

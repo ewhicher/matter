@@ -222,6 +222,42 @@ sections:
         config:
           display: Intro
       -
+        handle: card_one_heading
+        field:
+          input_type: text
+          antlers: false
+          display: 'Card One Heading'
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: card_two_heading
+        field:
+          input_type: text
+          antlers: false
+          display: 'Card Two Heading'
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: card_three_heading
+        field:
+          input_type: text
+          antlers: false
+          display: 'Card Three Heading'
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
         handle: card_one_text
         field:
           antlers: false
