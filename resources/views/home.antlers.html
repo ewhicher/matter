@@ -71,12 +71,20 @@
                 rotation: -4,
                 ease: 'power4.inOut'
               })
+              gsap.to($refs.arrow, .5, {
+                rotation: 360,
+                ease: 'power4.inOut'
+              })
             } else {
               gsap.to([$refs.one, $refs.two, $refs.three], .5, {
                 x: '0',
                 y: '0',
                 rotation: 0,
                 clearProps: 'all',
+                ease: 'power4.inOut'
+              })
+              gsap.to($refs.arrow, .5, {
+                rotation: 0,
                 ease: 'power4.inOut'
               })
             }
@@ -94,7 +102,7 @@
                 @mouseleave="current = 0"
               >
                 <div
-                  class="transition"
+                  class="relative w-full h-full transition"
                   :class="{ '-translate-y-1' : current === 1 && !open }"
                 >
                   {{ partial:components/shuffle/cards index="1" }}
@@ -108,7 +116,7 @@
                 @mouseleave="current = 0"
               >
                 <div
-                  class="transition"
+                  class="relative w-full h-full transition"
                   :class="{ '-translate-y-1' : current === 2 && !open }"
                 >
                   {{ partial:components/shuffle/cards index="2" }}
@@ -122,7 +130,7 @@
                 @mouseleave="current = 0"
               >
                 <div
-                  class="transition"
+                  class="relative w-full h-full transition"
                   :class="{ '-translate-y-1' : current === 3 && !open }"
                 >
                   {{ partial:components/shuffle/cards index="3" }}
@@ -147,7 +155,7 @@
             type="button"
             @click="open = !open"
           >
-            {{ partial:svg/rotate class="inline-block w-4 h-4 mr-2" }} What we really do
+            <span x-ref="arrow" class="inline-block origin-center">{{ partial:svg/rotate class="inline-block w-4 h-4" }}</span> <span class="ml-2">What we <span x-show="!open">really</span><span x-show="open" class="line-through">really</span> do</span>
           </button>
         </div>
       </div>

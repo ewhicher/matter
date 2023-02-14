@@ -105,7 +105,10 @@ module.exports = {
       },
       boxShadow: {
         'amxl': '0 0 8px rgba(20, 20, 24, 0.2)',
-      }
+      },
+      transitionProperty: {
+          'width': 'width'
+      },
     }
   },
 }
