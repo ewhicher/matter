@@ -56,7 +56,7 @@
             if (newVal) {
               gsap.to($refs.one, .5, {
                 x: '-100%',
-                rotation: 5,
+                rotation: 2,
                 ease: 'power4.inOut'
               })
               gsap.to($refs.two, .5, {
@@ -90,31 +90,43 @@
                 class="block relative w-[340px] mx-4 cursor-pointer"
                 href="/"
                 x-ref="one"
-                :class="{ '-translate-y-1' : current === 1 && !open }"
                 @mouseenter="current = 1"
                 @mouseleave="current = 0"
               >
-                {{ partial:components/shuffle/cards index="1" }}
+                <div
+                  class="transition"
+                  :class="{ '-translate-y-1' : current === 1 && !open }"
+                >
+                  {{ partial:components/shuffle/cards index="1" }}
+                </div>
               </a>
               <a
                 class="block relative w-[340px] mx-4 cursor-pointer"
                 href="/"
                 x-ref="two"
-                :class="{ '-translate-y-1' : current === 2 && !open }"
                 @mouseenter="current = 2"
                 @mouseleave="current = 0"
               >
-                {{ partial:components/shuffle/cards index="2" }}
+                <div
+                  class="transition"
+                  :class="{ '-translate-y-1' : current === 2 && !open }"
+                >
+                  {{ partial:components/shuffle/cards index="2" }}
+                </div>
               </a>
               <a
                 class="block relative w-[340px] mx-4 cursor-pointer"
                 href="/"
                 x-ref="three"
-                :class="{ '-translate-y-1' : current === 3 && !open }"
                 @mouseenter="current = 3"
                 @mouseleave="current = 0"
               >
-                {{ partial:components/shuffle/cards index="3" }}
+                <div
+                  class="transition"
+                  :class="{ '-translate-y-1' : current === 3 && !open }"
+                >
+                  {{ partial:components/shuffle/cards index="3" }}
+                </div>
               </a>
             </div>
           </div>
