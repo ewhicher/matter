@@ -72,10 +72,8 @@ article:
             id: le5ks5qq
             quote: 'I can’t believe how much we’ve achieved! We made more progress in the first week than in the last four months!'
             name: 'Head of Platforms – Diageo'
-  -
-    type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676459774
+updated_at: 1676463644
 snippet: 'Diageo asked us to design a tool to help pubs and bars across Europe to serve the perfect drink, activate seasonal events and stay on top of the latest consumer trends.'
 theme: 'bg-light-yellow text-dark-grey'
 thumbnail: diageoone-1675789066.jpg
