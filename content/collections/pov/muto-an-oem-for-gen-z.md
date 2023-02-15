@@ -1,7 +1,7 @@
 ---
 id: 81c0d66d-e8ab-445b-b322-62143fe6e018
 blueprint: pov
-title: 'MUTO - an OEM for Gen-Z'
+title: 'The future of EV ownership'
 takeaway:
   -
     id: lbxvcsf7
@@ -131,7 +131,7 @@ article:
   -
     type: paragraph
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676493207
+updated_at: 1676493287
 heading: 'The future of vehicle usership - a Gen-Z story'
 author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
