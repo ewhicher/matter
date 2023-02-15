@@ -21,6 +21,8 @@ article:
         type: text
         text: 'We worked with the Daimler R&D and UX teams to test product simulations and make recommendations to improve the experience ahead of its global launch.'
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 4
@@ -48,10 +50,21 @@ article:
       -
         type: text
         text: 'The launch of the new, improved system at the Paris Motor Show to rave reviews. An ongoing programme to continue to improve the experience across the vehicle for new use cases, including voice command and other connected applications.'
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1675773999
+  -
+    type: paragraph
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1676458251
 heading: 'Defining a market-leading infotainment experience'
 thumbnail: mbux1.png
 snippet: 'We worked with the Daimler R&D and UX teams to test product simulations and make recommendations to improve the experience ahead of its global launch.'
 theme: 'bg-light-red text-dark-grey'
+footer_text:
+  -
+    type: heading
+    attrs:
+      level: 4
+    content:
+      -
+        type: text
+        text: 'Benchmark your product experience and uncover new opportunities to leapfrog the competition.'
 ---
