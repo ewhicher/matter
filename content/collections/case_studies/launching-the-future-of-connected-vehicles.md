@@ -13,10 +13,14 @@ article:
         text: 'We collaborated with BlackBerry, AWS and a host of support partners to define, design and build two memorable experiences to support the global launch of BlackBerry IVY - the future of connected vehicles.'
   -
     type: paragraph
+  -
+    type: paragraph
     content:
       -
         type: text
         text: "The primary experience takes the form of a car journey. The story of a family's day trip to the beach in their EV. The power and versatility of the BlackBerry IVY technology are brought to life for CES delegates in a tangible and inspiring way."
+  -
+    type: paragraph
   -
     type: set
     attrs:
@@ -25,6 +29,8 @@ article:
         type: image
         file: ivy-dash-1672935554.png
         wide_view: false
+  -
+    type: paragraph
   -
     type: paragraph
     content:
@@ -37,6 +43,8 @@ article:
       -
         type: text
         text: 'A point of real importance for the BlackBerry product team was to promote to the audience that the BlackBerry IVY CES demo was a genuine product, processing real-world insights and data.'
+  -
+    type: paragraph
   -
     type: set
     attrs:
@@ -88,6 +96,8 @@ article:
               title: null
         text: 'https://www.twitter.com/BlackBerry'
   -
+    type: paragraph
+  -
     type: set
     attrs:
       id: lcj8gz9n
@@ -95,6 +105,8 @@ article:
         type: image
         file: ivy_ui_1.jpg
         wide_view: false
+  -
+    type: paragraph
   -
     type: paragraph
     content:
@@ -120,6 +132,8 @@ article:
         type: text
         text: 'To mitigate against the potential of changing lighting conditions on the show floor at CES we created a switchable dark and light HMI theme.'
   -
+    type: paragraph
+  -
     type: set
     attrs:
       id: lciw0lx0
@@ -127,6 +141,8 @@ article:
         type: image
         file: ivy-setup1-1672911831.png
         wide_view: true
+  -
+    type: paragraph
   -
     type: paragraph
     content:
@@ -188,6 +204,8 @@ article:
                 type: text
                 text: 'Facilitate toll road and parking charges safely and frictionlessly.'
   -
+    type: paragraph
+  -
     type: set
     attrs:
       id: lcj864bg
@@ -195,6 +213,8 @@ article:
         type: image
         file: ivy-storyboards.png
         wide_view: false
+  -
+    type: paragraph
   -
     type: heading
     attrs:
@@ -210,6 +230,8 @@ article:
         type: text
         text: 'The second of the two experiences takes the form of an interactive AR application. It was created to interact with a Jaguar iPace that features on the BlackBerry stand at CES.'
   -
+    type: paragraph
+  -
     type: set
     attrs:
       id: lcj7z9u7
@@ -219,6 +241,8 @@ article:
           - ivy-ar1.jpg
           - ivy-ar2.jpg
         wide_view: false
+  -
+    type: paragraph
   -
     type: paragraph
     content:
@@ -238,6 +262,8 @@ article:
         type: text
         text: 'It aims to inform and inspire the development community with the art of the possible.'
   -
+    type: paragraph
+  -
     type: set
     attrs:
       id: lcivfwsl
@@ -250,10 +276,22 @@ article:
             name: 'Tarun Shome – BlackBerry IVY - Product Management Director'
   -
     type: paragraph
+  -
+    type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1675764376
+updated_at: 1676459517
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 thumbnail: yxnzzxrzl2l2es1kyxnolte2nzi5mzu1ntqucg5n.png
 snippet: 'We collaborated with BlackBerry, AWS and a host of support partners to define, design and build two memorable experiences to support the global launch of BlackBerry IVY - the future of connected vehicles.'
+footer_text:
+  -
+    type: heading
+    attrs:
+      level: 4
+    content:
+      -
+        type: text
+        text: 'Benchmark your product experience and uncover new opportunities to leapfrog the competition'
+theme: 'bg-light-blue-strong text-dark-grey'
 ---
