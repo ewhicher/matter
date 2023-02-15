@@ -78,6 +78,8 @@ article:
         text: 'We are building upon the initial design system and service design templates and training provided to the team to make it better, slicker and faster with each new product launch.'
   -
     type: paragraph
+  -
+    type: paragraph
 footer_text:
   -
     type: paragraph
@@ -89,6 +91,6 @@ theme: 'bg-light-blue-strong text-dark-grey'
 client: ERM
 snippet: 'ERM, a global sustainability consultancy, asked us to help them to define and embed a product accelerator within the digital organisation. The goal was to build new products and services that could enable their consulting work, generate new revenue and give clients better tools to manage ESG risk within their organisation.'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676462770
+updated_at: 1676463463
 thumbnail: erm-crisp.jpg
 ---
