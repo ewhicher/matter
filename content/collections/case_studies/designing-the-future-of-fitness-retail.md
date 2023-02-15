@@ -79,7 +79,7 @@ article:
             quote: 'I’m actually quite emotional. It’s amazing. This process has been so valuable for us.'
             name: 'Sam Kitching - Founder - WIT'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676458704
+updated_at: 1676458727
 thumbnail: wit1.jpg
 snippet: 'We took WIT’s unique flagship training hub to the next level and re-imagined it as a connected digital experience - seamlessly merging training, retail and community.'
 footer_text:
