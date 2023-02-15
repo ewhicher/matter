@@ -14,6 +14,8 @@ article:
         file: 7702b761af277ed5bb2cdc47ab23a040a734bd76-2880x1400.jpg
         wide_view: true
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 3
@@ -21,6 +23,8 @@ article:
       -
         type: text
         text: 'We took WIT’s unique flagship training hub to the next level and re-imagined it as a connected digital experience - seamlessly merging training, retail and community.'
+  -
+    type: paragraph
   -
     type: heading
     attrs:
@@ -36,6 +40,8 @@ article:
         type: text
         text: 'We ran Director interviews and member observation sessions, then got to work on the customer experience design, followed by a Design Sprint and rapid prototyping week, user testing and investment presentation.'
   -
+    type: paragraph
+  -
     type: set
     attrs:
       id: lcgo6co1
@@ -45,6 +51,8 @@ article:
           - wit1.jpg
           - wit2.jpg
         wide_view: false
+  -
+    type: paragraph
   -
     type: heading
     attrs:
@@ -59,8 +67,29 @@ article:
       -
         type: text
         text: 'A fully designed, interactive prototype, excited customers, increased revenue opportunities and a new, validated business model to drive scale and reach. Business strategy update and killer plans for the future. Watch this space...'
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1674479236
+  -
+    type: set
+    attrs:
+      id: le5k5jai
+      values:
+        type: testimonials
+        testimonials:
+          -
+            id: le5k5lfc
+            quote: 'I’m actually quite emotional. It’s amazing. This process has been so valuable for us.'
+            name: 'Sam Kitching - Founder - WIT'
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1676458704
 thumbnail: wit1.jpg
 snippet: 'We took WIT’s unique flagship training hub to the next level and re-imagined it as a connected digital experience - seamlessly merging training, retail and community.'
+footer_text:
+  -
+    type: heading
+    attrs:
+      level: 4
+    content:
+      -
+        type: text
+        text: 'Find out how our service design, UI and product teams combine to create new business models and revenue streams.'
+theme: 'bg-light-blue-strong text-dark-grey'
 ---
