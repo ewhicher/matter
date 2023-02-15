@@ -4,9 +4,9 @@ blueprint: home
 title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1676290293
-heading: 'An experience design studio for people on a mission'
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1676450890
+heading: 'A design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
   -
@@ -24,9 +24,9 @@ intro:
       -
         type: text
         text: ', we design products and services that improve experiences, open new markets, and redefine categories.'
-card_one_text: 'Analyse your customer journey and map your incremental and breakthrough growth opportunities'
+card_one_text: 'Discover and prioritise the real world opportunities that you are uniquely positioned to solve'
 card_two_text: 'Design experiences that customers love and bring them to market faster than you previously thought possible'
-card_three_text: 'Learn from data, improve market fit, enable sales teams and create scalable design operations'
+card_three_text: 'We bring design, technology and creative execution to improve market fit, optimise customer journeys and enable teams to scale'
 hidden_text: 'We inject momentum into important projects and light fires in the bellies of the people and teams we work with.'
 logos:
   - basf-white-artworked.png
@@ -103,7 +103,7 @@ what_we_do_intro:
     content:
       -
         type: text
-        text: 'We work in clearly defined sprints to rapidly explore opportunities, create new concepts and grow existing offerings.'
+        text: 'We work in clearly defined sprints to rapidly explore opportunities, create new concepts and grow existing offerings. Our three core services have been developed to support leaders and design teams in the areas that they need it most.'
 story_box_one:
   -
     type: heading
