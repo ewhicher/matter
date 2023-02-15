@@ -131,7 +131,7 @@ article:
   -
     type: paragraph
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676493314
+updated_at: 1676493377
 heading: 'The future of vehicle usership - a Gen-Z story'
 author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
