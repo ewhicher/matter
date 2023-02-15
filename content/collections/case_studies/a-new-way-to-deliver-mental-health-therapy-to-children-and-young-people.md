@@ -14,6 +14,8 @@ article:
         file: healios1.jpg
         wide_view: true
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 3
@@ -21,6 +23,8 @@ article:
       -
         type: text
         text: 'Healios asked us to design a new service to deliver cognitive behavioural therapy to children and young people aged 11-17yrs. It needed to be something they could relate to and importantly, look forward to using.'
+  -
+    type: paragraph
   -
     type: heading
     attrs:
@@ -35,6 +39,8 @@ article:
       -
         type: text
         text: 'We worked with the Healios clinical team and groups of children from ages 11-17 to design a new chatbot character, tone of voice and interface, as well as create the UX framework to ensure it fit seamlessly into their lives.'
+  -
+    type: paragraph
   -
     type: set
     attrs:
@@ -54,6 +60,8 @@ article:
           - healios3.jpg
         wide_view: false
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 4
@@ -70,7 +78,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676458188
+updated_at: 1676458443
 thumbnail: healios2.jpg
 snippet: 'Healios asked us to design a new service to deliver cognitive behavioural therapy to children and young people aged 11-17yrs'
 theme: 'bg-light-yellow text-dark-grey'
