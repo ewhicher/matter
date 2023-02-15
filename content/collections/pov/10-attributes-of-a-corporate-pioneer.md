@@ -194,11 +194,43 @@ article:
       -
         type: text
         text: 'Corporate pioneers obsess over the customer experience. They optimise the onboarding journey and make the product experience so good that people want to tell their friends. And they build the systems to scale it.'
+  -
+    type: paragraph
+  -
+    type: paragraph
 author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
 snippet: '10 attributes of a corporate pioneer'
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1675774068
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1676463819
 thumbnail: content-illustrations_10-commandments.png
 theme: 'bg-light-green text-dark-grey'
+footer_text:
+  -
+    type: heading
+    attrs:
+      level: 4
+    content:
+      -
+        type: text
+        text: 'So, how are you doing on your path to becoming a corporate pioneer?'
+  -
+    type: heading
+    attrs:
+      level: 4
+    content:
+      -
+        type: text
+        text: 'Is there anything you would add to this? Let us know - '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'mailto:tom@activematter.co'
+              rel: null
+              target: null
+              title: null
+        text: tom@activematter.co
 ---
