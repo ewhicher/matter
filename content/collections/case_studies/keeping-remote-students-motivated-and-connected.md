@@ -14,6 +14,8 @@ article:
         file: ou-u.jpg
         wide_view: true
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 3
@@ -21,6 +23,8 @@ article:
       -
         type: text
         text: 'Open University asked us to help increase the number of students that complete their courses and achieve their goals.'
+  -
+    type: paragraph
   -
     type: heading
     attrs:
@@ -35,6 +39,8 @@ article:
       -
         type: text
         text: 'We analysed tons of data, spoke to students and interviewed staff across the OU to spot where the opportunities lay. Working with the hand-picked project team, we came up with new ways to solve the known issues and prioritised them for impact. Proposition development, Design Sprint, prototype and test.'
+  -
+    type: paragraph
   -
     type: set
     attrs:
@@ -56,6 +62,8 @@ article:
           - ou-4.jpg
         wide_view: false
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 4
@@ -75,9 +83,20 @@ article:
       -
         type: text
         text: "The first version of the product is live and we're now working on new ways for students to interact with the university, their course and the content in the most frictionless way possible."
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1675774004
+  -
+    type: paragraph
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1676458918
 thumbnail: ou-u.jpg
 snippet: 'Open University asked us to help increase the number of students that complete their courses and achieve their goals.'
 theme: 'bg-light-blue-strong text-dark-grey'
+footer_text:
+  -
+    type: heading
+    attrs:
+      level: 4
+    content:
+      -
+        type: text
+        text: 'Discover more about how we help brands to leverage design and technology to build deeper human connections.'
 ---
