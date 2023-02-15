@@ -77,8 +77,10 @@ article:
         text: 'A successfully tested brand concept, style guide and future insights for a successful launch. Within 5 months, the pilot product was successfully launched to approx. 5,000 children and young people across Europe.'
   -
     type: paragraph
+  -
+    type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676458443
+updated_at: 1676463447
 thumbnail: healios2.jpg
 snippet: 'Healios asked us to design a new service to deliver cognitive behavioural therapy to children and young people aged 11-17yrs'
 theme: 'bg-light-yellow text-dark-grey'
