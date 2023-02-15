@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676458080
+updated_at: 1676458190
 intro_text:
   -
     type: heading
@@ -27,13 +27,13 @@ more_text:
     content:
       -
         type: text
-        text: 'The LaunchPad can run for anything between 4-12 weeks depending on the complexity of the product, the business and the system it’s impacting as well as the level of rigour required to take a decision.'
+        text: 'The LaunchPad can run for anything between 4-12 weeks depending on the complexity of the product, the business and the system it’s impacting.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Helping to answer questions like...'
+        text: 'Use it to answer important questions, like...'
 typed_rows:
   -
     id: ldbr0tmk
