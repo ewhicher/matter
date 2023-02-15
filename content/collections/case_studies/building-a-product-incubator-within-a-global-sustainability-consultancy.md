@@ -81,5 +81,6 @@ theme: 'bg-light-blue-strong text-dark-grey'
 client: ERM
 snippet: 'ERM, a global sustainability consultancy, asked us to help them to define and embed a product accelerator within the digital organisation. The goal was to build new products and services that could enable their consulting work, generate new revenue and give clients better tools to manage ESG risk within their organisation.'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676461936
+updated_at: 1676462207
+thumbnail: erm-crisp.jpg
 ---
