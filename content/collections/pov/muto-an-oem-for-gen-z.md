@@ -130,9 +130,9 @@ article:
     type: paragraph
   -
     type: paragraph
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676464188
-heading: 'Gen-Z – travel and transportation behaviours, preferences, and the future of electric mobility'
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1676493207
+heading: 'The future of vehicle usership - a Gen-Z story'
 author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
 thumbnail: muto-1.jpg
