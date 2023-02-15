@@ -14,6 +14,8 @@ article:
         file: basf-coe.gif
         wide_view: true
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 3
@@ -21,6 +23,8 @@ article:
       -
         type: text
         text: "BASF asked us to join a small group of companies in creating a UX Centre of Excellence in Mannheim, implementing a Lean UX 'launch and learn' environment, where all new product innovations are designed and incubated."
+  -
+    type: paragraph
   -
     type: heading
     attrs:
@@ -49,8 +53,22 @@ article:
       -
         type: text
         text: 'The successful launch of the Centre of Excellence and high visibility and demand across the business. We designed and validated numerous new product concepts during the process, from an internal app store to a new tool to design battery materials for EVs and consumer electronics.'
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1674479248
+  -
+    type: paragraph
+  -
+    type: paragraph
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1676458825
 thumbnail: basf-coe.gif
 snippet: "BASF asked us to join a small group of companies in creating a UX Centre of Excellence in Mannheim, implementing a Lean UX 'launch and learn' environment, where all new product innovations are designed and incubated."
+footer_text:
+  -
+    type: heading
+    attrs:
+      level: 4
+    content:
+      -
+        type: text
+        text: 'Find out how we enable internal teams to make rapid progress on their most important challenges.'
+theme: 'bg-light-yellow text-dark-grey'
 ---
