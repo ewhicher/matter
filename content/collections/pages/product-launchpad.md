@@ -2,10 +2,10 @@
 id: 135d10cd-19b2-43c9-a526-9a515bedb951
 blueprint: page
 template: page
-title: 'Product Launchpad'
+title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676389291
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1676458080
 intro_text:
   -
     type: heading
@@ -14,35 +14,45 @@ intro_text:
     content:
       -
         type: text
-        text: 'The accelerator’s opening statement (it gets sh*t done) go from ‘idea with potential’ to ‘validated, tangible concept with a plan’ at the speed of a studio with nitrous oxide'
+        text: 'Bring customers into the design process to validate new products, services and experiences. Whether you’re a start-up that needs to test your idea, or an established company keen to explore a new revenue stream or pivot an existing product, the LaunchPad is a way to move purposefully from idea to impact.'
 more_text:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Identifying promising growth opportunities is a science and the first step to a meaningful product strategy.'
-      -
-        type: hardBreak
-      -
-        type: hardBreak
+        text: 'By combining customer research, design prototypes and financial modelling into a lean process, we de-risk investment and enable brands to rapidly explore the value of new opportunities.'
+  -
+    type: paragraph
+    content:
       -
         type: text
-        text: 'As well as helping you to discover new whitespace and under-served opportunities, our rigorous opportunity pack provides a solid foundation for many future initiatives.'
+        text: 'The LaunchPad can run for anything between 4-12 weeks depending on the complexity of the product, the business and the system it’s impacting as well as the level of rigour required to take a decision.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Helping to answer questions like...'
 typed_rows:
   -
     id: ldbr0tmk
-    text: 'How can we drive operational efficiencies within out'
+    text: 'What features should we include in a self-service app?'
+    type: row
+    enabled: true
+  -
+    id: le5jlpfb
+    text: 'How can we build a digital-first brand?'
     type: row
     enabled: true
   -
     id: ldbr0vvs
-    text: 'Identifying promising growth opportunities is a science and the first step to a meaningful product strategy'
+    text: 'How will a new product impact the wider organisation?'
     type: row
     enabled: true
   -
     id: ldbr0wsn
-    text: 'As well as helping you to discover new whitespace and under-served opportunities, our rigorous opportunity pack provides a solid foundation for many future initiatives.'
+    text: 'How can I build stakeholder confidence around a new service?'
     type: row
     enabled: true
 together_text_one:
@@ -53,13 +63,13 @@ together_text_one:
     content:
       -
         type: text
-        text: 'Get immersed'
+        text: 'Frame the opportunity'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "We'll spend time with you, the people in your business and your data and customer insights to understand and document your vision, company assets and unique capabilities."
+        text: 'We work with your teams and subject experts to understand the opportunity space and the vision for the business. We ask tough questions and give honest answers to prioritise for success.'
 together_text_two:
   -
     type: heading
@@ -68,13 +78,13 @@ together_text_two:
     content:
       -
         type: text
-        text: 'Look outside in'
+        text: 'Customer research'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Distil macro global trends, industry trends, competitor activity and innovator profiles. From here we'll map your opportunity spaces."
+        text: 'Customer needs before feature lists. We get immersed in the problem, speak with customers, and do whatever it takes to understand the people we’re serving, their goals and their current challenges.'
 together_text_three:
   -
     type: heading
@@ -83,13 +93,13 @@ together_text_three:
     content:
       -
         type: text
-        text: 'Define your opportunity spaces'
+        text: Prototype
   -
     type: paragraph
     content:
       -
         type: text
-        text: "We'll dive deeper into the key opportunity spaces to better understand the market size and maturity, and layer in your existing assets and capabilities that you can leverage to move quickly."
+        text: 'From our findings, we move decisively and deliberately to create a proof of concept to test in the market.'
 cta_text:
   -
     type: heading
@@ -98,7 +108,7 @@ cta_text:
     content:
       -
         type: text
-        text: 'Get a map of areas and markets, bursting with opportunities to fill your innovation pipeline.'
+        text: 'We’ll demo the project back to the project  team, with honest and objective recommendations for what should happen next.'
 proof_quote: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic.'
 proof_logo: clients/testimo/diagio-logo-small.png
 pattern: patterns/product.png
