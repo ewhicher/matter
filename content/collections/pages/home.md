@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676459544
+updated_at: 1676547024
 heading: 'Design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -24,9 +24,9 @@ intro:
       -
         type: text
         text: ', we design products and services that improve experiences, open new markets, and redefine categories.'
-card_one_text: 'Discover and prioritise the real world opportunities that you are uniquely positioned to solve'
-card_two_text: 'Design experiences that people love and bring them to market faster than you thought possible'
-card_three_text: 'Mobilise expert design, technology and content services to catalyse a new phase of growth'
+card_one_text: 'Prioritise emerging customer needs that align with your business goals'
+card_two_text: 'Turn early stage ideas into valuable products and services'
+card_three_text: 'Grow your audience, optimise operations and improve experiences'
 hidden_text: 'We inject momentum into important projects and light fires in the bellies of the people and teams we work with.'
 logos:
   - basf-white-artworked.png
