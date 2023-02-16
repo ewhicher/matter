@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676458190
+updated_at: 1676555167
 intro_text:
   -
     type: heading
@@ -14,10 +14,12 @@ intro_text:
     content:
       -
         type: text
-        text: 'Bring customers into the design process to validate new products, services and experiences. Whether you’re a start-up that needs to test your idea, or an established company keen to explore a new revenue stream or pivot an existing product, the LaunchPad is a way to move purposefully from idea to impact.'
+        text: 'Whether you’re a start-up that needs to test your idea, or an established company keen to explore a new revenue stream or pivot an existing product, the LaunchPad is a way to move purposefully from idea to impact.'
 more_text:
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 4
     content:
       -
         type: text
@@ -112,8 +114,6 @@ cta_text:
 proof_quote: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic.'
 proof_logo: clients/testimo/diagio-logo-small.png
 pattern: patterns/product.png
-intro_video_placeholder:
-  - temp/olvid.png
 footer_text:
   -
     type: paragraph
