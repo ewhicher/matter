@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676568097
+updated_at: 1676585505
 heading: 'Design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -121,19 +121,19 @@ story_box_one:
     content:
       -
         type: text
-        text: 'Brought together in 2018 by a shared mission to bring the creativity and craft of a design studio together with the commerciality and rigour of a consultancy to help clients tackle increasingly complex business challenges.'
+        text: 'Brought together in 2018 to combine the craft of a design studio with the commerciality of a consultancy to help clients create impactful solutions to increasingly complex business challenges.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "During that time we've travelled the world, running design sprints in China, crafting user experiences in Chicago to building new ventures from our workshop in Birmingham, UK. With Fortune 10 companies One thing all these partners have in common is a drive to innovate and an ambition to become the best at what they do."
+        text: "Since then, we've worked globally to create beautiful digital experiences, develop world-class products, and incubate new ventures for clients ranging from Fortune 100 corporations to freshly minted startups."
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Our values drive all of our decisions. '
+        text: 'We can mobilise as an extension of your team to inject momentum into important projects or as an external partner to work free from constraints.'
 story_box_two:
   -
     type: heading
@@ -142,13 +142,13 @@ story_box_two:
     content:
       -
         type: text
-        text: 'Prototypes before presentations'
+        text: 'Outcomes over outputs'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'We work in clearly defined sprints to rapidly explore possibilities, prove cutting-edge concepts and go to market, fast.'
+        text: 'Whether improving the experience of an existing product or launching a brand new venture, we set commercial targets for our work and measure our design outputs against them.'
 story_box_three:
   -
     type: heading
@@ -163,7 +163,7 @@ story_box_three:
     content:
       -
         type: text
-        text: 'We love making things happen and getting our hands dirty. We experiment and are willing to invest in our clients for shared upside in the future. We are also professionals who know how to go from ideas to results.'
+        text: 'We love to make things happen and get our hands dirty. We treat our client’s business like our own and are willing to co-invest in projects for a shared upside in the future. We are also professionals who know how to go from ideas to results.'
 story_box_four:
   -
     type: heading
@@ -178,7 +178,7 @@ story_box_four:
     content:
       -
         type: text
-        text: 'We augment our strategic design team with world-class associates and specialist partners. That means we can scale on demand, giving our clients the ability to do more, for less.'
+        text: 'We augment our core design team with world-class associates and specialist partners, so our clients always get the A-team so they can go further, faster.'
 card_one_heading: 'Opportunity Lab'
 card_two_heading: 'Product Launchpad'
 card_three_heading: 'Growth Mission'
