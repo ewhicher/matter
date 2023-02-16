@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676567126
+updated_at: 1676568097
 heading: 'Design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -121,19 +121,19 @@ story_box_one:
     content:
       -
         type: text
-        text: 'Brought together in 2018 by a shared mission to bring creativity and commerciality together to tackle increasingly complex business challenges. I took out the jab at consulting.'
+        text: 'Brought together in 2018 by a shared mission to bring the creativity and craft of a design studio together with the commerciality and rigour of a consultancy to help clients tackle increasingly complex business challenges.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Here's another paragraph about why we created active matter - what we're hoping to achieve and the values that drive us. Something that connects to the kid of people we want to work with and reflects the ambition that we have. It's pretty simple really."
+        text: "During that time we've travelled the world, running design sprints in China, crafting user experiences in Chicago to building new ventures from our workshop in Birmingham, UK. With Fortune 10 companies One thing all these partners have in common is a drive to innovate and an ambition to become the best at what they do."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Just testing out what a longer form of this content looks like before properly working into the content to see how much we can get away with here. That's all for now. If you're reading this on the site, then don't worry. It'll be updated with really beautiful and compelling words soon. I promise. x"
+        text: 'Our values drive all of our decisions. '
 story_box_two:
   -
     type: heading
