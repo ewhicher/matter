@@ -3,8 +3,8 @@ id: f822d875-5649-4bc0-bd7d-e9689176c8f4
 blueprint: am_files
 template: am_files
 title: 'AM Files'
-updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676539727
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1676567710
 theme: 'bg-white text-dark-grey'
 hero_heading: 'Latest from the studio'
 hero_text:
@@ -17,6 +17,7 @@ hero_text:
 files:
   - c20d41fb-7de9-4629-b606-7fae53481ed1
   - b3ac641a-8ae3-4fe2-933f-2f892d968186
+  - 52918f0e-1486-4a94-88bb-719cf68f3d83
   - a3888db6-ae08-40ed-aafa-2274e045dde1
   - 6ed034df-ddc9-4359-a8d7-7be971319dcb
   - a5a44c9a-9878-469f-b443-145f099e1eef
