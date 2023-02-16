@@ -2,11 +2,11 @@
 id: f822d875-5649-4bc0-bd7d-e9689176c8f4
 blueprint: am_files
 template: am_files
-title: Latest
+title: 'AM Files'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676539662
+updated_at: 1676539727
 theme: 'bg-white text-dark-grey'
-hero_heading: Latest
+hero_heading: 'Latest from the studio'
 hero_text:
   -
     type: paragraph
