@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676564756
+updated_at: 1676564924
 heading: 'Design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -45,6 +45,7 @@ views_list:
   - dfba298f-bee8-4176-86bf-4eee9c0b7130
   - 6ed034df-ddc9-4359-a8d7-7be971319dcb
   - 8b101014-a717-42de-95e3-8e46c12db390
+  - edfab6f8-1a14-4099-8435-4797d1fa3b71
 views_cta_text: 'Thinking of starting a new project?'
 what_we_do_heading: 'What we do'
 views_heading: 'Latest from the studio'
