@@ -4,8 +4,8 @@ blueprint: page
 template: page
 title: 'Growth Mission'
 theme: 'bg-light-red text-dark-grey'
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1676308643
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1676554942
 pattern: patterns/growth.png
 intro_text:
   -
@@ -15,35 +15,40 @@ intro_text:
     content:
       -
         type: text
-        text: 'The accelerator’s opening statement (it gets sh*t done) go from ‘idea with potential’ to ‘validated, tangible concept with a plan’ at the speed of a studio with nitrous oxide'
+        text: 'Build growth through relevance'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Customer expectations are continually being redefined by market-leading experiences. We help companies navigate the improvements in their product and service experience to stay relevant and build deeper, more connected customer relationships.'
 more_text:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Identifying promising growth opportunities is a science and the first step to a meaningful product strategy.'
-      -
-        type: hardBreak
-      -
-        type: hardBreak
+        text: 'Whether it’s driving digital self-service, improving customer retention, equipping teams or streamlining operations, we bring human-centred design, technology and commercial strategy to help our clients fly.'
+  -
+    type: paragraph
+    content:
       -
         type: text
-        text: 'As well as helping you to discover new whitespace and under-served opportunities, our rigorous opportunity pack provides a solid foundation for many future initiatives.'
+        text: 'It all starts with benchmarking where you are, and where you aspire to be.'
 typed_rows:
   -
-    id: ldbr0tmk
-    text: 'How can we drive operational efficiencies within out'
-    type: row
-    enabled: true
-  -
     id: ldbr0vvs
-    text: 'Identifying promising growth opportunities is a science and the first step to a meaningful product strategy'
+    text: 'We need to move from an MVP with traction, to a product with imapact'
     type: row
     enabled: true
   -
     id: ldbr0wsn
-    text: 'As well as helping you to discover new whitespace and under-served opportunities, our rigorous opportunity pack provides a solid foundation for many future initiatives.'
+    text: 'Our new product growth is slowing, we need an injection of momentum'
+    type: row
+    enabled: true
+  -
+    id: le756f4f
+    text: 'We need to increase our customer lifetime value and grow market share'
     type: row
     enabled: true
 together_text_one:
@@ -54,13 +59,16 @@ together_text_one:
     content:
       -
         type: text
-        text: 'Get immersed'
+        marks:
+          -
+            type: bold
+        text: 'Experience audit'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "We'll spend time with you, the people in your business and your data and customer insights to understand and document your vision, company assets and unique capabilities."
+        text: 'Analyse your current product and value proposition, the customer journey and the market positioning to find the leverage points for growth. At this stage, we’ll also challenge whether the product is even worthy to scale.'
 together_text_two:
   -
     type: heading
@@ -69,13 +77,16 @@ together_text_two:
     content:
       -
         type: text
-        text: 'Look outside in'
+        marks:
+          -
+            type: bold
+        text: 'Growth foundations'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Distil macro global trends, industry trends, competitor activity and innovator profiles. From here we'll map your opportunity spaces."
+        text: "Set a growth strategy in line with the company's ambition, define assumptions and set boundaries, improve your product-market fit, develop your messaging frameworks, build your team and get funding for success."
 together_text_three:
   -
     type: heading
@@ -84,13 +95,16 @@ together_text_three:
     content:
       -
         type: text
-        text: 'Define your opportunity spaces'
+        marks:
+          -
+            type: bold
+        text: 'Product iteration:'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "We'll dive deeper into the key opportunity spaces to better understand the market size and maturity, and layer in your existing assets and capabilities that you can leverage to move quickly."
+        text: 'Take your MVP or existing offering to the next level with our support to optimise it with upgraded UX, design, content and regular bi-weekly releases'
 cta_text:
   -
     type: heading
@@ -99,9 +113,7 @@ cta_text:
     content:
       -
         type: text
-        text: 'Get a map of areas and markets, bursting with opportunities to fill your innovation pipeline.'
+        text: "Build a scalable foundation to acquire, retain, and activate customers. Let's kickstart your next phase."
 proof_quote: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic.'
 proof_logo: clients/testimo/diagio-logo-small.png
-intro_video_placeholder:
-  - temp/olvid.png
 ---
