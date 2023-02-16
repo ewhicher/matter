@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676566457
+updated_at: 1676566532
 heading: 'Design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -24,7 +24,7 @@ intro:
       -
         type: text
         text: ', we design products and services that improve experiences, open new markets, and redefine categories.'
-card_one_text: 'Understand and prioritse new opportunities with potential to transform your business'
+card_one_text: 'Understand and prioritse opportunities with potential to transform your business'
 card_two_text: 'Turn early stage ideas into new products and services that customers love'
 card_three_text: 'Improve UX, optimise operations and kickstart a new phase of growth'
 hidden_text: 'We inject momentum into important projects and light fires in the bellies of the people and teams we work with.'
