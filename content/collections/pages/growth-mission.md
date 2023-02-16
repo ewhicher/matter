@@ -5,7 +5,7 @@ template: page
 title: 'Growth Mission'
 theme: 'bg-light-red text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676554942
+updated_at: 1676555861
 pattern: patterns/growth.png
 intro_text:
   -
@@ -86,7 +86,7 @@ together_text_two:
     content:
       -
         type: text
-        text: "Set a growth strategy in line with the company's ambition, define assumptions and set boundaries, improve your product-market fit, develop your messaging frameworks, build your team and get funding for success."
+        text: "Set a growth strategy in line with the company's ambition, define assumptions and set boundaries, product-market fit, build your team and get funding for success."
 together_text_three:
   -
     type: heading
@@ -113,7 +113,7 @@ cta_text:
     content:
       -
         type: text
-        text: "Build a scalable foundation to acquire, retain, and activate customers. Let's kickstart your next phase."
+        text: "Build a scalable foundation to acquire, onboard and grow customers in a sustainable way. Let's kickstart your next phase."
 proof_quote: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic.'
 proof_logo: clients/testimo/diagio-logo-small.png
 ---
