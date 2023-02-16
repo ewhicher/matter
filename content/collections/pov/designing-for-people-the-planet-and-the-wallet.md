@@ -540,8 +540,8 @@ article:
 author:
   - 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
 thumbnail: designforplanet.png
-snippet: 'Can UX save the world? The answer is – it can certainly help, by working bloody hard to make things better by making better things.'
+snippet: 'Designing for people, the planet and the wallet – can UX save the world?'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676567951
+updated_at: 1676568033
 ---
