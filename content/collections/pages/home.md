@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676587174
+updated_at: 1676587805
 heading: 'Design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -127,13 +127,13 @@ story_box_one:
     content:
       -
         type: text
-        text: "Since then, we've worked globally to create beautiful digital experiences, develop world-class products, and incubate new ventures for clients ranging from Fortune 100 corporations to freshly minted startups."
+        text: "Since then, we've worked globally to create beautiful digital experiences, develop world-class products, and launch new ventures for clients ranging from Fortune 100 corporations to freshly minted startups."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "We're guided by the belief that good design inspires meaningful change and delivers better business growth."
+        text: "We bring brutal optimism to our work, thinking big but remaining tethered to reality and moving at pace to create what's next."
 story_box_two:
   -
     type: heading
