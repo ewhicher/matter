@@ -78,8 +78,8 @@ article:
             id: le5k5lfc
             quote: 'I’m actually quite emotional. It’s amazing. This process has been so valuable for us.'
             name: 'Sam Kitching - Founder - WIT'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676463559
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1676539178
 thumbnail: wit1.jpg
 snippet: 'We took WIT’s unique flagship training hub to the next level and re-imagined it as a connected digital experience - seamlessly merging training, retail and community.'
 footer_text:
@@ -91,5 +91,5 @@ footer_text:
       -
         type: text
         text: 'Find out how our service design, UI and product teams combine to create new business models and revenue streams.'
-theme: 'bg-light-blue-strong text-dark-grey'
+theme: 'bg-light-green text-dark-grey'
 ---
