@@ -131,12 +131,6 @@ article:
         type: text
         text: 'The generally accepted way of measuring how carbon efficient a digital experience is, is by calculating its combined size (kb). The reason for this is threefold:'
   -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "\_"
-  -
     type: orderedList
     attrs:
       start: 1
@@ -549,5 +543,5 @@ thumbnail: designforplanet.png
 snippet: 'Can UX save the world? The answer is – it can certainly help, by working bloody hard to make things better by making better things.'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676567656
+updated_at: 1676567951
 ---
