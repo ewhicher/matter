@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676623398
+updated_at: 1676623709
 heading: 'Design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -60,16 +60,20 @@ testimonials:
     role: 'Global Commercial Strategy and Transformation Director'
   -
     id: ld8z928s
-    quote: 'We inject momentum into important projects and light fires in the bellies of the people and teams we work with.'
-    name: 'Gav & Tom'
+    quote: 'Active Matter seamlessly integrated into our team. They have been instrumental in helping us to accelerate our plans.'
+    name: 'Peter Virk'
     type: testimonial
     enabled: true
+    role: 'VP IVY Product and Ecosystem'
+    logo: clients/blackberry-artworked.png
   -
     id: ld8z9kbh
-    quote: 'Active Matter is an experience design company for people on a mission'
-    name: 'The machine | Active Matter'
+    quote: "This project has been a game-changer for us. I couldn't recommend Active Matter highly enough"
+    name: 'Sam Kitching'
     type: testimonial
     enabled: true
+    role: 'General Manager, Europe'
+    logo: clients/logo.svg
 showcase_image:
   -
     id: ldn438dk
