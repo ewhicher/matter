@@ -14,8 +14,6 @@ article:
         text: 'Building successful products and services within a corporate environment is hard. It takes brilliant design operations, a workable tech stack and a company-wide culture of invention, trust and collaboration.'
   -
     type: paragraph
-  -
-    type: paragraph
     content:
       -
         type: text
@@ -28,18 +26,16 @@ article:
         text: "We refer to the people and organisations that do this successfully as 'Corporate Pioneers'."
   -
     type: paragraph
-  -
-    type: paragraph
     content:
       -
         type: text
-        text: "What attributes make a corporate pioneer? We've listed them below. Grab a pen and score your company /10 for each attribute."
+        text: "But what separates a corporate pioneer from the rest? We've listed ten key attributes they all have in common. "
   -
     type: paragraph
   -
     type: heading
     attrs:
-      level: 3
+      level: 2
     content:
       -
         type: text
@@ -58,7 +54,7 @@ article:
   -
     type: heading
     attrs:
-      level: 3
+      level: 2
     content:
       -
         type: text
@@ -77,7 +73,7 @@ article:
   -
     type: heading
     attrs:
-      level: 3
+      level: 2
     content:
       -
         type: text
@@ -96,7 +92,7 @@ article:
   -
     type: heading
     attrs:
-      level: 3
+      level: 2
     content:
       -
         type: text
@@ -115,7 +111,7 @@ article:
   -
     type: heading
     attrs:
-      level: 3
+      level: 2
     content:
       -
         type: text
@@ -134,7 +130,7 @@ article:
   -
     type: heading
     attrs:
-      level: 3
+      level: 2
     content:
       -
         type: text
@@ -153,7 +149,7 @@ article:
   -
     type: heading
     attrs:
-      level: 3
+      level: 2
     content:
       -
         type: text
@@ -172,7 +168,7 @@ article:
   -
     type: heading
     attrs:
-      level: 3
+      level: 2
     content:
       -
         type: text
@@ -191,7 +187,7 @@ article:
   -
     type: heading
     attrs:
-      level: 3
+      level: 2
     content:
       -
         type: text
@@ -210,7 +206,7 @@ article:
   -
     type: heading
     attrs:
-      level: 3
+      level: 2
     content:
       -
         type: text
@@ -232,7 +228,7 @@ author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
 snippet: '10 attributes of a corporate pioneer'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676626125
+updated_at: 1676626485
 thumbnail: content-illustrations_10-commandments.png
 theme: 'bg-light-green text-dark-grey'
 footer_text:
