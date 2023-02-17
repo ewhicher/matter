@@ -543,5 +543,57 @@ thumbnail: designforplanet.png
 snippet: 'Designing for people, the planet and the wallet – can UX save the world?'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676568033
+updated_at: 1676624753
+takeaway:
+  -
+    id: le8ajfbu
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'UX can do more to make things better for the planet and the wallet by including these non-human persona into our thinking'
+  -
+    id: le8arslm
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "You don't "
+          -
+            type: text
+            marks:
+              -
+                type: italic
+            text: have
+          -
+            type: text
+            text: " to work different. What's good for people can also be good for the planet and the wallet"
+footer_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Are you thinking about the planet and wallet as much as the people?'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "I'd love to hear your thoughts. "
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'Mailto: gavin@activematter.co'
+              rel: null
+              target: null
+              title: null
+        text: gavin@activematter.co
 ---
