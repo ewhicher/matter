@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1676635797
+updated_at: 1676635870
 heading: 'A design and innovation studio _ for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -109,7 +109,7 @@ showcase_showcase:
     colour: black
     type: image
     enabled: true
-    button_link: 'https://matter.bouncingbean.uk/assets/456e79a035081ec85f2f5e6705c3b8b5d23b4688-2880x1400.jpg'
+    button_link: /assets/456e79a035081ec85f2f5e6705c3b8b5d23b4688-2880x1400.jpg
 what_we_do_intro:
   -
     type: paragraph
