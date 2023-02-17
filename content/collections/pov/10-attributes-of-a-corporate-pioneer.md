@@ -43,6 +43,9 @@ article:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: '1. Customer needs'
   -
     type: paragraph
@@ -59,6 +62,9 @@ article:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: '2. What before How'
   -
     type: paragraph
@@ -75,6 +81,9 @@ article:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: '3. Decision making'
   -
     type: paragraph
@@ -91,6 +100,9 @@ article:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: '4. Speed'
   -
     type: paragraph
@@ -107,13 +119,16 @@ article:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: '5. Cost to serve'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Corporate pioneers are brutal optimists. They understand the realities of bringing a new idea to market and focus investment on those few opportunities with the potential to deliver meaningful impact.'
+        text: 'Corporate pioneers understand the commercial and organisational realities of bringing a new idea to market. They focus investment on those few opportunities with the potential to deliver meaningful and long-term impact.'
   -
     type: paragraph
   -
@@ -123,6 +138,9 @@ article:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: '6. Revenue streams'
   -
     type: paragraph
@@ -139,6 +157,9 @@ article:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: '7. Structured for success'
   -
     type: paragraph
@@ -155,6 +176,9 @@ article:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: '8. Inclusivity'
   -
     type: paragraph
@@ -171,6 +195,9 @@ article:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: '9. Resilience'
   -
     type: paragraph
@@ -187,6 +214,9 @@ article:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: '10. Experience at scale'
   -
     type: paragraph
@@ -202,7 +232,7 @@ author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
 snippet: '10 attributes of a corporate pioneer'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676564876
+updated_at: 1676626125
 thumbnail: content-illustrations_10-commandments.png
 theme: 'bg-light-green text-dark-grey'
 footer_text:
