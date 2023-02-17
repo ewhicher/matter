@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676624215
+updated_at: 1676624529
 heading: 'Design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -138,7 +138,7 @@ story_box_one:
     content:
       -
         type: text
-        text: "Since then, we've worked globally to create beautiful digital experiences, develop world-class products, and launch new ventures for companies ranging from Fortune 100 corporations to freshly minted startups."
+        text: "Since then, we've worked globally to create seamless digital experiences, develop world-class products, and launch new ventures for companies ranging from Fortune 100 corporations to freshly minted startups."
   -
     type: paragraph
     content:
@@ -174,7 +174,7 @@ story_box_three:
     content:
       -
         type: text
-        text: 'We love to make things happen and get our hands dirty. We treat our client’s business like our own and are willing to co-invest in projects for a shared upside in the future. We are also professionals who know how to go from ideas to results.'
+        text: 'We love to make things happen and get our hands dirty. We treat our client’s businesses like our own and often co-invest in projects for a shared upside in the future. We are also professionals who know how to go from ideas to results.'
 story_box_four:
   -
     type: heading
