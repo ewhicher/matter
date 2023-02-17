@@ -80,7 +80,7 @@ article:
   -
     type: paragraph
 updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1676633415
+updated_at: 1676633422
 thumbnail: healios2.jpg
 snippet: 'A new way to deliver cognitive behavioural therapy to children and young people'
 theme: 'bg-light-yellow text-dark-grey'
@@ -88,7 +88,7 @@ footer_text:
   -
     type: heading
     attrs:
-      level: 2
+      level: 4
     content:
       -
         type: text
