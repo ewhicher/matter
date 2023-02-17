@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676588048
+updated_at: 1676623398
 heading: 'Design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -52,12 +52,12 @@ views_heading: 'Latest from the studio'
 testimonials:
   -
     id: ld8z7sjd
-    quote: "I'm speechless. We achieved more in the last 10 days than have in the last 6-months"
+    quote: 'We achieved more in the last few weeks than have in the last 6-months'
     logo: clients/testimo/diagio-logo-small.png
     type: testimonial
     enabled: true
-    name: 'Gina Norton'
-    role: 'Global Digital Director'
+    name: 'Sashi Sangala'
+    role: 'Global Commercial Strategy and Transformation Director'
   -
     id: ld8z928s
     quote: 'We inject momentum into important projects and light fires in the bellies of the people and teams we work with.'
