@@ -39,7 +39,7 @@ article:
     content:
       -
         type: text
-        text: 'The answer is – it can certainly help, by working bloody hard to make things better by making better things.'
+        text: 'The answer is – it can certainly help, by working hard to make things better by making better things.'
   -
     type: paragraph
     content:
@@ -84,7 +84,7 @@ article:
     content:
       -
         type: text
-        text: "So, let's dig deeper into how UX designers can don their superhero capes and save this burning world."
+        text: "So, let's dig deeper into how UX designers can don their superhero capes to help save this burning world."
   -
     type: paragraph
     content:
@@ -96,10 +96,10 @@ article:
         marks:
           -
             type: bold
-        text: "“User experience\_(UX) is the interaction and experience users have with a company's products and services\""
+        text: "“User experience\_(UX) is the interaction and experience people have with a company's products and services\""
       -
         type: text
-        text: '. It stands to reason then, that the better we make those interactions and experiences, the better for the user and the better for the company.'
+        text: '. It stands to reason then, that the better we make those interactions and experiences, the better for the people and the better for the company.'
   -
     type: paragraph
     content:
@@ -194,7 +194,7 @@ article:
     content:
       -
         type: text
-        text: 'What we’re doing now is killing the world.'
+        text: 'The world is now on fire, and consciously or unconsciously, we are contributing to the problem.'
   -
     type: paragraph
     content:
@@ -223,7 +223,7 @@ article:
     content:
       -
         type: text
-        text: 'By minimising the number of steps it takes to complete a task, we reduce the total energy requirement for that task. The key is reducing the energy consumed by the user’s device whilst undertaking a given task.'
+        text: 'By minimising the number of steps it takes to complete a task, we reduce the total energy requirement for that task. The key is reducing the energy consumed by the person’s device whilst undertaking a given task.'
   -
     type: paragraph
     content:
@@ -246,7 +246,7 @@ article:
     content:
       -
         type: text
-        text: 'By only collecting the data you need from your user to deliver the service they want, you reduce the time (and energy) required to enter that data. And, as a bonus, you’ll also save the cost (and energy) of storing all that unnecessary data.'
+        text: 'By only collecting the data you need from your customer to deliver the service they want, you reduce the time (and energy) required to enter that data. And, as a bonus, you’ll also save the cost (and energy) of storing all that unnecessary data.'
   -
     type: paragraph
     content:
@@ -263,7 +263,7 @@ article:
         marks:
           -
             type: bold
-        text: '3 - Do the work for your user'
+        text: '3 - Do the work for your customer'
   -
     type: paragraph
     content:
@@ -542,8 +542,8 @@ author:
 thumbnail: designforplanet.png
 snippet: 'Designing for people, the planet and the wallet – can UX save the world?'
 theme: 'bg-light-green text-dark-grey'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676624753
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1676627719
 takeaway:
   -
     id: le8ajfbu
