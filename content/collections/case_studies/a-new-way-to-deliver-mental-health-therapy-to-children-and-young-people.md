@@ -79,10 +79,10 @@ article:
     type: paragraph
   -
     type: paragraph
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676463447
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1676629178
 thumbnail: healios2.jpg
-snippet: 'Healios asked us to design a new service to deliver cognitive behavioural therapy to children and young people aged 11-17yrs'
+snippet: 'A new way to deliver cognitive behavioural therapy to children and young people'
 theme: 'bg-light-yellow text-dark-grey'
 footer_text:
   -
