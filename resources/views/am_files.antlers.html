@@ -19,11 +19,8 @@
               case 'pov':
                 label = 'Point of view'
                 break;
-              case 'projects':
-                label = 'Projects'
-                break;
-              case 'case_studies':
-                label = 'Case Studies';
+              case 'work':
+                label = 'Work';
             }
           }"
           x-cloak
@@ -53,8 +50,7 @@
           >
             <div class="px-4 py-6 bg-white rounded-sm shadow-amxl text-blue">
               <a class="block px-4 py-2 rounded-sm type-callout hover:bg-light-blue" :class="{ 'text-dark-grey' : handle === 'all' }" href="{{ permalink }}">All</a>
-              <a class="block px-4 py-2 rounded-sm type-callout hover:bg-light-blue" :class="{ 'text-dark-grey' : handle === 'case_studies' }" href="{{ permalink }}?type=case_studies">Case Studies</a>
-              <a class="block px-4 py-2 rounded-sm type-callout hover:bg-light-blue" :class="{ 'text-dark-grey' : handle === 'projects' }" href="{{ permalink }}?type=projects">Projects</a>
+              <a class="block px-4 py-2 rounded-sm type-callout hover:bg-light-blue" :class="{ 'text-dark-grey' : handle === 'case_studies' }" href="{{ permalink }}?type=work">Work</a>
               <a class="block px-4 py-2 rounded-sm type-callout hover:bg-light-blue" :class="{ 'text-dark-grey' : handle === 'pov' }" href="{{ permalink }}?type=pov">Point of View</a>
             </div>
           </div>
@@ -71,12 +67,20 @@
     </div>
   </div>
   <div class="wrap-2xl flex flex-wrap">
-    {{ files query_scope="handle" scope_handle="{ get:type }" }}
+    {{ files query_scope="files" scope_type="{ get:type }" }}
       <div class="w-full md:w-1/2 lg:w-1/3 px-4">
         {{ if (collection:handle) == 'projects' }}
           {{ partial:components/project_tile }}
         {{ else }}
-          <a class="block relative pb-16 md:pb-24 lg:pb-32 group" href="{{ url }}">
+          <a
+            class="block relative pb-16 md:pb-24 lg:pb-32 group"
+            {{ if blueprint == 'external' }}
+              href="{{ link }}"
+              target="_blank"
+            {{ else }}
+              href="{{ url }}"
+            {{ /if }}
+          >
             <div>
               {{ if thumbnail }}
                 <img class="block w-full rounded-sm" src="{{ glide:thumbnail w="860" h="880" fit="crop_focal" }}">
@@ -100,69 +104,7 @@
   </div>
 </section>
 
-{{ get_content from="/"}}
-<section class="py-[6rem] md:py-[10rem] lg:py-[15rem] bg-light-green">
-  <div class="wrap-2xl">
-    <div class="lg:w-8/12 px-4 lg:pr-0">
-      <div class="pb-10">
-        {{ partial:components/speach }}
-      </div>
-      <div
-        x-data="{ typed: null, current: 0 }"
-        x-init="() => {
-          typed = new Typed($refs.showcase, {
-            stringsElement: $refs.quotes,
-            typeSpeed: 30,
-            backSpeed: 10,
-            loop: true,
-            onStringTyped: (arrayPos, self) => {
-              if (arrayPos > 0) {
-                self.stop()
-                console.log(arrayPos, self)
-                $refs.wrapper.children[arrayPos].style = '';
-                setTimeout(() => {
-                  $refs.wrapper.children[arrayPos].style.display = 'none';
-                  self.start()
-                }, 2000)
-              }
-            },
-          });
-        }"
-        class="h-[300px]"
-        x-cloak
-      >
-        <div x-ref="quotes">
-          <span></span>
-          {{ testimonials }}
-            <span>"{{ quote }}"</span>
-          {{ /testimonials }}
-        </div>
-        <div>
-          <div class="type-leadline">
-            <span x-ref="showcase"></span>
-          </div>
-          <div x-ref="names">
-            <!-- style="width: 0;"> -->
-            <div class="pt-8" x-ref="wrapper">
-              <div class="inline-block" style="display: none;"></div>
-              {{ testimonials }}
-              <div class="inline-block" style="display: none;">
-                {{ if logo }}
-                  <img class="h-6" src="{{ logo }}">
-                {{ else }}
-                  <p class="type-leadline">{{ name }}</p>
-                {{ /if }}
-              </div>
-              {{ /testimonials }}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ /get_content }}
-
+<section class="pt-[6rem] md:pt-[10rem] lg:pt-[15rem] bg-light-green">
 {{ partial:sections/ctas }}
 
 {{ section:jsbefore }}

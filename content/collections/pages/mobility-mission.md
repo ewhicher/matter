@@ -102,7 +102,7 @@ together_text_three:
         type: text
         text: "We'll dive deeper into the key opportunity spaces to better understand the market size and maturity, and layer in your existing assets and capabilities that you can leverage to move quickly."
 proof_logo: bp.png
-proof_quote: 'Working with the Retail IT leadership, we created a vision for the future of its existing retail locations as connected mobility and retail services.'
+proof_text: 'Working with the Retail IT leadership, we created a vision for the future of its existing retail locations as connected mobility and retail services.'
 extra_text:
   -
     type: paragraph

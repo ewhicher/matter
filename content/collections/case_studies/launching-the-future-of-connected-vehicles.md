@@ -50,12 +50,31 @@ article:
     attrs:
       id: lbxxn5vy
       values:
+        type: statements
+        statements:
+          -
+            id: lbxxn8vt
+            text: 'The team at Active Matter quickly grasped the complexity, ambition and opportunity BlackBerry IVY presents for us as a business. They seamlessly integrated into the BlackBerry IVY product team, and together they’ve helped deliver two memorable launch experiences for the audience at CES.'
+            name: 'Peter Virk – Vice President, IVY Product & Ecosystem at BlackBerry'
+  -
+    type: set
+    attrs:
+      id: led0tw4n
+      values:
         type: testimonials
         testimonials:
           -
-            id: lbxxn8vt
-            quote: 'The team at Active Matter quickly grasped the complexity, ambition and opportunity BlackBerry IVY presents for us as a business. They seamlessly integrated into the BlackBerry IVY product team, and together they’ve helped deliver two memorable launch experiences for the audience at CES.'
-            name: 'Peter Virk – Vice President, IVY Product & Ecosystem at BlackBerry'
+            quote: test
+            name: test
+            role: test
+            logo: {  }
+            _id: led0twn5
+          -
+            quote: 'TEst 2'
+            name: Nmae
+            role: role
+            logo: {  }
+            _id: led12uyk
   -
     type: paragraph
   -
@@ -268,18 +287,18 @@ article:
     attrs:
       id: lcivfwsl
       values:
-        type: testimonials
-        testimonials:
+        type: statements
+        statements:
           -
             id: lcivfyvw
-            quote: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our requirements and to present them exactly as I envisaged has been fantastic.'
+            text: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our requirements and to present them exactly as I envisaged has been fantastic.'
             name: 'Tarun Shome – BlackBerry IVY - Product Management Director'
   -
     type: paragraph
   -
     type: paragraph
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676459937
+updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
+updated_at: 1676910299
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 thumbnail: yxnzzxrzl2l2es1kyxnolte2nzi5mzu1ntqucg5n.png

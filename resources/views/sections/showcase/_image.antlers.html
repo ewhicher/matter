@@ -8,6 +8,7 @@
         <a
           class="btn-base {{ if colour == 'black' }}btn-white hover:bg-white hover:text-dark-grey{{ elseif colour == 'white' }}btn-dark-grey hover:bg-dark-grey hover:text-white{{ elseif colour == 'green'  }}btn-dark-grey hover:bg-dark-grey hover:text-white{{ /if }}"
           href="{{ button_link }}"
+          {{ if button_new_tab }}target="_blank"{{ /if }}
         >
           <span class="inline-block align-middle">{{ button_label }}</span>
           {{ if button_icon != 'none' }}<span class="inline-block align-middle ml-4">{{ partial src="svg/{ button_icon }" class="w-3.5" }}</span>{{ /if }}

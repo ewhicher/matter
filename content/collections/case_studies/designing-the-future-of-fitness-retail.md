@@ -72,11 +72,11 @@ article:
     attrs:
       id: le5k5jai
       values:
-        type: testimonials
-        testimonials:
+        type: statements
+        statements:
           -
             id: le5k5lfc
-            quote: 'I’m actually quite emotional. It’s amazing. This process has been so valuable for us.'
+            text: 'I’m actually quite emotional. It’s amazing. This process has been so valuable for us.'
             name: 'Sam Kitching - Founder - WIT'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
 updated_at: 1676539178

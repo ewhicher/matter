@@ -1,10 +1,10 @@
-<article class="pt-[16.5rem]">
+<article class="pt-[8rem] md:pt-[12rem] lg:pt-[16.5rem]">
   <section>
-    <div class="wrap-2xl flex">
-      <div class="w-2/12 px-4">
+    <div class="wrap-2xl lg:flex">
+      <div class="lg:w-2/12 px-4 pb-16 lg:pb-0">
         <a class="btn-base btn-blue hover:bg-blue hover:text-white" href="/am-files">{{ partial:svg/arrow_left class="h-4" }}</a>
       </div>
-      <div class="w-8/12 px-4 pb-14">
+      <div class="lg:w-8/12 px-4 pb-14">
         <span class="inline-block block px-5 py-4 rounded border border-dark-grey bg-dark-grey font-medium text-white">{{ client }}</span>
         <h1 class="type-heading mt-10">{{ heading }}</h1>
       </div>
@@ -16,7 +16,11 @@
 <section class="pt-[6rem] lg:pt-[10rem] pb-[6rem] lg:pb-[8rem] bg-white text-dark-grey">
   <div class="wrap-2xl">
     <div class="lg:w-6/12 pl-4">
-      {{ footer_text ?? footer:case_study_default_text | classify:margins }}
+      {{ if footer_text != '' }}
+        {{ footer_text | classify:margins }}
+      {{ else }}
+        {{ footer:case_study_default_text | classify:margins }}
+      {{ /if }}
     </div>
   </div>
 </section>

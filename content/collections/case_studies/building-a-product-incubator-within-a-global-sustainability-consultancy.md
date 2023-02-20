@@ -80,17 +80,19 @@ article:
     type: paragraph
   -
     type: paragraph
+theme: 'bg-light-blue-strong text-dark-grey'
+client: ERM
+snippet: 'ERM, a global sustainability consultancy, asked us to help them to define and embed a product accelerator within the digital organisation. The goal was to build new products and services that could enable their consulting work, generate new revenue and give clients better tools to manage ESG risk within their organisation.'
+updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
+updated_at: 1676899263
+thumbnail: erm-crisp.jpg
 footer_text:
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 4
     content:
       -
         type: text
         text: 'Discover how our UX and Service Design capabilities combine to invent better customer journeys.'
-theme: 'bg-light-blue-strong text-dark-grey'
-client: ERM
-snippet: 'ERM, a global sustainability consultancy, asked us to help them to define and embed a product accelerator within the digital organisation. The goal was to build new products and services that could enable their consulting work, generate new revenue and give clients better tools to manage ESG risk within their organisation.'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676463463
-thumbnail: erm-crisp.jpg
 ---

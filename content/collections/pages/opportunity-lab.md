@@ -102,7 +102,7 @@ cta_text:
         type: text
         text: 'Get a map of areas and markets, bursting with opportunities to fill your innovation pipeline.'
 proof_logo: clients/testimo/diagio-logo-small.png
-proof_quote: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic.'
+proof_text: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic.'
 footer_text:
   -
     type: paragraph

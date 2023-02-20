@@ -76,20 +76,20 @@ article:
     attrs:
       id: lbxxhkd4
       values:
-        type: testimonials
-        testimonials:
+        type: statements
+        statements:
           -
             id: lbxxhm3y
-            quote: 'Gen-Z makes up approximately 32% of the global human population and has a spending power of more than $143 billion.'
+            text: 'Gen-Z makes up approximately 32% of the global human population and has a spending power of more than $143 billion.'
           -
             id: ldbs2j9v
-            quote: '52% of car shoppers feel anxious or uncomfortable at dealerships.'
+            text: '52% of car shoppers feel anxious or uncomfortable at dealerships.'
           -
             id: ldu3iiwq
-            quote: 'Dealerships take just over 9 hours on average to respond to a test drive request.'
+            text: 'Dealerships take just over 9 hours on average to respond to a test drive request.'
           -
             id: ldu3isne
-            quote: '64% of Gen-Z have never seen an EV charging point.'
+            text: '64% of Gen-Z have never seen an EV charging point.'
   -
     type: paragraph
   -

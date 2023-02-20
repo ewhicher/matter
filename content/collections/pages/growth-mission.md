@@ -114,6 +114,6 @@ cta_text:
       -
         type: text
         text: "Build a scalable foundation to acquire, onboard and grow customers in a sustainable way. Let's kickstart your next phase."
-proof_quote: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic.'
+proof_text: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic.'
 proof_logo: clients/testimo/diagio-logo-small.png
 ---

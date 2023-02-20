@@ -294,6 +294,51 @@ sections:
           visibility: visible
           always_save: false
       -
+        handle: card_one_link
+        field:
+          max_items: 1
+          mode: default
+          create: false
+          collections:
+            - pages
+          display: 'Card One Link'
+          type: entries
+          icon: entries
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: card_two_link
+        field:
+          max_items: 1
+          mode: default
+          create: false
+          collections:
+            - pages
+          display: 'Card Two Link'
+          type: entries
+          icon: entries
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: card_three_link
+        field:
+          max_items: 1
+          mode: default
+          create: false
+          collections:
+            - pages
+          display: 'Card Three Link'
+          type: entries
+          icon: entries
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
         handle: hidden_text
         field:
           antlers: false
@@ -319,6 +364,20 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+      -
+        handle: logos_mobile
+        field:
+          mode: list
+          container: assets
+          restrict: false
+          allow_uploads: true
+          show_filename: true
+          display: 'Logos Mobile'
+          type: assets
+          icon: assets
+          listable: hidden
+          instructions_position: above
+          visibility: visible
       -
         handle: views_section
         field:

@@ -1,27 +1,26 @@
   <section class="pb-24 md:pb-32 lg:pb-40 overflow-hidden">
-    <div>
-      <div
-        class="w-full"
-        x-data
-        x-init="() => {
-          gsap.to($refs.track, {
-            scrollTrigger: {
-              trigger: $el,
-              start: 'top bottom',
-              end: 'bottom top',
-              scrub: true,
-            },
-            x: '-50%',
-            ease: 'none',
-          })
-        }"
-      >
-        <div x-ref="view" class="flex translate-x-1/4">
-          <div x-ref="track" class="flex">
-            <div class="flex items-center whitespace-nowrap">
-              {{ slot }}
-            </div>
-          </div>
+    <div
+      class="relative w-full"
+      x-data
+      x-init="() => {
+        gsap.set($refs.track, {
+          left: '50%',
+        })
+        gsap.to($refs.track, {
+          scrollTrigger: {
+            trigger: $el,
+            start: 'top bottom',
+            end: 'bottom top-=100',
+            scrub: true,
+          },
+          x: '-100%',
+          ease: 'none',
+        })
+      }"
+    >
+      <div x-ref="track" class="flex absolute top-0">
+        <div class="flex items-center whitespace-nowrap">
+          {{ slot }}
         </div>
       </div>
     </div>

@@ -4,8 +4,8 @@ blueprint: home
 title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676886955
+updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
+updated_at: 1676912140
 heading: 'A design and innovation studio _ for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -41,6 +41,7 @@ logos:
   - wit-white-artworked.png
 views_list:
   - a121bcdb-f2ff-4837-9dd6-3e92ff571c93
+  - 0281653d-7ddc-4ca4-9a55-9fac7b6bd33d
   - 81c0d66d-e8ab-445b-b322-62143fe6e018
   - dfba298f-bee8-4176-86bf-4eee9c0b7130
   - 6ed034df-ddc9-4359-a8d7-7be971319dcb
@@ -109,7 +110,8 @@ showcase_showcase:
     colour: black
     type: image
     enabled: true
-    button_link: povreports/am_mobilityhubs.pdf
+    button_new_tab: true
+    button_link: 'asset::assets::povreports/am_mobilityhubs.pdf'
 what_we_do_intro:
   -
     type: paragraph
@@ -194,4 +196,12 @@ story_box_four:
 card_one_heading: 'Opportunity Lab'
 card_two_heading: 'Product Launchpad'
 card_three_heading: 'Growth Mission'
+card_one_link: 13c74b3b-72d0-4181-a3fc-e404c9f8bf09
+card_two_link: 135d10cd-19b2-43c9-a526-9a515bedb951
+card_three_link: 161a2ae4-8739-4d79-bee1-e9a858b46831
+logos_mobile:
+  - erm-white-artworked.png
+  - basf-white-artworked.png
+  - blackberry-white-artworked.png
+  - bp-white-artworked.png
 ---

@@ -94,20 +94,103 @@ sections:
           visibility: visible
           always_save: false
       -
-        handle: together_text_one
-        field: common.richtext
-        config:
-          display: 'Text one'
+        handle: icon_rows
+        field:
+          collapse: true
+          previews: true
+          sets:
+            row:
+              display: Row
+              fields:
+                -
+                  handle: text
+                  field: common.richtext
+                  config:
+                    display: Text
+                -
+                  handle: icon
+                  field:
+                    mode: grid
+                    container: assets
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: Icon
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                    visibility: visible
+          display: 'Icon Rows'
+          type: replicator
+          icon: replicator
+          listable: hidden
+          instructions_position: above
+          visibility: visible
       -
-        handle: together_text_two
-        field: common.richtext
-        config:
-          display: 'Text two'
+        handle: scrolling_text_section
+        field:
+          display: 'Scrolling Text'
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
       -
-        handle: together_text_three
-        field: common.richtext
-        config:
-          display: 'Text three'
+        handle: scrolling_text_words
+        field:
+          display: Words
+          type: list
+          icon: list
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: pill_section
+        field:
+          display: Pill
+          type: section
+          icon: section
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: pill_left_hand_text
+        field:
+          input_type: text
+          antlers: false
+          display: 'Left Hand Text'
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: pill_label_text
+        field:
+          input_type: text
+          antlers: false
+          display: 'Label Text'
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: pill_right_hand_text
+        field:
+          input_type: text
+          antlers: false
+          display: 'Right Hand Text'
+          type: text
+          icon: text
+          width: 33
+          listable: hidden
+          instructions_position: above
+          visibility: visible
       -
         handle: cta_section
         field:
@@ -123,6 +206,33 @@ sections:
         field: common.richtext
         config:
           display: Text
+      -
+        handle: book_link
+        field:
+          collections:
+            - case_studies
+            - pages
+            - pov
+            - projects
+          container: assets
+          display: 'Book Link'
+          type: link
+          icon: link
+          width: 75
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: book_link_new_tab
+        field:
+          default: false
+          display: 'Link New Tab'
+          type: toggle
+          icon: toggle
+          width: 25
+          listable: hidden
+          instructions_position: above
+          visibility: visible
       -
         handle: cards_section
         field:

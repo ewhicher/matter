@@ -15,6 +15,11 @@ class Files extends Scope
      */
     public function apply($query, $values)
     {
-        // $query->where('featured', true);
+        $type = $values->get('scope_type', null);
+        if (!$type) return;
+
+        $handle = $type === 'work' ? ['case_studies', 'projects'] : ['pov'];
+        $entries = $query->whereIn('collection', $handle)->get();
+        return $entries;
     }
 }

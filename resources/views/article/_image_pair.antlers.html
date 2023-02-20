@@ -1,17 +1,17 @@
-<section class="py-2">
+<section>
   {{ if wide_view }}
-    <div class="wrap-2xl flex px-2">
+    <div class="wrap-2xl md:flex px-2">
       {{ files }}
-        <div class="w-1/2 px-2">
+        <div class="md:w-1/2 p-2">
           <img class="block w-full" src="{{ glide:url w="664" h="676" q="90" fit="crop_focal" }}">
         </div>
       {{ /files }}
     </div>
   {{ else }}
     <div class="wrap-2xl">
-      <div class="flex w-8/12 mx-auto px-2">
+      <div class="md:flex lg:w-8/12 mx-auto px-2">
         {{ files }}
-          <div class="w-1/2 px-2">
+          <div class="md:w-1/2 p-2">
             <img class="block w-full" src="{{ glide:url w="432" h="440" q="90" fit="crop_focal" }}">
           </div>
         {{ /files }}

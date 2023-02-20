@@ -2,7 +2,7 @@
 
   {{ partial:sections/intro intro_heading="{ title }" }}
 
-  {{ partial:sections/video :img="intro_video_placeholder" }}
+  {{# partial:sections/video :img="intro_video_placeholder" #}}
 
   {{ partial:sections/more }}
 
@@ -10,25 +10,18 @@
 
   {{ partial:sections/together }}
 
-  {{ partial:sections/scrolltext }}
-    <div>
-      <p class="type-heading">Concept creation</p>
-    </div>
-    <div class="px-8"><div class="w-14 border-b border-black"></div></div>
-    <div>
-      <p class="type-heading">Rapid prototyping</p>
-    </div>
-    <div class="px-8"><div class="w-14 border-b border-black"></div></div>
-    <div>
-      <p class="type-heading">UX</p>
-    </div>
-    <div class="px-8"><div class="w-14 border-b border-black"></div></div>
-    <div>
-      <p class="type-heading">Service design</p>
-    </div>
-  {{ /partial:sections/scrolltext }}
+  {{ if scrolling_text_words }}
+    {{ partial:sections/scrolltext }}
+      {{ scrolling_text_words }}
+        <div>
+          <p class="type-heading">{{ value }}</p>
+        </div>
+        {{ if not last }}<div class="px-8"><div class="w-14 border-b border-black"></div></div>{{ /if }}
+      {{ /scrolling_text_words }}
+    {{ /partial:sections/scrolltext }}
+  {{ /if }}
 
-  {{ partial:sections/estimate class="{ theme }" }}
+  {{ partial:sections/pill class="{ theme }" }}
 
   {{ partial:sections/book }}
 

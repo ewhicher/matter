@@ -2,7 +2,9 @@
   class="hidden md:block absolute inset-0 z-20 cursor-pointer"
   x-data="{ active: false }"
   @mouseenter="active = true"
+  @touchstart="active = true"
   @mouseleave="active = false"
+  @touchend="active = false"
   @mousemove="(e) => {
     const l = $refs.label
     l.style.left = e.offsetX + 'px'

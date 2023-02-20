@@ -17,7 +17,7 @@
       if (this.active) {
         const movx = e.movementX
         this.ltr = e.movementX >= 0
-        this.progress += movx * 0.001
+        this.progress += movx * 0.002
       }
     },
     touchmove(e) {
@@ -26,7 +26,7 @@
         if (this.lastTouch) {
           const movx = touch.pageX - this.lastTouch.pageX
           this.ltr = movx >= 0
-          this.progress += movx * 0.001
+          this.progress += movx * 0.002
         }
         this.lastTouch = touch
       }

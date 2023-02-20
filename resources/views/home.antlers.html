@@ -54,6 +54,7 @@
         x-init="() => {
           $watch('open', (newVal) => {
             if (newVal) {
+              console.log(newVal)
               gsap.to($refs.one, .5, {
                 x: '-100%',
                 rotation: 2,
@@ -94,9 +95,8 @@
         <div class="relative">
           <div>
             <div class="flex justify-between items-stretch relative z-20 xl:w-10/12 mx-auto">
-              <a
-                class="block relative w-[340px] mx-4 cursor-pointer"
-                href="/"
+              <div
+                class="relative w-[340px] mx-4 cursor-pointer"
                 x-ref="one"
                 @mouseenter="current = 1"
                 @mouseleave="current = 0"
@@ -107,10 +107,9 @@
                 >
                   {{ partial:components/shuffle/cards index="1" }}
                 </div>
-              </a>
-              <a
-                class="block relative w-[340px] mx-4 cursor-pointer"
-                href="/"
+              </div>
+              <div
+                class="relative w-[340px] mx-4 cursor-pointer"
                 x-ref="two"
                 @mouseenter="current = 2"
                 @mouseleave="current = 0"
@@ -121,10 +120,9 @@
                 >
                   {{ partial:components/shuffle/cards index="2" }}
                 </div>
-              </a>
-              <a
-                class="block relative w-[340px] mx-4 cursor-pointer"
-                href="/"
+              </div>
+              <div
+                class="relative w-[340px] mx-4 cursor-pointer"
                 x-ref="three"
                 @mouseenter="current = 3"
                 @mouseleave="current = 0"
@@ -135,7 +133,7 @@
                 >
                   {{ partial:components/shuffle/cards index="3" }}
                 </div>
-              </a>
+              </div>
             </div>
           </div>
           <div
@@ -168,31 +166,40 @@
   <section class="py-24 bg-blue overflow-hidden">
     <div>
       <div
-        class="w-full"
+        class="relative w-full h-[270px]"
+        x-data="{ reset: null }"
         x-init="() => {
-          gsap.to($refs.track, {
-            scrollTrigger: {
-              trigger: $el,
-              start: 'top bottom',
-              end: 'bottom top',
-              scrub: true,
-            },
-            x: -($refs.track.offsetWidth - window.innerWidth),
-            ease: 'none',
-          })
+          reset = () => {
+            gsap.set($refs.track, {
+              left: '50%',
+            })
+            gsap.to($refs.track, {
+              scrollTrigger: {
+                trigger: $el,
+                start: 'top bottom',
+                end: 'bottom top-=100',
+                scrub: true,
+              },
+              x: '-100%',
+              ease: 'none',
+            })
+          }
+          reset()
         }"
+        @resize.window="reset()"
       >
-        <div x-ref="view" class="flex">
-          <div x-ref="track" class="flex">
-            <div class="flex">
-                <div class="w-[270px]"></div>
-              {{ logos }}
-                <div class="w-[270px]">
-                  <img class="inline-block" src="{{ url }}" loading="lazy">
-                </div>
-              {{ /logos }}
-            </div>
-            <div class="w-[270px]"></div>
+        <div x-ref="track" class="flex absolute top-0">
+          <div class="flex">
+            {{ logos }}
+              <div class="hidden md:block w-[270px]">
+                <img class="inline-block" src="{{ url }}" loading="lazy">
+              </div>
+            {{ /logos }}
+            {{ logos_mobile }}
+              <div class="md:hidden w-[270px]">
+                <img class="inline-block" src="{{ url }}" loading="lazy">
+              </div>
+            {{ /logos_mobile }}
           </div>
         </div>
       </div>
@@ -269,7 +276,15 @@
         <div class="block relative" x-ref="slider">
           {{ views_list }}
             <div class="md:w-1/2 lg:w-1/3 px-4">
-              <a class="block relative group" href="{{ url }}">
+              <a
+                class="block relative group"
+                {{ if blueprint == 'external' }}
+                  href="{{ link }}"
+                  target="_blank"
+                {{ else }}
+                  href="{{ url }}"
+                {{ /if }}
+              >
                 <div>
                   {{ if thumbnail }}
                     <img class="block w-full rounded-sm" src="{{ glide:thumbnail w="860" h="880" fit="crop_focal" }}">
@@ -279,7 +294,9 @@
                 </div>
                 <div class="pt-8"><p class="type-callout"><span class="hoverline-base hoverline-offset group-hover:hoverline-active">{{ snippet | truncate:80:... }}</span></p></div>
                 {{ partial:components/hoverit }}
-                  <div class="btn-base btn-blue bg-white pointer-events-normal whitespace-nowrap">View the work</div>
+                  <div class="btn-base btn-blue bg-white pointer-events-normal whitespace-nowrap">
+                    {{ if (collection:handle) == 'pov' }}Read more{{ else }}View the work{{ /if }}
+                  </div>
                 {{ /partial:components/hoverit }}
               </a>
             </div>
@@ -346,45 +363,59 @@
   </section>
 
   <section class="pt-[5rem] pb-[6rem] md:pb-[10rem] lg:pb-[15rem] bg-light-green">
-    <div class="wrap-2xl hidden lg:flex ">
-      <div class="lg:w-1/12"></div>
-      <div class="lg:w-3/12">
+    <div class="wrap-2xl lg:flex">
+      <div class="hidden lg:block lg:w-1/12"></div>
+      <div class="hidden lg:block lg:w-3/12">
         <img class="relative z-30 w-[14rem] max-w-full -translate-y-4" src="/img/story/1.png">
         <img class="relative z-10 w-[18.5rem] max-w-full ml-1/3 -translate-y-8" src="/img/story/2.png">
         <img class="relative z-20 w-[14rem] max-w-full ml-1/6 -translate-y-2" src="/img/story/3.png">
       </div>
-      <div class="lg:w-1/12"></div>
+      <div class="lg:hidden relative px-4 pb-4">
+        <img class="absolute bottom-4 right-8 z-20 w-5/12 max-w-full" src="/img/story/1.png">
+        <img class="relative z-10 w-2/3 max-w-full" src="/img/story/2.png">
+        <img class="absolute -top-8 right-4 z-30 w-1/3 max-w-full translate-y-[10%]" src="/img/story/3.png">
+      </div>
+      <div class="hidden lg:block lg:w-1/12"></div>
       <div class="lg:w-7/12 px-4">
-        <div class="px-8 lg:px-24 pt-24 pb-16 border border-black rounded-lg">{{ story_box_one | classify:margins }}</div>
+        <div class="px-8 lg:px-24 pt-8 pb-6 lg:pt-24 lg:pb-16 border border-black rounded-lg">{{ story_box_one | classify:margins }}</div>
       </div>
     </div>
-    <div class="wrap-2xl hidden lg:flex items-center">
-      <div class="lg:w-4/12 px-4"></div>
-      <div class="lg:w-4/12 px-4">
-        <div class="-mt-4 px-16 pt-16 pb-8 border border-black rounded-lg">{{ story_box_two | classify:margins }}</div>
+    <div class="wrap-2xl lg:flex pt-8 items-center">
+      <div class="lg:hidden relative px-4 pb-8 text-center">
+        <img class="w-[12.5rem] max-w-full mx-auto rounded-lg" src="/img/story/draw.gif">
       </div>
-      <div class="lg:w-3/12 px-16">
+      <div class="hidden lg:block lg:w-4/12 px-4"></div>
+      <div class="lg:w-4/12 px-4">
+        <div class="lg:-mt-4 px-8 lg:px-16 pt-8 pb-6 lg:pt-16 lg:pb-8 border border-black rounded-lg">{{ story_box_two | classify:margins }}</div>
+      </div>
+      <div class="hidden lg:block lg:w-3/12 px-16">
         <img class="w-[12.5rem] max-w-full rounded-lg" src="/img/story/draw.gif">
       </div>
     </div>
-    <div class="wrap-2xl hidden lg:flex items-end">
-      <div class="lg:w-4/12 px-4"></div>
+    <div class="wrap-2xl lg:flex pt-8 items-end">
+      <div class="lg:hidden relative px-4 pb-8 text-center">
+        <img class="lg:block w-[17.5rem] max-w-full mx-auto" src="/img/story/4.png">
+      </div>
+      <div class="hidden lg:block lg:w-4/12 px-4"></div>
       <div class="lg:w-3/12">
-        <img class="w-[17.5rem] max-w-full translate-y-4" src="/img/story/4.png">
+        <img class="hidden lg:block w-[17.5rem] max-w-full translate-y-4" src="/img/story/4.png">
       </div>
       <div class="lg:w-4/12 px-4">
-        <div class="-mt-4 px-16 pt-16 pb-8 border border-black rounded-lg">{{ story_box_three | classify:margins }}</div>
+        <div class="lg:-mt-4 px-8 lg:px-16 pt-8 pb-6 lg:pt-16 lg:pb-8 border border-black rounded-lg">{{ story_box_three | classify:margins }}</div>
       </div>
     </div>
-    <div class="wrap-2xl hidden lg:flex pt-16">
-      <div class="lg:w-3/12 px-4"></div>
+    <div class="wrap-2xl lg:flex pt-8 lg:pt-16">
+      <div class="lg:hidden relative px-4 pb-8 text-center">
+        <img class="w-[16.5rem] max-w-full mx-auto rounded-full" src="/img/story/looking.gif">
+      </div>
+      <div class="hidden lg:block lg:w-3/12 px-4"></div>
       <div class="lg:w-5/12 px-4">
-        <div class="px-16 pt-16 pb-8 border border-black rounded-lg">{{ story_box_four | classify:margins }}</div>
+        <div class="px-8 lg:px-16 pt-8 pb-6 lg:pt-16 lg:pb-8 border border-black rounded-lg">{{ story_box_four | classify:margins }}</div>
       </div>
     </div>
     <div class="wrap-2xl hidden lg:flex items-center">
       <div class="lg:w-6/12 px-4"></div>
-      <div class="lg:w-3/12 px-16 pt-16">
+      <div class="lg:w-3/12 px-16 pt-8 pb-6 lg:pt-16">
         <img class="w-[16.5rem] max-w-full rounded-full" src="/img/story/looking.gif">
       </div>
     </div>

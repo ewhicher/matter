@@ -19,8 +19,10 @@ return [
         'h4' => 'type-safe type-leadline',
         'h5' => 'type-safe type-subheading',
         'h6' => 'type-safe type-callout',
-        'p' => 'type-safe type-body',
+        'p'  => 'type-safe type-body',
         'a'  => 'type-safe hoverline-base hover:hoverline-active',
+        'ul' => 'list-disc pl-[1em]',
+        'ol' => 'list-decimal pl-[1em]',
     ],
 
     'margins' => [
@@ -30,7 +32,9 @@ return [
         'h4' => 'type-safe type-leadline mb-[.5333em]',
         'h5' => 'type-safe type-subheading mb-[1.333em]',
         'h6' => 'type-safe type-callout mb-[1.333em]',
-        'p' => 'type-safe type-body mb-[1.333em]',
+        'p'  => 'type-safe type-body mb-[1.333em]',
         'a'  => 'type-safe hoverline-base hover:hoverline-active',
+        'ul' => 'list-disc pl-[1em]',
+        'ol' => 'list-decimal pl-[1em]',
     ],
 ];

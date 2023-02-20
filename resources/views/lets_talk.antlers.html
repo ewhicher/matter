@@ -1,75 +1,16 @@
-<section class="pt-[8rem] md:pt-[12rem] lg:pt-[13.75rem] pb-4 md:pb-6 lg:pb-12">
+<section>
+  <div data-tf-widget="Q9x0MwMj" data-tf-opacity="100" data-tf-iframe-props="title=Let's Talk" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:100vh;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+</section>
+<!-- <section class="pt-[8rem] md:pt-[12rem] lg:pt-[13.75rem] pb-4 md:pb-6 lg:pb-12">
   <div class="wrap-2xl">
     <div class="w-full lg:w-6/12 lg:ml-2/12 px-4">
       <h2 class="type-title mt-10 mb-10">{{ hero_heading }}</h2>
       <div>{{ hero_text | classify:margins }}</>
     </div>
   </div>
-</section>
+</section> -->
 
-
-{{ get_content from="/"}}
-<section class="py-[6rem] md:py-[10rem] lg:py-[15rem] bg-light-green">
-  <div class="wrap-2xl">
-    <div class="lg:w-8/12 pl-4">
-      <div class="pb-10">
-        {{ partial:components/speach }}
-      </div>
-      <div
-        x-data="{ typed: null, current: 0 }"
-        x-init="() => {
-          typed = new Typed($refs.showcase, {
-            stringsElement: $refs.quotes,
-            typeSpeed: 30,
-            backSpeed: 10,
-            loop: true,
-            onStringTyped: (arrayPos, self) => {
-              if (arrayPos > 0) {
-                self.stop()
-                console.log(arrayPos, self)
-                $refs.wrapper.children[arrayPos].style = '';
-                setTimeout(() => {
-                  $refs.wrapper.children[arrayPos].style.display = 'none';
-                  self.start()
-                }, 2000)
-              }
-            },
-          });
-        }"
-        class="h-[300px]"
-      >
-        <div x-ref="quotes">
-          <span></span>
-          {{ testimonials }}
-            <span>"{{ quote }}"</span>
-          {{ /testimonials }}
-        </div>
-        <div>
-          <div class="type-leadline">
-            <span x-ref="showcase"></span>
-          </div>
-          <div x-ref="names">
-            <!-- style="width: 0;"> -->
-            <div class="pt-8" x-ref="wrapper">
-              <div class="inline-block" style="display: none;"></div>
-              {{ testimonials }}
-              <div class="inline-block" style="display: none;">
-                {{ if logo }}
-                  <img class="h-6" src="{{ logo }}">
-                {{ else }}
-                  <p class="type-leadline">{{ name }}</p>
-                {{ /if }}
-              </div>
-              {{ /testimonials }}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ /get_content }}
-
+<section class="pt-[6rem] md:pt-[10rem] lg:pt-[15rem] bg-light-green">
 {{ partial:sections/ctas }}
 
 {{ section:jsbefore }}

@@ -15,6 +15,19 @@ fields:
       instructions_position: above
       visibility: visible
       always_save: false
+      width: 75
+      container: assets
+  -
+    handle: button_new_tab
+    field:
+      default: false
+      display: 'New Tab'
+      type: toggle
+      icon: toggle
+      width: 25
+      listable: hidden
+      instructions_position: above
+      visibility: visible
   -
     handle: button_label
     field:

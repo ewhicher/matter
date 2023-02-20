@@ -1,17 +1,18 @@
-<article class="pt-[16.5rem]">
+<article class="pt-[8rem] md:pt-[12rem] lg:pt-[16.5rem]">
   <section>
-    <div class="wrap-2xl flex">
-      <div class="w-2/12 px-4">
+    <div class="wrap-2xl lg:flex">
+      <div class="lg:w-2/12 px-4 pb-16 lg:pb-0">
         <a class="btn-base btn-blue hover:bg-blue hover:text-white" href="/am-files">{{ partial:svg/arrow_left class="h-4" }}</a>
       </div>
     </div>
     <div class="wrap-2xl flex">
-      <div class="w-8/12 ml-2/12 px-4 pb-14">
+      <div class="lg:w-8/12 lg:ml-2/12 px-4 pb-14">
         <h1 class="type-heading mt-10 mb-14">{{ heading }}</h1>
         {{ author }}<a class="text-blue underline" href="mailto:{{ email }}">{{ email }}</a>{{ /author }}
-        <div class="mt-20 p-10 rounded border border-dark-grey">
+        {{ if takeaway }}
+        <div class="mt-20 p-6 lg:p-10 rounded border border-dark-grey">
           <p class="type-body">Takeaway:</p>
-          <ul class="pt-14 px-10">
+          <ul class="pt-8 lg:pt-14 px-4 lg:px-10">
             {{ takeaway }}
             <li class="flex mb-4">
               <div class="mr-4">{{ partial:svg/bolt class="w-[1.125rem]" }}</div>
@@ -20,6 +21,7 @@
             {{ /takeaway }}
           </ul>
         </div>
+        {{ /if }}
       </div>
     </div>
   </section>

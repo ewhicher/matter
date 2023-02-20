@@ -1,53 +1,19 @@
-<section class="py-2">
+<section class="py-[6rem] lg:py-[10rem] bg-light-green">
   <div class="wrap-2xl">
-    <div class="lg:w-5/12 ml-4/12 pl-4">
-      <div class="pb-10">
-        {{ partial:components/speach bg="bg-blue" border="border-blue" }}
-      </div>
-      <div
-        x-data="{ typed: null, current: 0 }"
-        x-init="() => {
-          typed = new Typed($refs.showcase, {
-            stringsElement: $refs.quotes,
-            typeSpeed: 30,
-            backSpeed: 10,
-            loop: true,
-            onStringTyped: (arrayPos, self) => {
-              if (arrayPos > 0) {
-                self.stop()
-                $refs.wrapper.children[arrayPos].style = '';
-                setTimeout(() => {
-                  $refs.wrapper.children[arrayPos].style.display = 'none';
-                  self.start()
-                }, 2000)
-              }
-            },
-          });
-        }"
-        class="h-[300px]"
-      >
-        <div x-ref="quotes">
-          <span></span>
-          {{ testimonials }}
-            <span>"{{ quote }}"</span>
-          {{ /testimonials }}
-        </div>
-        <div>
-          <div class="type-headline text-blue">
-            <span x-ref="showcase"></span>
-          </div>
-          <div x-ref="names">
-            <div class="pt-8" x-ref="wrapper">
-              <div class="inline-block" style="display: none;"></div>
-              {{ testimonials }}
-              <div class="inline-block" style="display: none;">
-                <p class="type-leadline text-blue">{{ name }}</p>
-              </div>
-              {{ /testimonials }}
+    <div class="lg:w-8/12 px-4 lg:pr-0">
+      {{ partial:components/fadeaway }}
+        {{ testimonials }}
+          <div class="py-4">
+            <div class="type-heading">
+              <span>“{{ quote }}”</span>
+            </div>
+            <div>
+              <p class="mb-8 mt-2 type-body">{{ if name != '' }}<span class="font-medium">{{ name }}</span>{{ /if }}{{ if name != '' && role != '' }}<span class="inline-block align-middle w-6 h-px mx-2 bg-dark-grey"></span>{{ /if }}{{ if role != '' }}<span>{{ role }}</span>{{ /if }}</p>
+              {{ if logo }}<img class="h-6" src="{{ logo }}">{{ /if }}
             </div>
           </div>
-        </div>
-      </div>
+        {{ /testimonials }}
+      {{ /partial:components/fadeaway }}
     </div>
   </div>
 </section>

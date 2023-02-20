@@ -66,11 +66,11 @@ article:
     attrs:
       id: le5ks41n
       values:
-        type: testimonials
-        testimonials:
+        type: statements
+        statements:
           -
             id: le5ks5qq
-            quote: 'I can’t believe how much we’ve achieved! We made more progress in the first week than in the last four months!'
+            text: 'I can’t believe how much we’ve achieved! We made more progress in the first week than in the last four months!'
             name: 'Head of Platforms – Diageo'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
 updated_at: 1676463650
