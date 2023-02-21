@@ -110,7 +110,7 @@ showcase_showcase:
     type: image
     enabled: true
     button_new_tab: true
-    button_link: 'asset::assets::povreports/am_mobilityhubs.pdf'
+    button_link: 'asset::assets::povreports/am_mobilityhubs-1677000441.pdf'
 what_we_do_intro:
   -
     type: paragraph
