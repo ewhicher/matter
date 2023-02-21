@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676967119
+updated_at: 1676967324
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -159,4 +159,69 @@ icon_rows:
     type: row
     enabled: true
     icon: am-empothise.svg
+  -
+    id: ledyydss
+    text:
+      -
+        type: heading
+        attrs:
+          level: 4
+        content:
+          -
+            type: text
+            text: Ideate
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'We’ll collaboratively explore this context to unearth new and exciting ideas that could revolutionise your business, market or industry. We’ll define these by priority and potential.'
+    icon: am-ideate.svg
+    type: row
+    enabled: true
+  -
+    id: ledyz6dk
+    text:
+      -
+        type: heading
+        attrs:
+          level: 4
+        content:
+          -
+            type: text
+            text: Qualify
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'We’ll add rigour to our ideas and vision through a range of market and design research methodologies which will highlight exactly where we should play and how we can win.'
+    icon: am-qualify.svg
+    type: row
+    enabled: true
+  -
+    id: ledyzuyt
+    text:
+      -
+        type: heading
+        attrs:
+          level: 4
+        content:
+          -
+            type: text
+            text: Propose
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'We will condense the findings into a clear and concise value proposition making sure you are armed with the right market intelligence and relevant strategy to launch successful products, services and experiences for your consumer.'
+    icon: am-propose.svg
+    type: row
+    enabled: true
+scrolling_text_words:
+  - 'Strategy audit'
+  - 'Trend research'
+  - 'Trend synthesis'
+  - Foresight
 ---
