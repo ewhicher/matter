@@ -39,9 +39,6 @@ article:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: '1. Customer needs'
   -
     type: paragraph
@@ -58,9 +55,6 @@ article:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: '2. What before How'
   -
     type: paragraph
@@ -77,9 +71,6 @@ article:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: '3. Decision making'
   -
     type: paragraph
@@ -96,9 +87,6 @@ article:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: '4. Speed'
   -
     type: paragraph
@@ -115,9 +103,6 @@ article:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: '5. Cost to serve'
   -
     type: paragraph
@@ -134,9 +119,6 @@ article:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: '6. Revenue streams'
   -
     type: paragraph
@@ -153,9 +135,6 @@ article:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: '7. Structured for success'
   -
     type: paragraph
@@ -172,9 +151,6 @@ article:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: '8. Inclusivity'
   -
     type: paragraph
@@ -191,9 +167,6 @@ article:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: '9. Resilience'
   -
     type: paragraph
@@ -210,9 +183,6 @@ article:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
         text: '10. Experience at scale'
   -
     type: paragraph
@@ -227,8 +197,8 @@ article:
 author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
 snippet: '10 attributes of a corporate pioneer'
-updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676626485
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1676970084
 thumbnail: content-illustrations_10-commandments.png
 theme: 'bg-light-green text-dark-grey'
 footer_text:
