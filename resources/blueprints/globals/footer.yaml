@@ -57,6 +57,62 @@ sections:
           visibility: visible
           always_save: false
       -
+        handle: cta_talk_label
+        field:
+          input_type: text
+          antlers: false
+          display: 'Talk label'
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: cta_join_label
+        field:
+          input_type: text
+          antlers: false
+          display: 'Join Label'
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: cta_talk_link
+        field:
+          collections:
+            - case_studies
+            - pages
+            - pov
+            - projects
+          container: assets
+          display: 'Talk Link'
+          type: link
+          icon: link
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          width: 50
+      -
+        handle: cta_join_link
+        field:
+          collections:
+            - case_studies
+            - pages
+            - pov
+            - projects
+          container: assets
+          display: 'Join Link'
+          type: link
+          icon: link
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          width: 50
+      -
         handle: newsletter_section
         field:
           display: Newsletter

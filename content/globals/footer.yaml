@@ -38,4 +38,8 @@ data:
           text: 'Feedback your thoughts'
   cta_talk_text: 'Thinking of starting a new project?'
   cta_join_text: 'Interested in joining our team?'
+  cta_talk_label: "Let's talk"
+  cta_join_label: 'Join us'
+  cta_talk_link: 'entry::73ce858f-5c90-4f16-bfa5-e6dea947b2d3'
+  cta_join_link: 'https://activematter.homerun.co/'
   newsletter_text: 'Signup for regular inspiration delivered directly to your inbox'
