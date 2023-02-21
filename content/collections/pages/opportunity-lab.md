@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676991930
+updated_at: 1676992074
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -20,7 +20,7 @@ intro_text:
   -
     type: heading
     attrs:
-      level: 6
+      level: 5
     content:
       -
         type: text
