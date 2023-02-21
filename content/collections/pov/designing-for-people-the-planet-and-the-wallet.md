@@ -542,8 +542,8 @@ author:
 thumbnail: designforplanet.png
 snippet: 'Designing for people, the planet and the wallet – can UX save the world?'
 theme: 'bg-light-green text-dark-grey'
-updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676627719
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1676978317
 takeaway:
   -
     id: le8ajfbu
@@ -574,13 +574,17 @@ takeaway:
             text: " to work different. What's good for people can also be good for the planet and the wallet"
 footer_text:
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 4
     content:
       -
         type: text
         text: 'Are you thinking about the planet and wallet as much as the people?'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 4
     content:
       -
         type: text
