@@ -5,7 +5,7 @@ template: page
 title: 'Growth Mission'
 theme: 'bg-light-red text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676969521
+updated_at: 1676969670
 pattern: patterns/growth.png
 intro_text:
   -
@@ -125,6 +125,8 @@ cta_text:
   -
     type: paragraph
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 6
@@ -215,5 +217,6 @@ icon_rows:
     icon: am-growth-opperations.svg
     type: row
     enabled: true
-book_link_new_tab: false
+book_link_new_tab: true
+book_link: 'https://calendly.com/activematter/30-minute-intro-chat'
 ---
