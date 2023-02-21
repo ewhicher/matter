@@ -5,7 +5,7 @@ title: 'Mobility Hubs'
 heading: 'Design Thinking: Mobility Experiences'
 link: /assets/povreports/am_mobilityhubs.pdf
 thumbnail: mobility-hubs.png
-snippet: 'Design Thinking: Mobility Experiences'
+snippet: 'Design Thinking: Mobility Experiences – download the report'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676978870
+updated_at: 1676978972
 ---
