@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676969631
+updated_at: 1676977126
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -34,6 +34,26 @@ more_text:
       -
         type: text
         text: 'Here to future-proof your ecosystem, the Opportunity Lab harnesses a mixture of qualitative and quantitative research and blends this with empathetic and creative thinking to highlight and qualify your immediate and future opportunities.'
+  -
+    type: heading
+    attrs:
+      level: 6
+  -
+    type: heading
+    attrs:
+      level: 6
+    content:
+      -
+        type: text
+        text: 'The lab combines design futures with a grounded analysis of the current landscape to explore and qualify new markets, pre-emptively framing new propositions and innovations.'
+  -
+    type: heading
+    attrs:
+      level: 6
+    content:
+      -
+        type: text
+        text: 'Combining ‘outside-in’ and ‘inside-out’ approaches:'
 typed_rows:
   -
     id: lda2hi6a
@@ -43,16 +63,6 @@ typed_rows:
   -
     id: lda2hkyq
     text: 'Looking at the world around us - we take pride in our ability to scout future horizons, spot consumer, industry and macro trends and map prospective scenarios to revolutionise or revitalise your business.'
-    type: row
-    enabled: true
-  -
-    id: lda2hlmb
-    text: 'Together, we will explore your business ecosystem and identify the opportunities you are uniquely positioned to address.'
-    type: row
-    enabled: true
-  -
-    id: ledytr1x
-    text: 'From immediate opportunities to a pipeline of innovation activity, the lab is the springboard for strategy and innovation.'
     type: row
     enabled: true
 together_text_one:
@@ -226,4 +236,29 @@ pill_left_hand_text: '2 weeks'
 pill_label_text: FROM
 pill_right_hand_text: £30K
 book_link: 'https://calendly.com/activematter/30-minute-intro-chat'
+extra_text:
+  -
+    type: heading
+    attrs:
+      level: 6
+    content:
+      -
+        type: text
+        text: 'Together, we will explore your business ecosystem and identify the opportunities you are uniquely positioned to address.'
+  -
+    type: heading
+    attrs:
+      level: 6
+    content:
+      -
+        type: text
+        text: "\_"
+  -
+    type: heading
+    attrs:
+      level: 6
+    content:
+      -
+        type: text
+        text: "From immediate opportunities to a pipeline of innovation activity, the lab is the springboard for strategy and innovation.\_"
 ---
