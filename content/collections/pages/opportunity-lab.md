@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676967324
+updated_at: 1676967449
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -124,7 +124,7 @@ cta_text:
     content:
       -
         type: text
-        text: 'Get a map of areas and markets, bursting with opportunities to fill your innovation pipeline.'
+        text: 'From trend forecasting right through to a clear value proposition. The opportunity lab is a catalyst for proactive action, cutting through the fog of uncertainty, bringing rigour to ideation and sparking the strategies to transform businesses on a mission.'
 proof_logo: clients/testimo/diagio-logo-small.png
 proof_text: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic.'
 footer_text:
@@ -133,7 +133,7 @@ footer_text:
     content:
       -
         type: text
-        text: 'Benchmark your product experience and uncover new opportunities to leapfrog the competition.'
+        text: 'Join us on a voyage of discovery to build a compelling future vision for your organisation.'
 pattern: patterns/opp.png
 intro_video_placeholder:
   - temp/olvid.png
@@ -224,4 +224,6 @@ scrolling_text_words:
   - 'Trend research'
   - 'Trend synthesis'
   - Foresight
+  - 'Market sizing'
+  - 'Competitor landscape'
 ---
