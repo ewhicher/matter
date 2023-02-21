@@ -3,8 +3,8 @@ id: f822d875-5649-4bc0-bd7d-e9689176c8f4
 blueprint: am_files
 template: am_files
 title: 'AM Files'
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1676910807
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1676966436
 theme: 'bg-white text-dark-grey'
 hero_heading: 'Latest from the studio'
 hero_text:
@@ -15,7 +15,6 @@ hero_text:
         type: text
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam tortor augue faucibus vel orci a fermentum pharetra quam nulla vestibulum augue sed malesuada sollicitudin.'
 files:
-  - 0281653d-7ddc-4ca4-9a55-9fac7b6bd33d
   - c20d41fb-7de9-4629-b606-7fae53481ed1
   - b3ac641a-8ae3-4fe2-933f-2f892d968186
   - 52918f0e-1486-4a94-88bb-719cf68f3d83
@@ -26,12 +25,12 @@ files:
   - edfab6f8-1a14-4099-8435-4797d1fa3b71
   - dfba298f-bee8-4176-86bf-4eee9c0b7130
   - e6c3109d-04e7-4df7-8579-781d7b919cd6
+  - 0281653d-7ddc-4ca4-9a55-9fac7b6bd33d
   - 8b101014-a717-42de-95e3-8e46c12db390
   - 74e99569-bdd5-426d-8a8a-ec5a82768a56
   - 957e1869-ad8d-45be-af6d-708059b980e0
   - a121bcdb-f2ff-4837-9dd6-3e92ff571c93
   - af01585d-e025-4a3c-b4d8-b5fd6dc2f4b2
-  - 81c0d66d-e8ab-445b-b322-62143fe6e018
   - 9b74004c-dc0a-4e4f-835e-e8346b4b3a72
   - 7afa9f60-3180-49af-8ab6-c40ded4764bc
   - d059bc47-5cea-4b3c-b75b-ce4c913a6d7a
