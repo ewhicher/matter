@@ -4,19 +4,21 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676966690
+updated_at: 1676966726
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
     type: heading
     attrs:
-      level: 4
+      level: 3
     content:
       -
         type: text
         text: 'The opportunity lab is where ‘what if?’ becomes ‘why not?’.'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 4
     content:
       -
         type: text
