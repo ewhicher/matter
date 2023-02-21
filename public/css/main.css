@@ -1287,6 +1287,18 @@ video {
   width: 200px;
 }
 
+.w-64 {
+  width: 16rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-xs {
+  width: 480px;
+}
+
 .max-w-\[14em\] {
   max-width: 14em;
 }
@@ -2395,6 +2407,10 @@ video {
 
   .lg\:w-\[300px\] {
     width: 300px;
+  }
+
+  .lg\:w-auto {
+    width: auto;
   }
 
   .lg\:max-w-none {
