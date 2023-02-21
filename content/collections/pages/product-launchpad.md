@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676969483
+updated_at: 1676969570
 intro_text:
   -
     type: heading
@@ -15,6 +15,8 @@ intro_text:
       -
         type: text
         text: 'Bring customers into the design process to validate new products, services and experiences.'
+  -
+    type: paragraph
   -
     type: heading
     attrs:
