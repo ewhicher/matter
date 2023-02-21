@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676970741
+updated_at: 1676977230
 intro_text:
   -
     type: heading
@@ -233,4 +233,21 @@ pill_label_text: FROM
 pill_right_hand_text: £30k
 book_link: 'https://calendly.com/activematter/30-minute-intro-chat'
 book_link_new_tab: true
+extra_text:
+  -
+    type: heading
+    attrs:
+      level: 6
+    content:
+      -
+        type: text
+        text: 'The LaunchPad can run for anything between 4-12 weeks depending on the complexity of the product, the business and the system it’s impacting as well as the level of rigour required to take a decision.'
+  -
+    type: heading
+    attrs:
+      level: 6
+    content:
+      -
+        type: text
+        text: 'The goal is to take an idea with potential and turn it into a product with a future.'
 ---
