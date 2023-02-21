@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676966726
+updated_at: 1676966842
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -15,6 +15,8 @@ intro_text:
       -
         type: text
         text: 'The opportunity lab is where ‘what if?’ becomes ‘why not?’.'
+  -
+    type: paragraph
   -
     type: heading
     attrs:
@@ -31,14 +33,15 @@ more_text:
     content:
       -
         type: text
-        text: 'Identifying promising growth opportunities is a science and the first step to a meaningful product strategy.'
-      -
-        type: hardBreak
-      -
-        type: hardBreak
+        text: 'Here to future-proof your ecosystem, the Opportunity Lab harnesses a mixture of qualitative and quantitative research and blends this with empathetic and creative thinking to highlight and qualify your immediate and future opportunities.'
+  -
+    type: heading
+    attrs:
+      level: 6
+    content:
       -
         type: text
-        text: 'As well as helping you to discover new whitespace and under-served opportunities, our rigorous opportunity pack provides a solid foundation for many future initiatives.'
+        text: "\_The lab combines design futures with a grounded analysis of the current landscape to explore and qualify new markets, pre-emptively framing new propositions and innovations."
 typed_rows:
   -
     id: lda2hi6a
