@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676966990
+updated_at: 1676967119
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -143,6 +143,14 @@ icon_rows:
     id: ledyu0hu
     text:
       -
+        type: heading
+        attrs:
+          level: 4
+        content:
+          -
+            type: text
+            text: Empathise
+      -
         type: paragraph
         content:
           -
@@ -150,4 +158,5 @@ icon_rows:
             text: 'We’ll get to know you, your ambitions, challenges and goals. We’ll also understand the macro and industry level trends effecting the present and future of your business.'
     type: row
     enabled: true
+    icon: am-empothise.svg
 ---
