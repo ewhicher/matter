@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676460776
+updated_at: 1676966690
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -14,7 +14,13 @@ intro_text:
     content:
       -
         type: text
-        text: 'The lab’s opening statement (science not magic) here’s a formula to it – rigour – and everything is backed up with analysis and a scientific view of what it means to the biz.'
+        text: 'The opportunity lab is where ‘what if?’ becomes ‘why not?’.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Together we will unearth the most exciting, relevant and fruitful ideas for your organisation; turn them into well-rounded and robust strategies and arm you with the tools to make great, long-term decisions.'
 more_text:
   -
     type: heading
@@ -113,39 +119,5 @@ footer_text:
 pattern: patterns/opp.png
 intro_video_placeholder:
   - temp/olvid.png
-cards_cards:
-  -
-    id: le34vgzr
-    logo: am-clients-w_diageo.png
-    text:
-      -
-        type: heading
-        attrs:
-          level: 4
-        content:
-          -
-            type: text
-            text: '"It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic."'
-    type: quote
-    enabled: true
-    colour: green
-  -
-    id: le34wnhu
-    logo: am-clients-w_mercedes.png
-    text:
-      -
-        type: heading
-        attrs:
-          level: 4
-        content:
-          -
-            type: text
-            text: 'Working with the Daimler R&D team, we benchmarked their in-car experience against market-leading products, and inspired the future direction of MBUX.'
-    hover_logo: am-clients-w_seedlip.png
-    background: 7702b761af277ed5bb2cdc47ab23a040a734bd76-2880x1400.jpg
-    link:
-      - 81c0d66d-e8ab-445b-b322-62143fe6e018
-    type: link
-    enabled: true
-    colour: plumb
+book_link_new_tab: false
 ---
