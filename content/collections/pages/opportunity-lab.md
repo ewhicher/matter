@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676966842
+updated_at: 1676966990
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -42,20 +42,33 @@ more_text:
       -
         type: text
         text: "\_The lab combines design futures with a grounded analysis of the current landscape to explore and qualify new markets, pre-emptively framing new propositions and innovations."
+  -
+    type: heading
+    attrs:
+      level: 6
+    content:
+      -
+        type: text
+        text: 'Combining ‘outside-in’ and ‘inside-out’ approaches:'
 typed_rows:
   -
     id: lda2hi6a
-    text: 'How can we drive operational efficiencies within out'
+    text: 'Unlocking your ecosystem potential - We partner closely with you to understand your organisation, your vision, goals and purpose in order to best appreciate what drives you and your business.'
     type: row
     enabled: true
   -
     id: lda2hkyq
-    text: 'Identifying promising growth opportunities is a science and the first step to a meaningful product strategy'
+    text: 'Looking at the world around us - we take pride in our ability to scout future horizons, spot consumer, industry and macro trends and map prospective scenarios to revolutionise or revitalise your business.'
     type: row
     enabled: true
   -
     id: lda2hlmb
-    text: 'As well as helping you to discover new whitespace and under-served opportunities, our rigorous opportunity pack provides a solid foundation for many future initiatives.'
+    text: 'Together, we will explore your business ecosystem and identify the opportunities you are uniquely positioned to address.'
+    type: row
+    enabled: true
+  -
+    id: ledytr1x
+    text: 'From immediate opportunities to a pipeline of innovation activity, the lab is the springboard for strategy and innovation.'
     type: row
     enabled: true
 together_text_one:
@@ -125,4 +138,16 @@ pattern: patterns/opp.png
 intro_video_placeholder:
   - temp/olvid.png
 book_link_new_tab: false
+icon_rows:
+  -
+    id: ledyu0hu
+    text:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'We’ll get to know you, your ambitions, challenges and goals. We’ll also understand the macro and industry level trends effecting the present and future of your business.'
+    type: row
+    enabled: true
 ---
