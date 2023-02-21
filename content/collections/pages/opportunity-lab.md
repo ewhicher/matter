@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676977126
+updated_at: 1676977180
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -34,10 +34,6 @@ more_text:
       -
         type: text
         text: 'Here to future-proof your ecosystem, the Opportunity Lab harnesses a mixture of qualitative and quantitative research and blends this with empathetic and creative thinking to highlight and qualify your immediate and future opportunities.'
-  -
-    type: heading
-    attrs:
-      level: 6
   -
     type: heading
     attrs:
@@ -245,14 +241,6 @@ extra_text:
       -
         type: text
         text: 'Together, we will explore your business ecosystem and identify the opportunities you are uniquely positioned to address.'
-  -
-    type: heading
-    attrs:
-      level: 6
-    content:
-      -
-        type: text
-        text: "\_"
   -
     type: heading
     attrs:
