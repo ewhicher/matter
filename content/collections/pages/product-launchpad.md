@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676968190
+updated_at: 1676968412
 intro_text:
   -
     type: heading
@@ -133,7 +133,7 @@ icon_rows:
           -
             type: text
             text: 'We work with your teams and subject experts to understand the opportunity space and the vision for the business. We ask tough questions and give honest answers to prioritise for success.'
-    icon: icons/immersed.svg
+    icon: am-frame-the-opportunity.svg
     type: row
     enabled: true
   -
@@ -153,7 +153,7 @@ icon_rows:
           -
             type: text
             text: 'Customer needs before feature lists. We get immersed in the problem, speak with customers, and do whatever it takes to understand the people we’re serving, their goals and their current challenges.'
-    icon: icons/outside.svg
+    icon: am-customer-research.svg
     type: row
     enabled: true
   -
@@ -173,7 +173,27 @@ icon_rows:
           -
             type: text
             text: 'From our findings, we move decisively and deliberately to create a proof of concept to test in the market.'
-    icon: icons/define.svg
+    icon: am-prototype.svg
+    type: row
+    enabled: true
+  -
+    id: ledzn9vx
+    text:
+      -
+        type: heading
+        attrs:
+          level: 4
+        content:
+          -
+            type: text
+            text: 'Business case'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Working with your teams we’ll define the technology, services and structures required to make the product successful. Where are the gaps, risks, and challenges? What is the commercial potential?'
+    icon: am-business-case.svg
     type: row
     enabled: true
 scrolling_text_words:
