@@ -265,22 +265,23 @@ article:
   -
     type: paragraph
   -
+    type: paragraph
+  -
     type: set
     attrs:
-      id: lcivfwsl
+      id: lee1xh3g
       values:
-        type: statements
-        statements:
+        type: testimonials
+        testimonials:
           -
-            id: lcivfyvw
-            text: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our requirements and to present them exactly as I envisaged has been fantastic.'
-            name: 'Tarun Shome – BlackBerry IVY - Product Management Director'
-  -
-    type: paragraph
+            id: lee1xmwf
+            quote: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our requirements and to present them exactly as I envisaged has been fantastic.'
+            name: 'Tarun Shome'
+            role: 'BlackBerry IVY - Product Management Director'
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676971550
+updated_at: 1676972202
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 thumbnail: yxnzzxrzl2l2es1kyxnolte2nzi5mzu1ntqucg5n.png
