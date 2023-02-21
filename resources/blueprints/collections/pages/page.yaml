@@ -84,6 +84,11 @@ sections:
           visibility: visible
           always_save: false
       -
+        handle: extra_text
+        field: common.richtext
+        config:
+          display: 'Extra text'
+      -
         handle: together_section
         field:
           display: Together

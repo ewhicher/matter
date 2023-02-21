@@ -1,10 +1,24 @@
-<section class="py-[6rem] lg:py-[10rem] bg-light-green">
+<section>
   <div class="wrap-2xl">
-    <div class="lg:w-8/12 px-4 lg:pr-0">
-      {{ partial:components/fadeaway }}
+    <div class="lg:w-8/12 mx-auto px-4 lg:pr-0">
+      {{ if (testimonials | count) > 1 }}
+        {{ partial:components/fadeaway }}
+          {{ testimonials }}
+            <div class="py-4">
+              <div class="type-headline">
+                <span>“{{ quote }}”</span>
+              </div>
+              <div>
+                <p class="mb-8 mt-2 type-body">{{ if name != '' }}<span class="font-medium">{{ name }}</span>{{ /if }}{{ if name != '' && role != '' }}<span class="inline-block align-middle w-6 h-px mx-2 bg-dark-grey"></span>{{ /if }}{{ if role != '' }}<span>{{ role }}</span>{{ /if }}</p>
+                {{ if logo }}<img class="h-6" src="{{ logo }}">{{ /if }}
+              </div>
+            </div>
+          {{ /testimonials }}
+        {{ /partial:components/fadeaway }}
+      {{ else }}
         {{ testimonials }}
           <div class="py-4">
-            <div class="type-heading">
+            <div class="type-headline">
               <span>“{{ quote }}”</span>
             </div>
             <div>
@@ -13,7 +27,7 @@
             </div>
           </div>
         {{ /testimonials }}
-      {{ /partial:components/fadeaway }}
+      {{ /if }}
     </div>
   </div>
 </section>
