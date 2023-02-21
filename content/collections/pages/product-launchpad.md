@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676968527
+updated_at: 1676968568
 intro_text:
   -
     type: heading
@@ -107,6 +107,8 @@ cta_text:
       -
         type: text
         text: 'We’ll demo the project back to the leadership team, with honest and objective recommendations for what should happen next.'
+  -
+    type: paragraph
   -
     type: heading
     attrs:
