@@ -4,8 +4,8 @@ blueprint: home
 title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1676912140
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1676966395
 heading: 'A design and innovation studio _ for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -42,7 +42,6 @@ logos:
 views_list:
   - a121bcdb-f2ff-4837-9dd6-3e92ff571c93
   - 0281653d-7ddc-4ca4-9a55-9fac7b6bd33d
-  - 81c0d66d-e8ab-445b-b322-62143fe6e018
   - dfba298f-bee8-4176-86bf-4eee9c0b7130
   - 6ed034df-ddc9-4359-a8d7-7be971319dcb
   - 8b101014-a717-42de-95e3-8e46c12db390
