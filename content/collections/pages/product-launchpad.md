@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676968754
+updated_at: 1676969483
 intro_text:
   -
     type: heading
@@ -14,7 +14,15 @@ intro_text:
     content:
       -
         type: text
-        text: 'Bring customers into the design process to validate new products, services and experiences. Whether you’re a start-up that needs to test your idea, or an established company keen to explore a new revenue stream or pivot an existing product, the LaunchPad is a way to move purposefully from idea to impact.'
+        text: 'Bring customers into the design process to validate new products, services and experiences.'
+  -
+    type: heading
+    attrs:
+      level: 5
+    content:
+      -
+        type: text
+        text: 'Whether you’re a start-up that needs to test your idea, or an established company keen to explore a new revenue stream or pivot an existing product, the LaunchPad is a way to move purposefully from idea to impact.'
 more_text:
   -
     type: heading
