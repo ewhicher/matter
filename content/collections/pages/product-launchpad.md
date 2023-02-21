@@ -4,8 +4,8 @@ blueprint: page
 template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1676906033
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1676967952
 intro_text:
   -
     type: heading
@@ -14,7 +14,7 @@ intro_text:
     content:
       -
         type: text
-        text: 'Whether you’re a start-up that needs to test your idea, or an established company keen to explore a new revenue stream or pivot an existing product, the LaunchPad is a way to move purposefully from idea to impact.'
+        text: 'Bring customers into the design process to validate new products, services and experiences. Whether you’re a start-up that needs to test your idea, or an established company keen to explore a new revenue stream or pivot an existing product, the LaunchPad is a way to move purposefully from idea to impact.'
 more_text:
   -
     type: heading
@@ -23,19 +23,13 @@ more_text:
     content:
       -
         type: text
+        text: 'Making things people want > making people want things.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
         text: 'By combining customer research, design prototypes and financial modelling into a lean process, we de-risk investment and enable brands to rapidly explore the value of new opportunities.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'The LaunchPad can run for anything between 4-12 weeks depending on the complexity of the product, the business and the system it’s impacting.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Use it to answer important questions, like...'
 typed_rows:
   -
     id: ldbr0tmk
@@ -44,17 +38,17 @@ typed_rows:
     enabled: true
   -
     id: le5jlpfb
-    text: 'How can we build a digital-first brand?'
-    type: row
-    enabled: true
-  -
-    id: ldbr0vvs
     text: 'How will a new product impact the wider organisation?'
     type: row
     enabled: true
   -
+    id: ldbr0vvs
+    text: 'What format should this new service take?'
+    type: row
+    enabled: true
+  -
     id: ldbr0wsn
-    text: 'How can I build stakeholder confidence around a new service?'
+    text: 'How can I build stakeholder confidence around a new opportunity?'
     type: row
     enabled: true
 together_text_one:
