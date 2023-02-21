@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676969054
+updated_at: 1676969631
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -109,6 +109,8 @@ cta_text:
       -
         type: text
         text: 'From trend forecasting right through to a clear value proposition. The opportunity lab is a catalyst for proactive action, cutting through the fog of uncertainty, bringing rigour to ideation and sparking the strategies to transform businesses on a mission.'
+  -
+    type: paragraph
   -
     type: paragraph
   -
