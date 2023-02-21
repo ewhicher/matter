@@ -68,18 +68,23 @@ article:
         type: text
         text: 'A fully designed, interactive prototype, excited customers, increased revenue opportunities and a new, validated business model to drive scale and reach. Business strategy update and killer plans for the future. Watch this space...'
   -
+    type: paragraph
+  -
     type: set
     attrs:
-      id: le5k5jai
+      id: lee5f7tw
       values:
-        type: statements
-        statements:
+        type: testimonials
+        testimonials:
           -
-            id: le5k5lfc
-            text: 'I’m actually quite emotional. It’s amazing. This process has been so valuable for us.'
-            name: 'Sam Kitching - Founder - WIT'
-updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676539178
+            id: lee5f91s
+            quote: 'I’m actually quite emotional. It’s amazing, this process has been so valuable for us.'
+            name: 'Sam Kitching'
+            role: 'Founder - WIT'
+  -
+    type: paragraph
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1676978110
 thumbnail: wit1.jpg
 snippet: 'We took WIT’s unique flagship training hub to the next level and re-imagined it as a connected digital experience - seamlessly merging training, retail and community.'
 footer_text:
