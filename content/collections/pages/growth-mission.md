@@ -5,7 +5,7 @@ template: page
 title: 'Growth Mission'
 theme: 'bg-light-red text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676978176
+updated_at: 1676978301
 pattern: patterns/growth.png
 intro_text:
   -
@@ -225,5 +225,5 @@ scrolling_text_words:
   - 'Content design'
 pill_left_hand_text: '6 months'
 pill_label_text: From
-pill_right_hand_text: 'Tailored support'
+pill_right_hand_text: Bespoke
 ---
