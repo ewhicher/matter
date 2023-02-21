@@ -4,9 +4,9 @@ blueprint: home
 title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676966395
-heading: 'A design and innovation studio _ for people on a mission'
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1676977405
+heading: 'A design and innovation studio / for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
   -
