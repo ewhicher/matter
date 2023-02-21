@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676967952
+updated_at: 1676968190
 intro_text:
   -
     type: heading
@@ -104,7 +104,7 @@ cta_text:
     content:
       -
         type: text
-        text: 'We’ll demo the project back to the project  team, with honest and objective recommendations for what should happen next.'
+        text: 'It all starts with a conversation.'
 proof_text: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic.'
 proof_logo: clients/testimo/diagio-logo-small.png
 pattern: patterns/product.png
@@ -177,13 +177,17 @@ icon_rows:
     type: row
     enabled: true
 scrolling_text_words:
-  - 'Concept creation'
-  - 'Rapid prototyping'
-  - 'Service design'
-  - UX
+  - 'UX Research'
+  - 'Customer Journey Mapping'
+  - 'UX Design'
+  - 'Visual Design'
+  - 'Digital Prototyping'
+  - Storytelling
+  - 'Service Design'
+  - 'Business Design'
 pill_left_hand_text: '2 weeks'
-pill_label_text: From
-pill_right_hand_text: £25k
+pill_label_text: FROM
+pill_right_hand_text: £30k
 book_link: 'https://calendly.com/activematter/30-minute-intro-chat'
 book_link_new_tab: true
 ---
