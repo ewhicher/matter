@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676977180
+updated_at: 1676979814
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -138,7 +138,7 @@ footer_text:
         text: 'Join us on a voyage of discovery to build a compelling future vision for your organisation.'
 pattern: patterns/opp.png
 intro_video_placeholder:
-  - temp/olvid.png
+  - opportunitylabimg.png
 book_link_new_tab: true
 icon_rows:
   -
