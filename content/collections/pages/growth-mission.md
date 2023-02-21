@@ -4,8 +4,8 @@ blueprint: page
 template: page
 title: 'Growth Mission'
 theme: 'bg-light-red text-dark-grey'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676970776
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1676978301
 pattern: patterns/growth.png
 intro_text:
   -
@@ -25,7 +25,7 @@ intro_text:
     content:
       -
         type: text
-        text: 'Customer expectations are continually being redefined by market-leading experiences. We help companies navigate the improvements in their product and service experience to stay relevant and build deeper, more connected customer relationships.'
+        text: 'Customer expectations are continually being redefined by market-leading experiences. We help companies navigate the improvements in their product and service to stay relevant and build deeper, more connected customer relationships.'
 more_text:
   -
     type: heading
@@ -219,4 +219,11 @@ icon_rows:
     enabled: true
 book_link_new_tab: true
 book_link: 'https://calendly.com/activematter/30-minute-intro-chat'
+scrolling_text_words:
+  - 'Teams as a Service'
+  - 'Sales enablement'
+  - 'Content design'
+pill_left_hand_text: '6 months'
+pill_label_text: From
+pill_right_hand_text: Bespoke
 ---
