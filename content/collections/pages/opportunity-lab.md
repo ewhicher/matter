@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676968984
+updated_at: 1676969054
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -34,22 +34,6 @@ more_text:
       -
         type: text
         text: 'Here to future-proof your ecosystem, the Opportunity Lab harnesses a mixture of qualitative and quantitative research and blends this with empathetic and creative thinking to highlight and qualify your immediate and future opportunities.'
-  -
-    type: heading
-    attrs:
-      level: 6
-    content:
-      -
-        type: text
-        text: "\_The lab combines design futures with a grounded analysis of the current landscape to explore and qualify new markets, pre-emptively framing new propositions and innovations."
-  -
-    type: heading
-    attrs:
-      level: 6
-    content:
-      -
-        type: text
-        text: 'Combining ‘outside-in’ and ‘inside-out’ approaches:'
 typed_rows:
   -
     id: lda2hi6a
