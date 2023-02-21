@@ -4,8 +4,8 @@ blueprint: page
 template: page
 title: 'Growth Mission'
 theme: 'bg-light-red text-dark-grey'
-updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1676978301
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1676992783
 pattern: patterns/growth.png
 intro_text:
   -
@@ -226,4 +226,6 @@ scrolling_text_words:
 pill_left_hand_text: '6 months'
 pill_label_text: From
 pill_right_hand_text: Bespoke
+intro_video_placeholder:
+  - growthmissionimg.png
 ---
