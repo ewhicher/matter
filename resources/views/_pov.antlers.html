@@ -31,7 +31,11 @@
 <section class="pt-[6rem] lg:pt-[10rem] pb-[6rem] lg:pb-[8rem] bg-white text-dark-grey">
   <div class="wrap-2xl">
     <div class="lg:w-6/12 pl-4">
-      {{ footer_text ?? footer:pov_default_text | classify:margins }}
+      {{ if footer_text != '' }}
+        {{ footer_text | classify:margins }}
+      {{ else }}
+        {{ footer:case_study_default_text | classify:margins }}
+      {{ /if }}
     </div>
   </div>
 </section>
