@@ -17,10 +17,44 @@
       </ul>
       <div class="py-16 lg:py-28">
         <p class="mb-2 type-body">{{ footer:newsletter_text }}</p>
-        <fieldset class="md:flex">
-          <input class="md:flex-1 w-full px-4 py-2 type-callout text-light-blue" type="email" name="email" placeholder="Email address" required>
-          <button class="inline-block md:ml-8 mt-2 type-subheading text-left text-blue hoverline-base hoverline-offset hover:hoverline-active" type="submit">Subscribe</button>
-        </fieldset>
+        <form
+          action="https://activematter.us20.list-manage.com/subscribe/post?u=b3a8cb34127e029cb0b9c40a5&amp;id=4f165b6e1c&amp;f_id=00826ae6f0"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          target="_blank"
+          novalidate
+        >
+          <div id="mc_embed_signup_scroll"></div>
+          <fieldset class="md:flex">
+            <div class="md:flex-1">
+              <input
+                id="mce-EMAIL"
+                class="w-full px-4 py-2 type-callout text-light-blue"
+                type="email"
+                name="EMAIL"
+                placeholder="Email address"
+                value=""
+                required
+              >
+              <div id="mce-responses">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_b3a8cb34127e029cb0b9c40a5_4f165b6e1c" tabindex="-1" value="">
+              </div>
+            </div>
+            <input  
+              class="appearance-none inline-block md:ml-8 mt-2 type-subheading text-left text-blue hoverline-base hoverline-offset hover:hoverline-active"
+              value="Subscribe"
+              name="subscribe"
+              id="mc-embedded-subscribe" 
+              type="submit"
+            />
+          </fieldset>
+        </form>
       </div>
       <div>
         <p>© {{ now format="Y" }} Active Matter Limited</p>
@@ -28,3 +62,8 @@
     </div>
   </div>
 </footer>
+
+
+{{ section:jsafter }}
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[3]='LNAME';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='MMERGE4';ftypes[4]='text';fnames[5]='MMERGE5';ftypes[5]='text';fnames[2]='MMERGE2';ftypes[2]='text';fnames[6]='MMERGE6';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+{{ /section:jsafter }}
