@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676977230
+updated_at: 1676991951
 intro_text:
   -
     type: heading
@@ -250,4 +250,6 @@ extra_text:
       -
         type: text
         text: 'The goal is to take an idea with potential and turn it into a product with a future.'
+intro_video_placeholder:
+  - productlaunchpadimg.png
 ---
