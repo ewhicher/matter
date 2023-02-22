@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677075074
+updated_at: 1677082623
 intro_text:
   -
     type: heading
@@ -171,7 +171,7 @@ icon_rows:
         content:
           -
             type: text
-            text: 'Customer needs before feature lists. We get immersed in the problem, speak with customers, and do whatever it takes to understand the people we’re serving, their goals and their current challenges.'
+            text: 'Customer needs before feature lists. We get immersed in the problem, speak with customers, and do whatever it takes to understand and empathise with the people we’re serving.'
     icon: am-customer-research.svg
     type: row
     enabled: true
