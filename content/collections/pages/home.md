@@ -4,8 +4,8 @@ blueprint: home
 title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677001113
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1677073466
 heading: 'A design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -52,7 +52,7 @@ views_heading: 'Latest from the studio'
 testimonials:
   -
     id: ld8z7sjd
-    quote: 'We achieved more in the last few weeks than have in the last 6-months'
+    quote: 'We achieved more in just a few weeks than we did in the previous 6-months'
     logo: clients/testimo/diagio-logo-small.png
     type: testimonial
     enabled: true
@@ -60,7 +60,7 @@ testimonials:
     role: 'Global Commercial Strategy and Transformation Director'
   -
     id: ld8z928s
-    quote: 'Active Matter seamlessly integrated into our team. They have been instrumental in helping us to accelerate our plans.'
+    quote: 'Active Matter have been instrumental in helping us to accelerate our plans for IVY.'
     name: 'Peter Virk'
     type: testimonial
     enabled: true
@@ -76,7 +76,7 @@ testimonials:
     logo: clients/logo.svg
   -
     id: le8anebs
-    quote: "One of the best teams I've worked with. They challenge me to think bigger and, frankly, they get sh*t done"
+    quote: "One of the best teams I've worked with. They challenge me and, frankly, they get sh*t done"
     name: 'Gina Norton'
     role: 'Head of Digital'
     type: testimonial
