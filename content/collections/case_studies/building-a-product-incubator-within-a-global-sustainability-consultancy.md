@@ -11,9 +11,19 @@ article:
     content:
       -
         type: text
-        text: 'ERM, a global sustainability consultancy, asked us to help them to define and embed a product accelerator within the digital organisation. The goal was to build new products and services that could enable their consulting work, generate new revenue and give clients better tools to manage ESG risk within their organisation.'
+        text: 'ERM is the world’s largest pureplay sustainability consultancy with more than 5,500 people across 40 countries.'
   -
     type: paragraph
+    content:
+      -
+        type: text
+        text: 'Despite significant growth over the last 40 years, margins were being squeezed and ERM acknowledged the impact of competitors and startups on the value chain of their industry. The sheer speed of change in an industry where it once enjoyed ‘sole supplier’ status led ERM to recognise the need to build new systems to increase their ability to innovate and future-proof their organisation.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "To leverage ERM’s collective reserve of subject matter expertise, we designed the inaugural ‘Innovation Incubator’.\_"
   -
     type: set
     attrs:
@@ -37,7 +47,7 @@ article:
     content:
       -
         type: text
-        text: 'We worked with the leadership team to create a vision for the Innovation Incubator, and define the places, talent, processes, structure and governance needed to create successful products within a globally distributed team.'
+        text: 'We worked with the leadership team to create a vision for the Innovation Incubator and define the places, talent, processes, structure and governance needed to create successful products within a globally distributed team.'
   -
     type: paragraph
     content:
@@ -69,6 +79,12 @@ article:
     content:
       -
         type: text
+        text: 'ERM was able to increase speed to market for commercially viable ideas while eliminating non-viable ideas based on data, much faster and more consistently than had previously been possible.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
         text: 'Four products successfully launched and many more are in the pipeline. The work is ongoing, with the team in hypergrowth to keep up with internal demand.'
   -
     type: paragraph
@@ -82,9 +98,9 @@ article:
     type: paragraph
 theme: 'bg-light-blue-strong text-dark-grey'
 client: ERM
-snippet: 'ERM, a global sustainability consultancy, asked us to help them to define and embed a product accelerator within the digital organisation. The goal was to build new products and services that could enable their consulting work, generate new revenue and give clients better tools to manage ESG risk within their organisation.'
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1676899263
+snippet: 'Helping  the world’s largest sustainability consultancy to rethink its business model'
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1677076769
 thumbnail: erm-crisp.jpg
 footer_text:
   -
