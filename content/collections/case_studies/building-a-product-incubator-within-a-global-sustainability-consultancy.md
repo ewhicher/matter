@@ -25,6 +25,8 @@ article:
         type: text
         text: "To leverage ERM’s collective reserve of subject matter expertise, we designed the inaugural ‘Innovation Incubator’.\_"
   -
+    type: paragraph
+  -
     type: set
     attrs:
       id: le5m4ae2
@@ -99,8 +101,8 @@ article:
 theme: 'bg-light-blue-strong text-dark-grey'
 client: ERM
 snippet: 'Helping  the world’s largest sustainability consultancy to rethink its business model'
-updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677076769
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1677100138
 thumbnail: erm-crisp.jpg
 footer_text:
   -
