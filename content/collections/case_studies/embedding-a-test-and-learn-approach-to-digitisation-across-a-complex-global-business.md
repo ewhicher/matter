@@ -22,7 +22,7 @@ article:
     content:
       -
         type: text
-        text: "With over 110,000 employees, BASF is one of the world's biggest chemical companies. They work to invent new materials to create the products of the future."
+        text: "With over 110,000 employees, BASF is one of the world's biggest companies. They work to invent new materials to create the products of the future."
   -
     type: heading
     attrs:
@@ -96,7 +96,7 @@ article:
   -
     type: paragraph
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677080709
+updated_at: 1677080771
 thumbnail: basf-coe.gif
 snippet: 'Evangelising a new approach to digitisation across a complex, global business'
 footer_text:
