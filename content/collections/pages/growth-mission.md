@@ -4,8 +4,8 @@ blueprint: page
 template: page
 title: 'Growth Mission'
 theme: 'bg-light-red text-dark-grey'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676992783
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1677070684
 pattern: patterns/growth.png
 intro_text:
   -
@@ -34,7 +34,7 @@ more_text:
     content:
       -
         type: text
-        text: 'Whether it’s driving digital self-service, improving customer retention, equipping teams or streamlining operations, we bring human-centred design, technology and commercial strategy to help our clients fly.'
+        text: 'Whether it’s driving digital self-service, improving customer retention, enabling teams or streamlining operations, we bring human-centred design, technology and commercial strategy to help our clients fly.'
   -
     type: heading
     attrs:
@@ -153,7 +153,7 @@ icon_rows:
         content:
           -
             type: text
-            text: 'Review your current value proposition and product, the customer journey and the market positioning to find the key leverage points for growth. At this stage we’ll also challenge whether the product is even worthy to scale.'
+            text: 'Review your customer journey and product experience to find the key leverage points for growth.'
     icon: am-experience-audit.svg
     type: row
     enabled: true
@@ -173,7 +173,7 @@ icon_rows:
         content:
           -
             type: text
-            text: 'Set growth strategy in line with the company ambition, define assumptions and set boundaries, improve your product-market fit, develop your messaging frameworks, structure/recruit your team and get funding for success.'
+            text: "Set growth foundations. We'll do things like validate assumptions, improve the product-market fit, develop your brand & content and structure the team for success."
     icon: am-growth-foundations.svg
     type: row
     enabled: true
@@ -221,11 +221,20 @@ book_link_new_tab: true
 book_link: 'https://calendly.com/activematter/30-minute-intro-chat'
 scrolling_text_words:
   - 'Teams as a Service'
+  - 'UX design'
+  - 'Visual and brand design'
   - 'Sales enablement'
-  - 'Content design'
+  - 'Design Ops'
 pill_left_hand_text: '6 months'
 pill_label_text: From
 pill_right_hand_text: Bespoke
 intro_video_placeholder:
   - growthmissionimg.png
+extra_text:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'We bring experience and capabilities and work in partnership with your teams to create the impact you need to make. '
 ---
