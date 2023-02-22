@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677068666
+updated_at: 1677068726
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -229,5 +229,5 @@ extra_text:
     content:
       -
         type: text
-        text: 'Together, we will explore your business ecosystem and identify the opportunities you are uniquely positioned to address.'
+        text: 'We will explore your business ecosystem and identify the opportunities you are uniquely positioned to address.'
 ---
