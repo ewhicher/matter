@@ -5,7 +5,7 @@ template: page
 title: 'Growth Mission'
 theme: 'bg-light-red text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677075433
+updated_at: 1677082285
 pattern: patterns/growth.png
 intro_text:
   -
@@ -173,7 +173,7 @@ icon_rows:
         content:
           -
             type: text
-            text: "Set growth foundations. We'll do things like validate assumptions, improve the product-market fit, develop your brand & content and structure the team for success."
+            text: "We'll do things like test and validate assumptions, improve the product-market fit, develop your brand & content and help onboard the right capabilities for success."
     icon: am-growth-foundations.svg
     type: row
     enabled: true
