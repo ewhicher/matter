@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677069959
+updated_at: 1677074920
 intro_text:
   -
     type: heading
@@ -45,22 +45,22 @@ more_text:
 typed_rows:
   -
     id: ldbr0tmk
-    text: 'What features should we include in a self-service app?'
+    text: 'What features should we include in a self-service experience?'
     type: row
     enabled: true
   -
     id: le5jlpfb
-    text: 'How will a new product impact the wider organisation?'
+    text: 'How will a new digital product impact the lives of our customers?'
     type: row
     enabled: true
   -
     id: ldbr0vvs
-    text: "What's it going to take to bring this idea to market?"
+    text: "What's it going to take to bring this new service to market?"
     type: row
     enabled: true
   -
     id: ldbr0wsn
-    text: 'How can I build stakeholder confidence around a new opportunity?'
+    text: 'How can I build stakeholder confidence to invest in a new idea?'
     type: row
     enabled: true
 together_text_one:
