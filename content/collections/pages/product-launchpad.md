@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677075018
+updated_at: 1677075074
 intro_text:
   -
     type: heading
@@ -51,11 +51,6 @@ typed_rows:
   -
     id: le5jlpfb
     text: 'How will a new digital product impact the lives of our customers?'
-    type: row
-    enabled: true
-  -
-    id: ldbr0vvs
-    text: "What's it going to take to launch a new service in the market?"
     type: row
     enabled: true
   -
