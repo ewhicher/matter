@@ -22,6 +22,8 @@ article:
         type: text
         text: 'WIT is a leading multi-brand retailer with a focus on functional fitness. They are based in London, with a global community of committed followers.'
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 4
@@ -29,6 +31,8 @@ article:
       -
         type: text
         text: 'The founders approached Active Matter to help them to execute their vision for a fully integrated and digitally enabled customer experience. '
+  -
+    type: paragraph
   -
     type: heading
     attrs:
@@ -61,6 +65,8 @@ article:
       -
         type: text
         text: 'We created a clear vision, combined all of the customer and stakeholder inputs into a prioritised set of capabilities, rapidly prototyped and tested a new digital product, and created a story of the future of WIT experience in the eyes of their core global consumers. '
+  -
+    type: paragraph
   -
     type: set
     attrs:
@@ -103,8 +109,8 @@ article:
             role: 'Founder - WIT'
   -
     type: paragraph
-updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677079381
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1677089366
 thumbnail: wit1.jpg
 snippet: 'Re-imagining the fitness retail experience to connect commerce, content and community to inspire investors'
 footer_text:
