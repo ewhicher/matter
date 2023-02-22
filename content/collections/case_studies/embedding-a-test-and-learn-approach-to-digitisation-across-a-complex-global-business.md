@@ -96,9 +96,9 @@ article:
   -
     type: paragraph
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677080663
+updated_at: 1677080709
 thumbnail: basf-coe.gif
-snippet: 'Working with other firms to create a new approach to digitisation across a complex, global business'
+snippet: 'Evangelising a new approach to digitisation across a complex, global business'
 footer_text:
   -
     type: heading
