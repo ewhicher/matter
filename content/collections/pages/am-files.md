@@ -2,9 +2,9 @@
 id: f822d875-5649-4bc0-bd7d-e9689176c8f4
 blueprint: am_files
 template: am_files
-title: 'Work and thoughts'
+title: 'AM Files'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677069534
+updated_at: 1677071247
 theme: 'bg-white text-dark-grey'
 hero_heading: 'Latest from the studio'
 hero_text:
@@ -13,7 +13,7 @@ hero_text:
     content:
       -
         type: text
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit etiam tortor augue faucibus vel orci a fermentum pharetra quam nulla vestibulum augue sed malesuada sollicitudin.'
+        text: 'A selection of our work, thoughts and self-started experiments'
 files:
   - c20d41fb-7de9-4629-b606-7fae53481ed1
   - b3ac641a-8ae3-4fe2-933f-2f892d968186
