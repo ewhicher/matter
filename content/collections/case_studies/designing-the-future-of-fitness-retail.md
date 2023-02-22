@@ -14,17 +14,21 @@ article:
         file: 7702b761af277ed5bb2cdc47ab23a040a734bd76-2880x1400.jpg
         wide_view: true
   -
-    type: paragraph
-  -
     type: heading
     attrs:
       level: 3
     content:
       -
         type: text
-        text: 'We took WIT’s unique flagship training hub to the next level and re-imagined it as a connected digital experience - seamlessly merging training, retail and community.'
+        text: 'WIT is a leading multi-brand retailer with a focus on functional fitness. They are based in London, with a global community of committed followers.'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 4
+    content:
+      -
+        type: text
+        text: 'The founders approached Active Matter to help them to execute their vision for a fully integrated and digitally enabled customer experience. '
   -
     type: heading
     attrs:
@@ -38,9 +42,25 @@ article:
     content:
       -
         type: text
-        text: 'We ran Director interviews and member observation sessions, then got to work on the customer experience design, followed by a Design Sprint and rapid prototyping week, user testing and investment presentation.'
+        text: 'We got immersed in the business, ran stakeholder interviews and spoke to customers in their flagship store/gym in the heart of the City of London.'
   -
     type: paragraph
+    content:
+      -
+        type: text
+        text: 'The challenge emerged - how might we take this physical and experiential retail experience that the member community knows and loves, and bring it to a global audience?'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Over the course of 4-weeks, we worked with the founding team and the community to re-imagine WIT's digital customer experience. "
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'We created a clear vision, combined all of the customer and stakeholder inputs into a prioritised set of capabilities, rapidly prototyped and tested a new digital product, and created a story of the future of WIT experience in the eyes of their core global consumers. '
   -
     type: set
     attrs:
@@ -66,7 +86,7 @@ article:
     content:
       -
         type: text
-        text: 'A fully designed, interactive prototype, excited customers, increased revenue opportunities and a new, validated business model to drive scale and reach. Business strategy update and killer plans for the future. Watch this space...'
+        text: 'A visionary proof of concept, a business case with increased revenue opportunities and a new, validated business model to drive scale and reach. The work prompted a 7-figure investment into the WIT brand.'
   -
     type: paragraph
   -
@@ -83,10 +103,10 @@ article:
             role: 'Founder - WIT'
   -
     type: paragraph
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676978110
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1677079381
 thumbnail: wit1.jpg
-snippet: 'We took WIT’s unique flagship training hub to the next level and re-imagined it as a connected digital experience - seamlessly merging training, retail and community.'
+snippet: 'Re-imagining the fitness retail experience to connect commerce, content and community to inspire investors'
 footer_text:
   -
     type: heading
@@ -95,6 +115,6 @@ footer_text:
     content:
       -
         type: text
-        text: 'Find out how our service design, UI and product teams combine to create new business models and revenue streams.'
+        text: 'Find out how our product launchpad can validate new business models and revenue streams in just 4-weeks.'
 theme: 'bg-light-green text-dark-grey'
 ---
