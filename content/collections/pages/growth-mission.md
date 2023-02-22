@@ -5,7 +5,7 @@ template: page
 title: 'Growth Mission'
 theme: 'bg-light-red text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677082285
+updated_at: 1677082347
 pattern: patterns/growth.png
 intro_text:
   -
@@ -122,18 +122,6 @@ cta_text:
       -
         type: text
         text: "Build a scalable foundation to acquire, onboard and grow customers in a sustainable way. Let's kickstart your next phase."
-  -
-    type: paragraph
-  -
-    type: paragraph
-  -
-    type: heading
-    attrs:
-      level: 6
-    content:
-      -
-        type: text
-        text: 'It all starts with a conversation.'
 proof_text: 'It’s been an absolute pleasure working with Active Matter. The professionalism in taking time to understand our business and requirements has been fantastic.'
 proof_logo: clients/testimo/diagio-logo-small.png
 icon_rows:
