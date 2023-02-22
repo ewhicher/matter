@@ -34,8 +34,6 @@ article:
         type: text
         text: 'The founders approached Active Matter to help them to execute their vision for a fully integrated and digitally enabled customer experience. '
   -
-    type: paragraph
-  -
     type: set
     attrs:
       id: leg05x2b
@@ -120,7 +118,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677090774
+updated_at: 1677090796
 thumbnail: wit1.jpg
 snippet: 'Re-imagining the fitness retail experience to connect commerce, content and community to inspire investors'
 footer_text:
