@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677073466
+updated_at: 1677073513
 heading: 'A design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -68,7 +68,7 @@ testimonials:
     logo: blackberry-logo.svg
   -
     id: ld8z9kbh
-    quote: "This project has been a game-changer for us. I couldn't recommend Active Matter highly enough"
+    quote: "This project has been a game-changer. I couldn't recommend Active Matter highly enough"
     name: 'Sam Kitching'
     type: testimonial
     enabled: true
