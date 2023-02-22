@@ -63,10 +63,10 @@ article:
     type: paragraph
   -
     type: paragraph
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676463662
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1677081377
 thumbnail: bfaf03382e416bdb7eba0fcef4f2b21c07e87b86-2360x1278.jpg
-snippet: 'AluK, a global luxury aluminium window and door manufacturer, asked us to improve the onboarding experience of new customers from enquiry through to delivery, with the objective of reducing time to purchase, improving internal efficiency and driving repeat business and loyalty.'
+snippet: 'Reducing time to order and driving account activations for a multinational manufacturer'
 footer_text:
   -
     type: heading
