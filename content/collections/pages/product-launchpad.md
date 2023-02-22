@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677074920
+updated_at: 1677075018
 intro_text:
   -
     type: heading
@@ -55,7 +55,7 @@ typed_rows:
     enabled: true
   -
     id: ldbr0vvs
-    text: "What's it going to take to bring this new service to market?"
+    text: "What's it going to take to launch a new service in the market?"
     type: row
     enabled: true
   -
