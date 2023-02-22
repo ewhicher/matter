@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677074492
+updated_at: 1677081964
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -166,7 +166,7 @@ icon_rows:
         content:
           -
             type: text
-            text: 'We’ll do a deep dive into the market to analyse trends, future use cases, the drivers of change and emerging customer expectations to map your most compelling opportunity spaces.'
+            text: 'We’ll do a deep dive into the market to analyse trends, future use cases and emerging customer expectations to map your most compelling opportunity spaces.'
     icon: am-ideate.svg
     type: row
     enabled: true
