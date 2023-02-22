@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677068443
+updated_at: 1677068666
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -146,7 +146,7 @@ icon_rows:
         content:
           -
             type: text
-            text: 'We’ll get to know you, your vision, assets and capabilities, and create the opportunity inquiry – this is the question that we will answer together.'
+            text: "We’ll get to know you and your capabilities, your assets and your goals. From here we'll create the opportunity inquiry – this is the question that we will answer together."
     type: row
     enabled: true
     icon: am-empothise.svg
