@@ -91,7 +91,7 @@ article:
       values:
         type: image
         file: mb-demo-2.jpg
-        wide_view: false
+        wide_view: true
   -
     type: paragraph
   -
@@ -99,7 +99,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677087267
+updated_at: 1677087301
 heading: 'Defining a market-leading infotainment experience'
 thumbnail: mbux1.png
 snippet: 'Refining and improving the HMI experience ahead of a new product launch.'
