@@ -3,8 +3,8 @@ id: 13c74b3b-72d0-4181-a3fc-e404c9f8bf09
 blueprint: page
 template: page
 title: 'Opportunity Lab'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676992074
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1677067582
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -14,7 +14,7 @@ intro_text:
     content:
       -
         type: text
-        text: 'The opportunity lab is where ‘what if?’ becomes ‘why not?’.'
+        text: 'Identify new growth opportunities and tap into new markets beyond your core business.'
   -
     type: paragraph
   -
@@ -24,7 +24,7 @@ intro_text:
     content:
       -
         type: text
-        text: 'Together we will unearth the most exciting, relevant and fruitful ideas for your organisation; turn them into well-rounded and robust strategies and arm you with the tools to make great, long-term decisions.'
+        text: 'The opportunity lab is a catalyst for proactive action, helping to cut through the fog of uncertainty and leverage your unique assets in a new way to fuel sustainable growth.'
 more_text:
   -
     type: heading
@@ -33,23 +33,7 @@ more_text:
     content:
       -
         type: text
-        text: 'Here to future-proof your ecosystem, the Opportunity Lab harnesses a mixture of qualitative and quantitative research and blends this with empathetic and creative thinking to highlight and qualify your immediate and future opportunities.'
-  -
-    type: heading
-    attrs:
-      level: 6
-    content:
-      -
-        type: text
-        text: 'The lab combines design futures with a grounded analysis of the current landscape to explore and qualify new markets, pre-emptively framing new propositions and innovations.'
-  -
-    type: heading
-    attrs:
-      level: 6
-    content:
-      -
-        type: text
-        text: 'Combining ‘outside-in’ and ‘inside-out’ approaches:'
+        text: 'This essential first step provides a solid foundation to create cutting-edge products, services and business models that will future-proof your organisation, test new technologies and create valuable new revenue streams.'
 typed_rows:
   -
     id: lda2hi6a
@@ -114,7 +98,7 @@ cta_text:
     content:
       -
         type: text
-        text: 'From trend forecasting right through to a clear value proposition. The opportunity lab is a catalyst for proactive action, cutting through the fog of uncertainty, bringing rigour to ideation and sparking the strategies to transform businesses on a mission.'
+        text: 'The result? An innovation roadmap that aligns market trends with your corporate goals, culture, and targets. As well as a future-focused value proposition for you to activate.'
   -
     type: paragraph
   -
@@ -151,13 +135,13 @@ icon_rows:
         content:
           -
             type: text
-            text: Empathise
+            text: 'Set the target'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'We’ll get to know you, your ambitions, challenges and goals. We’ll also understand the macro and industry level trends effecting the present and future of your business.'
+            text: 'We’ll get to know you, your vision, assets and capabilities, and create the opportunity inquiry – the question that we will answer together.'
     type: row
     enabled: true
     icon: am-empothise.svg
@@ -171,13 +155,13 @@ icon_rows:
         content:
           -
             type: text
-            text: Ideate
+            text: 'Map your opportunities'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'We’ll collaboratively explore this context to unearth new and exciting ideas that could revolutionise your business, market or industry. We’ll define these by priority and potential.'
+            text: 'We’ll do a deep dive into the market to analyse trends, future use cases, the drivers of change and emerging customer expectations to map your most compelling opportunity spaces.'
     icon: am-ideate.svg
     type: row
     enabled: true
@@ -191,13 +175,13 @@ icon_rows:
         content:
           -
             type: text
-            text: Qualify
+            text: 'Size and prioritise'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'We’ll add rigour to our ideas and vision through a range of market and design research methodologies which will highlight exactly where we should play and how we can win.'
+            text: 'Market sizing and future value projection for priority opportunities. We’ll add rigour to highlight where you should play and how you can win.'
     icon: am-qualify.svg
     type: row
     enabled: true
@@ -211,24 +195,24 @@ icon_rows:
         content:
           -
             type: text
-            text: Propose
+            text: 'Value Proposition Sprint'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'We will condense the findings into a clear and concise value proposition making sure you are armed with the right market intelligence and relevant strategy to launch successful products, services and experiences for your consumer.'
+            text: 'We will begin to shape your unique value in the opportunity space and create a future-focused proposition for you to take action against.'
     icon: am-propose.svg
     type: row
     enabled: true
 scrolling_text_words:
   - 'Strategy audit'
-  - 'Trend research'
-  - 'Trend synthesis'
-  - Foresight
+  - 'Horizon scanning'
+  - 'Trend analysis'
   - 'Market sizing'
-  - 'Competitor landscape'
-pill_left_hand_text: '2 weeks'
+  - 'Design research'
+  - 'Value Proposition'
+pill_left_hand_text: '4 weeks'
 pill_label_text: FROM
 pill_right_hand_text: £30K
 book_link: 'https://calendly.com/activematter/30-minute-intro-chat'
@@ -241,12 +225,4 @@ extra_text:
       -
         type: text
         text: 'Together, we will explore your business ecosystem and identify the opportunities you are uniquely positioned to address.'
-  -
-    type: heading
-    attrs:
-      level: 6
-    content:
-      -
-        type: text
-        text: "From immediate opportunities to a pipeline of innovation activity, the lab is the springboard for strategy and innovation.\_"
 ---
