@@ -22,7 +22,7 @@ article:
     content:
       -
         type: text
-        text: 'Healios asked us to design a new service to deliver cognitive behavioural therapy to children and young people aged 11-17yrs. It needed to be something they could relate to and importantly, look forward to using.'
+        text: 'Healios asked for our help to design a new service to deliver cognitive behavioural therapy to children and young people aged 11-17yrs. It needed to be digital, something they could relate to and importantly, look forward to using.'
   -
     type: paragraph
   -
@@ -38,7 +38,13 @@ article:
     content:
       -
         type: text
-        text: 'We worked with the Healios clinical team and groups of children from ages 11-17 to design a new chatbot character, tone of voice and interface, as well as create the UX framework to ensure it fit seamlessly into their lives.'
+        text: 'We worked with the Healios clinical team and groups of school children from ages 11-17 to co-create a new product. Together, we developed the brand and tone of voice, moving from 8 concepts down to a winning identity. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'In parallel, we worked with the clinical content team to design the app information architecture and how that worked as a user experience to ensure it fit seamlessly into their lives.'
   -
     type: paragraph
   -
@@ -74,13 +80,13 @@ article:
     content:
       -
         type: text
-        text: 'A successfully tested brand concept, style guide and future insights for a successful launch. Within 5 months, the pilot product was successfully launched to approx. 5,000 children and young people across Europe.'
+        text: 'A successfully tested brand concept, style guide and future insights for a successful launch. Within 5 months, the pilot product was successfully launched to approx. 5,000 children and young people across Europe. Progress and iteration is being managed by the awesome folks at Healios.'
   -
     type: paragraph
   -
     type: paragraph
-updated_by: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_at: 1676633422
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1677076438
 thumbnail: healios2.jpg
 snippet: 'A new way to deliver cognitive behavioural therapy to children and young people'
 theme: 'bg-light-yellow text-dark-grey'
