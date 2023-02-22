@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677073783
+updated_at: 1677073882
 heading: 'A design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -57,7 +57,7 @@ testimonials:
     type: testimonial
     enabled: true
     name: 'Sashi Sangala'
-    role: 'Global Commercial Strategy and Transformation Director'
+    role: 'Global Strategy and Transformation'
   -
     id: ld8z928s
     quote: 'Active Matter have been instrumental in helping us to accelerate our plans for IVY.'
