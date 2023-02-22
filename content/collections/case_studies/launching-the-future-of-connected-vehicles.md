@@ -280,12 +280,12 @@ article:
             role: 'BlackBerry IVY - Product Management Director'
   -
     type: paragraph
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676977692
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1677081040
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 thumbnail: yxnzzxrzl2l2es1kyxnolte2nzi5mzu1ntqucg5n.png
-snippet: 'We collaborated with BlackBerry, AWS and a host of support partners to define, design and build two memorable experiences to support the global launch of BlackBerry IVY - the future of connected vehicles.'
+snippet: 'Launching a new connected car platform to OEMs and developers at CES, Vegas'
 footer_text:
   -
     type: heading
