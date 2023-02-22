@@ -36,6 +36,18 @@ article:
   -
     type: paragraph
   -
+    type: set
+    attrs:
+      id: leg05x2b
+      values:
+        type: image
+        file: wit-demo-1.jpg
+        wide_view: true
+  -
+    type: paragraph
+  -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 4
@@ -112,7 +124,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677089386
+updated_at: 1677090159
 thumbnail: wit1.jpg
 snippet: 'Re-imagining the fitness retail experience to connect commerce, content and community to inspire investors'
 footer_text:
