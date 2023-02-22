@@ -5,7 +5,7 @@ template: page
 title: 'Growth Mission'
 theme: 'bg-light-red text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677075279
+updated_at: 1677075433
 pattern: patterns/growth.png
 intro_text:
   -
@@ -51,7 +51,7 @@ typed_rows:
     enabled: true
   -
     id: ldbr0wsn
-    text: 'Our growth is slowing, we need an injection of momentum'
+    text: 'Our growth is slowing, we need to make our services more accessible'
     type: row
     enabled: true
   -
