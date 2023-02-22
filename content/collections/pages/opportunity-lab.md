@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677067582
+updated_at: 1677067909
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -98,7 +98,7 @@ cta_text:
     content:
       -
         type: text
-        text: 'The result? An innovation roadmap that aligns market trends with your corporate goals, culture, and targets. As well as a future-focused value proposition for you to activate.'
+        text: 'The result? An innovation roadmap aligned to your corporate goals, culture, and targets. And an actionable, future-focused value proposition.'
   -
     type: paragraph
   -
@@ -119,7 +119,7 @@ footer_text:
     content:
       -
         type: text
-        text: 'Join us on a voyage of discovery to build a compelling future vision for your organisation.'
+        text: 'Join us on a voyage of discovery to build a profitable future for your organisation.'
 pattern: patterns/opp.png
 intro_video_placeholder:
   - opportunitylabimg-1676991925.png
@@ -214,7 +214,7 @@ scrolling_text_words:
   - 'Value Proposition'
 pill_left_hand_text: '4 weeks'
 pill_label_text: FROM
-pill_right_hand_text: £30K
+pill_right_hand_text: £46K
 book_link: 'https://calendly.com/activematter/30-minute-intro-chat'
 extra_text:
   -
