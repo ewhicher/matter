@@ -46,6 +46,28 @@ article:
         type: text
         text: 'Working with the leadership team, we completely re-designed the customer experience to feel highly responsive, personal and effortless. We then re-engineered the organisational structure and processes to enable the new experience, by automating due diligence checks, digitising contracts, removing bottlenecks and empowering teams to deliver results.'
   -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      id: leg6jb8d
+      values:
+        type: image
+        file: empathy-map.png
+        wide_view: true
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      id: leg6atsu
+      values:
+        type: image
+        file: aluk-journey.png
+        wide_view: false
+  -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 4
@@ -63,8 +85,8 @@ article:
     type: paragraph
   -
     type: paragraph
-updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677081377
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1677100881
 thumbnail: bfaf03382e416bdb7eba0fcef4f2b21c07e87b86-2360x1278.jpg
 snippet: 'Reducing time to order and driving account activations for a multinational manufacturer'
 footer_text:
