@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677069327
+updated_at: 1677069427
 intro_text:
   -
     type: heading
@@ -138,7 +138,7 @@ footer_text:
     content:
       -
         type: text
-        text: 'Benchmark your product experience and uncover new opportunities to leapfrog the competition.'
+        text: "Let's shake things up!"
 icon_rows:
   -
     id: lecwgl2e
