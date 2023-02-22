@@ -45,6 +45,18 @@ article:
         type: text
         text: 'Armed with the new tool, we tested the Mercedes product simulations against competitor systems and  market-leading apps.'
   -
+    type: paragraph
+  -
+    type: set
+    attrs:
+      id: lefxhs6x
+      values:
+        type: image
+        file: mb-demo-1.jpg
+        wide_view: true
+  -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 4
@@ -74,8 +86,8 @@ article:
     type: paragraph
   -
     type: paragraph
-updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677077901
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1677085686
 heading: 'Defining a market-leading infotainment experience'
 thumbnail: mbux1.png
 snippet: 'Refining and improving the HMI experience ahead of a new product launch.'
