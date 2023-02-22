@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677068140
+updated_at: 1677068443
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -37,12 +37,17 @@ more_text:
 typed_rows:
   -
     id: lda2hi6a
-    text: 'Unlocking your ecosystem potential - We partner closely with you to understand your organisation, your vision, goals and purpose in order to best appreciate what drives you and your business.'
+    text: 'Who are our future customers and what will they need from us?'
     type: row
     enabled: true
   -
     id: lda2hkyq
-    text: 'Looking at the world around us - we take pride in our ability to scout future horizons, spot consumer, industry and macro trends and map prospective scenarios to revolutionise or revitalise your business.'
+    text: "How can we reframe the industry we're in to unlock a bigger market opportunity?"
+    type: row
+    enabled: true
+  -
+    id: lefn6taz
+    text: 'How can we build new revenue streams beyond our core business?'
     type: row
     enabled: true
 together_text_one:
