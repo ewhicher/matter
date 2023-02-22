@@ -21,7 +21,7 @@ article:
     content:
       -
         type: text
-        text: 'We worked with the Daimler R&D and UX teams to test product simulations and make recommendations to improve the experience ahead of its global launch.'
+        text: 'We worked with the Daimler R&D and UX teams to test product simulations and make recommendations to improve the experience ahead of its global launch of MBUX.'
   -
     type: paragraph
   -
@@ -37,7 +37,13 @@ article:
     content:
       -
         type: text
-        text: 'We designed a benchmark for a best-in-class infotainment experience. The scorecard included 180+ metrics ranging from system performance and content to accessibility and brand. We ran the simulation model, competitor systems and apps against the benchmark to uncover new opportunities to improve the user experience across key use cases.'
+        text: 'We designed a benchmark for a best-in-class infotainment experience. The tool included 180+ metrics across 42 use cases, covering topics from system performance and content to accessibility and brand. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Armed with the new tool, we tested the Mercedes product simulations against competitor systems and  market-leading apps.'
   -
     type: heading
     attrs:
@@ -51,16 +57,28 @@ article:
     content:
       -
         type: text
-        text: 'The launch of the new, improved system at the Paris Motor Show to rave reviews. An ongoing programme to continue to improve the experience across the vehicle for new use cases, including voice command and other connected applications.'
+        text: 'Combining the statistics with qualitative insights, we provided 23 critical UX and visual design recommendations to improve the experience ahead of its global launch.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The product was launched at the Paris Motor Show with positive PR reviews. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The tool is being updated and used to continue to improve the experience across the vehicle for new use cases, including voice command and other connected applications.'
   -
     type: paragraph
   -
     type: paragraph
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676463510
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1677077901
 heading: 'Defining a market-leading infotainment experience'
 thumbnail: mbux1.png
-snippet: 'We worked with the Daimler R&D and UX teams to test product simulations and make recommendations to improve the experience ahead of its global launch.'
+snippet: 'Refining and improving the HMI experience ahead of a new product launch.'
 theme: 'bg-light-red text-dark-grey'
 footer_text:
   -
