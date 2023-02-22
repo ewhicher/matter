@@ -5,7 +5,7 @@ template: page
 title: 'Product LaunchPad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677069831
+updated_at: 1677069959
 intro_text:
   -
     type: heading
@@ -41,7 +41,7 @@ more_text:
     content:
       -
         type: text
-        text: 'By combining customer research, design prototypes and financial modelling into a lean process, we enable brands to rapidly explore the value of new opportunities to de-risk future investment.'
+        text: 'By combining customer research, design prototypes and financial modelling into a lean process, we enable brands to rapidly explore the value of new opportunities and de-risk future investment.'
 typed_rows:
   -
     id: ldbr0tmk
@@ -55,7 +55,7 @@ typed_rows:
     enabled: true
   -
     id: ldbr0vvs
-    text: 'What format should this new service take?'
+    text: "What's it going to take to bring this idea to market?"
     type: row
     enabled: true
   -
