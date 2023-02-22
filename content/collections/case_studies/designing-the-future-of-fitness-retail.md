@@ -79,8 +79,8 @@ article:
       id: leg5svcm
       values:
         type: image
-        file: wit-demo-3.jpg
-        wide_view: false
+        file: wit-demo-3@2x.jpg
+        wide_view: true
   -
     type: paragraph
   -
@@ -142,7 +142,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677099629
+updated_at: 1677099809
 thumbnail: wit1.jpg
 snippet: 'Re-imagining the fitness retail experience to connect commerce, content and community to inspire investors'
 footer_text:
