@@ -78,8 +78,6 @@ article:
           - wit2.jpg
         wide_view: false
   -
-    type: paragraph
-  -
     type: heading
     attrs:
       level: 4
@@ -93,8 +91,6 @@ article:
       -
         type: text
         text: 'A visionary proof of concept, a business case with increased revenue opportunities and a new, validated business model to drive scale and reach. The work prompted a 7-figure investment into the WIT brand.'
-  -
-    type: paragraph
   -
     type: set
     attrs:
@@ -118,7 +114,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677097313
+updated_at: 1677097405
 thumbnail: wit1.jpg
 snippet: 'Re-imagining the fitness retail experience to connect commerce, content and community to inspire investors'
 footer_text:
