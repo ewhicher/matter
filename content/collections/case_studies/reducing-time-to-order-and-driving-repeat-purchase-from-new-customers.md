@@ -53,7 +53,7 @@ article:
       id: leg6jb8d
       values:
         type: image
-        file: empathy-map.png
+        file: empathy-map-1677101034.png
         wide_view: true
   -
     type: paragraph
@@ -86,7 +86,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677100881
+updated_at: 1677101042
 thumbnail: bfaf03382e416bdb7eba0fcef4f2b21c07e87b86-2360x1278.jpg
 snippet: 'Reducing time to order and driving account activations for a multinational manufacturer'
 footer_text:
