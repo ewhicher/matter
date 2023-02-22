@@ -98,14 +98,6 @@ article:
   -
     type: set
     attrs:
-      id: leg05x2b
-      values:
-        type: image
-        file: wit-demo-1-1677090701.jpg
-        wide_view: false
-  -
-    type: set
-    attrs:
       id: lee5f7tw
       values:
         type: testimonials
@@ -116,9 +108,17 @@ article:
             name: 'Sam Kitching'
             role: 'Founder - WIT'
   -
+    type: set
+    attrs:
+      id: leg05x2b
+      values:
+        type: image
+        file: wit-demo-1-1677090701.jpg
+        wide_view: false
+  -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677097182
+updated_at: 1677097313
 thumbnail: wit1.jpg
 snippet: 'Re-imagining the fitness retail experience to connect commerce, content and community to inspire investors'
 footer_text:
