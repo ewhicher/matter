@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677073646
+updated_at: 1677073783
 heading: 'A design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -52,7 +52,7 @@ views_heading: 'Latest from the studio'
 testimonials:
   -
     id: ld8z7sjd
-    quote: 'We achieved more in just a few weeks than we did in the previous 6-months'
+    quote: 'We achieved more in just a few weeks with Active Matter, than we did in the previous 6-months'
     logo: clients/testimo/diagio-logo-small.png
     type: testimonial
     enabled: true
