@@ -14,6 +14,8 @@ article:
         file: 7702b761af277ed5bb2cdc47ab23a040a734bd76-2880x1400.jpg
         wide_view: true
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 3
@@ -110,7 +112,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677089366
+updated_at: 1677089386
 thumbnail: wit1.jpg
 snippet: 'Re-imagining the fitness retail experience to connect commerce, content and community to inspire investors'
 footer_text:
