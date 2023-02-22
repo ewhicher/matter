@@ -48,7 +48,13 @@ article:
     content:
       -
         type: text
-        text: "We ran a number of design thinking workshops with the Royal Canin team in Shanghai, to help us, as a group, fully understand the challenges the business was facing and the opportunities to improve efficiencies. From these workshops we built out the project's problem statement, a set of proto-personas and several user journey storyboards in order to test our initial thinking with wider business stakeholders."
+        text: 'We ran a number of design thinking workshops with the Royal Canin team in Shanghai, to help us, as a group, fully understand the challenges the business was facing and the opportunities to improve the current processes. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "From these workshops we built out the project's problem statement, a set of proto-personas and several user journey storyboards in order to test our initial thinking with wider business stakeholders."
   -
     type: paragraph
     content:
@@ -87,10 +93,10 @@ article:
     type: paragraph
   -
     type: paragraph
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676463680
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1677081605
 thumbnail: pexels-lumn-406014.jpg
-snippet: 'Royal Canin asked us and a leading digital transformation consultancy, to scope and design a bespoke system for tracking and managing their pet food products globally.'
+snippet: 'A responsive product tracking and monitoring tool for a lovable pet food co.'
 footer_text:
   -
     type: heading
