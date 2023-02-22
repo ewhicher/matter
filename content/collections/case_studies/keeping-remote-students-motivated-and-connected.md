@@ -86,9 +86,21 @@ article:
   -
     type: paragraph
   -
+    type: set
+    attrs:
+      id: lefz5qmz
+      values:
+        type: image
+        file: ou-demo-1.jpg
+        wide_view: true
+  -
+    type: paragraph
+  -
+    type: paragraph
+  -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676463596
+updated_at: 1677088476
 thumbnail: ou-u.jpg
 snippet: 'Open University asked us to help increase the number of students that complete their courses and achieve their goals.'
 theme: 'bg-light-blue-strong text-dark-grey'
