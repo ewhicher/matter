@@ -70,7 +70,7 @@ article:
     content:
       -
         type: text
-        text: "Over the course of 4-weeks, we worked with the founding team and the community to re-imagine WIT's digital customer experience. "
+        text: "Over the course of 4-weeks, we worked with the founding team and the community to re-imagine WIT's digital customer experience – in gym and online. "
   -
     type: paragraph
   -
@@ -142,7 +142,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677099809
+updated_at: 1677099961
 thumbnail: wit1.jpg
 snippet: 'Re-imagining the fitness retail experience to connect commerce, content and community to inspire investors'
 footer_text:
