@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Opportunity Lab'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677069489
+updated_at: 1677074492
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -33,7 +33,7 @@ more_text:
     content:
       -
         type: text
-        text: 'This essential first step provides a solid foundation to create cutting-edge products, services and business models that will future-proof your organisation, test new technologies and create valuable new revenue streams.'
+        text: 'This essential activity provides a solid foundation to create cutting-edge products, services and business models that will future-proof your organisation, test new technologies and create valuable new revenue streams.'
 typed_rows:
   -
     id: lda2hi6a
@@ -124,7 +124,7 @@ footer_text:
     content:
       -
         type: text
-        text: 'Join us on a voyage of discovery to build a BIG future for your organisation.'
+        text: 'Join us on a voyage of discovery to build a valuable future for your organisation.'
 pattern: patterns/opp.png
 intro_video_placeholder:
   - opportunitylabimg-1676991925.png
