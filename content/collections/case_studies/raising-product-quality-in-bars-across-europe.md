@@ -74,9 +74,9 @@ article:
             role: 'Head of Platforms – Diageo'
   -
     type: paragraph
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676978223
-snippet: 'Diageo asked us to design a tool to help pubs and bars across Europe to serve the perfect drink, activate seasonal events and stay on top of the latest consumer trends.'
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1677081119
+snippet: 'A digital product to improve beer quality across outlets in the UK and beyond.'
 theme: 'bg-light-yellow text-dark-grey'
 thumbnail: diageoone-1675789066.jpg
 footer_text:
