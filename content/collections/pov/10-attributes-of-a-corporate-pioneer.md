@@ -14,6 +14,8 @@ article:
         text: 'Building successful products and services within a corporate environment is hard. It takes brilliant design operations, a workable tech stack and a company-wide culture of invention, trust and collaboration.'
   -
     type: paragraph
+  -
+    type: paragraph
     content:
       -
         type: text
@@ -196,9 +198,9 @@ article:
     type: paragraph
 author:
   - a6f8143b-8371-453c-bd79-fb7df286a1d9
-snippet: '10 attributes of a corporate pioneer'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1676971014
+snippet: 'Ten attributes of a corporate pioneer. How do you score?'
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1677140874
 thumbnail: content-illustrations_10.png
 theme: 'bg-light-green text-dark-grey'
 footer_text:
