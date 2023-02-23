@@ -53,7 +53,7 @@ article:
       values:
         type: image
         file: img_0872.JPG
-        wide_view: true
+        wide_view: false
   -
     type: paragraph
   -
@@ -96,7 +96,7 @@ article:
   -
     type: paragraph
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677145509
+updated_at: 1677145561
 heading: 'Defining a market-leading infotainment experience'
 thumbnail: mbux1.png
 snippet: 'Refining and improving the HMI experience ahead of a new product launch.'
