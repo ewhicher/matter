@@ -61,6 +61,16 @@ article:
   -
     type: set
     attrs:
+      id: legwo7a2
+      values:
+        type: image
+        file: erm-scamps.png
+        wide_view: true
+  -
+    type: paragraph
+  -
+    type: set
+    attrs:
       id: le5mkqjl
       values:
         type: image
@@ -102,7 +112,7 @@ theme: 'bg-light-blue-strong text-dark-grey'
 client: ERM
 snippet: 'Helping  the world’s largest sustainability consultancy to rethink its business model'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677100138
+updated_at: 1677144816
 thumbnail: erm-crisp.jpg
 footer_text:
   -
