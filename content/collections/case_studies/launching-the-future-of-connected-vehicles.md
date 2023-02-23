@@ -265,8 +265,6 @@ article:
   -
     type: paragraph
   -
-    type: paragraph
-  -
     type: set
     attrs:
       id: lee1xh3g
@@ -280,8 +278,10 @@ article:
             role: 'BlackBerry IVY - Product Management Director'
   -
     type: paragraph
-updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677081040
+  -
+    type: paragraph
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1677139945
 heading: 'Launching the future of connected vehicles // CES'
 client: BlackBerry
 thumbnail: yxnzzxrzl2l2es1kyxnolte2nzi5mzu1ntqucg5n.png
