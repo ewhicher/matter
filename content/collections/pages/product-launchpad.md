@@ -5,7 +5,7 @@ template: page
 title: 'Product Launchpad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677141863
+updated_at: 1677141935
 intro_text:
   -
     type: heading
@@ -24,7 +24,7 @@ intro_text:
     content:
       -
         type: text
-        text: 'Whether you’re a start-up that needs to test your idea, or an established company keen to explore a new revenue stream or pivot an existing product, the LaunchPad is a way to move purposefully from idea to impact.'
+        text: 'Whether you’re a start-up that needs to test your idea, or an established company keen to explore a new revenue stream or pivot an existing product, the Launchpad is a way to move purposefully from idea to impact.'
 more_text:
   -
     type: heading
@@ -236,7 +236,7 @@ extra_text:
     content:
       -
         type: text
-        text: 'The LaunchPad can run for anything between 4-8 weeks depending on the complexity of the product and the system it’s impacting.'
+        text: 'The Launchpad can run for anything between 4-8 weeks depending on the complexity of the product and the system it’s impacting.'
   -
     type: heading
     attrs:
