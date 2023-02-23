@@ -12,7 +12,23 @@ article:
     content:
       -
         type: text
-        text: 'Diageo asked us to design a tool to help pubs and bars across Europe to serve the perfect drink, activate seasonal events and stay on top of the latest consumer trends.'
+        text: 'Diageo, a global leader in premium drinks, wanted to provide better access to products, education, POS and promotions for the pubs, bars, hotels and cafes that they serve. '
+  -
+    type: heading
+    attrs:
+      level: 5
+    content:
+      -
+        type: text
+        text: 'The goal is to be an even better business partner to the hospitality industry and help to ensure the quality of the products served reflects the high standards brands like Guinness and Tanqueray have set. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Diageo asked us to design a tool that can put a Diageo quality specialist and commercial partner into the pockets of every outlet, so no matter what the time or the issue, they can get the support they need, when they need it.'
+  -
+    type: paragraph
   -
     type: paragraph
   -
@@ -38,7 +54,19 @@ article:
     content:
       -
         type: text
-        text: 'We worked as part of the Diageo product team to define the business opportunity and visited pubs to understand the challenges and pressures facing licensees. We then facilitated a Design Sprint with a team from across the company to design a new self-service application. A fully designed prototype was tested with outlets in Ireland, and refined into an initial product.'
+        text: 'We worked as part of the Diageo product team to define the business opportunity and visited outlets across the UK to understand the challenges and pressures facing pub and bar owners. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'We then facilitated a Product Launchpad with a team from across the company to design a new self-service application. Initially focusing on triaging and solving beer quality issues.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'We created a fully designed and interactive prototype and tested it with outlets across the UK and Ireland.'
   -
     type: paragraph
   -
@@ -84,13 +112,19 @@ article:
     content:
       -
         type: text
-        text: 'An amazing Design Sprint, a pumped product team with a clear vision and an application successfully taken to market within 3 months. The product has since grown into the main on-trade channel for Diageo in Europe.'
+        text: 'A successful Launchpad and proof of concept, a pumped product team with a clear vision and an application successfully taken to market within 3 months. '
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'This rapid process has also inspired the company to adapt the way it works and implement a new, design-led approach to its ongoing product development.'
+        text: 'The product has since grown into the main on-trade channel for Diageo and is being rolled out to markets globally, from Europe to South America to Africa.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "We're now supporting the brilliant global product team with the launch playbooks, team onboarding and growth marketing."
   -
     type: paragraph
   -
@@ -106,8 +140,8 @@ article:
             role: 'Head of Platforms – Diageo'
   -
     type: paragraph
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677145522
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1677149210
 snippet: 'A digital product to improve beer quality across outlets in the UK and beyond.'
 theme: 'bg-light-yellow text-dark-grey'
 thumbnail: diageoone-1675789066.jpg
