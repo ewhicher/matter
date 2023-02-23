@@ -50,6 +50,16 @@ article:
         file: myd-1.jpg
         wide_view: true
   -
+    type: set
+    attrs:
+      id: legwb45d
+      values:
+        type: image_pair
+        files:
+          - myd-2.jpg
+          - myd-3.jpg
+        wide_view: false
+  -
     type: paragraph
   -
     type: heading
@@ -87,7 +97,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677142827
+updated_at: 1677144154
 snippet: 'A digital product to improve beer quality across outlets in the UK and beyond.'
 theme: 'bg-light-yellow text-dark-grey'
 thumbnail: diageoone-1675789066.jpg
