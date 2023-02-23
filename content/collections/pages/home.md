@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677081741
+updated_at: 1677142691
 heading: 'A design and innovation studio for people on a mission'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -104,9 +104,9 @@ showcase_showcase:
   -
     id: ldug7jnc
     image: mobility-experiences---cover-1677001107.jpg
-    text: "Mobility – where are we heading and what's the next step?"
-    button_label: 'Download our report'
-    button_icon: arrow
+    text: 'The role of mobility hubs in driving a more connected travel experience'
+    button_label: 'Download the report'
+    button_icon: download
     colour: black
     type: image
     enabled: true
