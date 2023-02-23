@@ -52,21 +52,22 @@ article:
   -
     type: set
     attrs:
+      id: legx2za2
+      values:
+        type: image_pair
+        files:
+          - myd-4.jpg
+          - myd-5-1677145518.jpg
+        wide_view: false
+  -
+    type: set
+    attrs:
       id: legwb45d
       values:
         type: image_pair
         files:
           - myd-2.jpg
           - myd-3.jpg
-        wide_view: false
-  -
-    type: set
-    attrs:
-      id: legx2za2
-      values:
-        type: image_pair
-        files:
-          - myd-4.jpg
         wide_view: false
   -
     type: paragraph
@@ -106,7 +107,7 @@ article:
   -
     type: paragraph
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1677145461
+updated_at: 1677145522
 snippet: 'A digital product to improve beer quality across outlets in the UK and beyond.'
 theme: 'bg-light-yellow text-dark-grey'
 thumbnail: diageoone-1675789066.jpg
