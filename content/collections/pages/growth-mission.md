@@ -217,7 +217,7 @@ pill_left_hand_text: '6 months'
 pill_label_text: From
 pill_right_hand_text: Bespoke
 intro_video_placeholder:
-  - growthmissionimg.png
+  - growthmissionimg-1677683738.png
 extra_text:
   -
     type: paragraph
