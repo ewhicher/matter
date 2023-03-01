@@ -5,7 +5,7 @@ template: page
 title: 'Growth Mission'
 theme: 'bg-light-red text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677082347
+updated_at: 1677678193
 pattern: patterns/growth.png
 intro_text:
   -
@@ -46,17 +46,17 @@ more_text:
 typed_rows:
   -
     id: ldbr0vvs
-    text: 'We need to move from an MVP with traction, to a product with imapact'
+    text: 'How can we move from an MVP with traction, to a product with impact'
     type: row
     enabled: true
   -
     id: ldbr0wsn
-    text: 'Our growth is slowing, we need to make our services more accessible'
+    text: 'How do we create a reusable playbook to launch new products globally?'
     type: row
     enabled: true
   -
     id: le756f4f
-    text: 'We need to increase our customer lifetime value and grow market share'
+    text: 'How can we find market growth without disrupting business as usual?'
     type: row
     enabled: true
 together_text_one:
@@ -224,7 +224,7 @@ extra_text:
     content:
       -
         type: text
-        text: 'We bring experience and capabilities and work in partnership with your teams to create the impact you need to make. '
+        text: 'We bring experience and capabilities and work in partnership with your teams to create the change you need to make. '
 footer_text:
   -
     type: heading
