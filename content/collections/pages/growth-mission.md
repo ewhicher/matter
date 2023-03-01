@@ -5,7 +5,7 @@ template: page
 title: 'Growth Mission'
 theme: 'bg-light-red text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1677678193
+updated_at: 1677678295
 pattern: patterns/growth.png
 intro_text:
   -
@@ -46,7 +46,7 @@ more_text:
 typed_rows:
   -
     id: ldbr0vvs
-    text: 'How can we move from an MVP with traction, to a product with impact'
+    text: 'How can we move from an MVP with traction, to a product with impact?'
     type: row
     enabled: true
   -
