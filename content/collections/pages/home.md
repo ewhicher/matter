@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1683281307
+updated_at: 1683281481
 heading: |-
   An experience design studio
   for people on a mission
@@ -194,7 +194,7 @@ story_box_four:
     content:
       -
         type: text
-        text: 'We augment our core design team with world-class associates and specialist partners, which means that no matter what the channel, our clients always get the A-team so they can go further, faster.'
+        text: 'We augment our core design team with world-class associates and specialist partners, which means that no matter what the channel, our clients always get the A-team.'
 card_one_heading: 'Opportunity Lab'
 card_two_heading: 'Product Launchpad'
 card_three_heading: 'Growth Mission'
