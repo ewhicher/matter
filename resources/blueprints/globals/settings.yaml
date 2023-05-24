@@ -23,7 +23,7 @@ sections:
           icon: text
           listable: hidden
       -
-        handle: site_description
+        handle: description
         field:
           input_type: text
           antlers: false
@@ -32,7 +32,7 @@ sections:
           icon: text
           listable: hidden
       -
-        handle: social_image
+        handle: image
         field:
           mode: grid
           restrict: false
