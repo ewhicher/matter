@@ -2,6 +2,7 @@ title: Settings
 data:
   favicon: logo.png
   name: 'Active Matter'
+  site_description: 'An experience design studio for people on a mission'
   social_image: temp/social.png
   head_code: |-
     <!-- Fathom - beautiful, simple website analytics -->
