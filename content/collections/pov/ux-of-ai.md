@@ -899,7 +899,7 @@ thumbnail: uxofai.png
 snippet: 'Design principles for Human-AI interaction'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1685711978
+updated_at: 1685712040
 footer_text:
   -
     type: heading
@@ -946,7 +946,7 @@ takeaway:
             text: exponentially
           -
             type: text
-            text: ". We're all playing catch-up – trying to get a grip on how we should use them and what we want them to do"
+            text: ". We're playing catch-up – trying to get a grip on how we should use them and what we want them to do for us"
   -
     id: lieldais
     text:
