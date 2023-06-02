@@ -397,11 +397,426 @@ article:
               -
                 type: text
                 text: 'Design for your user to spend more time with your AI than they might expect – developing intuitive interfaces and fostering ongoing digital relationships can reduce the learning curve and increase personalisation, making your AI experience a user-friendly experience.'
+  -
+    type: paragraph
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: '4 – '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Good AI'
+      -
+        type: text
+        text: ' is easy to understand'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Your AI has the power to shape your users' behaviour, guide their decision-making, and determine their next actions."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'It’s critical, therefore, that your users can easily comprehend the messages conveyed by your AI and grasp the underlying processes that generated those conclusions.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Don’t leave your users guessing, make it easy to understand what’s going on and what to do next.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Where to start…'
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Display the results of your AI-generated information in a way that’s relevant or expected given your user’s current task and environment'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Ensure the language that your AI uses is in keeping with your user’s expected language of your brand or system'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Toning down your user interface, or altering the layout to something more conversational, can help interrupt your user’s preconceived expectations of given results – helping to guide behaviour.'
+  -
+    type: paragraph
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: '5 – '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Good AI'
+      -
+        type: text
+        text: ' is honest'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Your AI will not be perfect and can make mistakes.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Having an AI that is right some of the time but wrong at other times can be difficult for users to understand, and can lead to confusion and possible negativity.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Honesty is the best policy – be trustworthy, be transparent, and make Good AI.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Where to start…'
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Alert your user to the fact that they are about to engage with an AI – don’t hide it behind a false facade'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Don’t be afraid to say you don’t have all the answers all the time – this can be a positive opportunity to enrich an ongoing experience and sharpen the accuracy of results if designed into the full user experience'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Provide users with a transparent explanation of your AI’s decision-making processes, so they can better understand and trust its behaviour.'
+  -
+    type: paragraph
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: '6 – '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Good AI'
+      -
+        type: text
+        text: ' keeps its user in control'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'AI should be a tool that amplifies human abilities, not replaces them.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Your users should be in control of your AI and should be able to intervene, provide feedback, and reverse bad actions. Design your AI to be as flexible, extensive and reliable as possible, while always keeping your user firmly in control.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Good AI is most useful when it works with users, not for them.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Where to start…'
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Design your AI to amplify and augment your users' abilities – don’t turn them into spectators. Focus your AI on the hard parts of their journey and keep the experience wholly rewarding and fun!"
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Make it easy for your user to dismiss or ignore undesired AI services – if you can, provide a gracefully degrade of AI-driven features'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Make it easy to edit, refine, or recover when your AI does something wrong or delivers incorrect or unexpected results.'
+  -
+    type: paragraph
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: '7 – '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Good AI'
+      -
+        type: text
+        text: ' is always learning'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "Your AI should be used to improve people's lives over time, not just be the next big thing."
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'By continually learning and adapting to your users’ needs, your AI can become more helpful, and more useful with every interaction.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Switch-on your AI to the power of lifelong learning.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Where to start…'
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Learn from user behaviour – ensure your AI personalises your user’s experience by learning from their actions over time'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Enable your AI to ask as much as it tells – your AI can learn considerably by simply asking questions'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Make it easy for your user to provide feedback indicating their preferences, thoughts and reactions during regular interactions'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Allow your user to easily filter, control or modify your AI-generated results so that your AI can continually learn from their interactions.'
+  -
+    type: paragraph
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: '8 – Good AI inclusive to all'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'AI is for everyone.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'By designing for the widest range of people, you benefit everyone. People use technology in different ways and for a variety of different reasons. Your AI should consider everyone - their requirements, limitations, and impact.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Good AI aims to create a great user experience for everyone who touches it.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Where to start...'
+  -
+    type: bulletList
+    content:
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Start by identifying situations where people are excluded from using particular technologies – empathise with the widest group of people you can – and use your findings as your starting point for designing inclusivity AI'
+              -
+                type: hardBreak
+              -
+                type: hardBreak
+              -
+                type: text
+                marks:
+                  -
+                    type: italic
+                text: 'Here’s an example – due to my age, I need reading glasses to read emails on my phone while I’m on the tube, if I forget my glasses I’m temporarily excluded from that technology. Someone with a visual impairment may be permanently excluded. Solve the problem for one, solve the problem for all.'
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Ensure you’re aware of any inherent biases within your AI and do everything you can to design them out of your product '
+      -
+        type: listItem
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: "Don't wait until the end of the development process to think about inclusivity and the resulting accessibility. Make sure they are a core consideration throughout your entire design process."
+  -
+    type: paragraph
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: 'One last word…'
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Prototype with real data and fake AI'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Test early. Learn fast. Prototype your AI assumptions with users before you commit to code. This can sometimes be hard without the tech in place, so we use the wizard-of-oz method - fake it until we make it!'
+  -
+    type: paragraph
+  -
+    type: paragraph
 author:
   - 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
 thumbnail: uxofai.png
 snippet: 'Design principles for Human-AI interaction'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1685709995
+updated_at: 1685710329
 ---
