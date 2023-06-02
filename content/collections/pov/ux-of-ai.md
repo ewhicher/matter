@@ -5,19 +5,25 @@ title: 'UX of AI'
 heading: 'Design principles for Human-AI interaction'
 article:
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 5
     content:
       -
         type: text
         text: 'Artificial intelligence is rapidly changing the way people interact with the products and services they use. New interaction patterns are being invented daily with new technologies powering new customer experiences.'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 5
     content:
       -
         type: text
         text: 'We have the opportunity and responsibility to design Good AI – an approach built to benefit everyone.'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 5
     content:
       -
         type: text
@@ -899,7 +905,7 @@ thumbnail: uxofai.png
 snippet: 'Design principles for Human-AI interaction'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1685712040
+updated_at: 1685712140
 footer_text:
   -
     type: heading
@@ -937,16 +943,13 @@ takeaway:
         content:
           -
             type: text
-            text: 'AI technologies are advancing '
+            text: "AI technologies are advancing exponentially. We're playing catch-up – trying to get a grip on how we should use them and what we want them to do "
           -
             type: text
             marks:
               -
                 type: bold
-            text: exponentially
-          -
-            type: text
-            text: ". We're playing catch-up – trying to get a grip on how we should use them and what we want them to do for us"
+            text: 'for us'
   -
     id: lieldais
     text:
