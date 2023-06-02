@@ -4,8 +4,8 @@ blueprint: home
 title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
-updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1683281481
+updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
+updated_at: 1685713450
 heading: |-
   An experience design studio
   for people on a mission
@@ -42,6 +42,7 @@ logos:
   - ou-white-artworked.png
   - wit-white-artworked.png
 views_list:
+  - 364f0e8a-f7fe-4a5e-a8e5-75a99bd49ba8
   - a121bcdb-f2ff-4837-9dd6-3e92ff571c93
   - b3ac641a-8ae3-4fe2-933f-2f892d968186
   - 7afa9f60-3180-49af-8ab6-c40ded4764bc
