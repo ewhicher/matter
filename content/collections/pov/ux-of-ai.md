@@ -917,7 +917,7 @@ article:
           -
             type: link
             attrs:
-              href: null
+              href: 'https://en.wikipedia.org/wiki/Wizard_of_Oz_experiment'
               rel: null
               target: null
               title: null
@@ -958,7 +958,7 @@ footer_text:
           -
             type: link
             attrs:
-              href: null
+              href: 'mailto:gavin@activematter.co'
               rel: null
               target: null
               title: null
@@ -967,5 +967,5 @@ thumbnail: uxofai.png
 snippet: 'Design principles for Human-AI interaction'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1685713055
+updated_at: 1685713195
 ---
