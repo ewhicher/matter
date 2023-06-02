@@ -813,7 +813,7 @@ article:
   -
     type: heading
     attrs:
-      level: 2
+      level: 3
     content:
       -
         type: text
@@ -821,10 +821,13 @@ article:
   -
     type: heading
     attrs:
-      level: 3
+      level: 4
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: 'Prototype with real data and fake AI'
   -
     type: paragraph
@@ -852,7 +855,7 @@ thumbnail: uxofai.png
 snippet: 'Design principles for Human-AI interaction'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1685710669
+updated_at: 1685710769
 footer_text:
   -
     type: heading
