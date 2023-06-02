@@ -163,7 +163,7 @@ article:
   -
     type: heading
     attrs:
-      level: 2
+      level: 3
     content:
       -
         type: text
@@ -250,7 +250,7 @@ article:
   -
     type: heading
     attrs:
-      level: 2
+      level: 3
     content:
       -
         type: text
@@ -326,11 +326,20 @@ article:
   -
     type: heading
     attrs:
-      level: 2
+      level: 3
     content:
       -
         type: text
-        text: '3 – Good AI is easy to use'
+        text: '3 – '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Good AI'
+      -
+        type: text
+        text: ' is easy to use'
   -
     type: paragraph
     content:
@@ -354,6 +363,9 @@ article:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: 'Where to start…'
   -
     type: bulletList
@@ -402,7 +414,7 @@ article:
   -
     type: heading
     attrs:
-      level: 2
+      level: 3
     content:
       -
         type: text
@@ -478,7 +490,7 @@ article:
   -
     type: heading
     attrs:
-      level: 2
+      level: 3
     content:
       -
         type: text
@@ -554,7 +566,7 @@ article:
   -
     type: heading
     attrs:
-      level: 2
+      level: 3
     content:
       -
         type: text
@@ -630,7 +642,7 @@ article:
   -
     type: heading
     attrs:
-      level: 2
+      level: 3
     content:
       -
         type: text
@@ -715,11 +727,20 @@ article:
   -
     type: heading
     attrs:
-      level: 2
+      level: 3
     content:
       -
         type: text
-        text: '8 – Good AI inclusive to all'
+        text: '8 – '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Good AI'
+      -
+        type: text
+        text: ' inclusive to all'
   -
     type: paragraph
     content:
@@ -743,6 +764,9 @@ article:
     content:
       -
         type: text
+        marks:
+          -
+            type: bold
         text: 'Where to start...'
   -
     type: bulletList
@@ -811,6 +835,16 @@ article:
   -
     type: paragraph
   -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        text: 'Good AI is human by design'
+  -
+    type: paragraph
+  -
     type: paragraph
 author:
   - 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
@@ -818,5 +852,33 @@ thumbnail: uxofai.png
 snippet: 'Design principles for Human-AI interaction'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1685710329
+updated_at: 1685710669
+footer_text:
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'Are you looking to design a Good AI?'
+  -
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: "We'd love to talk. Drop me an email: "
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'mailto: gavin@activematter.co'
+              rel: null
+              target: null
+              title: gavin@activematter.co
+        text: gavin@activematter.co
 ---
