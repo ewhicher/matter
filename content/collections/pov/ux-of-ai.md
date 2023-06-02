@@ -27,6 +27,8 @@ article:
         type: text
         text: 'To help guide us, we’ve created eight Design principles for Human-AI interaction.'
   -
+    type: paragraph
+  -
     type: heading
     attrs:
       level: 5
@@ -903,7 +905,7 @@ thumbnail: uxofai.png
 snippet: 'Design principles for Human-AI interaction'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1685712190
+updated_at: 1685712224
 footer_text:
   -
     type: heading
