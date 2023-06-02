@@ -673,7 +673,7 @@ article:
     content:
       -
         type: text
-        text: 'Good AI is most useful when it works with users, not for them.'
+        text: 'Good AI is most useful when it works with users, not instead of them.'
   -
     type: paragraph
     content:
@@ -971,7 +971,7 @@ thumbnail: uxofai.png
 snippet: 'Design principles for Human-AI interaction'
 theme: 'bg-light-green text-dark-grey'
 updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1685713514
+updated_at: 1685714584
 author:
   - 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
 ---
