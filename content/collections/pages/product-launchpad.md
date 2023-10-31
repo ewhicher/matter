@@ -4,8 +4,8 @@ blueprint: page
 template: page
 title: 'Product Launchpad'
 theme: 'bg-light-green text-dark-grey'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1698268227
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1698778387
 intro_text:
   -
     type: heading
@@ -225,7 +225,7 @@ scrolling_text_words:
   - 'Business Design'
 pill_left_hand_text: '4 weeks'
 pill_label_text: FROM
-pill_right_hand_text: Bespoke
+pill_right_hand_text: 'to pitch'
 book_link: 'https://calendly.com/activematter/30-minute-intro-chat'
 book_link_new_tab: true
 extra_text:
