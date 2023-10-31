@@ -3,8 +3,8 @@ id: 13c74b3b-72d0-4181-a3fc-e404c9f8bf09
 blueprint: page
 template: page
 title: 'Opportunity Lab'
-updated_by: 5f20d2d4-de53-416b-b95a-e8c0e1e84c3f
-updated_at: 1698268281
+updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
+updated_at: 1698778062
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -219,7 +219,6 @@ scrolling_text_words:
   - 'Value Proposition'
 pill_left_hand_text: '4 weeks'
 pill_label_text: FROM
-pill_right_hand_text: Bespoke
 book_link: 'https://calendly.com/activematter/30-minute-intro-chat'
 extra_text:
   -
