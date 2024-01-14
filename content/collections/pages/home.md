@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1705249466
+updated_at: 1705249541
 heading: 'Build digital strategies and loveable experiences'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -196,7 +196,7 @@ story_box_four:
         text: 'We believe that small teams can change the world. So instead of the traditional approach of hum augment our core design team with world-class associates and specialist partners, which means that no matter what the channel, our clients always get the A-team.'
 card_one_heading: 'Find the opportunity'
 card_two_heading: 'Design a winning experience'
-card_three_heading: 'Launch and grow'
+card_three_heading: 'Launch & grow'
 card_one_link: 13c74b3b-72d0-4181-a3fc-e404c9f8bf09
 card_two_link: 135d10cd-19b2-43c9-a526-9a515bedb951
 card_three_link: 161a2ae4-8739-4d79-bee1-e9a858b46831
