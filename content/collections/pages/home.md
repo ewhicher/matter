@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1705249541
+updated_at: 1705249853
 heading: 'Build digital strategies and loveable experiences'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -24,7 +24,7 @@ intro:
       -
         type: text
         text: ', we design products and services that improve experiences, open new markets, and redefine categories.'
-card_one_text: "Whether you’re creating something new or elevating an existing product, we'll"
+card_one_text: 'Combine customer and industry insight with creativity to find winning streteigies'
 card_two_text: 'Turn early stage ideas into valuable products and services that customers love'
 card_three_text: 'Accelerate progress with an embedded team focused on delivering your goals'
 hidden_text: 'We inject momentum into important projects and light fires in the bellies of the people and teams we work with.'
@@ -194,8 +194,8 @@ story_box_four:
       -
         type: text
         text: 'We believe that small teams can change the world. So instead of the traditional approach of hum augment our core design team with world-class associates and specialist partners, which means that no matter what the channel, our clients always get the A-team.'
-card_one_heading: 'Find the opportunity'
-card_two_heading: 'Design a winning experience'
+card_one_heading: 'Find opportunities'
+card_two_heading: 'Design experiences'
 card_three_heading: 'Launch & grow'
 card_one_link: 13c74b3b-72d0-4181-a3fc-e404c9f8bf09
 card_two_link: 135d10cd-19b2-43c9-a526-9a515bedb951
