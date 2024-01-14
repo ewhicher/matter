@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1705248026
+updated_at: 1705248815
 heading: 'Build digital strategies and loveable experiences'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -119,7 +119,7 @@ what_we_do_intro:
     content:
       -
         type: text
-        text: 'We work in clearly defined sprints to rapidly explore opportunities, create new concepts and grow existing offerings. Our services have been developed to support leaders in three core areas.'
+        text: 'We work with leaders acrioss the full product lifecycle, from shaping and validating ideas, to delivering and growing them to a commercial success.'
 story_box_one:
   -
     type: heading
@@ -187,13 +187,13 @@ story_box_four:
     content:
       -
         type: text
-        text: 'Tuned for the future'
+        text: 'Fit for your future'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'We augment our core design team with world-class associates and specialist partners, which means that no matter what the channel, our clients always get the A-team.'
+        text: 'We believe that small teams can change the world. So instead of the traditional approach of hum augment our core design team with world-class associates and specialist partners, which means that no matter what the channel, our clients always get the A-team.'
 card_one_heading: 'Opportunity Lab'
 card_two_heading: 'Product Launchpad'
 card_three_heading: 'Growth Mission'
