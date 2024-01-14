@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1705256520
+updated_at: 1705256536
 heading: 'Build digital strategies and loveable products'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -119,7 +119,7 @@ what_we_do_intro:
     content:
       -
         type: text
-        text: 'We work with leaders acrioss the full product lifecycle, from shaping and validating ideas, to delivering and growing them to a commercial success.'
+        text: 'We work with leaders across the full product lifecycle, from shaping and validating ideas, to delivering and growing them to a commercial success.'
 story_box_one:
   -
     type: heading
