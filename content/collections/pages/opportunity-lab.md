@@ -4,7 +4,7 @@ blueprint: page
 template: page
 title: 'Shape your opportunities'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1705302408
+updated_at: 1705302466
 theme: 'bg-light-yellow text-dark-grey'
 intro_text:
   -
@@ -24,7 +24,7 @@ intro_text:
     content:
       -
         type: text
-        text: 'New markets, new products, new ways of working - the opportunity lab is a catalyst for proactive action. Take the guesswork out of your where to focus your energy and resources, to move purposefully toward sustainable growth.'
+        text: 'New markets, new products, new ways of working - the opportunity lab is a catalyst for proactive action. Take the guesswork out of where to focus your energy and resources, and move purposefully toward sustainable growth.'
 more_text:
   -
     type: heading
