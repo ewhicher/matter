@@ -2,10 +2,10 @@
 id: 161a2ae4-8739-4d79-bee1-e9a858b46831
 blueprint: page
 template: page
-title: 'Growth Mission'
+title: 'Launch and grow'
 theme: 'bg-light-red text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1705302823
+updated_at: 1705302853
 pattern: patterns/growth.png
 intro_text:
   -
