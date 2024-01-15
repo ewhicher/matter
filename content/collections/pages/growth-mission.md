@@ -5,7 +5,7 @@ template: page
 title: 'Growth Mission'
 theme: 'bg-light-red text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1698778115
+updated_at: 1705302823
 pattern: patterns/growth.png
 intro_text:
   -
@@ -218,13 +218,6 @@ pill_label_text: From
 pill_right_hand_text: Bespoke
 intro_video_placeholder:
   - growthmissionimg-1677683738.png
-extra_text:
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'We bring experience and capabilities and work in partnership with your teams to create the change you need to make. '
 footer_text:
   -
     type: heading
