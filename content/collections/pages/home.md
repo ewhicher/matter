@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1705301476
+updated_at: 1705301859
 heading: 'Build digital strategies and loveable products'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -27,7 +27,7 @@ intro:
 card_one_text: 'Combine customer and industry insight with creativity to find winning strategies'
 card_two_text: 'Turn early stage ideas into valuable products and services that customers love'
 card_three_text: 'Move at pace from proposition through to launch, turning unique insight into new revenue'
-hidden_text: 'We inject momentum into important projects and light fires in the bellies of the people and teams we work with.'
+hidden_text: 'We inject momentum into important projects and turbo-charge your potential in weeks, not years'
 logos:
   - basf-white-artworked.png
   - blackberry-white-artworked.png
