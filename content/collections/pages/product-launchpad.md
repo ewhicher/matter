@@ -5,7 +5,7 @@ template: page
 title: 'Product Launchpad'
 theme: 'bg-light-green text-dark-grey'
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1705302865
+updated_at: 1705303134
 intro_text:
   -
     type: heading
@@ -14,7 +14,7 @@ intro_text:
     content:
       -
         type: text
-        text: 'Move beyond post-it notes and bring life to new products and propositions.'
+        text: 'Move beyond post-it notes and build high-potential products and propositions.'
   -
     type: paragraph
   -
