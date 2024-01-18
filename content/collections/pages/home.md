@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 2aeb9238-8dc7-441b-bfb7-6f63dd73a005
 updated_by: a6f8143b-8371-453c-bd79-fb7df286a1d9
-updated_at: 1705301859
+updated_at: 1705570795
 heading: 'Build digital strategies and loveable products'
 theme: 'bg-white text-dark-grey'
 intro:
@@ -193,7 +193,7 @@ story_box_four:
     content:
       -
         type: text
-        text: 'We believe that small teams can change the world. So instead of the traditional approach of hum augment our core design team with world-class associates and specialist partners, which means that no matter what the channel, our clients always get the A-team.'
+        text: 'We believe that small teams can change the world. We augment our core team with world-class associates and specialist partners, which means that no matter what the channel, our clients always get the A-team.'
 card_one_heading: 'Shape your opportunities'
 card_two_heading: 'Design winning experiences'
 card_three_heading: 'Launch and grow'
